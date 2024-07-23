@@ -8,7 +8,15 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 tweepy = "^4.14.0"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+pygithub = "^2.3.0"
+aiohttp = "^3.8.5"
+pytz = "^2024.1"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
