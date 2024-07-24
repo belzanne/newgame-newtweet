@@ -64,7 +64,7 @@ Name: Project Faceless. Indie. Dev: KHAFx, Reks. Desc: "Project Faceless is a 4-
 
 Name: Waifu Quest 2. Free to Play. Dev: Good Luck Hobby. Desc: "A new line of 1000 limited edition figures available for 2 weeks only. Wish for a random waifu every 3 hours.". Link: https://store.steampowered.com/app/3109050
 
-Name: Wizard Gnome. Adventure, Casual, Indie. Dev: Sincartech Games. Desc: "Reluctantly save the magical Forest of Whimsy as Zigs, a sarcastic gnome wizard armed with nothing but a pink butterfly net and a sharp wit. Catch mag...". Link: https://store.steampowered.com/app/3105980
+Name: Wizard Gnome vs Knight. Action, Adventure, Casual, Indie. Dev: Sincartech Games. Desc: "Reluctantly save the magical Forest of Whimsy as Zigs, a sarcastic gnome wizard armed with nothing but a pink butterfly net and a sh...". Link: https://store.steampowered.com/app/3105980
 
 Name: Legion of Die. Action, RPG. Dev: Flown. Desc: "Legion of Die is an action roguelite where you weapon changes whenever you roll. Fight through swaths of enemies, make it to the top of the casino, and defeat the mafia boss...". Link: https://store.steampowered.com/app/2923710
 
@@ -150,13 +150,15 @@ Name: Radium Lux. Action, Casual, Indie. Dev: Lukas Jaeckel. Desc: "Radium Lux i
 
 Name: Heart Abyss Playtest. . Dev: . Desc: "". Link: https://store.steampowered.com/app/3119560
 
+Name: Total War: PHARAOH DYNASTIES. Action, Strategy. Dev: CREATIVE ASSEMBLY. Desc: "Wage total war across the ancient world from the Aegean to Mesopotamia in this free addition to Total War: PHARAOH. Challenge the Bronze Age ...". Link: https://store.steampowered.com/app/2951630
+
 Name: Underground Turtle Races. Casual, Indie, Racing, Simulation. Dev: Dual Cluster Studios. Desc: "Are you ready to test your luck in the secret world of turtle racing? The turtles are waiting for you to place your bets and ...". Link: https://store.steampowered.com/app/3107820
 
 Name: The Run: Got Next. Sports. Dev: Play by Play Studios. Desc: "The Run: Got Next is a fast-paced, full court, 3v3 basketball game that celebrates all of street hoops culture worldwide. Play solo online or squad up to stack...". Link: https://store.steampowered.com/app/2866670
 
 Name: 101 Cats Hidden in Shanghai. Casual, Indie. Dev: NaipSoft. Desc: "Find and discover 101 cute cats hidden throughout the Shanghai landscape in this hand-drawn hidden object game. 😺 Can you find them all?". Link: https://store.steampowered.com/app/3118580
 
-Name: Greenhaven Realms - Idle RPG. Adventure, Casual, Indie, RPG. Dev: Egor Magurin. Desc: "Greenhaven Realms is a fantasy medieval Idle RPG where players embark on epic adventures. Engage in thrilling combats, craft powerful...". Link: https://store.steampowered.com/app/3123700
+Name: Greenhaven Realms - Idle RPG. Adventure, Casual, Indie, RPG. Dev: Egor Magurin, Yelizar Skakun. Desc: "Greenhaven Realms is a fantasy medieval Idle RPG where players embark on epic adventures. Engage in thrilling combats...". Link: https://store.steampowered.com/app/3123700
 
 Name: Cosmic Remnants. Adventure, Indie, Simulation. Dev: YAGEL09. Desc: "In Cosmic Remnants, you find yourself adrift in space with only a floating platform. Alone or with friends, survive by scavenging resources, upgrading y...". Link: https://store.steampowered.com/app/3023870
 
