@@ -1,14 +1,24 @@
-name: Send a Tweet
+name: Send a Tweet for each new game
 on: 
     workflow_dispatch:
 jobs:
   tweet:
     runs-on: ubuntu-latest
     steps:
-      - uses: noweh/post-tweet-v2-action@v1.0
+      
+      - name: checkout repo content
+      uses: actions/checkout@v4 # checkout the repository content to github runner
+
+      - name: setup python
+        uses: actions/setup-python@v5
         with:
-          message: "Hi, this is a test!"
-          consumer-key: ${{ secrets.TWITTER_API_KEY }}
-          consumer-secret: ${{ secrets.TWITTER_API_SECRET_KEY }}
-          access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          python-version: '3.10' # install the python version needed
+      
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: execute py script # run main.py
+        run: python main.py >> log_file.log
+
