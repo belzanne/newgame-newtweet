@@ -1,4 +1,4 @@
-##test priorisation jeux sans éditeurs 
+## priorisation jeux sans éditeurs 
 
 import sqlite3
 import requests
@@ -335,4 +335,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-#notepourplustard : les token sont dans .env -> comment gérer côté github
