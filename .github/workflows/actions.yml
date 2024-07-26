@@ -1,6 +1,9 @@
 name: Send a Tweet for each new game
 on: 
     workflow_dispatch:
+    repository_dispatch:
+      types: [trigger-tweet]
+      
 jobs:
   tweet:
     runs-on: ubuntu-latest
