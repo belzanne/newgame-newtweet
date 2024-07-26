@@ -1,3 +1,4 @@
+##test priorisation jeux sans éditeurs 
 
 import sqlite3
 import requests
@@ -24,6 +25,7 @@ GITHUB_REPO = 'steampage-creation-date'
 DB_FILE_PATH = 'steam_games.db'
 TIMESTAMP_FILE = 'timestamp_last_tweet.txt'
 PARIS_TZ = pytz.timezone('Europe/Paris')
+MAX_TWEETS_PER_DAY = 50
 
 # Initialiser le traducteur
 translator = GoogleTranslator(source='auto', target='en')
@@ -98,7 +100,7 @@ def get_twitter_client():
     )
     return client
 
-def get_game_tags(app_id, game_data):
+def get_game_tags_and_check_ai(app_id):
     try:
         url = f"https://store.steampowered.com/app/{app_id}/"
         headers = {
@@ -109,15 +111,21 @@ def get_game_tags(app_id, game_data):
         
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # Vérifier la présence de contenu généré par IA
+            ai_disclosure = soup.find(string=re.compile("AI GENERATED CONTENT DISCLOSURE", re.IGNORECASE))
+            if ai_disclosure:
+                print(f"Contenu AI détecté pour le jeu {app_id}")
+                return None, None  # Le jeu utilise du contenu généré par IA
+            
+            # Récupérer les tags
             tag_elements = soup.find_all('a', class_='app_tag')
             tags = [tag.text.strip() for tag in tag_elements]
             return tags[:4], 'scraped'  # Retourne seulement les 4 premiers tags
     except Exception as e:
-        print(f"Erreur lors du scraping des tags : {e}")
+        print(f"Erreur lors du scraping pour le jeu {app_id}: {e}")
     
-    # Fallback: utiliser les genres de l'API Steam
-    genres = [genre['description'] for genre in game_data.get('genres', [])]
-    return genres[:4], 'genres'
+    return None, None
 
 def translate_to_english(text):
     try:
@@ -140,6 +148,11 @@ def clean_text(text):
     # Supprime les sauts de ligne et les espaces multiples
     cleaned_text = ' '.join(decoded_text.split())
     return cleaned_text
+
+def is_priority_game(game_data):
+    publisher = game_data.get('publishers', [])
+    developer = game_data.get('developers', [])
+    return not publisher or (publisher == developer)
 
 def search_duckduckgo(query, max_results=5):
     results = DDGS().text(
@@ -216,7 +229,6 @@ def format_tweet_message(game_data, tags, first_seen, tags_source):
         
         # Formater les tags
         tags_str = ", ".join(clean_text(tag) for tag in tags) if tags else "No tags available"
-        tags_label = "Tags" if tags_source == 'scraped' else "Genres"
         
         # Construire le lien Steam
         steam_link = f"https://store.steampowered.com/app/{app_id}"
@@ -254,6 +266,8 @@ def main():
 
     total_games = 0
     published_games = 0
+    priority_tweets = []
+    non_priority_tweets = []
 
     with tempfile.NamedTemporaryFile(delete=False, suffix='.db') as temp_db:
         if download_db(db_url, temp_db.name):
@@ -265,16 +279,16 @@ def main():
                 print(f"Nouveau jeu trouvé : Steam ID: {steam_game_id}, First Seen: {first_seen}")
                 game_data = get_game_details(steam_game_id)
                 if game_data and filter_game(game_data):
-                    tags, tags_source = get_game_tags(steam_game_id, game_data)
+                    tags, tags_source = get_game_tags_and_check_ai(steam_game_id)
+                    if tags is None:
+                        print(f"Le jeu avec Steam ID {steam_game_id} utilise du contenu généré par IA ou n'a pas pu être scrapé.")
+                        continue
                     message = format_tweet_message(game_data, tags, first_seen, tags_source)
                     if message:
-                        tweet_id = send_tweet(message)
-                        if tweet_id:
-                            print(f"Tweet publié pour {game_data['name']} (ID: {tweet_id})")
-                            new_last_timestamp = max(new_last_timestamp, first_seen)
-                            published_games += 1
+                        if is_priority_game(game_data):
+                            priority_tweets.append((message, game_data, first_seen))
                         else:
-                            print(f"Échec de la publication du tweet pour {game_data['name']}")
+                            non_priority_tweets.append((message, game_data, first_seen))
                     else:
                         print(f"Échec du formatage du tweet pour {game_data['name']}")
                 else:
@@ -286,14 +300,39 @@ def main():
     
     os.unlink(temp_db.name)  # Supprime le fichier temporaire
 
+    # Publier les tweets prioritaires
+    for message, game_data, first_seen in priority_tweets:
+        if published_games >= MAX_TWEETS_PER_DAY:
+            break
+        tweet_id = send_tweet(message)
+        if tweet_id:
+            print(f"Tweet prioritaire publié pour {game_data['name']} (ID: {tweet_id})")
+            new_last_timestamp = max(new_last_timestamp, first_seen)
+            published_games += 1
+        else:
+            print(f"Échec de la publication du tweet prioritaire pour {game_data['name']}")
+
+    # Publier les tweets non prioritaires si la limite n'est pas atteinte
+    for message, game_data, first_seen in non_priority_tweets:
+        if published_games >= MAX_TWEETS_PER_DAY:
+            break
+        tweet_id = send_tweet(message)
+        if tweet_id:
+            print(f"Tweet non prioritaire publié pour {game_data['name']} (ID: {tweet_id})")
+            new_last_timestamp = max(new_last_timestamp, first_seen)
+            published_games += 1
+        else:
+            print(f"Échec de la publication du tweet non prioritaire pour {game_data['name']}")
+
     if new_last_timestamp > last_timestamp:
         write_last_timestamp(new_last_timestamp)
         print(f"Timestamp mis à jour : {new_last_timestamp}")
 
     print(f"\nRésumé : {published_games} jeux publiés sur {total_games} jeux traités au total.")
+    print(f"Tweets prioritaires : {len(priority_tweets)}")
+    print(f"Tweets non prioritaires : {len(non_priority_tweets)}")
 
 if __name__ == "__main__":
     main()
-
 
 #notepourplustard : les token sont dans .env -> comment gérer côté github
