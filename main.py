@@ -20,6 +20,8 @@ import re
 from Levenshtein import ratio
 import logging
 from datetime import datetime
+import time
+from requests.exceptions import RequestException
 
 # Configuration du logging
 logging.basicConfig(filename='log_file.log', level=logging.INFO,
@@ -181,6 +183,17 @@ def is_priority_game(game_data):
     developer = game_data.get('developers', [])
     return not publisher or (publisher == developer)
 
+def retry_request(func, max_retries=3, delay=1):
+    for attempt in range(max_retries):
+        try:
+            return func()
+        except RequestException as e:
+            if attempt == max_retries - 1:
+                raise
+            print(f"Tentative {attempt + 1} échouée. Nouvelle tentative dans {delay} secondes...")
+            time.sleep(delay)
+            delay *= 2  # Augmente le délai entre chaque tentative
+
 def search_brave(query, max_results=5):
     BRAVE_API_KEY = os.environ.get("BRAVE_API_KEY")
     
@@ -195,19 +208,21 @@ def search_brave(query, max_results=5):
         "count": max_results
     }
     
-    try:
-        response = requests.get(url, headers=headers, params=params)
+    def make_request():
+        response = requests.get(url, headers=headers, params=params, timeout=10)
         response.raise_for_status()
-        results = response.json()
-        
+        return response.json()
+    
+    try:
+        results = retry_request(make_request)
         web_results = results.get('web', {}).get('results', [])
         return pd.DataFrame([{
             'title': result.get('title', ''),
-            'href': result.get('url', ''),
-            'body': result.get('description', '')
+            'url': result.get('url', ''),
+            'description': result.get('description', '')
         } for result in web_results])
-    except requests.RequestException as e:
-        print(f"Erreur lors de la recherche Brave: {e}")
+    except RequestException as e:
+        print(f"Erreur lors de la recherche Brave après plusieurs tentatives: {e}")
         return pd.DataFrame()
 
 def is_twitter_link(url):
@@ -242,18 +257,32 @@ def name_similarity(name1, name2):
     return ratio(name1.lower(), name2.lower())
 
 def get_game_studio_twitter(studio_name):
-    search_query = f"{studio_name} twitter"
+    search_query = f"{studio_name} twitter game"
     results_df = search_brave(search_query)
     
+    if results_df.empty:
+        print(f"Aucun résultat trouvé pour {studio_name}")
+        return studio_name
+    
     for index, row in results_df.iterrows():
-        if is_twitter_link(row['href']):
-            handle = extract_twitter_handle(row['href'])
-            if handle and is_game_related(row['body']):
-                similarity = name_similarity(studio_name, handle[1:])  # Ignorer le '@'
-                if similarity >= 0.9:
-                    return handle
+        if is_twitter_link(row['url']):
+            title = row['title']
+            displayed_name, handle = extract_twitter_names(title)
+            
+            similarity_displayed = name_similarity(studio_name, displayed_name)
+            similarity_handle = name_similarity(studio_name, handle)
+            
+            if similarity_displayed >= 0.9 or similarity_handle >= 0.9:
+                return f"@{handle}"
     
     return studio_name  # Retourne le nom du studio si aucun compte Twitter pertinent n'est trouvé
+
+
+def extract_twitter_names(title):
+    match = re.search(r'(.*?)\s*\(@(\w+)\)', title)
+    if match:
+        return match.group(1).strip(), match.group(2)
+    return title, title  # Si le format ne correspond pas, retourne le titre complet pour les deux
 
 
 def format_tweet_message(game_data, tags, first_seen, tags_source):
