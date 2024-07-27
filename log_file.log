@@ -68,3 +68,27 @@
 2024-07-27 13:39:06 - Dernier timestamp lu : 1722083340
 2024-07-27 13:39:06 - Erreur : La clé API Brave n'est pas définie dans les variables d'environnement.
 2024-07-27 13:39:06 - La fonction main() a retourné None
+2024-07-27 13:43:04 - Début de l'exécution de main()
+2024-07-27 13:43:04 - URL de la base de données : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-27 13:43:04 - Dernier timestamp lu : 1722083340
+2024-07-27 13:43:04 - Base de données téléchargée avec succès : /tmp/tmp0uqfqyef.db
+2024-07-27 13:43:04 - Nombre de nouvelles entrées trouvées : 4
+2024-07-27 13:43:04 - Traitement du jeu : Steam ID: 2257850, First Seen: 1722086898
+2024-07-27 13:43:06 - Traitement du jeu : Steam ID: 3125460, First Seen: 1722086898
+2024-07-27 13:43:08 - Traitement du jeu : Steam ID: 3093380, First Seen: 1722086898
+2024-07-27 13:43:08 - Le jeu avec Steam ID 3093380 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-27 13:43:08 - Traitement du jeu : Steam ID: 3029830, First Seen: 1722086898
+2024-07-27 13:43:08 - Le jeu avec Steam ID 3029830 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-27 13:43:08 - Fichier temporaire de la base de données supprimé
+2024-07-27 13:43:08 - Échec de la publication du tweet prioritaire pour Strange Case
+2024-07-27 13:43:09 - Échec de la publication du tweet prioritaire pour Bakar Game
+2024-07-27 13:43:09 - 
+Résumé : 0 jeux publiés sur 4 jeux traités au total.
+2024-07-27 13:43:09 - Tweets prioritaires : 2
+2024-07-27 13:43:09 - Tweets non prioritaires : 0
+2024-07-27 13:43:09 - Exécution du 2024-07-27 13:43:09: 0 tweets envoyés sur 4 jeux traités.
+2024-07-27 13:43:09 - PAT_GITHUB_USERNAME: belzanne
+2024-07-27 13:43:09 - GITHUB_REPO: steampage-creation-date
+2024-07-27 13:43:09 - DB_FILE_PATH: steam_games.db
+2024-07-27 13:43:09 - URL complète : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-27 13:43:09 - Utilisation de l'API Brave Search
