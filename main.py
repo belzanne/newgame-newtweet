@@ -16,6 +16,12 @@ import pandas as pd
 from duckduckgo_search import DDGS
 import re
 from Levenshtein import ratio
+import logging
+from datetime import datetime
+
+# Configuration du logging
+logging.basicConfig(filename='log_file.log', level=logging.INFO,
+                    format='%(asctime)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
 # Charger les variables d'environnement
 load_dotenv()
@@ -259,6 +265,13 @@ def send_tweet(message):
         print(f"Erreur lors de la création du tweet: {e}")
         return None
 
+
+def log_execution(total_games, published_games):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_message = f"Exécution du {timestamp}: {published_games} tweets envoyés sur {total_games} jeux traités."
+    logging.info(log_message)
+    print(log_message)  # Affiche également le message dans la console
+
 def main():
     db_url = f"https://raw.githubusercontent.com/{os.getenv('GITHUB_USERNAME')}/{GITHUB_REPO}/main/{DB_FILE_PATH}"
     last_timestamp = read_last_timestamp()
@@ -331,7 +344,9 @@ def main():
     print(f"\nRésumé : {published_games} jeux publiés sur {total_games} jeux traités au total.")
     print(f"Tweets prioritaires : {len(priority_tweets)}")
     print(f"Tweets non prioritaires : {len(non_priority_tweets)}")
+    return total_games, published_games, new_last_timestamp, last_timestamp
+
 
 if __name__ == "__main__":
     main()
-
+    log_execution(total_games, published_games)

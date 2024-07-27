@@ -1,8 +1,8 @@
 name: Send a Tweet for each new game
 on: 
-    workflow_dispatch:
-    repository_dispatch:
-      types: [trigger-tweet]
+  workflow_dispatch:
+  schedule:
+    - cron: '30 6 * * *'
       
 jobs:
   tweet:
@@ -30,5 +30,7 @@ jobs:
             TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
             TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
             TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+            PAT_GITHUB_TOKEN: ${{ secrets.PAT_GITHUB_TOKEN }}
+            PAT_GITHUB_USERNAME: ${{ secrets.PAT_GITHUB_USERNAME }}
         run: python main.py >> log_file.log
 
