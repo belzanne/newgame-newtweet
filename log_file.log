@@ -63,3 +63,8 @@
 2024-07-27 13:37:13 - Dernier timestamp lu : 1722083340
 2024-07-27 13:37:13 - Erreur : La clé API Brave n'est pas définie dans les variables d'environnement.
 2024-07-27 13:37:13 - La fonction main() a retourné None
+2024-07-27 13:39:06 - Début de l'exécution de main()
+2024-07-27 13:39:06 - URL de la base de données : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-27 13:39:06 - Dernier timestamp lu : 1722083340
+2024-07-27 13:39:06 - Erreur : La clé API Brave n'est pas définie dans les variables d'environnement.
+2024-07-27 13:39:06 - La fonction main() a retourné None
