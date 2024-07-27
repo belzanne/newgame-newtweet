@@ -336,99 +336,119 @@ def send_tweet(message):
 
 
 def main():
-    db_url = f"https://raw.githubusercontent.com/{os.getenv('PAT_GITHUB_USERNAME')}/{GITHUB_REPO}/main/{DB_FILE_PATH}"
-    last_timestamp = read_last_timestamp()
-    new_last_timestamp = last_timestamp
-    total_games = 0
-    published_games = 0
-    priority_tweets = []
-    non_priority_tweets = []
+    logging.info("Début de l'exécution de main()")
+    try:
+        db_url = f"https://raw.githubusercontent.com/{os.getenv('PAT_GITHUB_USERNAME')}/{GITHUB_REPO}/main/{DB_FILE_PATH}"
+        logging.info(f"URL de la base de données : {db_url}")
+        
+        last_timestamp = read_last_timestamp()
+        logging.info(f"Dernier timestamp lu : {last_timestamp}")
+        
+        new_last_timestamp = last_timestamp
+        total_games = 0
+        published_games = 0
+        priority_tweets = []
+        non_priority_tweets = []
 
-    BRAVE_API_KEY = os.environ.get("BRAVE_API_KEY")
-    if not BRAVE_API_KEY:
-        print("Erreur : La clé API Brave n'est pas définie dans les variables d'environnement.")
-        return
+        BRAVE_API_KEY = os.environ.get("BRAVE_API_KEY")
+        if not BRAVE_API_KEY:
+            logging.error("Erreur : La clé API Brave n'est pas définie dans les variables d'environnement.")
+            return None
 
-    with tempfile.NamedTemporaryFile(delete=False, suffix='.db') as temp_db:
-        if download_db(db_url, temp_db.name):
-            conn = connect_to_db(temp_db.name)
-            new_entries = check_new_entries(conn, last_timestamp)
-            
-            for steam_game_id, first_seen in new_entries:
-                total_games += 1
-                print(f"Nouveau jeu trouvé : Steam ID: {steam_game_id}, First Seen: {first_seen}")
-                game_data = get_game_details(steam_game_id)
-                if game_data and filter_game(game_data):
-                    tags, tags_source = get_game_tags_and_check_ai(steam_game_id)
-                    if tags is None:
-                        print(f"Le jeu avec Steam ID {steam_game_id} utilise du contenu généré par IA ou n'a pas pu être scrapé.")
-                        continue
-                    message = format_tweet_message(game_data, tags, first_seen, tags_source)
-                    if message:
-                        if is_priority_game(game_data):
-                            priority_tweets.append((message, game_data, first_seen))
+        with tempfile.NamedTemporaryFile(delete=False, suffix='.db') as temp_db:
+            if download_db(db_url, temp_db.name):
+                logging.info(f"Base de données téléchargée avec succès : {temp_db.name}")
+                conn = connect_to_db(temp_db.name)
+                new_entries = check_new_entries(conn, last_timestamp)
+                logging.info(f"Nombre de nouvelles entrées trouvées : {len(new_entries)}")
+                
+                for steam_game_id, first_seen in new_entries:
+                    total_games += 1
+                    logging.info(f"Traitement du jeu : Steam ID: {steam_game_id}, First Seen: {first_seen}")
+                    game_data = get_game_details(steam_game_id)
+                    if game_data and filter_game(game_data):
+                        tags, tags_source = get_game_tags_and_check_ai(steam_game_id)
+                        if tags is None:
+                            logging.info(f"Le jeu avec Steam ID {steam_game_id} utilise du contenu généré par IA ou n'a pas pu être scrapé.")
+                            continue
+                        message = format_tweet_message(game_data, tags, first_seen, tags_source)
+                        if message:
+                            if is_priority_game(game_data):
+                                priority_tweets.append((message, game_data, first_seen))
+                            else:
+                                non_priority_tweets.append((message, game_data, first_seen))
                         else:
-                            non_priority_tweets.append((message, game_data, first_seen))
+                            logging.warning(f"Échec du formatage du tweet pour {game_data['name']}")
                     else:
-                        print(f"Échec du formatage du tweet pour {game_data['name']}")
-                else:
-                    print(f"Le jeu avec Steam ID {steam_game_id} ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.")
-            
-            conn.close()
-        else:
-            print("Échec du téléchargement de la base de données")
+                        logging.info(f"Le jeu avec Steam ID {steam_game_id} ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.")
+                
+                conn.close()
+            else:
+                logging.error("Échec du téléchargement de la base de données")
+                return None
+        
+        os.unlink(temp_db.name)
+        logging.info("Fichier temporaire de la base de données supprimé")
+
+        # Publier les tweets prioritaires
+        for message, game_data, first_seen in priority_tweets:
+            if published_games >= MAX_TWEETS_PER_DAY:
+                break
+            tweet_id = send_tweet(message)
+            if tweet_id:
+                logging.info(f"Tweet prioritaire publié pour {game_data['name']} (ID: {tweet_id})")
+                new_last_timestamp = max(new_last_timestamp, first_seen)
+                published_games += 1
+            else:
+                logging.warning(f"Échec de la publication du tweet prioritaire pour {game_data['name']}")
+
+        # Publier les tweets non prioritaires si la limite n'est pas atteinte
+        for message, game_data, first_seen in non_priority_tweets:
+            if published_games >= MAX_TWEETS_PER_DAY:
+                break
+            tweet_id = send_tweet(message)
+            if tweet_id:
+                logging.info(f"Tweet non prioritaire publié pour {game_data['name']} (ID: {tweet_id})")
+                new_last_timestamp = max(new_last_timestamp, first_seen)
+                published_games += 1
+            else:
+                logging.warning(f"Échec de la publication du tweet non prioritaire pour {game_data['name']}")
+
+        if new_last_timestamp > last_timestamp:
+            write_last_timestamp(new_last_timestamp)
+            logging.info(f"Timestamp mis à jour : {new_last_timestamp}")
+
+        logging.info(f"\nRésumé : {published_games} jeux publiés sur {total_games} jeux traités au total.")
+        logging.info(f"Tweets prioritaires : {len(priority_tweets)}")
+        logging.info(f"Tweets non prioritaires : {len(non_priority_tweets)}")
+        
+        return total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, db_url
     
-    os.unlink(temp_db.name)  # Supprime le fichier temporaire
-
-    # Publier les tweets prioritaires
-    for message, game_data, first_seen in priority_tweets:
-        if published_games >= MAX_TWEETS_PER_DAY:
-            break
-        tweet_id = send_tweet(message)
-        if tweet_id:
-            print(f"Tweet prioritaire publié pour {game_data['name']} (ID: {tweet_id})")
-            new_last_timestamp = max(new_last_timestamp, first_seen)
-            published_games += 1
-        else:
-            print(f"Échec de la publication du tweet prioritaire pour {game_data['name']}")
-
-    # Publier les tweets non prioritaires si la limite n'est pas atteinte
-    for message, game_data, first_seen in non_priority_tweets:
-        if published_games >= MAX_TWEETS_PER_DAY:
-            break
-        tweet_id = send_tweet(message)
-        if tweet_id:
-            print(f"Tweet non prioritaire publié pour {game_data['name']} (ID: {tweet_id})")
-            new_last_timestamp = max(new_last_timestamp, first_seen)
-            published_games += 1
-        else:
-            print(f"Échec de la publication du tweet non prioritaire pour {game_data['name']}")
-
-    if new_last_timestamp > last_timestamp:
-        write_last_timestamp(new_last_timestamp)
-        print(f"Timestamp mis à jour : {new_last_timestamp}")
-
-    print(f"\nRésumé : {published_games} jeux publiés sur {total_games} jeux traités au total.")
-    print(f"Tweets prioritaires : {len(priority_tweets)}")
-    print(f"Tweets non prioritaires : {len(non_priority_tweets)}")
-    return total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, db_url
+    except Exception as e:
+        logging.exception(f"Une erreur inattendue s'est produite dans main(): {str(e)}")
+        return None
 
 
 if __name__ == "__main__":
     try:
-        total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, db_url = main()
-        
-        if new_last_timestamp > last_timestamp:
-            write_last_timestamp(new_last_timestamp)
-            print(f"Timestamp mis à jour : {new_last_timestamp}")
+        result = main()
+        if result is not None:
+            total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, db_url = result
+            
+            if new_last_timestamp > last_timestamp:
+                write_last_timestamp(new_last_timestamp)
+                print(f"Timestamp mis à jour : {new_last_timestamp}")
 
-        #print(f"\nRésumé : {published_games} jeux publiés sur {total_games} jeux traités au total.")
-        #print(f"Tweets prioritaires : {len(priority_tweets)}")
-        #print(f"Tweets non prioritaires : {len(non_priority_tweets)}")
+            print(f"\nRésumé : {published_games} jeux publiés sur {total_games} jeux traités au total.")
+            print(f"Tweets prioritaires : {len(priority_tweets)}")
+            print(f"Tweets non prioritaires : {len(non_priority_tweets)}")
 
-        # Appel de la fonction de journalisation
-        log_execution(total_games, published_games)
+            # Appel de la fonction de journalisation
+            log_execution(total_games, published_games)
+        else:
+            logging.error("La fonction main() a retourné None")
+            print("Une erreur s'est produite lors de l'exécution. Veuillez consulter le fichier de log pour plus de détails.")
 
     except Exception as e:
-        logging.error(f"Une erreur s'est produite lors de l'exécution : {str(e)}")
+        logging.exception(f"Une erreur s'est produite lors de l'exécution : {str(e)}")
         print(f"Une erreur s'est produite. Veuillez consulter le fichier de log pour plus de détails.")
