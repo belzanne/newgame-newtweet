@@ -10,3 +10,20 @@
 2024-07-27 14:26:03 - GITHUB_REPO: steampage-creation-date
 2024-07-27 14:26:03 - DB_FILE_PATH: steam_games.db
 2024-07-27 14:26:03 - Une erreur s'est produite lors de l'exécution : name 'db_url' is not defined
+2024-07-27 14:29:47 - Exécution du 2024-07-27 14:29:47: 0 tweets envoyés sur 0 jeux traités.
+2024-07-27 14:29:47 - PAT_GITHUB_USERNAME: belzanne
+2024-07-27 14:29:47 - GITHUB_REPO: steampage-creation-date
+2024-07-27 14:29:47 - DB_FILE_PATH: steam_games.db
+2024-07-27 14:29:47 - Une erreur s'est produite lors de l'exécution : name 'db_url' is not defined
+2024-07-27 14:30:14 - Exécution du 2024-07-27 14:30:14: 0 tweets envoyés sur 0 jeux traités.
+2024-07-27 14:30:14 - PAT_GITHUB_USERNAME: belzanne
+2024-07-27 14:30:14 - GITHUB_REPO: steampage-creation-date
+2024-07-27 14:30:14 - DB_FILE_PATH: steam_games.db
+2024-07-27 14:30:14 - Une erreur s'est produite lors de l'exécution : name 'db_url' is not defined
+2024-07-27 14:32:46 - Une erreur s'est produite lors de l'exécution : too many values to unpack (expected 6)
+2024-07-27 14:34:04 - Exécution du 2024-07-27 14:34:04: 0 tweets envoyés sur 0 jeux traités.
+2024-07-27 14:34:04 - PAT_GITHUB_USERNAME: belzanne
+2024-07-27 14:34:04 - GITHUB_REPO: steampage-creation-date
+2024-07-27 14:34:04 - DB_FILE_PATH: steam_games.db
+2024-07-27 14:34:04 - URL complète : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-27 14:34:04 - Utilisation de l'API Brave Search

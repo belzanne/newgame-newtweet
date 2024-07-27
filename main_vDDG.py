@@ -1,3 +1,4 @@
+## priorisation jeux sans éditeurs 
 
 import sqlite3
 import requests
@@ -30,8 +31,7 @@ def log_execution(total_games, published_games):
     logging.info(f"GITHUB_REPO: {GITHUB_REPO}")
     logging.info(f"DB_FILE_PATH: {DB_FILE_PATH}")
     logging.info(f"URL complète : {db_url}")
-    logging.info("Utilisation de l'API Brave Search")
-    print(log_message)
+    print(log_message)  # Affiche également le message dans la console
 
 # Charger les variables d'environnement
 load_dotenv()
@@ -178,34 +178,15 @@ def is_priority_game(game_data):
     developer = game_data.get('developers', [])
     return not publisher or (publisher == developer)
 
-def search_brave(query, max_results=5):
-    BRAVE_API_KEY = os.environ.get("BRAVE_API_KEY")
-    
-    headers = {
-        "X-Subscription-Token": BRAVE_API_KEY,
-        "Accept": "application/json"
-    }
-    
-    url = "https://api.search.brave.com/res/v1/web/search"
-    params = {
-        "q": query,
-        "count": max_results
-    }
-    
-    try:
-        response = requests.get(url, headers=headers, params=params)
-        response.raise_for_status()
-        results = response.json()
-        
-        web_results = results.get('web', {}).get('results', [])
-        return pd.DataFrame([{
-            'title': result.get('title', ''),
-            'href': result.get('url', ''),
-            'body': result.get('description', '')
-        } for result in web_results])
-    except requests.RequestException as e:
-        print(f"Erreur lors de la recherche Brave: {e}")
-        return pd.DataFrame()
+def search_duckduckgo(query, max_results=5):
+    results = DDGS().text(
+        keywords=query,
+        region='wt-wt',
+        safesearch='off',
+        timelimit='7d',
+        max_results=max_results
+    )
+    return pd.DataFrame(list(results))
 
 def is_twitter_link(url):
     return 'twitter.com' in url.lower()
@@ -240,18 +221,18 @@ def name_similarity(name1, name2):
 
 def get_game_studio_twitter(studio_name):
     search_query = f"{studio_name} twitter"
-    results_df = search_brave(search_query)
+    results_df = search_duckduckgo(search_query)
     
     for index, row in results_df.iterrows():
         if is_twitter_link(row['href']):
             handle = extract_twitter_handle(row['href'])
             if handle and is_game_related(row['body']):
+                # Vérifier la similarité du nom
                 similarity = name_similarity(studio_name, handle[1:])  # Ignorer le '@'
                 if similarity >= 0.9:
                     return handle
     
     return studio_name  # Retourne le nom du studio si aucun compte Twitter pertinent n'est trouvé
-
 
 def format_tweet_message(game_data, tags, first_seen, tags_source):
     try:
@@ -307,15 +288,11 @@ def main():
     db_url = f"https://raw.githubusercontent.com/{os.getenv('PAT_GITHUB_USERNAME')}/{GITHUB_REPO}/main/{DB_FILE_PATH}"
     last_timestamp = read_last_timestamp()
     new_last_timestamp = last_timestamp
+
     total_games = 0
     published_games = 0
     priority_tweets = []
     non_priority_tweets = []
-
-    BRAVE_API_KEY = os.environ.get("BRAVE_API_KEY")
-    if not BRAVE_API_KEY:
-        print("Erreur : La clé API Brave n'est pas définie dans les variables d'environnement.")
-        return
 
     with tempfile.NamedTemporaryFile(delete=False, suffix='.db') as temp_db:
         if download_db(db_url, temp_db.name):
@@ -379,20 +356,20 @@ def main():
     print(f"\nRésumé : {published_games} jeux publiés sur {total_games} jeux traités au total.")
     print(f"Tweets prioritaires : {len(priority_tweets)}")
     print(f"Tweets non prioritaires : {len(non_priority_tweets)}")
-    return total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, db_url
+    return total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets
 
 
 if __name__ == "__main__":
     try:
-        total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, db_url = main()
+        total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets = main()
         
         if new_last_timestamp > last_timestamp:
             write_last_timestamp(new_last_timestamp)
             print(f"Timestamp mis à jour : {new_last_timestamp}")
 
-        #print(f"\nRésumé : {published_games} jeux publiés sur {total_games} jeux traités au total.")
-        #print(f"Tweets prioritaires : {len(priority_tweets)}")
-        #print(f"Tweets non prioritaires : {len(non_priority_tweets)}")
+        print(f"\nRésumé : {published_games} jeux publiés sur {total_games} jeux traités au total.")
+        print(f"Tweets prioritaires : {len(priority_tweets)}")
+        print(f"Tweets non prioritaires : {len(non_priority_tweets)}")
 
         # Appel de la fonction de journalisation
         log_execution(total_games, published_games)
