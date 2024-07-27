@@ -27,7 +27,7 @@ def log_execution(total_games, published_games):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     log_message = f"Exécution du {timestamp}: {published_games} tweets envoyés sur {total_games} jeux traités."
     logging.info(log_message)
-    logging.info(f"GITHUB_USERNAME: {os.getenv('GITHUB_USERNAME')}")
+    logging.info(f"PAT_GITHUB_USERNAME: {os.getenv('PAT_GITHUB_USERNAME')}")
     logging.info(f"GITHUB_REPO: {GITHUB_REPO}")
     logging.info(f"DB_FILE_PATH: {DB_FILE_PATH}")
     logging.info(f"URL complète : {db_url}")
@@ -277,7 +277,7 @@ def send_tweet(message):
 
 
 def main():
-    db_url = f"https://raw.githubusercontent.com/{os.getenv('GITHUB_USERNAME')}/{GITHUB_REPO}/main/{DB_FILE_PATH}"
+    db_url = f"https://raw.githubusercontent.com/{os.getenv('PAT_GITHUB_USERNAME')}/{GITHUB_REPO}/main/{DB_FILE_PATH}"
     last_timestamp = read_last_timestamp()
     new_last_timestamp = last_timestamp
 
