@@ -1,4 +1,7 @@
-## priorisation jeux sans éditeurs 
+#version qui cherche les comptes twitter avec DuckDuckGoSearch API
+#avantage : ramène le body du compte X -> possible de détecter le lien avec jeux video
+#inconvénient : souvent ne trouve pas le compte twitter dans ses résultats
+
 
 import sqlite3
 import requests

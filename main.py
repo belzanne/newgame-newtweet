@@ -1,3 +1,6 @@
+#version qui cherche les comptes twitter avec Brave Search API
+#avantage : trouve plus facilement les comptes twitter
+#inconvénient : ne ramène pas le body -> pas possible de vérifier lien avec jeux vidéo -> possibilité de faux positifs
 
 import sqlite3
 import requests
