@@ -36,7 +36,7 @@ jobs:
             TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
             PAT_GITHUB_TOKEN: ${{ secrets.PAT_GITHUB_TOKEN }}
             PAT_GITHUB_USERNAME: ${{ secrets.PAT_GITHUB_USERNAME }}
-            BRAVE_API_KEY = ${{ secrets.BRAVE_API_KEY }}
+            BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
         run: python main.py
 
       - uses: stefanzweifel/git-auto-commit-action@v5
