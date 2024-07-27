@@ -92,8 +92,16 @@ def get_game_details(steam_game_id):
 def filter_game(game_data):
     if game_data['type'] != 'game' or game_data.get('dlc', False):
         return False
-    content_descriptors = game_data.get('content_descriptors', {}).get('ids', [])
-    if 3 in content_descriptors:
+    
+    content_descriptors = game_data.get('content_descriptors', {})
+    if isinstance(content_descriptors, dict):
+        descriptor_ids = content_descriptors.get('ids', [])
+    elif isinstance(content_descriptors, list):
+        descriptor_ids = content_descriptors
+    else:
+        descriptor_ids = []
+    
+    if 3 in descriptor_ids:
         return False
     
     # Vérifier si l'anglais est supporté
