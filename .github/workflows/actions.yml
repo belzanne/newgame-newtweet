@@ -10,7 +10,7 @@ jobs:
 
     permissions:
       contents: read
-      
+
     steps:
 
       - name: checkout repo content
@@ -37,4 +37,8 @@ jobs:
             PAT_GITHUB_TOKEN: ${{ secrets.PAT_GITHUB_TOKEN }}
             PAT_GITHUB_USERNAME: ${{ secrets.PAT_GITHUB_USERNAME }}
         run: python main.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update data
 
