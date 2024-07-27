@@ -57,3 +57,4 @@
 2024-07-27 15:24:51 - DB_FILE_PATH: steam_games.db
 2024-07-27 15:24:51 - URL complète : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
 2024-07-27 15:24:51 - Utilisation de l'API Brave Search
+2024-07-27 13:31:09 - Une erreur s'est produite lors de l'exécution : cannot unpack non-iterable NoneType object
