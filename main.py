@@ -27,6 +27,10 @@ def log_execution(total_games, published_games):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     log_message = f"Exécution du {timestamp}: {published_games} tweets envoyés sur {total_games} jeux traités."
     logging.info(log_message)
+    logging.info(f"GITHUB_USERNAME: {os.getenv('GITHUB_USERNAME')}")
+    logging.info(f"GITHUB_REPO: {GITHUB_REPO}")
+    logging.info(f"DB_FILE_PATH: {DB_FILE_PATH}")
+    logging.info(f"URL complète : {db_url}")
     print(log_message)  # Affiche également le message dans la console
 
 # Charger les variables d'environnement
