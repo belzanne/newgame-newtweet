@@ -151,3 +151,96 @@ Résumé : 4 jeux publiés sur 21 jeux traités au total.
 2024-07-28 06:43:01 - DB_FILE_PATH: steam_games.db
 2024-07-28 06:43:01 - URL complète : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
 2024-07-28 06:43:01 - Utilisation de l'API Brave Search
+2024-07-29 06:45:06 - Début de l'exécution de main()
+2024-07-29 06:45:06 - URL de la base de données : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-29 06:45:06 - Dernier timestamp lu : 1722124766
+2024-07-29 06:45:07 - Base de données téléchargée avec succès : /tmp/tmpowz_kl35.db
+2024-07-29 06:45:07 - Nombre de nouvelles entrées trouvées : 38
+2024-07-29 06:45:07 - Traitement du jeu : Steam ID: 3118870, First Seen: 1722211188
+2024-07-29 06:45:09 - Traitement du jeu : Steam ID: 3126550, First Seen: 1722211188
+2024-07-29 06:45:09 - Le jeu avec Steam ID 3126550 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:09 - Traitement du jeu : Steam ID: 3046300, First Seen: 1722211188
+2024-07-29 06:45:11 - Traitement du jeu : Steam ID: 2580380, First Seen: 1722211188
+2024-07-29 06:45:11 - Le jeu avec Steam ID 2580380 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:11 - Traitement du jeu : Steam ID: 3034530, First Seen: 1722211188
+2024-07-29 06:45:12 - Le jeu avec Steam ID 3034530 utilise du contenu généré par IA ou n'a pas pu être scrapé.
+2024-07-29 06:45:12 - Traitement du jeu : Steam ID: 3070370, First Seen: 1722211188
+2024-07-29 06:45:14 - Traitement du jeu : Steam ID: 3119650, First Seen: 1722211188
+2024-07-29 06:45:14 - Le jeu avec Steam ID 3119650 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:14 - Traitement du jeu : Steam ID: 3119780, First Seen: 1722211188
+2024-07-29 06:45:15 - Le jeu avec Steam ID 3119780 utilise du contenu généré par IA ou n'a pas pu être scrapé.
+2024-07-29 06:45:15 - Traitement du jeu : Steam ID: 3072550, First Seen: 1722211188
+2024-07-29 06:45:15 - Le jeu avec Steam ID 3072550 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:15 - Traitement du jeu : Steam ID: 3097000, First Seen: 1722211188
+2024-07-29 06:45:15 - Le jeu avec Steam ID 3097000 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:15 - Traitement du jeu : Steam ID: 3093420, First Seen: 1722211188
+2024-07-29 06:45:17 - Traitement du jeu : Steam ID: 3114750, First Seen: 1722211188
+2024-07-29 06:45:17 - Le jeu avec Steam ID 3114750 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:17 - Traitement du jeu : Steam ID: 3119150, First Seen: 1722211188
+2024-07-29 06:45:18 - Traitement du jeu : Steam ID: 3120560, First Seen: 1722211188
+2024-07-29 06:45:20 - Traitement du jeu : Steam ID: 3120050, First Seen: 1722211188
+2024-07-29 06:45:22 - Traitement du jeu : Steam ID: 3070650, First Seen: 1722211188
+2024-07-29 06:45:22 - Le jeu avec Steam ID 3070650 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:22 - Traitement du jeu : Steam ID: 3116350, First Seen: 1722211188
+2024-07-29 06:45:24 - Traitement du jeu : Steam ID: 2575170, First Seen: 1722211188
+2024-07-29 06:45:24 - Le jeu avec Steam ID 2575170 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:24 - Traitement du jeu : Steam ID: 3100100, First Seen: 1722211188
+2024-07-29 06:45:26 - Traitement du jeu : Steam ID: 3127620, First Seen: 1722211188
+2024-07-29 06:45:27 - Traitement du jeu : Steam ID: 2949830, First Seen: 1722211188
+2024-07-29 06:45:28 - Le jeu avec Steam ID 2949830 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:28 - Traitement du jeu : Steam ID: 3044550, First Seen: 1722211188
+2024-07-29 06:45:28 - Le jeu avec Steam ID 3044550 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:28 - Traitement du jeu : Steam ID: 3012170, First Seen: 1722211188
+2024-07-29 06:45:28 - Le jeu avec Steam ID 3012170 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:28 - Traitement du jeu : Steam ID: 3103690, First Seen: 1722211188
+2024-07-29 06:45:30 - Traitement du jeu : Steam ID: 3119820, First Seen: 1722211188
+2024-07-29 06:45:32 - Traitement du jeu : Steam ID: 3129170, First Seen: 1722211188
+2024-07-29 06:45:33 - Traitement du jeu : Steam ID: 3113690, First Seen: 1722211188
+2024-07-29 06:45:35 - Traitement du jeu : Steam ID: 3075040, First Seen: 1722211188
+2024-07-29 06:45:37 - Traitement du jeu : Steam ID: 3072610, First Seen: 1722211188
+2024-07-29 06:45:37 - Le jeu avec Steam ID 3072610 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:37 - Traitement du jeu : Steam ID: 2689770, First Seen: 1722211188
+2024-07-29 06:45:39 - Traitement du jeu : Steam ID: 3132010, First Seen: 1722211188
+2024-07-29 06:45:41 - Traitement du jeu : Steam ID: 3104880, First Seen: 1722211188
+2024-07-29 06:45:42 - Traitement du jeu : Steam ID: 3130480, First Seen: 1722211188
+2024-07-29 06:45:42 - Le jeu avec Steam ID 3130480 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:42 - Traitement du jeu : Steam ID: 3116150, First Seen: 1722211188
+2024-07-29 06:45:43 - Le jeu avec Steam ID 3116150 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:43 - Traitement du jeu : Steam ID: 3132280, First Seen: 1722211188
+2024-07-29 06:45:43 - Le jeu avec Steam ID 3132280 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:43 - Traitement du jeu : Steam ID: 3121530, First Seen: 1722211188
+2024-07-29 06:45:44 - Traitement du jeu : Steam ID: 2989820, First Seen: 1722211188
+2024-07-29 06:45:45 - Le jeu avec Steam ID 2989820 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-07-29 06:45:45 - Traitement du jeu : Steam ID: 3111550, First Seen: 1722211188
+2024-07-29 06:45:46 - Fichier temporaire de la base de données supprimé
+2024-07-29 06:45:47 - Tweet prioritaire publié pour Bladepink (ID: 1817813754043932865)
+2024-07-29 06:45:47 - Tweet prioritaire publié pour The Moon Looks Beautiful Tonight: Definitive Edition (ID: 1817813755742622058)
+2024-07-29 06:45:47 - Tweet prioritaire publié pour Invasion of The Halloween Fiends (ID: 1817813757495820612)
+2024-07-29 06:45:48 - Tweet prioritaire publié pour Cliche (ID: 1817813758678290925)
+2024-07-29 06:45:48 - Tweet prioritaire publié pour I Hate Balloons (ID: 1817813760368926998)
+2024-07-29 06:45:48 - Tweet prioritaire publié pour Dungeon of Grandmasters (ID: 1817813761513693627)
+2024-07-29 06:45:49 - Tweet prioritaire publié pour Foodomina (ID: 1817813763191718059)
+2024-07-29 06:45:49 - Tweet prioritaire publié pour GEM STAIR (ID: 1817813765007745128)
+2024-07-29 06:45:50 - Tweet prioritaire publié pour Etched Memories (ID: 1817813766186176598)
+2024-07-29 06:45:50 - Tweet prioritaire publié pour Glyphscape (ID: 1817813767079579689)
+2024-07-29 06:45:50 - Tweet prioritaire publié pour Slidezzle (ID: 1817813768648437891)
+2024-07-29 06:45:50 - Tweet prioritaire publié pour Ship Miner (ID: 1817813769856139289)
+2024-07-29 06:45:51 - Tweet prioritaire publié pour EggGarden (ID: 1817813770862821609)
+2024-07-29 06:45:51 - Tweet prioritaire publié pour KEMONOMICHI (ID: 1817813772540707282)
+2024-07-29 06:45:51 - Tweet prioritaire publié pour My Hidden Dreams (ID: 1817813773714968865)
+2024-07-29 06:45:52 - Tweet prioritaire publié pour Piece Shogi (ID: 1817813775325749607)
+2024-07-29 06:45:52 - Tweet prioritaire publié pour ACP: Action Coin Pusher (ID: 1817813776491516410)
+2024-07-29 06:45:52 - Tweet non prioritaire publié pour InfernHells: A Divine Comedy (ID: 1817813778165358824)
+2024-07-29 06:45:53 - Tweet non prioritaire publié pour Doggy Farmer (ID: 1817813780019266020)
+2024-07-29 06:45:53 - Tweet non prioritaire publié pour Robot Dragon Eagle (ID: 1817813781877235917)
+2024-07-29 06:45:53 - Timestamp mis à jour : 1722211188
+2024-07-29 06:45:53 - 
+Résumé : 20 jeux publiés sur 38 jeux traités au total.
+2024-07-29 06:45:53 - Tweets prioritaires : 17
+2024-07-29 06:45:53 - Tweets non prioritaires : 3
+2024-07-29 06:45:53 - Exécution du 2024-07-29 06:45:53: 20 tweets envoyés sur 38 jeux traités.
+2024-07-29 06:45:53 - PAT_GITHUB_USERNAME: belzanne
+2024-07-29 06:45:53 - GITHUB_REPO: steampage-creation-date
+2024-07-29 06:45:53 - DB_FILE_PATH: steam_games.db
+2024-07-29 06:45:53 - URL complète : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-29 06:45:53 - Utilisation de l'API Brave Search
