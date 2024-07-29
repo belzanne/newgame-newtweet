@@ -271,12 +271,20 @@ def format_tweet_message(game_data, tags, first_seen, twitter_handle=None):
         name = clean_text(game_data['name'])
         developers = game_data.get('developers', [])
         developer_handles = []
+        
         for dev in developers:
             if twitter_handle:
+                # Si on a un handle de la page Steam, on l'utilise
                 developer_handles.append(twitter_handle)
             else:
+                # Sinon, on cherche avec get_game_studio_twitter
                 handle = get_game_studio_twitter(dev)
-                developer_handles.append(handle)
+                if handle and handle.startswith('@'):
+                    developer_handles.append(handle)
+                else:
+                    # Si pas de handle trouvé, on utilise le nom du dev sans @
+                    developer_handles.append(dev)
+        
         developers_str = ", ".join(developer_handles)
         
         description = clean_text(translate_to_english(game_data.get('short_description', '')))
@@ -363,10 +371,19 @@ def main():
                         if steam_page_info and not steam_page_info['ai_generated']:
                             tags = steam_page_info['tags']
                             twitter_handle = steam_page_info['twitter_handle']
-                    
-                            # Insérer les données dans la nouvelle base de données
-                            insert_developer_social_media(steam_game_id, twitter_handle)
-                    
+                            logging.info(f"Handle trouvé sur la page steam : {twitter_handle}")
+
+                            # Si aucun handle n'est trouvé sur la page Steam, on utilise get_game_studio_twitter
+                            if not twitter_handle:
+                                developer = game_data.get('developers', [''])[0]  # Prend le premier développeur
+                                twitter_handle = get_game_studio_twitter(developer)
+                                logging.info(f"Handle trouvé via Brave : {twitter_handle}")
+
+                            # Stockage du handle dans la base de données si un handle valide a été trouvé
+                            if twitter_handle and twitter_handle.startswith('@'):
+                                insert_developer_social_media(steam_game_id, twitter_handle)
+
+                            logging.info(f"X_handle: {twitter_handle}")
                             message = format_tweet_message(game_data, tags, first_seen, twitter_handle)
                             if message:
                                 if is_priority_game(game_data):
