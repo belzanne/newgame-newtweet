@@ -146,11 +146,11 @@ def get_steam_page_info(app_id):
         tags = [tag.text.strip() for tag in tag_elements][:4]  # Limiter à 4 tags
         
         # Récupérer le lien Twitter s'il existe
-        twitter_link = soup.find('a', string='X (Twitter)')
+        twitter_link = soup.find('a', class_="ttip", attrs={'data-tooltip-text': lambda x: x and 'x.com/' in x})
         twitter_handle = None
         if twitter_link:
-            twitter_url = twitter_link.get('href')
-            twitter_handle = extract_twitter_handle(twitter_url)
+            twitter_url = twitter_link['data-tooltip-text']
+            twitter_handle = '@' + twitter_url.split('/')[-1]
         
         return {
             'ai_generated': bool(ai_disclosure),
