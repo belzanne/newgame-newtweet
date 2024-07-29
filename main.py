@@ -21,6 +21,7 @@ from Levenshtein import ratio
 import logging
 import time
 from requests.exceptions import RequestException
+import sqlite3
 
 # Configuration du logging
 logging.basicConfig(filename='log_file.log', level=logging.INFO,
@@ -310,6 +311,22 @@ def send_tweet(message):
         print(f"Erreur lors de la création du tweet: {e}")
         return None
 
+# Ajoutez cette fonction pour insérer les données dans la nouvelle base de données
+def insert_developer_social_media(game_id, twitter_handle):
+    try:
+        conn = sqlite3.connect('socialmedia-developer.db')
+        cursor = conn.cursor()
+        cursor.execute('''
+            INSERT OR REPLACE INTO developer_social_media (game_id, twitter_handle)
+            VALUES (?, ?)
+        ''', (game_id, twitter_handle))
+        conn.commit()
+    except sqlite3.Error as e:
+        logging.error(f"Erreur SQLite lors de l'insertion des données sociales du développeur: {e}")
+    finally:
+        if conn:
+            conn.close() 
+            
 def main():
     logging.info("Début de l'exécution de main()")
     try:
@@ -346,6 +363,10 @@ def main():
                         if steam_page_info and not steam_page_info['ai_generated']:
                             tags = steam_page_info['tags']
                             twitter_handle = steam_page_info['twitter_handle']
+                    
+                            # Insérer les données dans la nouvelle base de données
+                            insert_developer_social_media(steam_game_id, twitter_handle)
+                    
                             message = format_tweet_message(game_data, tags, first_seen, twitter_handle)
                             if message:
                                 if is_priority_game(game_data):
@@ -358,7 +379,6 @@ def main():
                             logging.info(f"Le jeu avec Steam ID {steam_game_id} utilise du contenu généré par IA ou n'a pas pu être scrapé.")
                     else:
                         logging.info(f"Le jeu avec Steam ID {steam_game_id} ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.")
-                
                 conn.close()
             else:
                 logging.error("Échec du téléchargement de la base de données")
