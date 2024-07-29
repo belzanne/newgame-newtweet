@@ -2,6 +2,8 @@
 #avantage : trouve plus facilement les comptes twitter
 #inconvénient : ne ramène pas le body -> pas possible de vérifier lien avec jeux vidéo -> possibilité de faux positifs
 
+#ne vas pas chercher le lien X présent sur la page steam s'il existe
+
 import sqlite3
 import requests
 from bs4 import BeautifulSoup
@@ -19,6 +21,7 @@ from duckduckgo_search import DDGS
 import re
 from Levenshtein import ratio
 import logging
+from datetime import datetime
 import time
 from requests.exceptions import RequestException
 
@@ -108,10 +111,12 @@ def filter_game(game_data):
     if 3 in descriptor_ids:
         return False
     
+    # Vérifier si l'anglais est supporté
     supported_languages = game_data.get('supported_languages', '').lower()
     if 'english' not in supported_languages:
         return False
     
+    # Vérifier si le jeu est payant
     if game_data.get('is_free', True):
         return False
     
@@ -126,42 +131,36 @@ def get_twitter_client():
     )
     return client
 
-def get_steam_page_info(app_id):
-    url = f"https://store.steampowered.com/app/{app_id}/"
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
-    
+def get_game_tags_and_check_ai(app_id):
     try:
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Vérifier la présence de contenu généré par IA
-        ai_disclosure = soup.find(string=re.compile("AI GENERATED CONTENT DISCLOSURE", re.IGNORECASE))
-        
-        # Récupérer les tags
-        tag_elements = soup.find_all('a', class_='app_tag')
-        tags = [tag.text.strip() for tag in tag_elements][:4]  # Limiter à 4 tags
-        
-        # Récupérer le lien Twitter s'il existe
-        twitter_link = soup.find('a', string='X (Twitter)')
-        twitter_handle = None
-        if twitter_link:
-            twitter_url = twitter_link.get('href')
-            twitter_handle = extract_twitter_handle(twitter_url)
-        
-        return {
-            'ai_generated': bool(ai_disclosure),
-            'tags': tags,
-            'twitter_handle': twitter_handle
+        url = f"https://store.steampowered.com/app/{app_id}/"
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
+        
+        response = requests.get(url, headers=headers)
+        
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # Vérifier la présence de contenu généré par IA
+            ai_disclosure = soup.find(string=re.compile("AI GENERATED CONTENT DISCLOSURE", re.IGNORECASE))
+            if ai_disclosure:
+                print(f"Contenu AI détecté pour le jeu {app_id}")
+                return None, None  # Le jeu utilise du contenu généré par IA
+            
+            # Récupérer les tags
+            tag_elements = soup.find_all('a', class_='app_tag')
+            tags = [tag.text.strip() for tag in tag_elements]
+            return tags[:4], 'scraped'  # Retourne seulement les 4 premiers tags
     except Exception as e:
-        logging.error(f"Erreur lors du scraping pour le jeu {app_id}: {e}")
-        return None
+        print(f"Erreur lors du scraping pour le jeu {app_id}: {e}")
+    
+    return None, None
 
 def translate_to_english(text):
     try:
+        # Détection de la langue
         lang = detect(text)
         if lang != 'en':
             translated = translator.translate(text)
@@ -175,7 +174,9 @@ def translate_to_english(text):
         return text
 
 def clean_text(text):
+    # Décode les entités HTML
     decoded_text = html.unescape(text)
+    # Supprime les sauts de ligne et les espaces multiples
     cleaned_text = ' '.join(decoded_text.split())
     return cleaned_text
 
@@ -193,7 +194,7 @@ def retry_request(func, max_retries=3, delay=1):
                 raise
             print(f"Tentative {attempt + 1} échouée. Nouvelle tentative dans {delay} secondes...")
             time.sleep(delay)
-            delay *= 2
+            delay *= 2  # Augmente le délai entre chaque tentative
 
 def search_brave(query, max_results=5):
     BRAVE_API_KEY = os.environ.get("BRAVE_API_KEY")
@@ -229,6 +230,25 @@ def search_brave(query, max_results=5):
 def is_twitter_link(url):
     return 'twitter.com' in url.lower()
 
+def is_game_related(text):
+    game_keywords = {
+        'en': ['game', 'video game', 'developer', 'studio', 'gaming'],
+        'fr': ['jeu', 'jeu vidéo', 'développeur', 'studio', 'gaming'],
+        'es': ['juego', 'videojuego', 'desarrollador', 'estudio', 'gaming'],
+        'de': ['spiel', 'videospiel', 'entwickler', 'studio', 'gaming'],
+        'it': ['gioco', 'videogioco', 'sviluppatore', 'studio', 'gaming'],
+        'ja': ['ゲーム', 'ビデオゲーム', '開発者', 'スタジオ', 'ゲーミング'],
+    }
+    
+    try:
+        lang = detect(text)
+        if lang not in game_keywords:
+            text = translator.translate(text, dest='en')
+            lang = 'en'
+        return any(keyword.lower() in text.lower() for keyword in game_keywords[lang])
+    except:
+        return False
+
 def extract_twitter_handle(url):
     match = re.search(r'twitter\.com/(\w+)', url)
     if match:
@@ -239,7 +259,7 @@ def name_similarity(name1, name2):
     return ratio(name1.lower(), name2.lower())
 
 def get_game_studio_twitter(studio_name):
-    search_query = f"{studio_name} twitter"
+    search_query = f"{studio_name} twitter game"
     results_df = search_brave(search_query)
     
     if results_df.empty:
@@ -257,37 +277,43 @@ def get_game_studio_twitter(studio_name):
             if similarity_displayed >= 0.9 or similarity_handle >= 0.9:
                 return f"@{handle}"
     
-    return studio_name
+    return studio_name  # Retourne le nom du studio si aucun compte Twitter pertinent n'est trouvé
+
 
 def extract_twitter_names(title):
     match = re.search(r'(.*?)\s*\(@(\w+)\)', title)
     if match:
         return match.group(1).strip(), match.group(2)
-    return title, title
+    return title, title  # Si le format ne correspond pas, retourne le titre complet pour les deux
 
-def format_tweet_message(game_data, tags, first_seen, twitter_handle=None):
+
+def format_tweet_message(game_data, tags, first_seen, tags_source):
     try:
         name = clean_text(game_data['name'])
         developers = game_data.get('developers', [])
         developer_handles = []
         for dev in developers:
-            if twitter_handle:
-                developer_handles.append(twitter_handle)
-            else:
-                handle = get_game_studio_twitter(dev)
-                developer_handles.append(handle)
+            handle = get_game_studio_twitter(dev)
+            developer_handles.append(handle)
         developers_str = ", ".join(developer_handles)
         
         description = clean_text(translate_to_english(game_data.get('short_description', '')))
         app_id = game_data['steam_appid']
         release_date = game_data.get('release_date', {}).get('date', 'TBA')
         
+        # Formater la date
         date = datetime.fromtimestamp(first_seen, PARIS_TZ).strftime("%m-%d-%y")
+        
+        # Formater les tags
         tags_str = ", ".join(clean_text(tag) for tag in tags) if tags else "No tags available"
+        
+        # Construire le lien Steam
         steam_link = f"https://store.steampowered.com/app/{app_id}"
         
+        # Construire le tweet avec le nouveau format
         tweet = f"{date} ⏵ {name}\n🏷️ {tags_str}\n🧑‍💻 {developers_str}\n⏳ {release_date}\n📜 {description}\n{steam_link}"
         
+        # Vérifier et ajuster la longueur du tweet si nécessaire
         if len(tweet) > 280:
             available_space = 280 - len(f"{date} ⏵ {name}\n🏷️ {tags_str}\n🧑‍💻 {developers_str}\n⏳ {release_date}\n📜 ...\n{steam_link}")
             truncated_description = description[:available_space] + "..."
@@ -309,6 +335,7 @@ def send_tweet(message):
     except Exception as e:
         print(f"Erreur lors de la création du tweet: {e}")
         return None
+
 
 def main():
     logging.info("Début de l'exécution de main()")
@@ -342,20 +369,18 @@ def main():
                     logging.info(f"Traitement du jeu : Steam ID: {steam_game_id}, First Seen: {first_seen}")
                     game_data = get_game_details(steam_game_id)
                     if game_data and filter_game(game_data):
-                        steam_page_info = get_steam_page_info(steam_game_id)
-                        if steam_page_info and not steam_page_info['ai_generated']:
-                            tags = steam_page_info['tags']
-                            twitter_handle = steam_page_info['twitter_handle']
-                            message = format_tweet_message(game_data, tags, first_seen, twitter_handle)
-                            if message:
-                                if is_priority_game(game_data):
-                                    priority_tweets.append((message, game_data, first_seen))
-                                else:
-                                    non_priority_tweets.append((message, game_data, first_seen))
-                            else:
-                                logging.warning(f"Échec du formatage du tweet pour {game_data['name']}")
-                        else:
+                        tags, tags_source = get_game_tags_and_check_ai(steam_game_id)
+                        if tags is None:
                             logging.info(f"Le jeu avec Steam ID {steam_game_id} utilise du contenu généré par IA ou n'a pas pu être scrapé.")
+                            continue
+                        message = format_tweet_message(game_data, tags, first_seen, tags_source)
+                        if message:
+                            if is_priority_game(game_data):
+                                priority_tweets.append((message, game_data, first_seen))
+                            else:
+                                non_priority_tweets.append((message, game_data, first_seen))
+                        else:
+                            logging.warning(f"Échec du formatage du tweet pour {game_data['name']}")
                     else:
                         logging.info(f"Le jeu avec Steam ID {steam_game_id} ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.")
                 
