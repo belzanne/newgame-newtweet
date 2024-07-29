@@ -1,7 +1,6 @@
 #version qui cherche les comptes twitter avec Brave Search API
 #avantage : trouve plus facilement les comptes twitter
 #inconvénient : ne ramène pas le body -> pas possible de vérifier lien avec jeux vidéo -> possibilité de faux positifs
-#normalement limité grace à : récupération sur page steam si dispo + sinon similarité exigée de 90%
 
 import sqlite3
 import requests
@@ -250,20 +249,15 @@ def get_game_studio_twitter(studio_name):
     results_df = search_brave(search_query)
     
     if results_df.empty:
-        logging.info(f"Aucun résultat trouvé pour {studio_name}")
+        print(f"Aucun résultat trouvé pour {studio_name}")
         return studio_name
     
     for index, row in results_df.iterrows():
         if is_twitter_link(row['url']):
             title = row['title']
-            url = row['url']
             displayed_name, handle = extract_twitter_names(title)
             
-            # Si le handle n'est pas trouvé dans le titre, essayez de l'extraire de l'URL
-            if not handle:
-                handle = extract_twitter_handle(url)
-            
-            if not handle:
+            if displayed_name is None or handle is None:
                 continue
             
             similarity_displayed = name_similarity(studio_name, displayed_name)
@@ -271,34 +265,18 @@ def get_game_studio_twitter(studio_name):
             
             logging.info(f"Comparaison pour {studio_name}: displayed '{displayed_name}' (score: {similarity_displayed}), handle '@{handle}' (score: {similarity_handle})")
             
-            # Vérifiez si le handle correspond exactement au nom du studio (insensible à la casse)
-            if studio_name.lower() == handle.lower():
-                return handle
-            
-            # Sinon, utilisez les scores de similarité
-            if similarity_displayed >= 0.9 or similarity_handle >= 0.9:
-                return handle
+            # Être plus strict : exiger une similarité élevée pour le nom affiché
+            if similarity_displayed >= 0.9 and similarity_handle >= 0.8:
+                return f"@{handle}"
     
     logging.info(f"Aucun handle Twitter trouvé avec un score de similarité suffisant pour {studio_name}")
     return studio_name
 
 def extract_twitter_names(title):
-    # Essayez d'abord le format standard
     match = re.search(r'(.*?)\s*\(@(\w+)\)', title)
     if match:
         return match.group(1).strip(), match.group(2)
-    
-    # Si ça ne marche pas, essayez d'extraire directement de l'URL
-    match = re.search(r'twitter\.com/(\w+)', title)
-    if match:
-        return title, match.group(1)
-    
-    # Si toujours rien, retournez le titre comme nom affiché et essayez d'extraire un nom d'utilisateur
-    possible_handle = re.search(r'@(\w+)', title)
-    if possible_handle:
-        return title, possible_handle.group(1)
-    
-    return title, None
+    return title, title
 
 def format_tweet_message(game_data, tags, first_seen, twitter_handle=None):
     try:
@@ -308,13 +286,13 @@ def format_tweet_message(game_data, tags, first_seen, twitter_handle=None):
         
         for dev in developers:
             if twitter_handle:
-                # Si on a un handle de la page Steam ou de Brave, on s'assure qu'il a un @
-                developer_handles.append('@' + twitter_handle.lstrip('@'))
+                # Si on a un handle de la page Steam, on l'utilise
+                developer_handles.append(twitter_handle)
             else:
                 # Sinon, on cherche avec get_game_studio_twitter
                 handle = get_game_studio_twitter(dev)
-                if handle:
-                    developer_handles.append('@' + handle.lstrip('@'))
+                if handle and handle.startswith('@'):
+                    developer_handles.append(handle)
                 else:
                     # Si pas de handle trouvé, on utilise le nom du dev sans @
                     developer_handles.append(dev)
