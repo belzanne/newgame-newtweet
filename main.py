@@ -355,19 +355,23 @@ def send_tweet(message):
 
 # Ajoutez cette fonction pour insérer les données dans la nouvelle base de données
 def insert_developer_social_media(game_id, twitter_handle):
-    try:
-        conn = sqlite3.connect('socialmedia-developer.db')
-        cursor = conn.cursor()
-        cursor.execute('''
-            INSERT OR REPLACE INTO developer_social_media (game_id, twitter_handle)
-            VALUES (?, ?)
-        ''', (game_id, twitter_handle))
-        conn.commit()
-    except sqlite3.Error as e:
-        logging.error(f"Erreur SQLite lors de l'insertion des données sociales du développeur: {e}")
-    finally:
-        if conn:
-            conn.close() 
+    if twitter_handle and twitter_handle.strip():  # Vérifier si le handle n'est pas vide
+        try:
+            conn = sqlite3.connect('socialmedia-developer.db')
+            cursor = conn.cursor()
+            cursor.execute('''
+                INSERT OR REPLACE INTO developer_social_media (game_id, twitter_handle)
+                VALUES (?, ?)
+            ''', (game_id, twitter_handle))
+            conn.commit()
+            logging.info(f"Données insérées pour game_id: {game_id}, twitter_handle: {twitter_handle}")
+        except sqlite3.Error as e:
+            logging.error(f"Erreur SQLite lors de l'insertion des données sociales du développeur: {e}")
+        finally:
+            if conn:
+                conn.close()
+    else:
+        logging.info(f"Pas d'insertion pour game_id: {game_id} car le handle Twitter est vide ou None")
             
 def main():
     logging.info("Début de l'exécution de main()")
