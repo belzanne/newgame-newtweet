@@ -37,6 +37,8 @@ def log_execution(total_games, published_games):
     logging.info(f"DB_FILE_PATH: {DB_FILE_PATH}")
     logging.info(f"URL complète : {db_url}")
     logging.info("Utilisation de l'API Brave Search")
+    logging.info(f"Nombre de jeux avec contenu mature (id=3): {MATURE_CONTENT_GAMES}")
+    logging.info(f"Nombre de jeux avec contenu généré par IA: {AI_GENERATED_GAMES}")
     print(log_message)
 
 # Charger les variables d'environnement
@@ -48,6 +50,8 @@ DB_FILE_PATH = 'steam_games.db'
 TIMESTAMP_FILE = 'timestamp_last_tweet.txt'
 PARIS_TZ = pytz.timezone('Europe/Paris')
 MAX_TWEETS_PER_DAY = 50
+AI_GENERATED_GAMES = 0
+MATURE_CONTENT_GAMES = 0
 
 # Initialiser le traducteur
 translator = GoogleTranslator(source='auto', target='en')
@@ -96,6 +100,7 @@ def get_game_details(steam_game_id):
     return None
 
 def filter_game(game_data):
+    global MATURE_CONTENT_GAMES
     if game_data['type'] != 'game' or game_data.get('dlc', False):
         return False
     
@@ -108,6 +113,7 @@ def filter_game(game_data):
         descriptor_ids = []
     
     if 3 in descriptor_ids:
+        MATURE_CONTENT_GAMES += 1
         return False
     
     supported_languages = game_data.get('supported_languages', '').lower()
@@ -464,6 +470,8 @@ def main():
                             else:
                                 logging.warning(f"Échec du formatage du tweet pour {game_data['name']}")
                         else:
+                            global AI_GENERATED_GAMES
+                            AI_GENERATED_GAMES += 1
                             logging.info(f"Le jeu avec Steam ID {steam_game_id} utilise du contenu généré par IA ou n'a pas pu être scrapé.")
                     else:
                         logging.info(f"Le jeu avec Steam ID {steam_game_id} ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.")

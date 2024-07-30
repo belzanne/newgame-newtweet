@@ -1,0 +1,22 @@
+2024-07-30 18:28:25 - Début du comptage des jeux avec ID 3 (timestamp >= 207817)
+2024-07-30 18:37:15 - Début du comptage des jeux avec ID 3 (timestamp >= 207817)
+2024-07-30 18:37:15 - Tables trouvées dans la base de données: []
+2024-07-30 18:37:15 - La table 'games' n'existe pas dans la base de données.
+2024-07-30 18:53:54 - URL de la base de données : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-30 18:53:55 - Base de données téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmpghviqgjo.db
+2024-07-30 18:53:55 - Nombre de nouvelles entrées trouvées : 207817
+2024-07-30 18:59:45 - Erreur lors du scraping pour le jeu 2103010: 403 Client Error: Forbidden for url: https://store.steampowered.com/app/2103010/
+2024-07-30 19:04:52 - URL de la base de données : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-30 19:04:52 - Base de données téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmpqemo3ofh.db
+2024-07-30 19:04:53 - Nombre de nouvelles entrées trouvées : 207817
+2024-07-30 19:05:02 - Progression: 10/207817 jeux traités. Temps estimé restant: 3261.33 minutes
+2024-07-30 19:05:12 - Progression: 20/207817 jeux traités. Temps estimé restant: 3438.19 minutes
+2024-07-30 19:06:59 - URL de la base de données : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-30 19:06:59 - Base de données téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmpmrc0ua9p.db
+2024-07-30 19:06:59 - Nombre de nouvelles entrées trouvées : 207817
+2024-07-30 19:07:14 - Progression: 10/207817 jeux traités. Temps estimé restant: 5043.40 minutes
+2024-07-30 19:07:32 - Progression: 20/207817 jeux traités. Temps estimé restant: 5732.68 minutes
+2024-07-30 19:10:25 - URL de la base de données : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-30 19:10:25 - Base de données téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmpm1qqva88.db
+2024-07-30 19:10:26 - Nombre de nouvelles entrées trouvées : 207817
+2024-07-30 19:10:43 - Progression: 10/207817 jeux traités. Temps estimé restant: 6015.53 minutes
