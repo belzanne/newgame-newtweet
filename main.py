@@ -364,22 +364,39 @@ def insert_developer_social_media(game_id, twitter_handle):
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS developer_social_media (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    add_date TEXT,
+                    add_date INTEGER,
                     game_id INTEGER,
                     twitter_handle TEXT,
-                    UNIQUE(game_id, twitter_handle)
+                    scrap_date INTEGER,
+                    followers_count TEXT,
+                    following_count TEXT,
+                    tweets_count TEXT,
+                    creation_date TEXT
                 )
             ''')
             
-            # Insérer ou mettre à jour les données avec la date d'ajout
-            current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            # Vérifier si une entrée existe déjà pour ce game_id et twitter_handle
             cursor.execute('''
-                INSERT OR REPLACE INTO developer_social_media (add_date, game_id, twitter_handle)
-                VALUES (?, ?, ?)
-            ''', (current_date, game_id, twitter_handle))
+                SELECT id FROM developer_social_media
+                WHERE game_id = ? AND twitter_handle = ?
+            ''', (game_id, twitter_handle))
+            
+            existing_entry = cursor.fetchone()
+            
+            if existing_entry is None:
+                # Si aucune entrée n'existe, insérer une nouvelle ligne
+                current_timestamp = int(time.time())
+                cursor.execute('''
+                    INSERT INTO developer_social_media 
+                    (add_date, game_id, twitter_handle)
+                    VALUES (?, ?, ?)
+                ''', (current_timestamp, game_id, twitter_handle))
+                
+                logging.info(f"Nouvelle entrée insérée pour game_id: {game_id}, twitter_handle: {twitter_handle}, add_date: {current_timestamp}")
+            else:
+                logging.info(f"Entrée existante trouvée pour game_id: {game_id}, twitter_handle: {twitter_handle}. Aucune insertion effectuée.")
             
             conn.commit()
-            logging.info(f"Données insérées pour game_id: {game_id}, twitter_handle: {twitter_handle}, date: {current_date}")
         except sqlite3.Error as e:
             logging.error(f"Erreur SQLite lors de l'insertion des données sociales du développeur: {e}")
         finally:

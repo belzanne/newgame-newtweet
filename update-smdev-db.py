@@ -42,15 +42,16 @@ def update_database():
     conn = sqlite3.connect('socialmedia-developer.db')
     cursor = conn.cursor()
 
-    print("Connected to database")
+    logging.info("Connected to database")
 
     # Vérifier si la table existe et la créer si nécessaire
     cursor.execute('''
     CREATE TABLE IF NOT EXISTS developer_social_media (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
+        add_date INTEGER,
         game_id INTEGER,
         twitter_handle TEXT,
-        execution_date TEXT,
+        scrap_date INTEGER,
         followers_count TEXT,
         following_count TEXT,
         tweets_count TEXT,
@@ -58,60 +59,66 @@ def update_database():
     )
     ''')
 
-    # Récupérer tous les twitter_handles distincts
-    cursor.execute("SELECT DISTINCT game_id, twitter_handle FROM developer_social_media WHERE twitter_handle IS NOT NULL")
-    handles = cursor.fetchall()
+    current_timestamp = int(time.time())
+    three_months_ago = current_timestamp - (90 * 24 * 60 * 60)  # 90 jours en secondes
 
-    print(f"Found {len(handles)} unique Twitter handles to process")
+    # Récupérer les handles qui n'ont jamais été scrapés ou qui n'ont pas été scrapés depuis plus de 3 mois
+    cursor.execute('''
+    SELECT id, game_id, twitter_handle, add_date, scrap_date
+    FROM developer_social_media
+    WHERE scrap_date IS NULL
+       OR (scrap_date < ? AND id IN (
+           SELECT MAX(id)
+           FROM developer_social_media
+           GROUP BY game_id, twitter_handle
+       ))
+    ''', (three_months_ago,))
 
-    current_date = datetime.now()
+    handles_to_scrape = cursor.fetchall()
 
-    for game_id, handle in handles:
+    logging.info(f"Found {len(handles_to_scrape)} Twitter handles to process")
+
+    for row in handles_to_scrape:
+        id, game_id, handle, add_date, last_scrap_date = row
         if handle.startswith('@'):
             handle = handle[1:]  # Enlever le @ si présent
         
-        # Vérifier la date d'exécution la plus récente pour ce game_id et ce handle
-        cursor.execute('''
-        SELECT execution_date FROM developer_social_media
-        WHERE game_id = ? AND twitter_handle = ?
-        ORDER BY execution_date DESC LIMIT 1
-        ''', (game_id, '@' + handle))
-        
-        last_execution = cursor.fetchone()
-        
-        if last_execution:
-            last_execution_date = datetime.strptime(last_execution[0], "%Y-%m-%d %H:%M:%S")
-            time_difference = current_date - last_execution_date
-            
-            if time_difference < timedelta(days=90):  # Moins de 3 mois
-                print(f"Skipping {handle} - last update was less than 3 months ago")
-                continue
-        
-        print(f"Processing {handle}...")
+        logging.info(f"Processing {handle}...")
         data = scrape_social_blade(handle)
-        execution_date = current_date.strftime("%Y-%m-%d %H:%M:%S")
+        scrap_timestamp = current_timestamp
 
-        print(f"Inserting new data for {handle}")
-        cursor.execute('''
-        INSERT INTO developer_social_media 
-        (game_id, twitter_handle, execution_date, followers_count, following_count, tweets_count, creation_date)
-        VALUES (?, ?, ?, ?, ?, ?, ?)
-        ''', (game_id, '@' + handle, execution_date, data.get('followers', 'N/A'), 
-              data.get('following', 'N/A'), data.get('tweets', 'N/A'), data.get('created_date', 'N/A')))
+        if last_scrap_date is None:
+            # Premier scraping : mettre à jour la ligne existante
+            logging.info(f"Updating existing entry for {handle}")
+            cursor.execute('''
+            UPDATE developer_social_media 
+            SET scrap_date = ?, followers_count = ?, following_count = ?, tweets_count = ?, creation_date = ?
+            WHERE id = ?
+            ''', (scrap_timestamp, data.get('followers', 'N/A'), data.get('following', 'N/A'), 
+                  data.get('tweets', 'N/A'), data.get('created_date', 'N/A'), id))
+        else:
+            # Scraping ultérieur : insérer une nouvelle ligne
+            logging.info(f"Inserting new data for {handle}")
+            cursor.execute('''
+            INSERT INTO developer_social_media 
+            (game_id, twitter_handle, add_date, scrap_date, followers_count, following_count, tweets_count, creation_date)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            ''', (game_id, '@' + handle, add_date, scrap_timestamp, data.get('followers', 'N/A'), 
+                  data.get('following', 'N/A'), data.get('tweets', 'N/A'), data.get('created_date', 'N/A')))
 
         conn.commit()
-        print(f"Data committed for {handle}")
+        logging.info(f"Data committed for {handle}")
         time.sleep(5)  # Pause de 5 secondes entre chaque requête
 
     # Vérifier les données après mise à jour
-    cursor.execute("SELECT * FROM developer_social_media ORDER BY execution_date DESC LIMIT 5")
+    cursor.execute("SELECT * FROM developer_social_media ORDER BY scrap_date DESC LIMIT 5")
     rows = cursor.fetchall()
-    print(f"After update, displaying the 5 most recent entries:")
+    logging.info("After update, displaying the 5 most recent entries:")
     for row in rows:
-        print(row)
+        logging.info(row)
 
     conn.close()
-    print("Database update completed and connection closed.")
+    logging.info("Database update completed and connection closed.")
 
 if __name__ == "__main__":
     update_database()
