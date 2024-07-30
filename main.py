@@ -251,7 +251,7 @@ def get_game_studio_twitter(studio_name):
     
     if results_df.empty:
         logging.info(f"Aucun résultat trouvé pour {studio_name}")
-        return studio_name
+        return None
     
     for index, row in results_df.iterrows():
         if is_twitter_link(row['url']):
@@ -280,7 +280,7 @@ def get_game_studio_twitter(studio_name):
                 return handle
     
     logging.info(f"Aucun handle Twitter trouvé avec un score de similarité suffisant pour {studio_name}")
-    return studio_name
+    return None
 
 def extract_twitter_names(title):
     # Essayez d'abord le format standard
