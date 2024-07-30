@@ -276,7 +276,7 @@ def get_game_studio_twitter(studio_name):
                 return handle
             
             # Sinon, utilisez les scores de similarité
-            if similarity_displayed >= 0.9 or similarity_handle >= 0.9:
+            if (similarity_displayed >= 0.9 and similarity_handle >= 0.5) or (similarity_displayed >= 0.5 and similarity_handle >= 0.9):
                 return handle
     
     logging.info(f"Aucun handle Twitter trouvé avec un score de similarité suffisant pour {studio_name}")
