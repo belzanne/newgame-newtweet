@@ -16,13 +16,13 @@ from deep_translator import GoogleTranslator
 from langdetect import detect, LangDetectException
 import html
 import pandas as pd
-from duckduckgo_search import DDGS
+#from duckduckgo_search import DDGS
 import re
-from Levenshtein import ratio
+#from Levenshtein import ratio
 import logging
 import time
 from requests.exceptions import RequestException
-import sqlite3
+
 
 # Configuration du logging
 logging.basicConfig(filename='log_file.log', level=logging.INFO,
@@ -359,12 +359,27 @@ def insert_developer_social_media(game_id, twitter_handle):
         try:
             conn = sqlite3.connect('socialmedia-developer.db')
             cursor = conn.cursor()
+            
+            # Vérifier si la table existe et la créer si nécessaire
             cursor.execute('''
-                INSERT OR REPLACE INTO developer_social_media (game_id, twitter_handle)
-                VALUES (?, ?)
-            ''', (game_id, twitter_handle))
+                CREATE TABLE IF NOT EXISTS developer_social_media (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    add_date TEXT,
+                    game_id INTEGER,
+                    twitter_handle TEXT,
+                    UNIQUE(game_id, twitter_handle)
+                )
+            ''')
+            
+            # Insérer ou mettre à jour les données avec la date d'ajout
+            current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            cursor.execute('''
+                INSERT OR REPLACE INTO developer_social_media (add_date, game_id, twitter_handle)
+                VALUES (?, ?, ?)
+            ''', (current_date, game_id, twitter_handle))
+            
             conn.commit()
-            logging.info(f"Données insérées pour game_id: {game_id}, twitter_handle: {twitter_handle}")
+            logging.info(f"Données insérées pour game_id: {game_id}, twitter_handle: {twitter_handle}, date: {current_date}")
         except sqlite3.Error as e:
             logging.error(f"Erreur SQLite lors de l'insertion des données sociales du développeur: {e}")
         finally:
@@ -372,6 +387,7 @@ def insert_developer_social_media(game_id, twitter_handle):
                 conn.close()
     else:
         logging.info(f"Pas d'insertion pour game_id: {game_id} car le handle Twitter est vide ou None")
+
             
 def main():
     logging.info("Début de l'exécution de main()")
