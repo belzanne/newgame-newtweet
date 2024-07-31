@@ -4,6 +4,11 @@ from bs4 import BeautifulSoup
 import re
 from datetime import datetime
 import time
+import logging
+
+# Configuration du logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 def scrape_social_blade(handle):
     url = f"https://socialblade.com/twitter/user/{handle}"
