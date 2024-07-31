@@ -1,0 +1,70 @@
+2024-07-31 15:21:59 - INFO - Connected to database
+2024-07-31 15:21:59 - INFO - Found 0 Twitter handles to process
+2024-07-31 15:21:59 - INFO - After update, displaying the 5 most recent entries:
+2024-07-31 15:21:59 - INFO - Database connection closed.
+2024-07-31 16:30:58 - INFO - Connected to database
+2024-07-31 16:30:58 - INFO - Found 19 Twitter handles to process
+2024-07-31 16:30:58 - INFO - Processing EvolverDynamics...
+2024-07-31 16:30:59 - ERROR - Error scraping data for EvolverDynamics: time data 'May 22nd, 2024' does not match format '%b %d, %Y'
+2024-07-31 16:30:59 - WARNING - No data scraped for EvolverDynamics, skipping update
+2024-07-31 16:31:04 - INFO - Processing BFGOfficial_...
+2024-07-31 16:31:04 - ERROR - Error scraping data for BFGOfficial_: time data 'May 16th, 2023' does not match format '%b %d, %Y'
+2024-07-31 16:31:04 - WARNING - No data scraped for BFGOfficial_, skipping update
+2024-07-31 16:31:09 - INFO - Processing SaikeyStudios...
+2024-07-31 16:31:10 - ERROR - Error scraping data for SaikeyStudios: time data 'Jul 6th, 2022' does not match format '%b %d, %Y'
+2024-07-31 16:31:10 - WARNING - No data scraped for SaikeyStudios, skipping update
+2024-07-31 16:31:15 - INFO - Processing Keter_Studio...
+2024-07-31 16:31:16 - ERROR - Error scraping data for Keter_Studio: time data 'Apr 11th, 2023' does not match format '%b %d, %Y'
+2024-07-31 16:31:16 - WARNING - No data scraped for Keter_Studio, skipping update
+2024-07-31 16:31:21 - INFO - Processing intrugligames...
+2024-07-31 16:31:21 - ERROR - Error scraping data for intrugligames: time data 'Nov 28th, 2023' does not match format '%b %d, %Y'
+2024-07-31 16:31:21 - WARNING - No data scraped for intrugligames, skipping update
+2024-07-31 16:31:26 - INFO - Processing SunMorGames...
+2024-07-31 16:31:26 - INFO - Data scraped for SunMorGames: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-07-31 16:31:26 - INFO - Data committed for SunMorGames
+2024-07-31 16:31:31 - INFO - Processing TheVisionGame...
+2024-07-31 16:31:32 - ERROR - Error scraping data for TheVisionGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/thevisiongame
+2024-07-31 16:31:32 - WARNING - No data scraped for TheVisionGame, skipping update
+2024-07-31 16:31:37 - INFO - Processing DwarvenInfantry...
+2024-07-31 16:31:37 - ERROR - Error scraping data for DwarvenInfantry: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/DwarvenInfantry
+2024-07-31 16:31:37 - WARNING - No data scraped for DwarvenInfantry, skipping update
+2024-07-31 16:31:42 - INFO - Processing koibitononazo...
+2024-07-31 16:31:42 - ERROR - Error scraping data for koibitononazo: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/koibitononazo
+2024-07-31 16:31:42 - WARNING - No data scraped for koibitononazo, skipping update
+2024-07-31 16:31:47 - INFO - Processing gelatogames...
+2024-07-31 16:31:47 - ERROR - Error scraping data for gelatogames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/gelatogames
+2024-07-31 16:31:47 - WARNING - No data scraped for gelatogames, skipping update
+2024-07-31 16:31:52 - INFO - Processing ooh_thehumanity...
+2024-07-31 16:31:52 - ERROR - Error scraping data for ooh_thehumanity: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/ooh_thehumanity
+2024-07-31 16:31:52 - WARNING - No data scraped for ooh_thehumanity, skipping update
+2024-07-31 16:31:57 - INFO - Processing DungeonDone...
+2024-07-31 16:31:57 - ERROR - Error scraping data for DungeonDone: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/DungeonDone
+2024-07-31 16:31:57 - WARNING - No data scraped for DungeonDone, skipping update
+2024-07-31 16:32:02 - INFO - Processing SkyGames342342...
+2024-07-31 16:32:02 - ERROR - Error scraping data for SkyGames342342: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/skygames342342
+2024-07-31 16:32:02 - WARNING - No data scraped for SkyGames342342, skipping update
+2024-07-31 16:32:07 - INFO - Processing Palindrome_int...
+2024-07-31 16:32:08 - ERROR - Error scraping data for Palindrome_int: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/palindrome_int
+2024-07-31 16:32:08 - WARNING - No data scraped for Palindrome_int, skipping update
+2024-07-31 16:32:13 - INFO - Processing CAPTUREDTheGame...
+2024-07-31 16:32:13 - ERROR - Error scraping data for CAPTUREDTheGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/capturedthegame
+2024-07-31 16:32:13 - WARNING - No data scraped for CAPTUREDTheGame, skipping update
+2024-07-31 16:32:18 - INFO - Processing xrlabsinc...
+2024-07-31 16:32:19 - INFO - Data scraped for xrlabsinc: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-07-31 16:32:19 - INFO - Data committed for xrlabsinc
+2024-07-31 16:32:24 - INFO - Processing ironcrone...
+2024-07-31 16:32:24 - INFO - Data scraped for ironcrone: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-07-31 16:32:24 - INFO - Data committed for ironcrone
+2024-07-31 16:32:29 - INFO - Processing citadele...
+2024-07-31 16:32:29 - ERROR - Error scraping data for citadele: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/citadele
+2024-07-31 16:32:29 - WARNING - No data scraped for citadele, skipping update
+2024-07-31 16:32:34 - INFO - Processing CanWaichung...
+2024-07-31 16:32:34 - ERROR - Error scraping data for CanWaichung: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/canwaichung
+2024-07-31 16:32:34 - WARNING - No data scraped for CanWaichung, skipping update
+2024-07-31 16:32:39 - INFO - After update, displaying the 5 most recent entries:
+2024-07-31 16:32:39 - INFO - (20, 1722432331, 2892020, '@SunMorGames', 1722436258, None, None, None, None)
+2024-07-31 16:32:39 - INFO - (21, 1722433327, 3100710, '@xrlabsinc', 1722436258, None, None, None, None)
+2024-07-31 16:32:39 - INFO - (22, 1722433337, 3125300, '@ironcrone', 1722436258, None, None, None, None)
+2024-07-31 16:32:39 - INFO - (1, 1722432269, 3075670, '@EvolverDynamics', None, None, None, None, None)
+2024-07-31 16:32:39 - INFO - (2, 1722432269, 2820700, '@BFGOfficial_', None, None, None, None, None)
+2024-07-31 16:32:39 - INFO - Database connection closed.

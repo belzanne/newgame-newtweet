@@ -170,6 +170,9 @@ def get_steam_page_info(app_id):
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         
+        # Vérifier la présence de contenu généré par IA
+        ai_disclosure = soup.find(string=re.compile("AI GENERATED CONTENT DISCLOSURE", re.IGNORECASE))
+        
         # Recherche de la section "AI Generated Content Disclosure"
         ai_section = soup.find('h2', string='AI Generated Content Disclosure')
         ai_generated = bool(ai_section)
@@ -192,7 +195,7 @@ def get_steam_page_info(app_id):
             twitter_handle = '@' + twitter_url.split('/')[-1]
         
         return {
-            'ai_generated': ai_generated,
+            'ai_generated': bool(ai_disclosure),
             'ai_content': ai_content,
             'tags': tags,
             'twitter_handle': twitter_handle
@@ -403,22 +406,22 @@ def insert_developer_social_media(game_id, twitter_handle):
             
             # Vérifier si la table existe et la créer si nécessaire
             cursor.execute('''
-                CREATE TABLE IF NOT EXISTS developer_social_media (
-                    game_id INTEGER,
+                CREATE TABLE IF NOT EXISTS socialmedia_dev (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
                     add_date INTEGER,
+                    game_id INTEGER,
                     twitter_handle TEXT,
                     scrap_date INTEGER,
-                    followers_count TEXT,
-                    following_count TEXT,
-                    tweets_count TEXT,
-                    creation_date TEXT,
-                    PRIMARY KEY (game_id, twitter_handle)
+                    followers_count INTEGER,
+                    following_count INTEGER,
+                    tweets_count INTEGER,
+                    creation_date INTEGER
                 )
             ''')
             
             # Vérifier si une entrée existe déjà pour ce game_id et twitter_handle
             cursor.execute('''
-                SELECT game_id FROM developer_social_media
+                SELECT id FROM socialmedia_dev
                 WHERE game_id = ? AND twitter_handle = ?
             ''', (game_id, twitter_handle))
             
@@ -428,7 +431,7 @@ def insert_developer_social_media(game_id, twitter_handle):
                 # Si aucune entrée n'existe, insérer une nouvelle ligne
                 current_timestamp = int(time.time())
                 cursor.execute('''
-                    INSERT INTO developer_social_media 
+                    INSERT INTO socialmedia_dev 
                     (add_date, game_id, twitter_handle)
                     VALUES (?, ?, ?)
                 ''', (current_timestamp, game_id, twitter_handle))
@@ -510,14 +513,13 @@ def main():
                 for steam_game_id, first_seen in new_entries:
                     total_games += 1
                     logging.info(f"Traitement du jeu : Steam ID: {steam_game_id}, First Seen: {first_seen}")
+                    
+                    # Mettre à jour new_last_timestamp ici, pour chaque jeu traité
+                    new_last_timestamp = max(new_last_timestamp, first_seen)
+
                     game_data = get_game_details(steam_game_id)
-                    if game_data:
+                    if game_data and filter_game(game_data):
                         steam_page_info = get_steam_page_info(steam_game_id)
-                        
-                        # Insérer les données dans aug_steam_games.db
-                        insert_aug_steam_game(aug_db_conn, game_data, steam_page_info)
-                        
-                    if filter_game(game_data):
                         if steam_page_info and not steam_page_info['ai_generated']:
                             tags = steam_page_info['tags']
                             twitter_handle = steam_page_info['twitter_handle']
@@ -548,7 +550,7 @@ def main():
                             logging.info(f"Le jeu avec Steam ID {steam_game_id} utilise du contenu généré par IA ou n'a pas pu être scrapé.")
                     else:
                         logging.info(f"Le jeu avec Steam ID {steam_game_id} ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.")
-                    conn.close()
+                conn.close()
             else:
                 logging.error("Échec du téléchargement de la base de données")
                 return None
@@ -597,20 +599,25 @@ def main():
 
 
 if __name__ == "__main__":
-    result = main()
-    if result is not None:
-        total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, db_url = result
-        
-        if new_last_timestamp > last_timestamp:
-            write_last_timestamp(new_last_timestamp)
-            print(f"Timestamp mis à jour : {new_last_timestamp}")
+    try:
+        result = main()
+        if result is not None:
+            total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, db_url = result
+            
+            #if new_last_timestamp > last_timestamp:
+                #write_last_timestamp(new_last_timestamp)
+                #print(f"Timestamp mis à jour : {new_last_timestamp}")
 
-        print(f"\nRésumé : {published_games} jeux publiés sur {total_games} jeux traités au total.")
-        print(f"Tweets prioritaires : {len(priority_tweets)}")
-        print(f"Tweets non prioritaires : {len(non_priority_tweets)}")
+            print(f"\nRésumé : {published_games} jeux publiés sur {total_games} jeux traités au total.")
+            print(f"Tweets prioritaires : {len(priority_tweets)}")
+            print(f"Tweets non prioritaires : {len(non_priority_tweets)}")
 
-        # Appel de la fonction de journalisation
-        log_execution(total_games, published_games)
-    else:
-        logging.error("La fonction main() a retourné None")
-        print("Une erreur s'est produite lors de l'exécution. Veuillez consulter le fichier de log pour plus de détails.")
+            # Appel de la fonction de journalisation
+            log_execution(total_games, published_games)
+        else:
+            logging.error("La fonction main() a retourné None")
+            print("Une erreur s'est produite lors de l'exécution. Veuillez consulter le fichier de log pour plus de détails.")
+
+    except Exception as e:
+        logging.exception(f"Une erreur s'est produite lors de l'exécution : {str(e)}")
+        print(f"Une erreur s'est produite. Veuillez consulter le fichier de log pour plus de détails.")
