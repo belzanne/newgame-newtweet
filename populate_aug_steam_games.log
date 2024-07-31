@@ -6,3 +6,18 @@
 2024-07-31 18:24:53,447 - INFO - URL de la base de données : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
 2024-07-31 18:24:53,824 - INFO - Base de données téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmp_dlikup2.db
 2024-07-31 18:24:53,825 - ERROR - An error occurred: no such table: aug_steam_games
+2024-07-31 19:29:34,911 - INFO - URL de la base de données : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-31 19:29:35,532 - INFO - Base de données téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmpykw34one.db
+2024-07-31 19:29:35,532 - ERROR - An error occurred: no such table: aug_steam_games
+2024-07-31 19:33:19,282 - INFO - URL de la base de données : https://raw.githubusercontent.com/belzanne/newgame-newtweet/main/aug_steam_games.db
+2024-07-31 19:33:19,554 - INFO - Base de données téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmpxa_uwwzj.db
+2024-07-31 19:33:19,555 - ERROR - An error occurred: no such table: games
+2024-07-31 19:42:49,765 - INFO - URL de la base de données steam_games: https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-31 19:42:50,346 - INFO - Base de données steam_games téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmpf72z3vef.db
+2024-07-31 19:42:50,347 - ERROR - An error occurred: no such table: aug_steam_games
+2024-07-31 19:46:04,437 - INFO - URL de la base de données steam_games: https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-31 19:46:04,981 - INFO - Base de données steam_games téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmpvyvd1k5j.db
+2024-07-31 19:46:04,982 - ERROR - An error occurred: no such table: aug_steam_games
+2024-07-31 19:47:54,147 - INFO - URL de la base de données steam_games: https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-31 19:47:54,605 - INFO - Base de données steam_games téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmp04dkt73b.db
+2024-07-31 19:47:54,606 - ERROR - An error occurred: no such table: aug_steam_games
