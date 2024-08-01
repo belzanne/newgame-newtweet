@@ -518,38 +518,44 @@ def main():
                     new_last_timestamp = max(new_last_timestamp, first_seen)
 
                     game_data = get_game_details(steam_game_id)
-                    if game_data and filter_game(game_data):
-                        steam_page_info = get_steam_page_info(steam_game_id)
-                        if steam_page_info and not steam_page_info['ai_generated']:
-                            tags = steam_page_info['tags']
-                            twitter_handle = steam_page_info['twitter_handle']
-                            logging.info(f"Handle trouvé sur la page steam : {twitter_handle}")
+                    if game_data:
+                        steam_page_info = get_steam_page_info(steal_game_id)
+                        
+                        insert_aug_steam_game(aug_db_conn, game_data, steam_page_info)
 
-                            # Si aucun handle n'est trouvé sur la page Steam, on utilise get_game_studio_twitter
-                            if not twitter_handle:
-                                developer = game_data.get('developers', [''])[0]  # Prend le premier développeur
-                                twitter_handle = get_game_studio_twitter(developer)
-                                logging.info(f"Handle trouvé via Brave : {twitter_handle}")
+                        if filter_game(game_data):
+                            if steam_page_info and not steam_page_info['ai_generated']:
+                                tags = steam_page_info['tags']
+                                twitter_handle = steam_page_info['twitter_handle']
+                                logging.info(f"Handle trouvé sur la page steam : {twitter_handle}")
 
-                            # Stockage du handle dans la base de données si un handle valide a été trouvé
-                            if twitter_handle and twitter_handle.startswith('@'):
-                                insert_developer_social_media(steam_game_id, twitter_handle)
+                                # Si aucun handle n'est trouvé sur la page Steam, on utilise get_game_studio_twitter
+                                if not twitter_handle:
+                                    developer = game_data.get('developers', [''])[0]  # Prend le premier développeur
+                                    twitter_handle = get_game_studio_twitter(developer)
+                                    logging.info(f"Handle trouvé via Brave : {twitter_handle}")
 
-                            logging.info(f"X_handle: {twitter_handle}")
-                            message = format_tweet_message(game_data, tags, first_seen, twitter_handle)
-                            if message:
-                                if is_priority_game(game_data):
-                                    priority_tweets.append((message, game_data, first_seen))
+                                # Stockage du handle dans la base de données si un handle valide a été trouvé
+                                if twitter_handle and twitter_handle.startswith('@'):
+                                    insert_developer_social_media(steam_game_id, twitter_handle)
+
+                                logging.info(f"X_handle: {twitter_handle}")
+                                message = format_tweet_message(game_data, tags, first_seen, twitter_handle)
+                                if message:
+                                    if is_priority_game(game_data):
+                                        priority_tweets.append((message, game_data, first_seen))
+                                    else:
+                                        non_priority_tweets.append((message, game_data, first_seen))
                                 else:
-                                    non_priority_tweets.append((message, game_data, first_seen))
+                                    logging.warning(f"Échec du formatage du tweet pour {game_data['name']}")
                             else:
-                                logging.warning(f"Échec du formatage du tweet pour {game_data['name']}")
+                                global AI_GENERATED_GAMES
+                                AI_GENERATED_GAMES += 1
+                                logging.info(f"Le jeu avec Steam ID {steam_game_id} utilise du contenu généré par IA ou n'a pas pu être scrapé.")
                         else:
-                            global AI_GENERATED_GAMES
-                            AI_GENERATED_GAMES += 1
-                            logging.info(f"Le jeu avec Steam ID {steam_game_id} utilise du contenu généré par IA ou n'a pas pu être scrapé.")
+                            logging.info(f"Le jeu avec Steam ID {steam_game_id} ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.")
                     else:
-                        logging.info(f"Le jeu avec Steam ID {steam_game_id} ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.")
+                        logging.info(f"Impossible de récupérer les détails pour le jeu avec Steam ID {steam_game_id}")
                 conn.close()
             else:
                 logging.error("Échec du téléchargement de la base de données")
