@@ -68,3 +68,126 @@
 2024-07-31 16:32:39 - INFO - (1, 1722432269, 3075670, '@EvolverDynamics', None, None, None, None, None)
 2024-07-31 16:32:39 - INFO - (2, 1722432269, 2820700, '@BFGOfficial_', None, None, None, None, None)
 2024-07-31 16:32:39 - INFO - Database connection closed.
+2024-08-01 06:45:40 - INFO - Connected to database
+2024-08-01 06:45:40 - INFO - Found 38 Twitter handles to process
+2024-08-01 06:45:40 - INFO - Processing EvolverDynamics...
+2024-08-01 06:45:40 - ERROR - Error scraping data for EvolverDynamics: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/EvolverDynamics
+2024-08-01 06:45:40 - WARNING - No data scraped for EvolverDynamics, skipping update
+2024-08-01 06:45:45 - INFO - Processing BFGOfficial_...
+2024-08-01 06:45:45 - ERROR - Error scraping data for BFGOfficial_: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/BFGOfficial_
+2024-08-01 06:45:45 - WARNING - No data scraped for BFGOfficial_, skipping update
+2024-08-01 06:45:50 - INFO - Processing SaikeyStudios...
+2024-08-01 06:45:50 - ERROR - Error scraping data for SaikeyStudios: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SaikeyStudios
+2024-08-01 06:45:50 - WARNING - No data scraped for SaikeyStudios, skipping update
+2024-08-01 06:45:55 - INFO - Processing Keter_Studio...
+2024-08-01 06:45:55 - ERROR - Error scraping data for Keter_Studio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Keter_Studio
+2024-08-01 06:45:55 - WARNING - No data scraped for Keter_Studio, skipping update
+2024-08-01 06:46:00 - INFO - Processing intrugligames...
+2024-08-01 06:46:00 - ERROR - Error scraping data for intrugligames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/intrugligames
+2024-08-01 06:46:00 - WARNING - No data scraped for intrugligames, skipping update
+2024-08-01 06:46:05 - INFO - Processing SunMorGames...
+2024-08-01 06:46:05 - ERROR - Error scraping data for SunMorGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SunMorGames
+2024-08-01 06:46:05 - WARNING - No data scraped for SunMorGames, skipping update
+2024-08-01 06:46:10 - INFO - Processing TheVisionGame...
+2024-08-01 06:46:10 - ERROR - Error scraping data for TheVisionGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TheVisionGame
+2024-08-01 06:46:10 - WARNING - No data scraped for TheVisionGame, skipping update
+2024-08-01 06:46:15 - INFO - Processing DwarvenInfantry...
+2024-08-01 06:46:15 - ERROR - Error scraping data for DwarvenInfantry: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/DwarvenInfantry
+2024-08-01 06:46:15 - WARNING - No data scraped for DwarvenInfantry, skipping update
+2024-08-01 06:46:20 - INFO - Processing koibitononazo...
+2024-08-01 06:46:20 - ERROR - Error scraping data for koibitononazo: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/koibitononazo
+2024-08-01 06:46:20 - WARNING - No data scraped for koibitononazo, skipping update
+2024-08-01 06:46:25 - INFO - Processing gelatogames...
+2024-08-01 06:46:25 - ERROR - Error scraping data for gelatogames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/gelatogames
+2024-08-01 06:46:25 - WARNING - No data scraped for gelatogames, skipping update
+2024-08-01 06:46:30 - INFO - Processing ooh_thehumanity...
+2024-08-01 06:46:30 - ERROR - Error scraping data for ooh_thehumanity: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ooh_thehumanity
+2024-08-01 06:46:30 - WARNING - No data scraped for ooh_thehumanity, skipping update
+2024-08-01 06:46:35 - INFO - Processing DungeonDone...
+2024-08-01 06:46:36 - ERROR - Error scraping data for DungeonDone: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/DungeonDone
+2024-08-01 06:46:36 - WARNING - No data scraped for DungeonDone, skipping update
+2024-08-01 06:46:41 - INFO - Processing SkyGames342342...
+2024-08-01 06:46:41 - ERROR - Error scraping data for SkyGames342342: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SkyGames342342
+2024-08-01 06:46:41 - WARNING - No data scraped for SkyGames342342, skipping update
+2024-08-01 06:46:46 - INFO - Processing Palindrome_int...
+2024-08-01 06:46:46 - ERROR - Error scraping data for Palindrome_int: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Palindrome_int
+2024-08-01 06:46:46 - WARNING - No data scraped for Palindrome_int, skipping update
+2024-08-01 06:46:51 - INFO - Processing CAPTUREDTheGame...
+2024-08-01 06:46:51 - ERROR - Error scraping data for CAPTUREDTheGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/CAPTUREDTheGame
+2024-08-01 06:46:51 - WARNING - No data scraped for CAPTUREDTheGame, skipping update
+2024-08-01 06:46:56 - INFO - Processing xrlabsinc...
+2024-08-01 06:46:56 - ERROR - Error scraping data for xrlabsinc: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/xrlabsinc
+2024-08-01 06:46:56 - WARNING - No data scraped for xrlabsinc, skipping update
+2024-08-01 06:47:01 - INFO - Processing ironcrone...
+2024-08-01 06:47:01 - ERROR - Error scraping data for ironcrone: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ironcrone
+2024-08-01 06:47:01 - WARNING - No data scraped for ironcrone, skipping update
+2024-08-01 06:47:06 - INFO - Processing citadele...
+2024-08-01 06:47:06 - ERROR - Error scraping data for citadele: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/citadele
+2024-08-01 06:47:06 - WARNING - No data scraped for citadele, skipping update
+2024-08-01 06:47:11 - INFO - Processing CanWaichung...
+2024-08-01 06:47:11 - ERROR - Error scraping data for CanWaichung: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/CanWaichung
+2024-08-01 06:47:11 - WARNING - No data scraped for CanWaichung, skipping update
+2024-08-01 06:47:16 - INFO - Processing ...
+2024-08-01 06:47:16 - ERROR - Error scraping data for : 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/
+2024-08-01 06:47:16 - WARNING - No data scraped for , skipping update
+2024-08-01 06:47:21 - INFO - Processing TinyWonder_game...
+2024-08-01 06:47:21 - ERROR - Error scraping data for TinyWonder_game: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TinyWonder_game
+2024-08-01 06:47:21 - WARNING - No data scraped for TinyWonder_game, skipping update
+2024-08-01 06:47:26 - INFO - Processing LuamarGames...
+2024-08-01 06:47:26 - ERROR - Error scraping data for LuamarGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/LuamarGames
+2024-08-01 06:47:26 - WARNING - No data scraped for LuamarGames, skipping update
+2024-08-01 06:47:31 - INFO - Processing WaifuBeachBar...
+2024-08-01 06:47:31 - ERROR - Error scraping data for WaifuBeachBar: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/WaifuBeachBar
+2024-08-01 06:47:31 - WARNING - No data scraped for WaifuBeachBar, skipping update
+2024-08-01 06:47:36 - INFO - Processing HuntersonStudio...
+2024-08-01 06:47:36 - ERROR - Error scraping data for HuntersonStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/HuntersonStudio
+2024-08-01 06:47:36 - WARNING - No data scraped for HuntersonStudio, skipping update
+2024-08-01 06:47:41 - INFO - Processing hohoufoundme...
+2024-08-01 06:47:41 - ERROR - Error scraping data for hohoufoundme: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/hohoufoundme
+2024-08-01 06:47:41 - WARNING - No data scraped for hohoufoundme, skipping update
+2024-08-01 06:47:46 - INFO - Processing LTQG_...
+2024-08-01 06:47:46 - ERROR - Error scraping data for LTQG_: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/LTQG_
+2024-08-01 06:47:46 - WARNING - No data scraped for LTQG_, skipping update
+2024-08-01 06:47:51 - INFO - Processing ToFuCatGames...
+2024-08-01 06:47:51 - ERROR - Error scraping data for ToFuCatGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ToFuCatGames
+2024-08-01 06:47:51 - WARNING - No data scraped for ToFuCatGames, skipping update
+2024-08-01 06:47:56 - INFO - Processing laterskatergame...
+2024-08-01 06:47:56 - ERROR - Error scraping data for laterskatergame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/laterskatergame
+2024-08-01 06:47:56 - WARNING - No data scraped for laterskatergame, skipping update
+2024-08-01 06:48:01 - INFO - Processing ApocVerse...
+2024-08-01 06:48:01 - ERROR - Error scraping data for ApocVerse: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ApocVerse
+2024-08-01 06:48:01 - WARNING - No data scraped for ApocVerse, skipping update
+2024-08-01 06:48:06 - INFO - Processing BonjourBorzoi...
+2024-08-01 06:48:06 - ERROR - Error scraping data for BonjourBorzoi: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/BonjourBorzoi
+2024-08-01 06:48:06 - WARNING - No data scraped for BonjourBorzoi, skipping update
+2024-08-01 06:48:11 - INFO - Processing BinarySunrise_...
+2024-08-01 06:48:11 - ERROR - Error scraping data for BinarySunrise_: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/BinarySunrise_
+2024-08-01 06:48:11 - WARNING - No data scraped for BinarySunrise_, skipping update
+2024-08-01 06:48:16 - INFO - Processing corsgames_com...
+2024-08-01 06:48:16 - ERROR - Error scraping data for corsgames_com: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/corsgames_com
+2024-08-01 06:48:16 - WARNING - No data scraped for corsgames_com, skipping update
+2024-08-01 06:48:21 - INFO - Processing IncVuvuu...
+2024-08-01 06:48:21 - ERROR - Error scraping data for IncVuvuu: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/IncVuvuu
+2024-08-01 06:48:21 - WARNING - No data scraped for IncVuvuu, skipping update
+2024-08-01 06:48:26 - INFO - Processing kairokun2010...
+2024-08-01 06:48:26 - ERROR - Error scraping data for kairokun2010: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/kairokun2010
+2024-08-01 06:48:26 - WARNING - No data scraped for kairokun2010, skipping update
+2024-08-01 06:48:31 - INFO - Processing arcadesindo...
+2024-08-01 06:48:31 - ERROR - Error scraping data for arcadesindo: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/arcadesindo
+2024-08-01 06:48:31 - WARNING - No data scraped for arcadesindo, skipping update
+2024-08-01 06:48:36 - INFO - Processing triomatica...
+2024-08-01 06:48:36 - ERROR - Error scraping data for triomatica: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/triomatica
+2024-08-01 06:48:36 - WARNING - No data scraped for triomatica, skipping update
+2024-08-01 06:48:41 - INFO - Processing HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09...
+2024-08-01 06:48:41 - ERROR - Error scraping data for HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09
+2024-08-01 06:48:41 - WARNING - No data scraped for HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09, skipping update
+2024-08-01 06:48:46 - INFO - Processing brain_syringe...
+2024-08-01 06:48:46 - ERROR - Error scraping data for brain_syringe: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/brain_syringe
+2024-08-01 06:48:46 - WARNING - No data scraped for brain_syringe, skipping update
+2024-08-01 06:48:51 - INFO - After update, displaying the 5 most recent entries:
+2024-08-01 06:48:51 - INFO - (20, 1722432331, 2892020, '@SunMorGames', 1722436258, None, None, None, None)
+2024-08-01 06:48:51 - INFO - (21, 1722433327, 3100710, '@xrlabsinc', 1722436258, None, None, None, None)
+2024-08-01 06:48:51 - INFO - (22, 1722433337, 3125300, '@ironcrone', 1722436258, None, None, None, None)
+2024-08-01 06:48:51 - INFO - (1, 1722432269, 3075670, '@EvolverDynamics', None, None, None, None, None)
+2024-08-01 06:48:51 - INFO - (2, 1722432269, 2820700, '@BFGOfficial_', None, None, None, None, None)
+2024-08-01 06:48:51 - INFO - Database connection closed.
