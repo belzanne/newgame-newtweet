@@ -21,3 +21,40 @@
 2024-07-31 19:47:54,147 - INFO - URL de la base de données steam_games: https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
 2024-07-31 19:47:54,605 - INFO - Base de données steam_games téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmp04dkt73b.db
 2024-07-31 19:47:54,606 - ERROR - An error occurred: no such table: aug_steam_games
+2024-07-31 19:51:19,000 - INFO - URL de la base de données steam_games: https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-07-31 19:51:19,328 - INFO - Base de données steam_games téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmpl416gy1w.db
+2024-07-31 19:51:19,377 - INFO - Total games to process: 207940
+2024-07-31 19:53:46,151 - INFO - Processing game 100 of 207940
+2024-07-31 19:53:47,134 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 19:56:50,149 - INFO - Processing game 200 of 207940
+2024-07-31 19:59:32,533 - INFO - Processing game 300 of 207940
+2024-07-31 20:02:27,263 - INFO - Processing game 400 of 207940
+2024-07-31 20:02:28,156 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 20:05:13,551 - INFO - Processing game 500 of 207940
+2024-07-31 20:08:11,219 - INFO - Processing game 600 of 207940
+2024-07-31 20:08:12,134 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 20:11:16,560 - INFO - Processing game 700 of 207940
+2024-07-31 20:11:17,517 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 20:14:17,150 - INFO - Processing game 800 of 207940
+2024-07-31 20:14:18,267 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 20:17:26,235 - INFO - Processing game 900 of 207940
+2024-07-31 20:17:27,237 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 20:20:19,766 - INFO - Processing game 1000 of 207940
+2024-07-31 20:20:20,881 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 20:23:14,648 - INFO - Processing game 1100 of 207940
+2024-07-31 20:23:15,520 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 20:23:50,552 - ERROR - Error scraping Steam page for 5703: HTTPConnectionPool(host='www.stargateresistance.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x10e17fe60>: Failed to resolve 'www.stargateresistance.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2024-07-31 20:26:12,316 - INFO - Processing game 1200 of 207940
+2024-07-31 20:26:13,806 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 20:29:09,805 - INFO - Processing game 1300 of 207940
+2024-07-31 20:29:10,854 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 20:31:53,915 - INFO - Processing game 1400 of 207940
+2024-07-31 20:31:54,523 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 20:34:43,729 - INFO - Processing game 1500 of 207940
+2024-07-31 20:34:44,464 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 20:37:31,105 - INFO - Processing game 1600 of 207940
+2024-07-31 20:37:32,029 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 20:40:26,831 - INFO - Processing game 1700 of 207940
+2024-07-31 20:43:13,453 - INFO - Processing game 1800 of 207940
+2024-07-31 20:43:14,536 - INFO - Committed 100 games to aug_steam_games.db
+2024-07-31 20:43:51,080 - ERROR - Error scraping Steam page for 12820: Exceeded 30 redirects.
