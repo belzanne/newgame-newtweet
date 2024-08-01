@@ -137,7 +137,7 @@ def filter_game(game_data):
     else:
         descriptor_ids = []
     
-    if 3 in descriptor_ids:
+    if 3 in descriptor_ids or 4 in descriptor_ids:
         MATURE_CONTENT_GAMES += 1
         return False
     
