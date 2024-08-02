@@ -62,6 +62,7 @@ def initialize_aug_steam_games_db():
     CREATE TABLE IF NOT EXISTS aug_steam_games (
         game_id INTEGER PRIMARY KEY,
         add_date INTEGER,
+        type TEXT,
         dev TEXT,
         publisher TEXT,
         tags TEXT,
@@ -455,6 +456,7 @@ def insert_aug_steam_game(conn, game_data, steam_page_info):
     
     game_id = game_data['steam_appid']
     add_date = int(time.time())
+    game_type = game_data.get('type', 'Unknown')
     dev = ', '.join(game_data.get('developers', []))
     publisher = ', '.join(game_data.get('publishers', []))
     tags = ', '.join(steam_page_info['tags']) if steam_page_info else ''
@@ -473,10 +475,10 @@ def insert_aug_steam_game(conn, game_data, steam_page_info):
 
     cursor.execute('''
     INSERT OR REPLACE INTO aug_steam_games
-    (game_id, add_date, dev, publisher, tags, release_date, description, ai_generated, ai_content, 
+    (game_id, add_date, type, dev, publisher, tags, release_date, description, ai_generated, ai_content, 
     content_descriptors, supported_languages, free, dlc)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    ''', (game_id, add_date, dev, publisher, tags, release_date, description, ai_generated, ai_content,
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ''', (game_id, add_date, game_type, dev, publisher, tags, release_date, description, ai_generated, ai_content,
           content_descriptors_str, supported_languages, free, dlc))
     
     conn.commit()
