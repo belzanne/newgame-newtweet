@@ -11725,3 +11725,15 @@ Résumé : 50 jeux publiés sur 142 jeux traités au total.
 2024-08-01 06:45:39 - Utilisation de l'API Brave Search
 2024-08-01 06:45:39 - Nombre de jeux avec contenu mature (id=3): 8
 2024-08-01 06:45:39 - Nombre de jeux avec contenu généré par IA: 7
+2024-08-02 06:44:36 - Début de l'exécution de main()
+2024-08-02 06:44:36 - URL de la base de données : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-08-02 06:44:36 - Dernier timestamp lu : 1722470382
+2024-08-02 06:44:38 - Base de données téléchargée avec succès : /tmp/tmp9hmrcdoh.db
+2024-08-02 06:44:38 - Nombre de nouvelles entrées trouvées : 152
+2024-08-02 06:44:38 - Traitement du jeu : Steam ID: 3079170, First Seen: 1722556775
+2024-08-02 06:44:38 - Une erreur inattendue s'est produite dans main(): name 'steal_game_id' is not defined
+Traceback (most recent call last):
+  File "/home/runner/work/newgame-newtweet/newgame-newtweet/main.py", line 522, in main
+    steam_page_info = get_steam_page_info(steal_game_id)
+NameError: name 'steal_game_id' is not defined
+2024-08-02 06:44:38 - La fonction main() a retourné None
