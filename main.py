@@ -519,7 +519,7 @@ def main():
 
                     game_data = get_game_details(steam_game_id)
                     if game_data:
-                        steam_page_info = get_steam_page_info(steal_game_id)
+                        steam_page_info = get_steam_page_info(steam_game_id)
                         
                         insert_aug_steam_game(aug_db_conn, game_data, steam_page_info)
 
