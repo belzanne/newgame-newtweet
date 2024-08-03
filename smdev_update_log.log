@@ -785,3 +785,1355 @@
 2024-08-02 15:15:01 - INFO - (78, 1722432277, 3118700, '@Keter_Studio', 1722604203, 32, 11, 4, '2023-04-11')
 2024-08-02 15:15:01 - INFO - (79, 1722432310, 3123920, '@intrugligames', 1722604203, 29, 20, 88, '2023-11-28')
 2024-08-02 15:15:01 - INFO - Database connection closed.
+2024-08-03 06:45:36,409 - INFO - Connecté à la base de données
+2024-08-03 06:45:36,409 - INFO - Trouvé 68 handles Twitter à traiter
+2024-08-03 06:45:36,409 - INFO - Traitement de EvolverDynamics...
+2024-08-03 06:45:36,894 - WARNING - Tentative 1 échouée pour EvolverDynamics: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/EvolverDynamics (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:45:42,356 - WARNING - Tentative 2 échouée pour EvolverDynamics: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/EvolverDynamics (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:45:47,846 - WARNING - Tentative 3 échouée pour EvolverDynamics: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/EvolverDynamics (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:45:47,846 - ERROR - Toutes les tentatives ont échoué pour EvolverDynamics
+2024-08-03 06:45:47,846 - WARNING - Aucune donnée scrapée pour EvolverDynamics, mise à jour ignorée
+2024-08-03 06:45:52,851 - INFO - Traitement de BFGOfficial_...
+2024-08-03 06:45:53,309 - WARNING - Tentative 1 échouée pour BFGOfficial_: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BFGOfficial_ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:45:58,739 - WARNING - Tentative 2 échouée pour BFGOfficial_: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BFGOfficial_ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:46:04,194 - WARNING - Tentative 3 échouée pour BFGOfficial_: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BFGOfficial_ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:46:04,195 - ERROR - Toutes les tentatives ont échoué pour BFGOfficial_
+2024-08-03 06:46:04,195 - WARNING - Aucune donnée scrapée pour BFGOfficial_, mise à jour ignorée
+2024-08-03 06:46:09,200 - INFO - Traitement de SaikeyStudios...
+2024-08-03 06:46:09,638 - WARNING - Tentative 1 échouée pour SaikeyStudios: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/SaikeyStudios (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:46:15,126 - WARNING - Tentative 2 échouée pour SaikeyStudios: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/SaikeyStudios (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:46:20,563 - WARNING - Tentative 3 échouée pour SaikeyStudios: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/SaikeyStudios (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:46:20,563 - ERROR - Toutes les tentatives ont échoué pour SaikeyStudios
+2024-08-03 06:46:20,564 - WARNING - Aucune donnée scrapée pour SaikeyStudios, mise à jour ignorée
+2024-08-03 06:46:25,569 - INFO - Traitement de Keter_Studio...
+2024-08-03 06:46:25,995 - WARNING - Tentative 1 échouée pour Keter_Studio: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Keter_Studio (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:46:31,425 - WARNING - Tentative 2 échouée pour Keter_Studio: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Keter_Studio (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:46:36,891 - WARNING - Tentative 3 échouée pour Keter_Studio: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Keter_Studio (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:46:36,891 - ERROR - Toutes les tentatives ont échoué pour Keter_Studio
+2024-08-03 06:46:36,892 - WARNING - Aucune donnée scrapée pour Keter_Studio, mise à jour ignorée
+2024-08-03 06:46:41,897 - INFO - Traitement de intrugligames...
+2024-08-03 06:46:42,331 - WARNING - Tentative 1 échouée pour intrugligames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/intrugligames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:46:47,765 - WARNING - Tentative 2 échouée pour intrugligames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/intrugligames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:46:53,193 - WARNING - Tentative 3 échouée pour intrugligames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/intrugligames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:46:53,193 - ERROR - Toutes les tentatives ont échoué pour intrugligames
+2024-08-03 06:46:53,194 - WARNING - Aucune donnée scrapée pour intrugligames, mise à jour ignorée
+2024-08-03 06:46:58,199 - INFO - Traitement de SunMorGames...
+2024-08-03 06:46:58,637 - WARNING - Tentative 1 échouée pour SunMorGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/SunMorGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:47:04,077 - WARNING - Tentative 2 échouée pour SunMorGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/SunMorGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:47:09,511 - WARNING - Tentative 3 échouée pour SunMorGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/SunMorGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:47:09,511 - ERROR - Toutes les tentatives ont échoué pour SunMorGames
+2024-08-03 06:47:09,511 - WARNING - Aucune donnée scrapée pour SunMorGames, mise à jour ignorée
+2024-08-03 06:47:14,516 - INFO - Traitement de TheVisionGame...
+2024-08-03 06:47:14,946 - WARNING - Tentative 1 échouée pour TheVisionGame: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/TheVisionGame (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:47:20,375 - WARNING - Tentative 2 échouée pour TheVisionGame: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/TheVisionGame (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:47:25,826 - WARNING - Tentative 3 échouée pour TheVisionGame: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/TheVisionGame (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:47:25,826 - ERROR - Toutes les tentatives ont échoué pour TheVisionGame
+2024-08-03 06:47:25,826 - WARNING - Aucune donnée scrapée pour TheVisionGame, mise à jour ignorée
+2024-08-03 06:47:30,831 - INFO - Traitement de DwarvenInfantry...
+2024-08-03 06:47:31,281 - WARNING - Tentative 1 échouée pour DwarvenInfantry: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/DwarvenInfantry (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:47:36,708 - WARNING - Tentative 2 échouée pour DwarvenInfantry: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/DwarvenInfantry (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:47:42,173 - WARNING - Tentative 3 échouée pour DwarvenInfantry: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/DwarvenInfantry (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:47:42,173 - ERROR - Toutes les tentatives ont échoué pour DwarvenInfantry
+2024-08-03 06:47:42,173 - WARNING - Aucune donnée scrapée pour DwarvenInfantry, mise à jour ignorée
+2024-08-03 06:47:47,175 - INFO - Traitement de koibitononazo...
+2024-08-03 06:47:47,606 - WARNING - Tentative 1 échouée pour koibitononazo: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/koibitononazo (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:47:53,037 - WARNING - Tentative 2 échouée pour koibitononazo: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/koibitononazo (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:47:58,467 - WARNING - Tentative 3 échouée pour koibitononazo: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/koibitononazo (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:47:58,468 - ERROR - Toutes les tentatives ont échoué pour koibitononazo
+2024-08-03 06:47:58,468 - WARNING - Aucune donnée scrapée pour koibitononazo, mise à jour ignorée
+2024-08-03 06:48:03,473 - INFO - Traitement de gelatogames...
+2024-08-03 06:48:03,903 - WARNING - Tentative 1 échouée pour gelatogames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/gelatogames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:48:09,338 - WARNING - Tentative 2 échouée pour gelatogames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/gelatogames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:48:14,769 - WARNING - Tentative 3 échouée pour gelatogames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/gelatogames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:48:14,769 - ERROR - Toutes les tentatives ont échoué pour gelatogames
+2024-08-03 06:48:14,769 - WARNING - Aucune donnée scrapée pour gelatogames, mise à jour ignorée
+2024-08-03 06:48:19,774 - INFO - Traitement de ooh_thehumanity...
+2024-08-03 06:48:20,211 - WARNING - Tentative 1 échouée pour ooh_thehumanity: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ooh_thehumanity (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:48:25,649 - WARNING - Tentative 2 échouée pour ooh_thehumanity: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ooh_thehumanity (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:48:31,077 - WARNING - Tentative 3 échouée pour ooh_thehumanity: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ooh_thehumanity (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:48:31,077 - ERROR - Toutes les tentatives ont échoué pour ooh_thehumanity
+2024-08-03 06:48:31,077 - WARNING - Aucune donnée scrapée pour ooh_thehumanity, mise à jour ignorée
+2024-08-03 06:48:36,083 - INFO - Traitement de DungeonDone...
+2024-08-03 06:48:36,514 - WARNING - Tentative 1 échouée pour DungeonDone: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/DungeonDone (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:48:41,944 - WARNING - Tentative 2 échouée pour DungeonDone: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/DungeonDone (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:48:47,375 - WARNING - Tentative 3 échouée pour DungeonDone: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/DungeonDone (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:48:47,376 - ERROR - Toutes les tentatives ont échoué pour DungeonDone
+2024-08-03 06:48:47,376 - WARNING - Aucune donnée scrapée pour DungeonDone, mise à jour ignorée
+2024-08-03 06:48:52,381 - INFO - Traitement de SkyGames342342...
+2024-08-03 06:48:52,810 - WARNING - Tentative 1 échouée pour SkyGames342342: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/SkyGames342342 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:48:58,239 - WARNING - Tentative 2 échouée pour SkyGames342342: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/SkyGames342342 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:49:03,674 - WARNING - Tentative 3 échouée pour SkyGames342342: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/SkyGames342342 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:49:03,674 - ERROR - Toutes les tentatives ont échoué pour SkyGames342342
+2024-08-03 06:49:03,674 - WARNING - Aucune donnée scrapée pour SkyGames342342, mise à jour ignorée
+2024-08-03 06:49:08,679 - INFO - Traitement de Palindrome_int...
+2024-08-03 06:49:09,105 - WARNING - Tentative 1 échouée pour Palindrome_int: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Palindrome_int (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:49:14,542 - WARNING - Tentative 2 échouée pour Palindrome_int: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Palindrome_int (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:49:19,974 - WARNING - Tentative 3 échouée pour Palindrome_int: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Palindrome_int (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:49:19,974 - ERROR - Toutes les tentatives ont échoué pour Palindrome_int
+2024-08-03 06:49:19,974 - WARNING - Aucune donnée scrapée pour Palindrome_int, mise à jour ignorée
+2024-08-03 06:49:24,980 - INFO - Traitement de CAPTUREDTheGame...
+2024-08-03 06:49:25,406 - WARNING - Tentative 1 échouée pour CAPTUREDTheGame: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/CAPTUREDTheGame (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:49:30,842 - WARNING - Tentative 2 échouée pour CAPTUREDTheGame: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/CAPTUREDTheGame (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:49:36,290 - WARNING - Tentative 3 échouée pour CAPTUREDTheGame: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/CAPTUREDTheGame (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:49:36,290 - ERROR - Toutes les tentatives ont échoué pour CAPTUREDTheGame
+2024-08-03 06:49:36,290 - WARNING - Aucune donnée scrapée pour CAPTUREDTheGame, mise à jour ignorée
+2024-08-03 06:49:41,295 - INFO - Traitement de xrlabsinc...
+2024-08-03 06:49:41,724 - WARNING - Tentative 1 échouée pour xrlabsinc: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/xrlabsinc (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:49:47,154 - WARNING - Tentative 2 échouée pour xrlabsinc: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/xrlabsinc (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:49:52,600 - WARNING - Tentative 3 échouée pour xrlabsinc: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/xrlabsinc (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:49:52,600 - ERROR - Toutes les tentatives ont échoué pour xrlabsinc
+2024-08-03 06:49:52,600 - WARNING - Aucune donnée scrapée pour xrlabsinc, mise à jour ignorée
+2024-08-03 06:49:57,605 - INFO - Traitement de ironcrone...
+2024-08-03 06:49:58,028 - WARNING - Tentative 1 échouée pour ironcrone: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ironcrone (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:50:03,462 - WARNING - Tentative 2 échouée pour ironcrone: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ironcrone (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:50:09,609 - WARNING - Tentative 3 échouée pour ironcrone: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ironcrone (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:50:09,609 - ERROR - Toutes les tentatives ont échoué pour ironcrone
+2024-08-03 06:50:09,609 - WARNING - Aucune donnée scrapée pour ironcrone, mise à jour ignorée
+2024-08-03 06:50:14,614 - INFO - Traitement de citadele...
+2024-08-03 06:50:15,052 - WARNING - Tentative 1 échouée pour citadele: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/citadele (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:50:20,462 - WARNING - Tentative 2 échouée pour citadele: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/citadele (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:50:26,436 - WARNING - Tentative 3 échouée pour citadele: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/citadele (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:50:26,436 - ERROR - Toutes les tentatives ont échoué pour citadele
+2024-08-03 06:50:26,436 - WARNING - Aucune donnée scrapée pour citadele, mise à jour ignorée
+2024-08-03 06:50:31,441 - INFO - Traitement de CanWaichung...
+2024-08-03 06:50:31,787 - WARNING - Tentative 1 échouée pour CanWaichung: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/CanWaichung (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:50:38,442 - WARNING - Tentative 2 échouée pour CanWaichung: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/CanWaichung (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:50:45,576 - WARNING - Tentative 3 échouée pour CanWaichung: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/CanWaichung (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:50:45,576 - ERROR - Toutes les tentatives ont échoué pour CanWaichung
+2024-08-03 06:50:45,576 - WARNING - Aucune donnée scrapée pour CanWaichung, mise à jour ignorée
+2024-08-03 06:50:50,581 - INFO - Traitement de ...
+2024-08-03 06:50:54,535 - WARNING - Tentative 1 échouée pour : HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:51:00,139 - WARNING - Tentative 2 échouée pour : HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:51:06,318 - WARNING - Tentative 3 échouée pour : HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:51:06,318 - ERROR - Toutes les tentatives ont échoué pour 
+2024-08-03 06:51:06,318 - WARNING - Aucune donnée scrapée pour , mise à jour ignorée
+2024-08-03 06:51:11,319 - INFO - Traitement de TinyWonder_game...
+2024-08-03 06:51:15,389 - WARNING - Tentative 1 échouée pour TinyWonder_game: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/TinyWonder_game (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:51:26,506 - WARNING - Tentative 2 échouée pour TinyWonder_game: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/TinyWonder_game (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:51:31,838 - WARNING - Tentative 3 échouée pour TinyWonder_game: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/TinyWonder_game (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:51:31,838 - ERROR - Toutes les tentatives ont échoué pour TinyWonder_game
+2024-08-03 06:51:31,838 - WARNING - Aucune donnée scrapée pour TinyWonder_game, mise à jour ignorée
+2024-08-03 06:51:36,843 - INFO - Traitement de LuamarGames...
+2024-08-03 06:51:37,167 - WARNING - Tentative 1 échouée pour LuamarGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/LuamarGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:51:42,507 - WARNING - Tentative 2 échouée pour LuamarGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/LuamarGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:51:47,837 - WARNING - Tentative 3 échouée pour LuamarGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/LuamarGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:51:47,837 - ERROR - Toutes les tentatives ont échoué pour LuamarGames
+2024-08-03 06:51:47,837 - WARNING - Aucune donnée scrapée pour LuamarGames, mise à jour ignorée
+2024-08-03 06:51:52,839 - INFO - Traitement de WaifuBeachBar...
+2024-08-03 06:51:53,162 - WARNING - Tentative 1 échouée pour WaifuBeachBar: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/WaifuBeachBar (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:51:58,570 - WARNING - Tentative 2 échouée pour WaifuBeachBar: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/WaifuBeachBar (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:52:04,050 - WARNING - Tentative 3 échouée pour WaifuBeachBar: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/WaifuBeachBar (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:52:04,050 - ERROR - Toutes les tentatives ont échoué pour WaifuBeachBar
+2024-08-03 06:52:04,050 - WARNING - Aucune donnée scrapée pour WaifuBeachBar, mise à jour ignorée
+2024-08-03 06:52:09,055 - INFO - Traitement de HuntersonStudio...
+2024-08-03 06:52:09,410 - WARNING - Tentative 1 échouée pour HuntersonStudio: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/HuntersonStudio (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:52:15,054 - WARNING - Tentative 2 échouée pour HuntersonStudio: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/HuntersonStudio (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:52:20,588 - WARNING - Tentative 3 échouée pour HuntersonStudio: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/HuntersonStudio (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:52:20,588 - ERROR - Toutes les tentatives ont échoué pour HuntersonStudio
+2024-08-03 06:52:20,588 - WARNING - Aucune donnée scrapée pour HuntersonStudio, mise à jour ignorée
+2024-08-03 06:52:25,593 - INFO - Traitement de hohoufoundme...
+2024-08-03 06:52:26,046 - WARNING - Tentative 1 échouée pour hohoufoundme: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/hohoufoundme (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:52:31,874 - WARNING - Tentative 2 échouée pour hohoufoundme: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/hohoufoundme (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:52:37,406 - WARNING - Tentative 3 échouée pour hohoufoundme: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/hohoufoundme (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:52:37,407 - ERROR - Toutes les tentatives ont échoué pour hohoufoundme
+2024-08-03 06:52:37,407 - WARNING - Aucune donnée scrapée pour hohoufoundme, mise à jour ignorée
+2024-08-03 06:52:42,412 - INFO - Traitement de LTQG_...
+2024-08-03 06:52:42,916 - WARNING - Tentative 1 échouée pour LTQG_: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/LTQG_ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:52:48,411 - WARNING - Tentative 2 échouée pour LTQG_: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/LTQG_ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:52:53,807 - WARNING - Tentative 3 échouée pour LTQG_: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/LTQG_ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:52:53,807 - ERROR - Toutes les tentatives ont échoué pour LTQG_
+2024-08-03 06:52:53,807 - WARNING - Aucune donnée scrapée pour LTQG_, mise à jour ignorée
+2024-08-03 06:52:58,812 - INFO - Traitement de ToFuCatGames...
+2024-08-03 06:52:59,345 - WARNING - Tentative 1 échouée pour ToFuCatGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ToFuCatGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:53:04,735 - WARNING - Tentative 2 échouée pour ToFuCatGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ToFuCatGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:53:10,524 - WARNING - Tentative 3 échouée pour ToFuCatGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ToFuCatGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:53:10,524 - ERROR - Toutes les tentatives ont échoué pour ToFuCatGames
+2024-08-03 06:53:10,524 - WARNING - Aucune donnée scrapée pour ToFuCatGames, mise à jour ignorée
+2024-08-03 06:53:15,529 - INFO - Traitement de laterskatergame...
+2024-08-03 06:53:16,060 - WARNING - Tentative 1 échouée pour laterskatergame: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/laterskatergame (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:53:23,975 - WARNING - Tentative 2 échouée pour laterskatergame: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/laterskatergame (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:53:33,575 - WARNING - Tentative 3 échouée pour laterskatergame: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/laterskatergame (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:53:33,576 - ERROR - Toutes les tentatives ont échoué pour laterskatergame
+2024-08-03 06:53:33,576 - WARNING - Aucune donnée scrapée pour laterskatergame, mise à jour ignorée
+2024-08-03 06:53:38,581 - INFO - Traitement de ApocVerse...
+2024-08-03 06:53:40,402 - WARNING - Tentative 1 échouée pour ApocVerse: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ApocVerse (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:53:45,739 - WARNING - Tentative 2 échouée pour ApocVerse: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ApocVerse (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:53:51,070 - WARNING - Tentative 3 échouée pour ApocVerse: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/ApocVerse (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:53:51,070 - ERROR - Toutes les tentatives ont échoué pour ApocVerse
+2024-08-03 06:53:51,070 - WARNING - Aucune donnée scrapée pour ApocVerse, mise à jour ignorée
+2024-08-03 06:53:56,071 - INFO - Traitement de BonjourBorzoi...
+2024-08-03 06:53:56,977 - WARNING - Tentative 1 échouée pour BonjourBorzoi: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BonjourBorzoi (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:54:02,521 - WARNING - Tentative 2 échouée pour BonjourBorzoi: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BonjourBorzoi (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:54:08,276 - WARNING - Tentative 3 échouée pour BonjourBorzoi: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BonjourBorzoi (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:54:08,276 - ERROR - Toutes les tentatives ont échoué pour BonjourBorzoi
+2024-08-03 06:54:08,276 - WARNING - Aucune donnée scrapée pour BonjourBorzoi, mise à jour ignorée
+2024-08-03 06:54:13,281 - INFO - Traitement de BinarySunrise_...
+2024-08-03 06:54:13,864 - WARNING - Tentative 1 échouée pour BinarySunrise_: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BinarySunrise_ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:54:19,545 - WARNING - Tentative 2 échouée pour BinarySunrise_: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BinarySunrise_ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:54:25,239 - WARNING - Tentative 3 échouée pour BinarySunrise_: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BinarySunrise_ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:54:25,239 - ERROR - Toutes les tentatives ont échoué pour BinarySunrise_
+2024-08-03 06:54:25,239 - WARNING - Aucune donnée scrapée pour BinarySunrise_, mise à jour ignorée
+2024-08-03 06:54:30,244 - INFO - Traitement de corsgames_com...
+2024-08-03 06:54:30,731 - WARNING - Tentative 1 échouée pour corsgames_com: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/corsgames_com (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:54:36,268 - WARNING - Tentative 2 échouée pour corsgames_com: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/corsgames_com (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:54:41,682 - WARNING - Tentative 3 échouée pour corsgames_com: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/corsgames_com (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:54:41,682 - ERROR - Toutes les tentatives ont échoué pour corsgames_com
+2024-08-03 06:54:41,682 - WARNING - Aucune donnée scrapée pour corsgames_com, mise à jour ignorée
+2024-08-03 06:54:46,687 - INFO - Traitement de IncVuvuu...
+2024-08-03 06:54:47,164 - WARNING - Tentative 1 échouée pour IncVuvuu: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/IncVuvuu (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:54:52,630 - WARNING - Tentative 2 échouée pour IncVuvuu: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/IncVuvuu (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:54:58,086 - WARNING - Tentative 3 échouée pour IncVuvuu: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/IncVuvuu (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:54:58,086 - ERROR - Toutes les tentatives ont échoué pour IncVuvuu
+2024-08-03 06:54:58,086 - WARNING - Aucune donnée scrapée pour IncVuvuu, mise à jour ignorée
+2024-08-03 06:55:03,091 - INFO - Traitement de kairokun2010...
+2024-08-03 06:55:03,945 - WARNING - Tentative 1 échouée pour kairokun2010: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/kairokun2010 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:55:09,404 - WARNING - Tentative 2 échouée pour kairokun2010: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/kairokun2010 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:55:14,945 - WARNING - Tentative 3 échouée pour kairokun2010: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/kairokun2010 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:55:14,945 - ERROR - Toutes les tentatives ont échoué pour kairokun2010
+2024-08-03 06:55:14,945 - WARNING - Aucune donnée scrapée pour kairokun2010, mise à jour ignorée
+2024-08-03 06:55:19,950 - INFO - Traitement de arcadesindo...
+2024-08-03 06:55:20,284 - WARNING - Tentative 1 échouée pour arcadesindo: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/arcadesindo (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:55:25,632 - WARNING - Tentative 2 échouée pour arcadesindo: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/arcadesindo (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:55:30,966 - WARNING - Tentative 3 échouée pour arcadesindo: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/arcadesindo (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))))
+2024-08-03 06:55:30,966 - ERROR - Toutes les tentatives ont échoué pour arcadesindo
+2024-08-03 06:55:30,966 - WARNING - Aucune donnée scrapée pour arcadesindo, mise à jour ignorée
+2024-08-03 06:55:35,971 - INFO - Traitement de triomatica...
+2024-08-03 06:55:36,314 - WARNING - Tentative 1 échouée pour triomatica: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/triomatica (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:55:41,657 - WARNING - Tentative 2 échouée pour triomatica: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/triomatica (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:55:47,004 - WARNING - Tentative 3 échouée pour triomatica: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/triomatica (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:55:47,004 - ERROR - Toutes les tentatives ont échoué pour triomatica
+2024-08-03 06:55:47,004 - WARNING - Aucune donnée scrapée pour triomatica, mise à jour ignorée
+2024-08-03 06:55:52,009 - INFO - Traitement de HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09...
+2024-08-03 06:55:52,345 - WARNING - Tentative 1 échouée pour HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:55:57,691 - WARNING - Tentative 2 échouée pour HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))))
+2024-08-03 06:56:03,036 - WARNING - Tentative 3 échouée pour HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:56:03,036 - ERROR - Toutes les tentatives ont échoué pour HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09
+2024-08-03 06:56:03,036 - WARNING - Aucune donnée scrapée pour HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09, mise à jour ignorée
+2024-08-03 06:56:08,042 - INFO - Traitement de brain_syringe...
+2024-08-03 06:56:08,401 - WARNING - Tentative 1 échouée pour brain_syringe: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/brain_syringe (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))))
+2024-08-03 06:56:13,740 - WARNING - Tentative 2 échouée pour brain_syringe: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/brain_syringe (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))))
+2024-08-03 06:56:19,088 - WARNING - Tentative 3 échouée pour brain_syringe: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/brain_syringe (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:56:19,089 - ERROR - Toutes les tentatives ont échoué pour brain_syringe
+2024-08-03 06:56:19,089 - WARNING - Aucune donnée scrapée pour brain_syringe, mise à jour ignorée
+2024-08-03 06:56:24,092 - INFO - Traitement de FinalBlowCorp...
+2024-08-03 06:56:24,428 - WARNING - Tentative 1 échouée pour FinalBlowCorp: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/FinalBlowCorp (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))))
+2024-08-03 06:56:29,777 - WARNING - Tentative 2 échouée pour FinalBlowCorp: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/FinalBlowCorp (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:56:35,119 - WARNING - Tentative 3 échouée pour FinalBlowCorp: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/FinalBlowCorp (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:56:35,119 - ERROR - Toutes les tentatives ont échoué pour FinalBlowCorp
+2024-08-03 06:56:35,119 - WARNING - Aucune donnée scrapée pour FinalBlowCorp, mise à jour ignorée
+2024-08-03 06:56:40,124 - INFO - Traitement de otterhandsgames...
+2024-08-03 06:56:40,459 - WARNING - Tentative 1 échouée pour otterhandsgames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/otterhandsgames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:56:45,805 - WARNING - Tentative 2 échouée pour otterhandsgames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/otterhandsgames (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))))
+2024-08-03 06:56:51,149 - WARNING - Tentative 3 échouée pour otterhandsgames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/otterhandsgames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:56:51,149 - ERROR - Toutes les tentatives ont échoué pour otterhandsgames
+2024-08-03 06:56:51,149 - WARNING - Aucune donnée scrapée pour otterhandsgames, mise à jour ignorée
+2024-08-03 06:56:56,155 - INFO - Traitement de happyland_games...
+2024-08-03 06:56:56,487 - WARNING - Tentative 1 échouée pour happyland_games: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/happyland_games (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))))
+2024-08-03 06:57:01,835 - WARNING - Tentative 2 échouée pour happyland_games: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/happyland_games (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))))
+2024-08-03 06:57:07,173 - WARNING - Tentative 3 échouée pour happyland_games: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/happyland_games (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:57:07,173 - ERROR - Toutes les tentatives ont échoué pour happyland_games
+2024-08-03 06:57:07,173 - WARNING - Aucune donnée scrapée pour happyland_games, mise à jour ignorée
+2024-08-03 06:57:12,179 - INFO - Traitement de BlackLPMain...
+2024-08-03 06:57:12,516 - WARNING - Tentative 1 échouée pour BlackLPMain: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BlackLPMain (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:57:17,851 - WARNING - Tentative 2 échouée pour BlackLPMain: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BlackLPMain (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:57:23,191 - WARNING - Tentative 3 échouée pour BlackLPMain: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BlackLPMain (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:57:23,191 - ERROR - Toutes les tentatives ont échoué pour BlackLPMain
+2024-08-03 06:57:23,191 - WARNING - Aucune donnée scrapée pour BlackLPMain, mise à jour ignorée
+2024-08-03 06:57:28,197 - INFO - Traitement de liamflannery56...
+2024-08-03 06:57:28,533 - WARNING - Tentative 1 échouée pour liamflannery56: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/liamflannery56 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:57:33,888 - WARNING - Tentative 2 échouée pour liamflannery56: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/liamflannery56 (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))))
+2024-08-03 06:57:39,226 - WARNING - Tentative 3 échouée pour liamflannery56: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/liamflannery56 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:57:39,226 - ERROR - Toutes les tentatives ont échoué pour liamflannery56
+2024-08-03 06:57:39,226 - WARNING - Aucune donnée scrapée pour liamflannery56, mise à jour ignorée
+2024-08-03 06:57:44,231 - INFO - Traitement de PastonStudios...
+2024-08-03 06:57:44,595 - WARNING - Tentative 1 échouée pour PastonStudios: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/PastonStudios (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))))
+2024-08-03 06:57:49,932 - WARNING - Tentative 2 échouée pour PastonStudios: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/PastonStudios (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))))
+2024-08-03 06:57:55,279 - WARNING - Tentative 3 échouée pour PastonStudios: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/PastonStudios (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:57:55,279 - ERROR - Toutes les tentatives ont échoué pour PastonStudios
+2024-08-03 06:57:55,279 - WARNING - Aucune donnée scrapée pour PastonStudios, mise à jour ignorée
+2024-08-03 06:58:00,285 - INFO - Traitement de Rufa_snm...
+2024-08-03 06:58:00,617 - WARNING - Tentative 1 échouée pour Rufa_snm: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Rufa_snm (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:58:05,960 - WARNING - Tentative 2 échouée pour Rufa_snm: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Rufa_snm (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:58:11,301 - WARNING - Tentative 3 échouée pour Rufa_snm: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Rufa_snm (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:58:11,301 - ERROR - Toutes les tentatives ont échoué pour Rufa_snm
+2024-08-03 06:58:11,301 - WARNING - Aucune donnée scrapée pour Rufa_snm, mise à jour ignorée
+2024-08-03 06:58:16,306 - INFO - Traitement de hiyoko_oss...
+2024-08-03 06:58:16,647 - WARNING - Tentative 1 échouée pour hiyoko_oss: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/hiyoko_oss (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:58:21,993 - WARNING - Tentative 2 échouée pour hiyoko_oss: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/hiyoko_oss (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:58:27,333 - WARNING - Tentative 3 échouée pour hiyoko_oss: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/hiyoko_oss (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:58:27,333 - ERROR - Toutes les tentatives ont échoué pour hiyoko_oss
+2024-08-03 06:58:27,333 - WARNING - Aucune donnée scrapée pour hiyoko_oss, mise à jour ignorée
+2024-08-03 06:58:32,338 - INFO - Traitement de CrystalGameWork...
+2024-08-03 06:58:32,698 - WARNING - Tentative 1 échouée pour CrystalGameWork: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/CrystalGameWork (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:58:38,047 - WARNING - Tentative 2 échouée pour CrystalGameWork: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/CrystalGameWork (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:58:43,383 - WARNING - Tentative 3 échouée pour CrystalGameWork: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/CrystalGameWork (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:58:43,384 - ERROR - Toutes les tentatives ont échoué pour CrystalGameWork
+2024-08-03 06:58:43,384 - WARNING - Aucune donnée scrapée pour CrystalGameWork, mise à jour ignorée
+2024-08-03 06:58:48,389 - INFO - Traitement de dayme200...
+2024-08-03 06:58:48,744 - WARNING - Tentative 1 échouée pour dayme200: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/dayme200 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:58:54,078 - WARNING - Tentative 2 échouée pour dayme200: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/dayme200 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:58:59,433 - WARNING - Tentative 3 échouée pour dayme200: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/dayme200 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:58:59,433 - ERROR - Toutes les tentatives ont échoué pour dayme200
+2024-08-03 06:58:59,434 - WARNING - Aucune donnée scrapée pour dayme200, mise à jour ignorée
+2024-08-03 06:59:04,439 - INFO - Traitement de grantmarrs_...
+2024-08-03 06:59:04,770 - WARNING - Tentative 1 échouée pour grantmarrs_: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/grantmarrs_ (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))))
+2024-08-03 06:59:09,811 - WARNING - Tentative 2 échouée pour grantmarrs_: Failed to parse: https://<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | api.proxyscrape.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 8ad46c6239a6fa7e &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2024-08-03 06:59:09 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (api.proxyscrape.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">8ad46c6239a6fa7e</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">13.83.123.116</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>
+2024-08-03 06:59:15,158 - WARNING - Tentative 3 échouée pour grantmarrs_: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/grantmarrs_ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:59:15,158 - ERROR - Toutes les tentatives ont échoué pour grantmarrs_
+2024-08-03 06:59:15,158 - WARNING - Aucune donnée scrapée pour grantmarrs_, mise à jour ignorée
+2024-08-03 06:59:20,163 - INFO - Traitement de noobzilla_team...
+2024-08-03 06:59:20,188 - WARNING - Tentative 1 échouée pour noobzilla_team: Failed to parse: https://<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | api.proxyscrape.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 8ad46ca31af5fa7e &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2024-08-03 06:59:20 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (api.proxyscrape.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">8ad46ca31af5fa7e</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">13.83.123.116</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>
+2024-08-03 06:59:25,537 - WARNING - Tentative 2 échouée pour noobzilla_team: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/noobzilla_team (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:59:30,567 - WARNING - Tentative 3 échouée pour noobzilla_team: Failed to parse: https://<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | api.proxyscrape.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 8ad46ce3f9c0fa7e &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2024-08-03 06:59:30 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (api.proxyscrape.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">8ad46ce3f9c0fa7e</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">13.83.123.116</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>
+2024-08-03 06:59:30,567 - ERROR - Toutes les tentatives ont échoué pour noobzilla_team
+2024-08-03 06:59:30,567 - WARNING - Aucune donnée scrapée pour noobzilla_team, mise à jour ignorée
+2024-08-03 06:59:35,572 - INFO - Traitement de Dawn_Fades_...
+2024-08-03 06:59:35,931 - WARNING - Tentative 1 échouée pour Dawn_Fades_: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Dawn_Fades_ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:59:40,965 - WARNING - Tentative 2 échouée pour Dawn_Fades_: Failed to parse: https://<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | api.proxyscrape.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 8ad46d24f8f05c19 &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2024-08-03 06:59:40 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (api.proxyscrape.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">8ad46d24f8f05c19</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">13.83.123.116</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>
+2024-08-03 06:59:46,000 - WARNING - Tentative 3 échouée pour Dawn_Fades_: Failed to parse: https://<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | api.proxyscrape.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 8ad46d446bcffa7e &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2024-08-03 06:59:45 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (api.proxyscrape.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">8ad46d446bcffa7e</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">13.83.123.116</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>
+2024-08-03 06:59:46,000 - ERROR - Toutes les tentatives ont échoué pour Dawn_Fades_
+2024-08-03 06:59:46,001 - WARNING - Aucune donnée scrapée pour Dawn_Fades_, mise à jour ignorée
+2024-08-03 06:59:51,006 - INFO - Traitement de jackboxgames...
+2024-08-03 06:59:51,348 - WARNING - Tentative 1 échouée pour jackboxgames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/jackboxgames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 06:59:56,374 - WARNING - Tentative 2 échouée pour jackboxgames: Failed to parse: https://<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | api.proxyscrape.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 8ad46d854e8a5c19 &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2024-08-03 06:59:56 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (api.proxyscrape.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">8ad46d854e8a5c19</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">13.83.123.116</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>
+2024-08-03 07:00:01,721 - WARNING - Tentative 3 échouée pour jackboxgames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/jackboxgames (Caused by ProxyError('Unable to connect to proxy', SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1007)'))))
+2024-08-03 07:00:01,721 - ERROR - Toutes les tentatives ont échoué pour jackboxgames
+2024-08-03 07:00:01,721 - WARNING - Aucune donnée scrapée pour jackboxgames, mise à jour ignorée
+2024-08-03 07:00:06,727 - INFO - Traitement de radikate_com...
+2024-08-03 07:00:07,071 - WARNING - Tentative 1 échouée pour radikate_com: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/radikate_com (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:00:12,421 - WARNING - Tentative 2 échouée pour radikate_com: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/radikate_com (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:00:17,450 - WARNING - Tentative 3 échouée pour radikate_com: Failed to parse: https://<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | api.proxyscrape.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 8ad46e090cc2cf8f &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2024-08-03 07:00:17 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (api.proxyscrape.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">8ad46e090cc2cf8f</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">13.83.123.116</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>
+2024-08-03 07:00:17,450 - ERROR - Toutes les tentatives ont échoué pour radikate_com
+2024-08-03 07:00:17,450 - WARNING - Aucune donnée scrapée pour radikate_com, mise à jour ignorée
+2024-08-03 07:00:22,455 - INFO - Traitement de owlgamedev...
+2024-08-03 07:00:23,136 - WARNING - Tentative 1 échouée pour owlgamedev: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/owlgamedev (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:00:28,633 - WARNING - Tentative 2 échouée pour owlgamedev: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/owlgamedev (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:00:34,119 - WARNING - Tentative 3 échouée pour owlgamedev: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/owlgamedev (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:00:34,119 - ERROR - Toutes les tentatives ont échoué pour owlgamedev
+2024-08-03 07:00:34,119 - WARNING - Aucune donnée scrapée pour owlgamedev, mise à jour ignorée
+2024-08-03 07:00:39,123 - INFO - Traitement de Komodobit_Games...
+2024-08-03 07:00:39,604 - WARNING - Tentative 1 échouée pour Komodobit_Games: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Komodobit_Games (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:00:45,093 - WARNING - Tentative 2 échouée pour Komodobit_Games: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Komodobit_Games (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:00:50,584 - WARNING - Tentative 3 échouée pour Komodobit_Games: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Komodobit_Games (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:00:50,584 - ERROR - Toutes les tentatives ont échoué pour Komodobit_Games
+2024-08-03 07:00:50,585 - WARNING - Aucune donnée scrapée pour Komodobit_Games, mise à jour ignorée
+2024-08-03 07:00:55,590 - INFO - Traitement de DevilCanBeat...
+2024-08-03 07:00:56,070 - WARNING - Tentative 1 échouée pour DevilCanBeat: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/DevilCanBeat (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:01:01,560 - WARNING - Tentative 2 échouée pour DevilCanBeat: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/DevilCanBeat (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:01:07,058 - WARNING - Tentative 3 échouée pour DevilCanBeat: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/DevilCanBeat (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:01:07,058 - ERROR - Toutes les tentatives ont échoué pour DevilCanBeat
+2024-08-03 07:01:07,058 - WARNING - Aucune donnée scrapée pour DevilCanBeat, mise à jour ignorée
+2024-08-03 07:01:12,063 - INFO - Traitement de lukewasthefish...
+2024-08-03 07:01:12,548 - WARNING - Tentative 1 échouée pour lukewasthefish: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/lukewasthefish (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:01:17,575 - WARNING - Tentative 2 échouée pour lukewasthefish: Failed to parse: https://<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | api.proxyscrape.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 8ad46f80caf6cf8f &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2024-08-03 07:01:17 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (api.proxyscrape.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">8ad46f80caf6cf8f</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">13.83.123.116</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>
+2024-08-03 07:01:23,065 - WARNING - Tentative 3 échouée pour lukewasthefish: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/lukewasthefish (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:01:23,066 - ERROR - Toutes les tentatives ont échoué pour lukewasthefish
+2024-08-03 07:01:23,066 - WARNING - Aucune donnée scrapée pour lukewasthefish, mise à jour ignorée
+2024-08-03 07:01:28,071 - INFO - Traitement de Camel_birds...
+2024-08-03 07:01:28,561 - WARNING - Tentative 1 échouée pour Camel_birds: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Camel_birds (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:01:34,052 - WARNING - Tentative 2 échouée pour Camel_birds: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Camel_birds (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:01:39,543 - WARNING - Tentative 3 échouée pour Camel_birds: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Camel_birds (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:01:39,543 - ERROR - Toutes les tentatives ont échoué pour Camel_birds
+2024-08-03 07:01:39,543 - WARNING - Aucune donnée scrapée pour Camel_birds, mise à jour ignorée
+2024-08-03 07:01:44,549 - INFO - Traitement de FunAsylumStudio...
+2024-08-03 07:01:45,027 - WARNING - Tentative 1 échouée pour FunAsylumStudio: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/FunAsylumStudio (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:01:50,518 - WARNING - Tentative 2 échouée pour FunAsylumStudio: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/FunAsylumStudio (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:01:56,000 - WARNING - Tentative 3 échouée pour FunAsylumStudio: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/FunAsylumStudio (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:01:56,000 - ERROR - Toutes les tentatives ont échoué pour FunAsylumStudio
+2024-08-03 07:01:56,001 - WARNING - Aucune donnée scrapée pour FunAsylumStudio, mise à jour ignorée
+2024-08-03 07:02:01,006 - INFO - Traitement de Kan_Kikuchi...
+2024-08-03 07:02:01,486 - WARNING - Tentative 1 échouée pour Kan_Kikuchi: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Kan_Kikuchi (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:02:06,970 - WARNING - Tentative 2 échouée pour Kan_Kikuchi: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/Kan_Kikuchi (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:02:12,002 - WARNING - Tentative 3 échouée pour Kan_Kikuchi: Failed to parse: https://<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | api.proxyscrape.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 8ad470d4e8b0fa7e &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2024-08-03 07:02:12 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (api.proxyscrape.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">8ad470d4e8b0fa7e</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">13.83.123.116</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>
+2024-08-03 07:02:12,002 - ERROR - Toutes les tentatives ont échoué pour Kan_Kikuchi
+2024-08-03 07:02:12,002 - WARNING - Aucune donnée scrapée pour Kan_Kikuchi, mise à jour ignorée
+2024-08-03 07:02:17,007 - INFO - Traitement de GossiamGames...
+2024-08-03 07:02:17,486 - WARNING - Tentative 1 échouée pour GossiamGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/GossiamGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:02:22,974 - WARNING - Tentative 2 échouée pour GossiamGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/GossiamGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:02:28,457 - WARNING - Tentative 3 échouée pour GossiamGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/GossiamGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:02:28,457 - ERROR - Toutes les tentatives ont échoué pour GossiamGames
+2024-08-03 07:02:28,457 - WARNING - Aucune donnée scrapée pour GossiamGames, mise à jour ignorée
+2024-08-03 07:02:33,462 - INFO - Traitement de LexiconGame...
+2024-08-03 07:02:33,942 - WARNING - Tentative 1 échouée pour LexiconGame: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/LexiconGame (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:02:39,429 - WARNING - Tentative 2 échouée pour LexiconGame: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/LexiconGame (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:02:44,918 - WARNING - Tentative 3 échouée pour LexiconGame: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/LexiconGame (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:02:44,918 - ERROR - Toutes les tentatives ont échoué pour LexiconGame
+2024-08-03 07:02:44,918 - WARNING - Aucune donnée scrapée pour LexiconGame, mise à jour ignorée
+2024-08-03 07:02:49,923 - INFO - Traitement de RheinlandGames...
+2024-08-03 07:02:50,414 - WARNING - Tentative 1 échouée pour RheinlandGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/RheinlandGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:02:55,903 - WARNING - Tentative 2 échouée pour RheinlandGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/RheinlandGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:03:01,393 - WARNING - Tentative 3 échouée pour RheinlandGames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/RheinlandGames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:03:01,393 - ERROR - Toutes les tentatives ont échoué pour RheinlandGames
+2024-08-03 07:03:01,393 - WARNING - Aucune donnée scrapée pour RheinlandGames, mise à jour ignorée
+2024-08-03 07:03:06,398 - INFO - Traitement de korycodeyt...
+2024-08-03 07:03:06,880 - WARNING - Tentative 1 échouée pour korycodeyt: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/korycodeyt (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:03:11,913 - WARNING - Tentative 2 échouée pour korycodeyt: Failed to parse: https://<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | api.proxyscrape.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 8ad4724b6ec75c19 &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2024-08-03 07:03:11 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (api.proxyscrape.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">8ad4724b6ec75c19</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">13.83.123.116</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>
+2024-08-03 07:03:17,393 - WARNING - Tentative 3 échouée pour korycodeyt: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/korycodeyt (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:03:17,393 - ERROR - Toutes les tentatives ont échoué pour korycodeyt
+2024-08-03 07:03:17,394 - WARNING - Aucune donnée scrapée pour korycodeyt, mise à jour ignorée
+2024-08-03 07:03:22,399 - INFO - Traitement de TrueGamesStudio...
+2024-08-03 07:03:22,883 - WARNING - Tentative 1 échouée pour TrueGamesStudio: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/TrueGamesStudio (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:03:28,372 - WARNING - Tentative 2 échouée pour TrueGamesStudio: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/TrueGamesStudio (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:03:33,871 - WARNING - Tentative 3 échouée pour TrueGamesStudio: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/TrueGamesStudio (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:03:33,872 - ERROR - Toutes les tentatives ont échoué pour TrueGamesStudio
+2024-08-03 07:03:33,872 - WARNING - Aucune donnée scrapée pour TrueGamesStudio, mise à jour ignorée
+2024-08-03 07:03:38,877 - INFO - Traitement de andii1701...
+2024-08-03 07:03:39,366 - WARNING - Tentative 1 échouée pour andii1701: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/andii1701 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:03:44,852 - WARNING - Tentative 2 échouée pour andii1701: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/andii1701 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:03:50,344 - WARNING - Tentative 3 échouée pour andii1701: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/andii1701 (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:03:50,344 - ERROR - Toutes les tentatives ont échoué pour andii1701
+2024-08-03 07:03:50,344 - WARNING - Aucune donnée scrapée pour andii1701, mise à jour ignorée
+2024-08-03 07:03:55,349 - INFO - Traitement de BlockFactory__...
+2024-08-03 07:03:55,831 - WARNING - Tentative 1 échouée pour BlockFactory__: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BlockFactory__ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:04:01,320 - WARNING - Tentative 2 échouée pour BlockFactory__: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BlockFactory__ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:04:06,807 - WARNING - Tentative 3 échouée pour BlockFactory__: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/BlockFactory__ (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:04:06,807 - ERROR - Toutes les tentatives ont échoué pour BlockFactory__
+2024-08-03 07:04:06,807 - WARNING - Aucune donnée scrapée pour BlockFactory__, mise à jour ignorée
+2024-08-03 07:04:11,812 - INFO - Traitement de bugbeargames...
+2024-08-03 07:04:11,845 - WARNING - Tentative 1 échouée pour bugbeargames: Failed to parse: https://<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<title>Access denied | api.proxyscrape.com used Cloudflare to restrict access</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+<script>
+(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById("error-feedback-survey"),d=document.getElementById("error-feedback-success"),b=new XMLHttpRequest;a={event:"feedback clicked",properties:{errorCode:1015,helpful:a,version:1}};b.open("POST","https://sparrow.cloudflare.com/api/v1/event");b.setRequestHeader("Content-Type","application/json");b.setRequestHeader("Sparrow-Source-Key","c771f0e4b54944bebf4261d44bd79a1e");
+b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove("feedback-hidden")};document.addEventListener("DOMContentLoaded",function(){var a=document.getElementById("error-feedback"),c=document.getElementById("feedback-button-yes"),d=document.getElementById("feedback-button-no");"classList"in a&&(a.classList.remove("feedback-hidden"),c.addEventListener("click",function(){e(!0)}),d.addEventListener("click",function(){e(!1)}))})}})();
+</script>
+
+<script defer src="https://performance.radar.cloudflare.com/beacon.js"></script>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error hidden" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="p-0">
+      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
+         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
+           <span data-translate="error">Error</span>
+           <span>1015</span>
+         </h1>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">Ray ID: 8ad473c1eb5ffa7e &bull;</span>
+         <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">2024-08-03 07:04:11 UTC</span>
+        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">You are being rate limited</h2>
+      </header>
+
+      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div id="what-happened-section" class="w-1/2 md:w-full">
+            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">What happened?</h2>
+            <p>The owner of this website (api.proxyscrape.com) has banned you temporarily from accessing this website.</p>
+            
+          </div>
+
+          
+      </section>
+
+      <div class="feedback-hidden py-8 text-center" id="error-feedback">
+    <div id="error-feedback-survey" class="footer-line-wrapper">
+        Was this page helpful?
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-yes" type="button">Yes</button>
+        <button class="border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded" id="feedback-button-no" type="button">No</button>
+    </div>
+    <div class="feedback-success feedback-hidden" id="error-feedback-success">
+        Thank you for your feedback!
+    </div>
+</div>
+
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">8ad473c1eb5ffa7e</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">13.83.123.116</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div><!-- /#cf-error-details -->
+  </div><!-- /#cf-wrapper -->
+
+  <script>
+  window._cf_translation = {};
+  
+  
+</script>
+
+</body>
+</html>
+2024-08-03 07:04:17,333 - WARNING - Tentative 2 échouée pour bugbeargames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/bugbeargames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:04:22,819 - WARNING - Tentative 3 échouée pour bugbeargames: HTTPSConnectionPool(host='socialblade.com', port=443): Max retries exceeded with url: /twitter/user/bugbeargames (Caused by ProxyError('Unable to connect to proxy. Your proxy appears to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#https-proxy-error-http-proxy', SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1007)'))))
+2024-08-03 07:04:22,819 - ERROR - Toutes les tentatives ont échoué pour bugbeargames
+2024-08-03 07:04:22,819 - WARNING - Aucune donnée scrapée pour bugbeargames, mise à jour ignorée
+2024-08-03 07:04:27,825 - INFO - Après la mise à jour, affichage des 5 entrées les plus récentes:
+2024-08-03 07:04:27,825 - INFO - (75, 1722432269, 3075670, '@EvolverDynamics', 1722604203, 111, 48, 19, '2024-05-22')
+2024-08-03 07:04:27,825 - INFO - (76, 1722432269, 2820700, '@BFGOfficial_', 1722604203, 126, 34, 20, '2023-05-16')
+2024-08-03 07:04:27,825 - INFO - (77, 1722432272, 3070560, '@SaikeyStudios', 1722604203, 10247, 375, 552, '2022-07-06')
+2024-08-03 07:04:27,825 - INFO - (78, 1722432277, 3118700, '@Keter_Studio', 1722604203, 32, 11, 4, '2023-04-11')
+2024-08-03 07:04:27,825 - INFO - (79, 1722432310, 3123920, '@intrugligames', 1722604203, 29, 20, 88, '2023-11-28')
+2024-08-03 07:04:27,825 - INFO - Connexion à la base de données fermée.
