@@ -411,12 +411,16 @@ def insert_developer_social_media(game_id, twitter_handle):
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     add_date INTEGER,
                     game_id INTEGER,
-                    twitter_handle TEXT,
+                    x_handle TEXT,
                     scrap_date INTEGER,
-                    followers_count INTEGER,
-                    following_count INTEGER,
+                    x_followers INTEGER,
+                    x_following INTEGER,
                     tweets_count INTEGER,
-                    creation_date INTEGER
+                    x_creation_date INTEGER,
+                    yt_views INTEGER,
+                    yt_creation_date INTEGER,
+                    yt_uploads INTEGER,
+                    yt_subscribers INTEGER
                 )
             ''')
             
@@ -611,10 +615,6 @@ if __name__ == "__main__":
         result = main()
         if result is not None:
             total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, db_url = result
-            
-            #if new_last_timestamp > last_timestamp:
-                #write_last_timestamp(new_last_timestamp)
-                #print(f"Timestamp mis à jour : {new_last_timestamp}")
 
             print(f"\nRésumé : {published_games} jeux publiés sur {total_games} jeux traités au total.")
             print(f"Tweets prioritaires : {len(priority_tweets)}")
