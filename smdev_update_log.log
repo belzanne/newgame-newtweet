@@ -7376,3 +7376,6 @@ b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove(
 2024-08-05 17:46:24,597 - INFO - Données scrapées pour HenahurraHGaming: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
 2024-08-05 17:46:26,321 - INFO - Données YouTube scrapées pour HenahurraHGaming: {'yt_views': 56, 'yt_creation_date': 1331334000, 'yt_uploads': 7, 'yt_subscribers': 6}
 2024-08-05 17:46:35,431 - INFO - Données scrapées pour HenahurraHGaming: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:25:14,461 - INFO - Connecté à la base de données
+2024-08-05 16:25:14,462 - INFO - Trouvé 0 handles Twitter à traiter
+2024-08-05 16:25:14,462 - INFO - Connexion à la base de données fermée.
