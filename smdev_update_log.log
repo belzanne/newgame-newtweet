@@ -6806,3 +6806,573 @@ b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove(
 2024-08-05 07:06:53,670 - INFO - (78, 1722432277, 3118700, '@Keter_Studio', 1722604203, 32, 11, 4, '2023-04-11')
 2024-08-05 07:06:53,670 - INFO - (79, 1722432310, 3123920, '@intrugligames', 1722604203, 29, 20, 88, '2023-11-28')
 2024-08-05 07:06:53,670 - INFO - Connexion à la base de données fermée.
+2024-08-05 14:36:28,666 - INFO - Connecté à la base de données
+2024-08-05 14:36:28,666 - INFO - Trouvé 84 handles Twitter à traiter
+2024-08-05 14:36:28,666 - INFO - Traitement de EvolverDynamics...
+2024-08-05 14:36:29,071 - INFO - Données scrapées pour EvolverDynamics: {'followers': 123, 'following': 52, 'tweets': 22, 'created_date': '2024-05-22'}
+2024-08-05 14:36:29,072 - INFO - Données enregistrées pour EvolverDynamics
+2024-08-05 14:36:34,077 - INFO - Traitement de BFGOfficial_...
+2024-08-05 14:36:34,457 - INFO - Données scrapées pour BFGOfficial_: {'followers': 135, 'following': 34, 'tweets': 20, 'created_date': '2023-05-16'}
+2024-08-05 14:36:34,458 - INFO - Données enregistrées pour BFGOfficial_
+2024-08-05 14:36:39,463 - INFO - Traitement de SaikeyStudios...
+2024-08-05 14:36:40,026 - INFO - Données scrapées pour SaikeyStudios: {'followers': 10356, 'following': 377, 'tweets': 554, 'created_date': '2022-07-06'}
+2024-08-05 14:36:40,028 - INFO - Données enregistrées pour SaikeyStudios
+2024-08-05 14:36:45,030 - INFO - Traitement de Keter_Studio...
+2024-08-05 14:36:45,387 - INFO - Données scrapées pour Keter_Studio: {'followers': 33, 'following': 11, 'tweets': 4, 'created_date': '2023-04-11'}
+2024-08-05 14:36:45,388 - INFO - Données enregistrées pour Keter_Studio
+2024-08-05 14:36:50,393 - INFO - Traitement de intrugligames...
+2024-08-05 14:36:50,586 - INFO - Données scrapées pour intrugligames: {'followers': 29, 'following': 20, 'tweets': 88, 'created_date': '2023-11-28'}
+2024-08-05 14:36:50,587 - INFO - Données enregistrées pour intrugligames
+2024-08-05 14:36:55,592 - INFO - Traitement de SunMorGames...
+2024-08-05 14:36:55,902 - WARNING - Tentative 1 échouée pour SunMorGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/sunmorgames
+2024-08-05 14:37:01,224 - WARNING - Tentative 2 échouée pour SunMorGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/sunmorgames
+2024-08-05 14:37:06,576 - WARNING - Tentative 3 échouée pour SunMorGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/sunmorgames
+2024-08-05 14:37:06,576 - ERROR - Toutes les tentatives ont échoué pour SunMorGames
+2024-08-05 14:37:06,576 - WARNING - Aucune donnée scrapée pour SunMorGames, mise à jour ignorée
+2024-08-05 14:37:11,577 - INFO - Traitement de TheVisionGame...
+2024-08-05 14:37:11,627 - WARNING - Tentative 1 échouée pour TheVisionGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/TheVisionGame
+2024-08-05 14:37:16,836 - WARNING - Tentative 2 échouée pour TheVisionGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/thevisiongame
+2024-08-05 14:37:22,062 - WARNING - Tentative 3 échouée pour TheVisionGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/thevisiongame
+2024-08-05 14:37:22,063 - ERROR - Toutes les tentatives ont échoué pour TheVisionGame
+2024-08-05 14:37:22,063 - WARNING - Aucune donnée scrapée pour TheVisionGame, mise à jour ignorée
+2024-08-05 14:37:27,068 - INFO - Traitement de DwarvenInfantry...
+2024-08-05 14:37:27,282 - WARNING - Tentative 1 échouée pour DwarvenInfantry: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/dwarveninfantry
+2024-08-05 14:37:32,488 - WARNING - Tentative 2 échouée pour DwarvenInfantry: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/dwarveninfantry
+2024-08-05 14:37:37,693 - WARNING - Tentative 3 échouée pour DwarvenInfantry: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/dwarveninfantry
+2024-08-05 14:37:37,693 - ERROR - Toutes les tentatives ont échoué pour DwarvenInfantry
+2024-08-05 14:37:37,693 - WARNING - Aucune donnée scrapée pour DwarvenInfantry, mise à jour ignorée
+2024-08-05 14:37:42,699 - INFO - Traitement de koibitononazo...
+2024-08-05 14:37:42,901 - INFO - Données scrapées pour koibitononazo: {'followers': 32, 'following': 37, 'tweets': 59, 'created_date': '2024-04-16'}
+2024-08-05 14:37:42,902 - INFO - Données enregistrées pour koibitononazo
+2024-08-05 14:37:47,908 - INFO - Traitement de gelatogames...
+2024-08-05 14:37:47,962 - WARNING - Tentative 1 échouée pour gelatogames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/gelatogames
+2024-08-05 14:37:54,955 - INFO - Données scrapées pour gelatogames: {'followers': 1754, 'following': 137, 'tweets': 548, 'created_date': '2012-11-01'}
+2024-08-05 14:37:54,956 - INFO - Données enregistrées pour gelatogames
+2024-08-05 14:37:59,962 - INFO - Traitement de ooh_thehumanity...
+2024-08-05 14:38:00,227 - INFO - Données scrapées pour ooh_thehumanity: {'followers': 5, 'following': 6, 'tweets': 3, 'created_date': '2024-07-11'}
+2024-08-05 14:38:00,228 - INFO - Données enregistrées pour ooh_thehumanity
+2024-08-05 14:38:05,233 - INFO - Traitement de DungeonDone...
+2024-08-05 14:38:05,443 - WARNING - Tentative 1 échouée pour DungeonDone: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/dungeondone
+2024-08-05 14:38:10,644 - WARNING - Tentative 2 échouée pour DungeonDone: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/dungeondone
+2024-08-05 14:38:15,834 - WARNING - Tentative 3 échouée pour DungeonDone: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/dungeondone
+2024-08-05 14:38:15,835 - ERROR - Toutes les tentatives ont échoué pour DungeonDone
+2024-08-05 14:38:15,838 - WARNING - Aucune donnée scrapée pour DungeonDone, mise à jour ignorée
+2024-08-05 14:38:20,843 - INFO - Traitement de SkyGames342342...
+2024-08-05 14:38:21,057 - WARNING - Tentative 1 échouée pour SkyGames342342: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/skygames342342
+2024-08-05 14:38:26,099 - WARNING - Tentative 2 échouée pour SkyGames342342: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/SkyGames342342
+2024-08-05 14:38:31,298 - WARNING - Tentative 3 échouée pour SkyGames342342: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/skygames342342
+2024-08-05 14:38:31,299 - ERROR - Toutes les tentatives ont échoué pour SkyGames342342
+2024-08-05 14:38:31,299 - WARNING - Aucune donnée scrapée pour SkyGames342342, mise à jour ignorée
+2024-08-05 14:38:36,304 - INFO - Traitement de Palindrome_int...
+2024-08-05 14:38:37,002 - WARNING - Tentative 1 échouée pour Palindrome_int: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/palindrome_int
+2024-08-05 14:38:42,248 - WARNING - Tentative 2 échouée pour Palindrome_int: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/palindrome_int
+2024-08-05 14:38:47,512 - WARNING - Tentative 3 échouée pour Palindrome_int: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/palindrome_int
+2024-08-05 14:38:47,512 - ERROR - Toutes les tentatives ont échoué pour Palindrome_int
+2024-08-05 14:38:47,513 - WARNING - Aucune donnée scrapée pour Palindrome_int, mise à jour ignorée
+2024-08-05 14:38:52,518 - INFO - Traitement de CAPTUREDTheGame...
+2024-08-05 14:38:52,564 - WARNING - Tentative 1 échouée pour CAPTUREDTheGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/CAPTUREDTheGame
+2024-08-05 14:38:57,878 - WARNING - Tentative 2 échouée pour CAPTUREDTheGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/capturedthegame
+2024-08-05 14:39:03,171 - WARNING - Tentative 3 échouée pour CAPTUREDTheGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/capturedthegame
+2024-08-05 14:39:03,171 - ERROR - Toutes les tentatives ont échoué pour CAPTUREDTheGame
+2024-08-05 14:39:03,171 - WARNING - Aucune donnée scrapée pour CAPTUREDTheGame, mise à jour ignorée
+2024-08-05 14:39:08,175 - INFO - Traitement de xrlabsinc...
+2024-08-05 14:39:08,475 - INFO - Données scrapées pour xrlabsinc: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 14:39:08,478 - INFO - Données enregistrées pour xrlabsinc
+2024-08-05 14:39:13,483 - INFO - Traitement de ironcrone...
+2024-08-05 14:39:13,784 - INFO - Données scrapées pour ironcrone: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 14:39:13,785 - INFO - Données enregistrées pour ironcrone
+2024-08-05 14:39:18,790 - INFO - Traitement de citadele...
+2024-08-05 14:39:20,662 - INFO - Données scrapées pour citadele: {'followers': 2951, 'following': 154, 'tweets': 4964, 'created_date': '2009-09-10'}
+2024-08-05 14:39:20,664 - INFO - Données enregistrées pour citadele
+2024-08-05 14:39:25,669 - INFO - Traitement de CanWaichung...
+2024-08-05 14:39:26,055 - INFO - Données scrapées pour CanWaichung: {'followers': 69, 'following': 86, 'tweets': 120, 'created_date': '2017-02-23'}
+2024-08-05 14:39:26,056 - INFO - Données enregistrées pour CanWaichung
+2024-08-05 14:39:31,061 - INFO - Traitement de ...
+2024-08-05 14:39:31,243 - INFO - Données scrapées pour : {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 14:39:31,244 - INFO - Données enregistrées pour 
+2024-08-05 14:39:36,249 - INFO - Traitement de TinyWonder_game...
+2024-08-05 14:39:36,603 - INFO - Données scrapées pour TinyWonder_game: {'followers': 1197, 'following': 3, 'tweets': 43, 'created_date': '2024-02-20'}
+2024-08-05 14:39:36,605 - INFO - Données enregistrées pour TinyWonder_game
+2024-08-05 14:39:41,610 - INFO - Traitement de LuamarGames...
+2024-08-05 14:39:41,659 - WARNING - Tentative 1 échouée pour LuamarGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/LuamarGames
+2024-08-05 14:39:46,901 - WARNING - Tentative 2 échouée pour LuamarGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/luamargames
+2024-08-05 14:39:52,107 - WARNING - Tentative 3 échouée pour LuamarGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/luamargames
+2024-08-05 14:39:52,108 - ERROR - Toutes les tentatives ont échoué pour LuamarGames
+2024-08-05 14:39:52,108 - WARNING - Aucune donnée scrapée pour LuamarGames, mise à jour ignorée
+2024-08-05 14:39:57,113 - INFO - Traitement de WaifuBeachBar...
+2024-08-05 14:39:57,431 - WARNING - Tentative 1 échouée pour WaifuBeachBar: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/waifubeachbar
+2024-08-05 14:40:02,755 - WARNING - Tentative 2 échouée pour WaifuBeachBar: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/waifubeachbar
+2024-08-05 14:40:08,084 - WARNING - Tentative 3 échouée pour WaifuBeachBar: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/waifubeachbar
+2024-08-05 14:40:08,084 - ERROR - Toutes les tentatives ont échoué pour WaifuBeachBar
+2024-08-05 14:40:08,085 - WARNING - Aucune donnée scrapée pour WaifuBeachBar, mise à jour ignorée
+2024-08-05 14:40:13,086 - INFO - Traitement de HuntersonStudio...
+2024-08-05 14:40:13,313 - WARNING - Tentative 1 échouée pour HuntersonStudio: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/huntersonstudio
+2024-08-05 14:40:18,518 - WARNING - Tentative 2 échouée pour HuntersonStudio: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/huntersonstudio
+2024-08-05 14:40:23,573 - WARNING - Tentative 3 échouée pour HuntersonStudio: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/HuntersonStudio
+2024-08-05 14:40:23,573 - ERROR - Toutes les tentatives ont échoué pour HuntersonStudio
+2024-08-05 14:40:23,573 - WARNING - Aucune donnée scrapée pour HuntersonStudio, mise à jour ignorée
+2024-08-05 14:40:28,578 - INFO - Traitement de hohoufoundme...
+2024-08-05 14:40:28,924 - INFO - Données scrapées pour hohoufoundme: {'followers': 11, 'following': 5, 'tweets': 5, 'created_date': '2020-11-13'}
+2024-08-05 14:40:28,925 - INFO - Données enregistrées pour hohoufoundme
+2024-08-05 14:40:33,931 - INFO - Traitement de LTQG_...
+2024-08-05 14:40:34,143 - WARNING - Tentative 1 échouée pour LTQG_: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/ltqg_
+2024-08-05 14:40:39,351 - WARNING - Tentative 2 échouée pour LTQG_: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/ltqg_
+2024-08-05 14:40:44,556 - WARNING - Tentative 3 échouée pour LTQG_: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/ltqg_
+2024-08-05 14:40:44,556 - ERROR - Toutes les tentatives ont échoué pour LTQG_
+2024-08-05 14:40:44,556 - WARNING - Aucune donnée scrapée pour LTQG_, mise à jour ignorée
+2024-08-05 14:40:49,562 - INFO - Traitement de ToFuCatGames...
+2024-08-05 14:40:49,819 - WARNING - Tentative 1 échouée pour ToFuCatGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/tofucatgames
+2024-08-05 14:40:55,015 - WARNING - Tentative 2 échouée pour ToFuCatGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/tofucatgames
+2024-08-05 14:41:00,228 - WARNING - Tentative 3 échouée pour ToFuCatGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/tofucatgames
+2024-08-05 14:41:00,228 - ERROR - Toutes les tentatives ont échoué pour ToFuCatGames
+2024-08-05 14:41:00,228 - WARNING - Aucune donnée scrapée pour ToFuCatGames, mise à jour ignorée
+2024-08-05 14:41:05,230 - INFO - Traitement de laterskatergame...
+2024-08-05 14:41:05,284 - WARNING - Tentative 1 échouée pour laterskatergame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/laterskatergame
+2024-08-05 14:41:10,524 - INFO - Données scrapées pour laterskatergame: {'followers': 17, 'following': 47, 'tweets': 54, 'created_date': '2021-02-24'}
+2024-08-05 14:41:10,525 - INFO - Données enregistrées pour laterskatergame
+2024-08-05 14:41:15,531 - INFO - Traitement de ApocVerse...
+2024-08-05 14:41:15,733 - WARNING - Tentative 1 échouée pour ApocVerse: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/apocverse
+2024-08-05 14:41:20,944 - WARNING - Tentative 2 échouée pour ApocVerse: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/apocverse
+2024-08-05 14:41:26,142 - WARNING - Tentative 3 échouée pour ApocVerse: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/apocverse
+2024-08-05 14:41:26,143 - ERROR - Toutes les tentatives ont échoué pour ApocVerse
+2024-08-05 14:41:26,143 - WARNING - Aucune donnée scrapée pour ApocVerse, mise à jour ignorée
+2024-08-05 14:41:31,148 - INFO - Traitement de BonjourBorzoi...
+2024-08-05 14:41:31,437 - WARNING - Tentative 1 échouée pour BonjourBorzoi: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/bonjourborzoi
+2024-08-05 14:41:36,647 - WARNING - Tentative 2 échouée pour BonjourBorzoi: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/bonjourborzoi
+2024-08-05 14:41:41,707 - WARNING - Tentative 3 échouée pour BonjourBorzoi: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/BonjourBorzoi
+2024-08-05 14:41:41,707 - ERROR - Toutes les tentatives ont échoué pour BonjourBorzoi
+2024-08-05 14:41:41,708 - WARNING - Aucune donnée scrapée pour BonjourBorzoi, mise à jour ignorée
+2024-08-05 14:41:46,711 - INFO - Traitement de BinarySunrise_...
+2024-08-05 14:41:46,927 - WARNING - Tentative 1 échouée pour BinarySunrise_: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/binarysunrise_
+2024-08-05 14:41:52,140 - WARNING - Tentative 2 échouée pour BinarySunrise_: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/binarysunrise_
+2024-08-05 14:41:57,364 - WARNING - Tentative 3 échouée pour BinarySunrise_: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/binarysunrise_
+2024-08-05 14:41:57,364 - ERROR - Toutes les tentatives ont échoué pour BinarySunrise_
+2024-08-05 14:41:57,364 - WARNING - Aucune donnée scrapée pour BinarySunrise_, mise à jour ignorée
+2024-08-05 14:42:02,365 - INFO - Traitement de corsgames_com...
+2024-08-05 14:42:02,578 - INFO - Données scrapées pour corsgames_com: {'followers': 188, 'following': 64, 'tweets': 134, 'created_date': '2023-03-03'}
+2024-08-05 14:42:02,579 - INFO - Données enregistrées pour corsgames_com
+2024-08-05 14:42:07,584 - INFO - Traitement de IncVuvuu...
+2024-08-05 14:42:08,262 - WARNING - Tentative 1 échouée pour IncVuvuu: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/incvuvuu
+2024-08-05 14:42:13,524 - WARNING - Tentative 2 échouée pour IncVuvuu: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/incvuvuu
+2024-08-05 14:42:18,794 - WARNING - Tentative 3 échouée pour IncVuvuu: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/incvuvuu
+2024-08-05 14:42:18,794 - ERROR - Toutes les tentatives ont échoué pour IncVuvuu
+2024-08-05 14:42:18,794 - WARNING - Aucune donnée scrapée pour IncVuvuu, mise à jour ignorée
+2024-08-05 14:42:23,799 - INFO - Traitement de kairokun2010...
+2024-08-05 14:42:23,846 - WARNING - Tentative 1 échouée pour kairokun2010: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/kairokun2010
+2024-08-05 14:42:30,654 - INFO - Données scrapées pour kairokun2010: {'followers': 308147, 'following': 602, 'tweets': 3762, 'created_date': '2010-09-14'}
+2024-08-05 14:42:30,656 - INFO - Données enregistrées pour kairokun2010
+2024-08-05 14:42:35,661 - INFO - Traitement de arcadesindo...
+2024-08-05 14:42:35,877 - INFO - Données scrapées pour arcadesindo: {'followers': 16, 'following': 60, 'tweets': 42, 'created_date': '2014-08-29'}
+2024-08-05 14:42:35,878 - INFO - Données enregistrées pour arcadesindo
+2024-08-05 14:42:40,883 - INFO - Traitement de triomatica...
+2024-08-05 14:42:41,485 - INFO - Données scrapées pour triomatica: {'followers': 408, 'following': 34, 'tweets': 174, 'created_date': '2021-05-21'}
+2024-08-05 14:42:41,486 - INFO - Données enregistrées pour triomatica
+2024-08-05 14:42:46,492 - INFO - Traitement de HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09...
+2024-08-05 14:42:46,706 - WARNING - Tentative 1 échouée pour HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/hruststudio?t=xiwpq5wydnbh5jwtjf4bjq&amp;s=09
+2024-08-05 14:42:51,928 - WARNING - Tentative 2 échouée pour HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/hruststudio?t=xiwpq5wydnbh5jwtjf4bjq&amp;s=09
+2024-08-05 14:42:57,137 - WARNING - Tentative 3 échouée pour HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/hruststudio?t=xiwpq5wydnbh5jwtjf4bjq&amp;s=09
+2024-08-05 14:42:57,138 - ERROR - Toutes les tentatives ont échoué pour HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09
+2024-08-05 14:42:57,138 - WARNING - Aucune donnée scrapée pour HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09, mise à jour ignorée
+2024-08-05 14:43:02,143 - INFO - Traitement de brain_syringe...
+2024-08-05 14:43:02,385 - INFO - Données scrapées pour brain_syringe: {'followers': 78, 'following': 79, 'tweets': 163, 'created_date': '2022-04-27'}
+2024-08-05 14:43:02,386 - INFO - Données enregistrées pour brain_syringe
+2024-08-05 14:43:07,391 - INFO - Traitement de FinalBlowCorp...
+2024-08-05 14:43:07,741 - WARNING - Tentative 1 échouée pour FinalBlowCorp: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/finalblowcorp
+2024-08-05 14:43:13,062 - WARNING - Tentative 2 échouée pour FinalBlowCorp: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/finalblowcorp
+2024-08-05 14:43:18,266 - WARNING - Tentative 3 échouée pour FinalBlowCorp: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/finalblowcorp
+2024-08-05 14:43:18,266 - ERROR - Toutes les tentatives ont échoué pour FinalBlowCorp
+2024-08-05 14:43:18,266 - WARNING - Aucune donnée scrapée pour FinalBlowCorp, mise à jour ignorée
+2024-08-05 14:43:23,271 - INFO - Traitement de otterhandsgames...
+2024-08-05 14:43:23,316 - WARNING - Tentative 1 échouée pour otterhandsgames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/otterhandsgames
+2024-08-05 14:43:28,527 - INFO - Données scrapées pour otterhandsgames: {'followers': 670, 'following': 604, 'tweets': 9, 'created_date': '2023-08-01'}
+2024-08-05 14:43:28,528 - INFO - Données enregistrées pour otterhandsgames
+2024-08-05 14:43:33,533 - INFO - Traitement de happyland_games...
+2024-08-05 14:43:33,751 - INFO - Données scrapées pour happyland_games: {'followers': 240, 'following': 274, 'tweets': 327, 'created_date': '2016-07-29'}
+2024-08-05 14:43:33,752 - INFO - Données enregistrées pour happyland_games
+2024-08-05 14:43:38,757 - INFO - Traitement de BlackLPMain...
+2024-08-05 14:43:38,962 - WARNING - Tentative 1 échouée pour BlackLPMain: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/blacklpmain
+2024-08-05 14:43:44,169 - WARNING - Tentative 2 échouée pour BlackLPMain: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/blacklpmain
+2024-08-05 14:43:49,355 - WARNING - Tentative 3 échouée pour BlackLPMain: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/blacklpmain
+2024-08-05 14:43:49,355 - ERROR - Toutes les tentatives ont échoué pour BlackLPMain
+2024-08-05 14:43:49,355 - WARNING - Aucune donnée scrapée pour BlackLPMain, mise à jour ignorée
+2024-08-05 14:43:54,360 - INFO - Traitement de liamflannery56...
+2024-08-05 14:43:54,588 - INFO - Données scrapées pour liamflannery56: {'followers': 377, 'following': 405, 'tweets': 777, 'created_date': '2014-08-29'}
+2024-08-05 14:43:54,589 - INFO - Données enregistrées pour liamflannery56
+2024-08-05 14:43:59,594 - INFO - Traitement de PastonStudios...
+2024-08-05 14:43:59,642 - WARNING - Tentative 1 échouée pour PastonStudios: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/PastonStudios
+2024-08-05 14:44:04,851 - WARNING - Tentative 2 échouée pour PastonStudios: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/pastonstudios
+2024-08-05 14:44:10,059 - WARNING - Tentative 3 échouée pour PastonStudios: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/pastonstudios
+2024-08-05 14:44:10,059 - ERROR - Toutes les tentatives ont échoué pour PastonStudios
+2024-08-05 14:44:10,059 - WARNING - Aucune donnée scrapée pour PastonStudios, mise à jour ignorée
+2024-08-05 14:44:15,061 - INFO - Traitement de Rufa_snm...
+2024-08-05 14:44:16,238 - WARNING - Tentative 1 échouée pour Rufa_snm: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/rufa_snm
+2024-08-05 14:44:21,504 - WARNING - Tentative 2 échouée pour Rufa_snm: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/rufa_snm
+2024-08-05 14:44:26,867 - WARNING - Tentative 3 échouée pour Rufa_snm: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/rufa_snm
+2024-08-05 14:44:26,867 - ERROR - Toutes les tentatives ont échoué pour Rufa_snm
+2024-08-05 14:44:26,867 - WARNING - Aucune donnée scrapée pour Rufa_snm, mise à jour ignorée
+2024-08-05 14:44:31,872 - INFO - Traitement de hiyoko_oss...
+2024-08-05 14:44:32,192 - INFO - Données scrapées pour hiyoko_oss: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 14:44:32,194 - INFO - Données enregistrées pour hiyoko_oss
+2024-08-05 14:44:37,197 - INFO - Traitement de CrystalGameWork...
+2024-08-05 14:44:39,275 - WARNING - Tentative 1 échouée pour CrystalGameWork: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/crystalgamework
+2024-08-05 14:44:44,680 - WARNING - Tentative 2 échouée pour CrystalGameWork: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/crystalgamework
+2024-08-05 14:44:50,075 - WARNING - Tentative 3 échouée pour CrystalGameWork: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/crystalgamework
+2024-08-05 14:44:50,075 - ERROR - Toutes les tentatives ont échoué pour CrystalGameWork
+2024-08-05 14:44:50,075 - WARNING - Aucune donnée scrapée pour CrystalGameWork, mise à jour ignorée
+2024-08-05 14:44:55,080 - INFO - Traitement de dayme200...
+2024-08-05 14:44:55,395 - INFO - Données scrapées pour dayme200: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 14:44:55,396 - INFO - Données enregistrées pour dayme200
+2024-08-05 14:45:00,401 - INFO - Traitement de grantmarrs_...
+2024-08-05 14:45:00,605 - INFO - Données scrapées pour grantmarrs_: {'followers': 280, 'following': 8, 'tweets': 50, 'created_date': '2022-11-05'}
+2024-08-05 14:45:00,606 - INFO - Données enregistrées pour grantmarrs_
+2024-08-05 14:45:05,612 - INFO - Traitement de noobzilla_team...
+2024-08-05 14:45:05,658 - WARNING - Tentative 1 échouée pour noobzilla_team: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/noobzilla_team
+2024-08-05 14:45:10,869 - INFO - Données scrapées pour noobzilla_team: {'followers': 313, 'following': 91, 'tweets': 373, 'created_date': '2020-05-11'}
+2024-08-05 14:45:10,870 - INFO - Données enregistrées pour noobzilla_team
+2024-08-05 14:45:15,875 - INFO - Traitement de Dawn_Fades_...
+2024-08-05 14:45:16,069 - WARNING - Tentative 1 échouée pour Dawn_Fades_: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/dawn_fades_
+2024-08-05 14:45:21,285 - WARNING - Tentative 2 échouée pour Dawn_Fades_: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/dawn_fades_
+2024-08-05 14:45:26,497 - WARNING - Tentative 3 échouée pour Dawn_Fades_: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/dawn_fades_
+2024-08-05 14:45:26,497 - ERROR - Toutes les tentatives ont échoué pour Dawn_Fades_
+2024-08-05 14:45:26,497 - WARNING - Aucune donnée scrapée pour Dawn_Fades_, mise à jour ignorée
+2024-08-05 14:45:31,502 - INFO - Traitement de jackboxgames...
+2024-08-05 14:45:33,428 - INFO - Données scrapées pour jackboxgames: {'followers': 46038, 'following': 636, 'tweets': 13101, 'created_date': '2013-04-26'}
+2024-08-05 14:45:33,430 - INFO - Données enregistrées pour jackboxgames
+2024-08-05 14:45:38,435 - INFO - Traitement de radikate_com...
+2024-08-05 14:45:38,640 - INFO - Données scrapées pour radikate_com: {'followers': 7, 'following': 13, 'tweets': 20, 'created_date': '2023-04-18'}
+2024-08-05 14:45:38,642 - INFO - Données enregistrées pour radikate_com
+2024-08-05 14:45:43,647 - INFO - Traitement de owlgamedev...
+2024-08-05 14:45:43,856 - INFO - Données scrapées pour owlgamedev: {'followers': 45, 'following': 13, 'tweets': 3, 'created_date': '2024-02-29'}
+2024-08-05 14:45:43,858 - INFO - Données enregistrées pour owlgamedev
+2024-08-05 14:45:48,863 - INFO - Traitement de Komodobit_Games...
+2024-08-05 14:45:49,062 - WARNING - Tentative 1 échouée pour Komodobit_Games: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/komodobit_games
+2024-08-05 14:45:54,268 - WARNING - Tentative 2 échouée pour Komodobit_Games: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/komodobit_games
+2024-08-05 14:45:59,325 - WARNING - Tentative 3 échouée pour Komodobit_Games: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/Komodobit_Games
+2024-08-05 14:45:59,325 - ERROR - Toutes les tentatives ont échoué pour Komodobit_Games
+2024-08-05 14:45:59,325 - WARNING - Aucune donnée scrapée pour Komodobit_Games, mise à jour ignorée
+2024-08-05 14:46:04,330 - INFO - Traitement de DevilCanBeat...
+2024-08-05 14:46:04,683 - WARNING - Tentative 1 échouée pour DevilCanBeat: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/devilcanbeat
+2024-08-05 14:46:10,028 - WARNING - Tentative 2 échouée pour DevilCanBeat: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/devilcanbeat
+2024-08-05 14:46:15,327 - WARNING - Tentative 3 échouée pour DevilCanBeat: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/devilcanbeat
+2024-08-05 14:46:15,327 - ERROR - Toutes les tentatives ont échoué pour DevilCanBeat
+2024-08-05 14:46:15,327 - WARNING - Aucune donnée scrapée pour DevilCanBeat, mise à jour ignorée
+2024-08-05 14:46:20,332 - INFO - Traitement de lukewasthefish...
+2024-08-05 14:46:20,676 - INFO - Données scrapées pour lukewasthefish: {'followers': 1334, 'following': 58, 'tweets': 1396, 'created_date': '2017-01-02'}
+2024-08-05 14:46:20,677 - INFO - Données enregistrées pour lukewasthefish
+2024-08-05 14:46:25,682 - INFO - Traitement de Camel_birds...
+2024-08-05 14:46:25,973 - WARNING - Tentative 1 échouée pour Camel_birds: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/camel_birds
+2024-08-05 14:46:31,282 - WARNING - Tentative 2 échouée pour Camel_birds: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/camel_birds
+2024-08-05 14:46:36,587 - WARNING - Tentative 3 échouée pour Camel_birds: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/camel_birds
+2024-08-05 14:46:36,588 - ERROR - Toutes les tentatives ont échoué pour Camel_birds
+2024-08-05 14:46:36,588 - WARNING - Aucune donnée scrapée pour Camel_birds, mise à jour ignorée
+2024-08-05 14:46:41,591 - INFO - Traitement de FunAsylumStudio...
+2024-08-05 14:46:41,639 - WARNING - Tentative 1 échouée pour FunAsylumStudio: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/FunAsylumStudio
+2024-08-05 14:46:46,976 - WARNING - Tentative 2 échouée pour FunAsylumStudio: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/funasylumstudio
+2024-08-05 14:46:52,177 - WARNING - Tentative 3 échouée pour FunAsylumStudio: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/funasylumstudio
+2024-08-05 14:46:52,177 - ERROR - Toutes les tentatives ont échoué pour FunAsylumStudio
+2024-08-05 14:46:52,177 - WARNING - Aucune donnée scrapée pour FunAsylumStudio, mise à jour ignorée
+2024-08-05 14:46:57,181 - INFO - Traitement de Kan_Kikuchi...
+2024-08-05 14:46:59,131 - WARNING - Tentative 1 échouée pour Kan_Kikuchi: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/kan_kikuchi
+2024-08-05 14:47:04,587 - WARNING - Tentative 2 échouée pour Kan_Kikuchi: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/kan_kikuchi
+2024-08-05 14:47:09,984 - WARNING - Tentative 3 échouée pour Kan_Kikuchi: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/kan_kikuchi
+2024-08-05 14:47:09,984 - ERROR - Toutes les tentatives ont échoué pour Kan_Kikuchi
+2024-08-05 14:47:09,984 - WARNING - Aucune donnée scrapée pour Kan_Kikuchi, mise à jour ignorée
+2024-08-05 14:47:14,989 - INFO - Traitement de GossiamGames...
+2024-08-05 14:47:15,358 - WARNING - Tentative 1 échouée pour GossiamGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/gossiamgames
+2024-08-05 14:47:20,558 - WARNING - Tentative 2 échouée pour GossiamGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/gossiamgames
+2024-08-05 14:47:25,768 - WARNING - Tentative 3 échouée pour GossiamGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/gossiamgames
+2024-08-05 14:47:25,768 - ERROR - Toutes les tentatives ont échoué pour GossiamGames
+2024-08-05 14:47:25,768 - WARNING - Aucune donnée scrapée pour GossiamGames, mise à jour ignorée
+2024-08-05 14:47:30,773 - INFO - Traitement de LexiconGame...
+2024-08-05 14:47:31,093 - WARNING - Tentative 1 échouée pour LexiconGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/lexicongame
+2024-08-05 14:47:36,384 - WARNING - Tentative 2 échouée pour LexiconGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/lexicongame
+2024-08-05 14:47:41,442 - WARNING - Tentative 3 échouée pour LexiconGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/LexiconGame
+2024-08-05 14:47:41,443 - ERROR - Toutes les tentatives ont échoué pour LexiconGame
+2024-08-05 14:47:41,444 - WARNING - Aucune donnée scrapée pour LexiconGame, mise à jour ignorée
+2024-08-05 14:47:46,449 - INFO - Traitement de RheinlandGames...
+2024-08-05 14:47:46,755 - WARNING - Tentative 1 échouée pour RheinlandGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/rheinlandgames
+2024-08-05 14:47:52,044 - WARNING - Tentative 2 échouée pour RheinlandGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/rheinlandgames
+2024-08-05 14:47:57,339 - WARNING - Tentative 3 échouée pour RheinlandGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/rheinlandgames
+2024-08-05 14:47:57,339 - ERROR - Toutes les tentatives ont échoué pour RheinlandGames
+2024-08-05 14:47:57,339 - WARNING - Aucune donnée scrapée pour RheinlandGames, mise à jour ignorée
+2024-08-05 14:48:02,340 - INFO - Traitement de korycodeyt...
+2024-08-05 14:48:02,777 - INFO - Données scrapées pour korycodeyt: {'followers': 7, 'following': 37, 'tweets': 36, 'created_date': '2023-09-25'}
+2024-08-05 14:48:02,778 - INFO - Données enregistrées pour korycodeyt
+2024-08-05 14:48:07,783 - INFO - Traitement de TrueGamesStudio...
+2024-08-05 14:48:08,112 - WARNING - Tentative 1 échouée pour TrueGamesStudio: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/truegamesstudio
+2024-08-05 14:48:13,326 - WARNING - Tentative 2 échouée pour TrueGamesStudio: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/truegamesstudio
+2024-08-05 14:48:18,548 - WARNING - Tentative 3 échouée pour TrueGamesStudio: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/truegamesstudio
+2024-08-05 14:48:18,548 - ERROR - Toutes les tentatives ont échoué pour TrueGamesStudio
+2024-08-05 14:48:18,548 - WARNING - Aucune donnée scrapée pour TrueGamesStudio, mise à jour ignorée
+2024-08-05 14:48:23,553 - INFO - Traitement de andii1701...
+2024-08-05 14:48:23,600 - WARNING - Tentative 1 échouée pour andii1701: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/andii1701
+2024-08-05 14:48:30,540 - INFO - Données scrapées pour andii1701: {'followers': 244, 'following': 411, 'tweets': 704, 'created_date': '2012-06-28'}
+2024-08-05 14:48:30,541 - INFO - Données enregistrées pour andii1701
+2024-08-05 14:48:35,546 - INFO - Traitement de BlockFactory__...
+2024-08-05 14:48:35,876 - WARNING - Tentative 1 échouée pour BlockFactory__: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/blockfactory__
+2024-08-05 14:48:41,075 - WARNING - Tentative 2 échouée pour BlockFactory__: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/blockfactory__
+2024-08-05 14:48:46,287 - WARNING - Tentative 3 échouée pour BlockFactory__: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/blockfactory__
+2024-08-05 14:48:46,287 - ERROR - Toutes les tentatives ont échoué pour BlockFactory__
+2024-08-05 14:48:46,287 - WARNING - Aucune donnée scrapée pour BlockFactory__, mise à jour ignorée
+2024-08-05 14:48:51,292 - INFO - Traitement de bugbeargames...
+2024-08-05 14:48:53,352 - INFO - Données scrapées pour bugbeargames: {'followers': 12054, 'following': 138, 'tweets': 3340, 'created_date': '2010-12-10'}
+2024-08-05 14:48:53,353 - INFO - Données enregistrées pour bugbeargames
+2024-08-05 14:48:58,358 - INFO - Traitement de asaproject...
+2024-08-05 14:48:58,692 - INFO - Données scrapées pour asaproject: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 14:48:58,694 - INFO - Données enregistrées pour asaproject
+2024-08-05 14:49:03,699 - INFO - Traitement de chromagame_st...
+2024-08-05 14:49:04,038 - INFO - Données scrapées pour chromagame_st: {'followers': 144, 'following': 139, 'tweets': 128, 'created_date': '2024-03-11'}
+2024-08-05 14:49:04,040 - INFO - Données enregistrées pour chromagame_st
+2024-08-05 14:49:09,045 - INFO - Traitement de Shinise3...
+2024-08-05 14:49:11,049 - WARNING - Tentative 1 échouée pour Shinise3: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/shinise3
+2024-08-05 14:49:16,430 - WARNING - Tentative 2 échouée pour Shinise3: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/shinise3
+2024-08-05 14:49:21,913 - WARNING - Tentative 3 échouée pour Shinise3: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/shinise3
+2024-08-05 14:49:21,913 - ERROR - Toutes les tentatives ont échoué pour Shinise3
+2024-08-05 14:49:21,913 - WARNING - Aucune donnée scrapée pour Shinise3, mise à jour ignorée
+2024-08-05 14:49:26,918 - INFO - Traitement de AniCoreTeam...
+2024-08-05 14:49:27,319 - WARNING - Tentative 1 échouée pour AniCoreTeam: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/anicoreteam
+2024-08-05 14:49:32,540 - WARNING - Tentative 2 échouée pour AniCoreTeam: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/anicoreteam
+2024-08-05 14:49:37,735 - WARNING - Tentative 3 échouée pour AniCoreTeam: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/anicoreteam
+2024-08-05 14:49:37,735 - ERROR - Toutes les tentatives ont échoué pour AniCoreTeam
+2024-08-05 14:49:37,736 - WARNING - Aucune donnée scrapée pour AniCoreTeam, mise à jour ignorée
+2024-08-05 14:49:42,741 - INFO - Traitement de InorganicGames...
+2024-08-05 14:49:43,061 - WARNING - Tentative 1 échouée pour InorganicGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/inorganicgames
+2024-08-05 14:49:48,388 - WARNING - Tentative 2 échouée pour InorganicGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/inorganicgames
+2024-08-05 14:49:53,454 - WARNING - Tentative 3 échouée pour InorganicGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/InorganicGames
+2024-08-05 14:49:53,454 - ERROR - Toutes les tentatives ont échoué pour InorganicGames
+2024-08-05 14:49:53,454 - WARNING - Aucune donnée scrapée pour InorganicGames, mise à jour ignorée
+2024-08-05 14:49:58,459 - INFO - Traitement de DaRizzlerBear...
+2024-08-05 14:49:58,788 - WARNING - Tentative 1 échouée pour DaRizzlerBear: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/darizzlerbear
+2024-08-05 14:50:04,113 - WARNING - Tentative 2 échouée pour DaRizzlerBear: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/darizzlerbear
+2024-08-05 14:50:09,428 - WARNING - Tentative 3 échouée pour DaRizzlerBear: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/darizzlerbear
+2024-08-05 14:50:09,428 - ERROR - Toutes les tentatives ont échoué pour DaRizzlerBear
+2024-08-05 14:50:09,428 - WARNING - Aucune donnée scrapée pour DaRizzlerBear, mise à jour ignorée
+2024-08-05 14:50:14,429 - INFO - Traitement de Fate_SN_Game...
+2024-08-05 14:50:14,845 - WARNING - Tentative 1 échouée pour Fate_SN_Game: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/fate_sn_game
+2024-08-05 14:50:20,129 - WARNING - Tentative 2 échouée pour Fate_SN_Game: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/fate_sn_game
+2024-08-05 14:50:25,383 - WARNING - Tentative 3 échouée pour Fate_SN_Game: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/fate_sn_game
+2024-08-05 14:50:25,383 - ERROR - Toutes les tentatives ont échoué pour Fate_SN_Game
+2024-08-05 14:50:25,383 - WARNING - Aucune donnée scrapée pour Fate_SN_Game, mise à jour ignorée
+2024-08-05 14:50:30,387 - INFO - Traitement de Innoverse_Games...
+2024-08-05 14:50:30,851 - WARNING - Tentative 1 échouée pour Innoverse_Games: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/innoverse_games
+2024-08-05 14:50:35,903 - WARNING - Tentative 2 échouée pour Innoverse_Games: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/Innoverse_Games
+2024-08-05 14:50:41,119 - WARNING - Tentative 3 échouée pour Innoverse_Games: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/innoverse_games
+2024-08-05 14:50:41,119 - ERROR - Toutes les tentatives ont échoué pour Innoverse_Games
+2024-08-05 14:50:41,119 - WARNING - Aucune donnée scrapée pour Innoverse_Games, mise à jour ignorée
+2024-08-05 14:50:46,124 - INFO - Traitement de SKOOTAGAMES...
+2024-08-05 14:50:46,463 - WARNING - Tentative 1 échouée pour SKOOTAGAMES: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/skootagames
+2024-08-05 14:50:51,687 - WARNING - Tentative 2 échouée pour SKOOTAGAMES: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/skootagames
+2024-08-05 14:50:56,881 - WARNING - Tentative 3 échouée pour SKOOTAGAMES: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/skootagames
+2024-08-05 14:50:56,881 - ERROR - Toutes les tentatives ont échoué pour SKOOTAGAMES
+2024-08-05 14:50:56,881 - WARNING - Aucune donnée scrapée pour SKOOTAGAMES, mise à jour ignorée
+2024-08-05 14:51:01,884 - INFO - Traitement de FinalOutpost...
+2024-08-05 14:51:02,275 - WARNING - Tentative 1 échouée pour FinalOutpost: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/finaloutpost
+2024-08-05 14:51:07,491 - WARNING - Tentative 2 échouée pour FinalOutpost: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/finaloutpost
+2024-08-05 14:51:12,691 - WARNING - Tentative 3 échouée pour FinalOutpost: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/finaloutpost
+2024-08-05 14:51:12,691 - ERROR - Toutes les tentatives ont échoué pour FinalOutpost
+2024-08-05 14:51:12,691 - WARNING - Aucune donnée scrapée pour FinalOutpost, mise à jour ignorée
+2024-08-05 14:51:17,697 - INFO - Traitement de Sportvida__...
+2024-08-05 14:51:17,745 - WARNING - Tentative 1 échouée pour Sportvida__: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/Sportvida__
+2024-08-05 14:51:23,120 - WARNING - Tentative 2 échouée pour Sportvida__: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/sportvida__
+2024-08-05 14:51:28,331 - WARNING - Tentative 3 échouée pour Sportvida__: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/sportvida__
+2024-08-05 14:51:28,331 - ERROR - Toutes les tentatives ont échoué pour Sportvida__
+2024-08-05 14:51:28,332 - WARNING - Aucune donnée scrapée pour Sportvida__, mise à jour ignorée
+2024-08-05 14:51:33,332 - INFO - Traitement de HenahurraHGame...
+2024-08-05 14:51:33,685 - WARNING - Tentative 1 échouée pour HenahurraHGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/henahurrahgame
+2024-08-05 14:51:38,896 - WARNING - Tentative 2 échouée pour HenahurraHGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/henahurrahgame
+2024-08-05 14:51:44,106 - WARNING - Tentative 3 échouée pour HenahurraHGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/henahurrahgame
+2024-08-05 14:51:44,106 - ERROR - Toutes les tentatives ont échoué pour HenahurraHGame
+2024-08-05 14:51:44,107 - WARNING - Aucune donnée scrapée pour HenahurraHGame, mise à jour ignorée
+2024-08-05 14:51:49,112 - INFO - Traitement de HolyMollyGames...
+2024-08-05 14:51:49,416 - WARNING - Tentative 1 échouée pour HolyMollyGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/holymollygames
+2024-08-05 14:51:54,720 - WARNING - Tentative 2 échouée pour HolyMollyGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/holymollygames
+2024-08-05 14:51:59,767 - WARNING - Tentative 3 échouée pour HolyMollyGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/HolyMollyGames
+2024-08-05 14:51:59,767 - ERROR - Toutes les tentatives ont échoué pour HolyMollyGames
+2024-08-05 14:51:59,767 - WARNING - Aucune donnée scrapée pour HolyMollyGames, mise à jour ignorée
+2024-08-05 14:52:04,772 - INFO - Traitement de Clickteam...
+2024-08-05 14:52:07,072 - INFO - Données scrapées pour Clickteam: {'followers': 35529, 'following': 963, 'tweets': 11845, 'created_date': '2009-04-21'}
+2024-08-05 14:52:07,074 - INFO - Données enregistrées pour Clickteam
+2024-08-05 14:52:12,080 - INFO - Traitement de studiowhathunts...
+2024-08-05 14:52:12,468 - INFO - Données scrapées pour studiowhathunts: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 14:52:12,470 - INFO - Données enregistrées pour studiowhathunts
+2024-08-05 14:52:17,475 - INFO - Traitement de MapSimulator...
+2024-08-05 14:52:17,545 - WARNING - Tentative 1 échouée pour MapSimulator: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/MapSimulator
+2024-08-05 14:52:22,871 - WARNING - Tentative 2 échouée pour MapSimulator: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/mapsimulator
+2024-08-05 14:52:28,200 - WARNING - Tentative 3 échouée pour MapSimulator: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/mapsimulator
+2024-08-05 14:52:28,201 - ERROR - Toutes les tentatives ont échoué pour MapSimulator
+2024-08-05 14:52:28,201 - WARNING - Aucune donnée scrapée pour MapSimulator, mise à jour ignorée
+2024-08-05 14:52:33,205 - INFO - Connexion à la base de données fermée.
+2024-08-05 16:25:00,184 - INFO - Données scrapées pour sunmorgames: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:25:16,341 - INFO - Données scrapées pour xbkjzbfjkzebnjfkfjkznfkjze: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:25:24,471 - INFO - Données scrapées pour nzefknzvnzjkfnlzenfvjdenv, dz,fnzenfflnezlf: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:37:43,757 - INFO - Connecté à la base de données
+2024-08-05 16:37:43,757 - INFO - Trouvé 45 handles Twitter à traiter
+2024-08-05 16:37:43,757 - INFO - Traitement de SunMorGames...
+2024-08-05 16:37:44,445 - INFO - Données scrapées pour SunMorGames: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:37:44,446 - INFO - Données enregistrées pour SunMorGames
+2024-08-05 16:37:49,450 - INFO - Traitement de TheVisionGame...
+2024-08-05 16:37:49,824 - INFO - Données scrapées pour TheVisionGame: {'followers': 598, 'following': 143, 'tweets': 261, 'created_date': 1559858400}
+2024-08-05 16:37:49,825 - INFO - Données enregistrées pour TheVisionGame
+2024-08-05 16:37:54,830 - INFO - Traitement de DwarvenInfantry...
+2024-08-05 16:37:55,235 - INFO - Données scrapées pour DwarvenInfantry: {'followers': 156, 'following': 1520, 'tweets': 295, 'created_date': 1273183200}
+2024-08-05 16:37:55,236 - INFO - Données enregistrées pour DwarvenInfantry
+2024-08-05 16:38:00,241 - INFO - Traitement de DungeonDone...
+2024-08-05 16:38:00,632 - INFO - Données scrapées pour DungeonDone: {'followers': 41, 'following': 51, 'tweets': 10, 'created_date': 1716156000}
+2024-08-05 16:38:00,633 - INFO - Données enregistrées pour DungeonDone
+2024-08-05 16:38:05,636 - INFO - Traitement de SkyGames342342...
+2024-08-05 16:38:06,005 - INFO - Données scrapées pour SkyGames342342: {'followers': 24, 'following': 15, 'tweets': 54, 'created_date': 1642892400}
+2024-08-05 16:38:06,006 - INFO - Données enregistrées pour SkyGames342342
+2024-08-05 16:38:11,016 - INFO - Traitement de Palindrome_int...
+2024-08-05 16:38:12,031 - INFO - Données scrapées pour Palindrome_int: {'followers': 411, 'following': 86, 'tweets': 129, 'created_date': 1432764000}
+2024-08-05 16:38:12,034 - INFO - Données enregistrées pour Palindrome_int
+2024-08-05 16:38:17,038 - INFO - Traitement de CAPTUREDTheGame...
+2024-08-05 16:38:17,088 - WARNING - Tentative 1 échouée pour CAPTUREDTheGame: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/CAPTUREDTheGame
+2024-08-05 16:38:57,663 - INFO - Données scrapées pour CAPTUREDTheGame: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:38:57,665 - INFO - Données enregistrées pour CAPTUREDTheGame
+2024-08-05 16:39:02,670 - INFO - Traitement de LuamarGames...
+2024-08-05 16:39:03,054 - INFO - Données scrapées pour LuamarGames: {'followers': 26, 'following': 64, 'tweets': 132, 'created_date': 1613343600}
+2024-08-05 16:39:03,061 - INFO - Données enregistrées pour LuamarGames
+2024-08-05 16:39:08,066 - INFO - Traitement de WaifuBeachBar...
+2024-08-05 16:39:08,683 - INFO - Données scrapées pour WaifuBeachBar: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:39:08,684 - INFO - Données enregistrées pour WaifuBeachBar
+2024-08-05 16:39:13,686 - INFO - Traitement de HuntersonStudio...
+2024-08-05 16:39:13,735 - WARNING - Tentative 1 échouée pour HuntersonStudio: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/HuntersonStudio
+2024-08-05 16:39:54,094 - INFO - Données scrapées pour HuntersonStudio: {'followers': 419, 'following': 96, 'tweets': 809, 'created_date': 1561068000}
+2024-08-05 16:39:54,095 - INFO - Données enregistrées pour HuntersonStudio
+2024-08-05 16:39:59,100 - INFO - Traitement de LTQG_...
+2024-08-05 16:39:59,474 - INFO - Données scrapées pour LTQG_: {'followers': 62, 'following': 102, 'tweets': 78, 'created_date': 1712613600}
+2024-08-05 16:39:59,476 - INFO - Données enregistrées pour LTQG_
+2024-08-05 16:40:04,478 - INFO - Traitement de ToFuCatGames...
+2024-08-05 16:40:04,847 - INFO - Données scrapées pour ToFuCatGames: {'followers': 57, 'following': 119, 'tweets': 20, 'created_date': 1586642400}
+2024-08-05 16:40:04,849 - INFO - Données enregistrées pour ToFuCatGames
+2024-08-05 16:40:09,852 - INFO - Traitement de ApocVerse...
+2024-08-05 16:40:10,216 - INFO - Données scrapées pour ApocVerse: {'followers': 24, 'following': 46, 'tweets': 50, 'created_date': 1707606000}
+2024-08-05 16:40:10,217 - INFO - Données enregistrées pour ApocVerse
+2024-08-05 16:40:15,225 - INFO - Traitement de BonjourBorzoi...
+2024-08-05 16:40:15,426 - WARNING - Tentative 1 échouée pour BonjourBorzoi: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/bonjourborzoi
+2024-08-05 16:40:55,744 - INFO - Données scrapées pour BonjourBorzoi: {'followers': 180, 'following': 132, 'tweets': 35, 'created_date': 1712181600}
+2024-08-05 16:40:55,745 - INFO - Données enregistrées pour BonjourBorzoi
+2024-08-05 16:41:00,750 - INFO - Traitement de BinarySunrise_...
+2024-08-05 16:41:01,123 - INFO - Données scrapées pour BinarySunrise_: {'followers': 237, 'following': 135, 'tweets': 188, 'created_date': 1701558000}
+2024-08-05 16:41:01,124 - INFO - Données enregistrées pour BinarySunrise_
+2024-08-05 16:41:06,130 - INFO - Traitement de IncVuvuu...
+2024-08-05 16:41:06,901 - WARNING - Tentative 1 échouée pour IncVuvuu: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/incvuvuu
+2024-08-05 16:41:47,383 - INFO - Données scrapées pour IncVuvuu: {'followers': 3254, 'following': 57, 'tweets': 4040, 'created_date': 1590444000}
+2024-08-05 16:41:47,385 - INFO - Données enregistrées pour IncVuvuu
+2024-08-05 16:41:52,391 - INFO - Traitement de HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09...
+2024-08-05 16:41:52,779 - INFO - Données scrapées pour HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09: {'followers': 174, 'following': 100, 'tweets': 301, 'created_date': 1695160800}
+2024-08-05 16:41:52,781 - INFO - Données enregistrées pour HrustStudio?t=XiwPQ5wyDNBH5jwTjf4BjQ&amp;s=09
+2024-08-05 16:41:57,784 - INFO - Traitement de FinalBlowCorp...
+2024-08-05 16:41:58,150 - INFO - Données scrapées pour FinalBlowCorp: {'followers': 41, 'following': 10, 'tweets': 15, 'created_date': 1717365600}
+2024-08-05 16:41:58,151 - INFO - Données enregistrées pour FinalBlowCorp
+2024-08-05 16:42:03,156 - INFO - Traitement de BlackLPMain...
+2024-08-05 16:42:03,506 - INFO - Données scrapées pour BlackLPMain: {'followers': 13, 'following': 28, 'tweets': 2, 'created_date': 1722204000}
+2024-08-05 16:42:03,507 - INFO - Données enregistrées pour BlackLPMain
+2024-08-05 16:42:08,512 - INFO - Traitement de PastonStudios...
+2024-08-05 16:42:08,739 - WARNING - Tentative 1 échouée pour PastonStudios: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/pastonstudios
+2024-08-05 16:42:49,102 - INFO - Données scrapées pour PastonStudios: {'followers': 41, 'following': 12, 'tweets': 3, 'created_date': 1721599200}
+2024-08-05 16:42:49,104 - INFO - Données enregistrées pour PastonStudios
+2024-08-05 16:42:54,105 - INFO - Traitement de Rufa_snm...
+2024-08-05 16:42:55,582 - INFO - Données scrapées pour Rufa_snm: {'followers': 301, 'following': 400, 'tweets': 2470, 'created_date': 1479423600}
+2024-08-05 16:42:55,584 - INFO - Données enregistrées pour Rufa_snm
+2024-08-05 16:43:00,588 - INFO - Traitement de CrystalGameWork...
+2024-08-05 16:43:02,912 - INFO - Données scrapées pour CrystalGameWork: {'followers': 1714, 'following': 1, 'tweets': 1770, 'created_date': 1520895600}
+2024-08-05 16:43:02,914 - INFO - Données enregistrées pour CrystalGameWork
+2024-08-05 16:43:07,916 - INFO - Traitement de Dawn_Fades_...
+2024-08-05 16:43:08,300 - INFO - Données scrapées pour Dawn_Fades_: {'followers': 39, 'following': 78, 'tweets': 82, 'created_date': 1658786400}
+2024-08-05 16:43:08,302 - INFO - Données enregistrées pour Dawn_Fades_
+2024-08-05 16:43:13,307 - INFO - Traitement de Komodobit_Games...
+2024-08-05 16:43:13,520 - WARNING - Tentative 1 échouée pour Komodobit_Games: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/komodobit_games
+2024-08-05 16:43:53,905 - INFO - Données scrapées pour Komodobit_Games: {'followers': 20, 'following': 16, 'tweets': 205, 'created_date': 1615158000}
+2024-08-05 16:43:53,906 - INFO - Données enregistrées pour Komodobit_Games
+2024-08-05 16:43:58,911 - INFO - Traitement de DevilCanBeat...
+2024-08-05 16:43:59,473 - INFO - Données scrapées pour DevilCanBeat: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:43:59,475 - INFO - Données enregistrées pour DevilCanBeat
+2024-08-05 16:44:04,480 - INFO - Traitement de Camel_birds...
+2024-08-05 16:44:05,027 - INFO - Données scrapées pour Camel_birds: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:44:05,029 - INFO - Données enregistrées pour Camel_birds
+2024-08-05 16:44:10,032 - INFO - Traitement de FunAsylumStudio...
+2024-08-05 16:44:10,247 - WARNING - Tentative 1 échouée pour FunAsylumStudio: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/funasylumstudio
+2024-08-05 16:44:50,616 - INFO - Données scrapées pour FunAsylumStudio: {'followers': 18, 'following': 42, 'tweets': 269, 'created_date': 1637017200}
+2024-08-05 16:44:50,618 - INFO - Données enregistrées pour FunAsylumStudio
+2024-08-05 16:44:55,622 - INFO - Traitement de Kan_Kikuchi...
+2024-08-05 16:44:57,968 - INFO - Données scrapées pour Kan_Kikuchi: {'followers': 21479, 'following': 76, 'tweets': 72723, 'created_date': 1294268400}
+2024-08-05 16:44:57,970 - INFO - Données enregistrées pour Kan_Kikuchi
+2024-08-05 16:45:02,975 - INFO - Traitement de GossiamGames...
+2024-08-05 16:45:03,348 - INFO - Données scrapées pour GossiamGames: {'followers': 135, 'following': 67, 'tweets': 48, 'created_date': 1674774000}
+2024-08-05 16:45:03,349 - INFO - Données enregistrées pour GossiamGames
+2024-08-05 16:45:08,352 - INFO - Traitement de LexiconGame...
+2024-08-05 16:45:08,908 - INFO - Données scrapées pour LexiconGame: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:45:08,909 - INFO - Données enregistrées pour LexiconGame
+2024-08-05 16:45:13,913 - INFO - Traitement de RheinlandGames...
+2024-08-05 16:45:14,208 - WARNING - Tentative 1 échouée pour RheinlandGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/rheinlandgames
+2024-08-05 16:45:54,726 - INFO - Données scrapées pour RheinlandGames: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:45:54,727 - INFO - Données enregistrées pour RheinlandGames
+2024-08-05 16:45:59,732 - INFO - Traitement de TrueGamesStudio...
+2024-08-05 16:46:00,095 - INFO - Données scrapées pour TrueGamesStudio: {'followers': 431, 'following': 373, 'tweets': 5873, 'created_date': 1690754400}
+2024-08-05 16:46:00,097 - INFO - Données enregistrées pour TrueGamesStudio
+2024-08-05 16:46:05,102 - INFO - Traitement de BlockFactory__...
+2024-08-05 16:46:05,495 - INFO - Données scrapées pour BlockFactory__: {'followers': 24, 'following': 3, 'tweets': 3, 'created_date': 1720044000}
+2024-08-05 16:46:05,497 - INFO - Données enregistrées pour BlockFactory__
+2024-08-05 16:46:10,501 - INFO - Traitement de Shinise3...
+2024-08-05 16:46:12,534 - WARNING - Tentative 1 échouée pour Shinise3: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/shinise3
+2024-08-05 16:46:53,359 - INFO - Données scrapées pour Shinise3: {'followers': 3928, 'following': 1060, 'tweets': 10168, 'created_date': 1443045600}
+2024-08-05 16:46:53,360 - INFO - Données enregistrées pour Shinise3
+2024-08-05 16:46:58,363 - INFO - Traitement de AniCoreTeam...
+2024-08-05 16:46:58,774 - INFO - Données scrapées pour AniCoreTeam: {'followers': 79, 'following': 47, 'tweets': 18, 'created_date': 1619820000}
+2024-08-05 16:46:58,775 - INFO - Données enregistrées pour AniCoreTeam
+2024-08-05 16:47:03,780 - INFO - Traitement de InorganicGames...
+2024-08-05 16:47:04,377 - INFO - Données scrapées pour InorganicGames: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:47:04,379 - INFO - Données enregistrées pour InorganicGames
+2024-08-05 16:47:09,384 - INFO - Traitement de DaRizzlerBear...
+2024-08-05 16:47:10,075 - INFO - Données scrapées pour DaRizzlerBear: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:47:10,077 - INFO - Données enregistrées pour DaRizzlerBear
+2024-08-05 16:47:15,078 - INFO - Traitement de Fate_SN_Game...
+2024-08-05 16:47:15,383 - WARNING - Tentative 1 échouée pour Fate_SN_Game: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/fate_sn_game
+2024-08-05 16:47:55,794 - INFO - Données scrapées pour Fate_SN_Game: {'followers': 20659, 'following': 4, 'tweets': 22, 'created_date': 1705532400}
+2024-08-05 16:47:55,795 - INFO - Données enregistrées pour Fate_SN_Game
+2024-08-05 16:48:00,800 - INFO - Traitement de Innoverse_Games...
+2024-08-05 16:48:01,201 - INFO - Données scrapées pour Innoverse_Games: {'followers': 125, 'following': 71, 'tweets': 181, 'created_date': 1679266800}
+2024-08-05 16:48:01,202 - INFO - Données enregistrées pour Innoverse_Games
+2024-08-05 16:48:06,209 - INFO - Traitement de SKOOTAGAMES...
+2024-08-05 16:48:06,565 - INFO - Données scrapées pour SKOOTAGAMES: {'followers': 207, 'following': 109, 'tweets': 96, 'created_date': 1716242400}
+2024-08-05 16:48:06,566 - INFO - Données enregistrées pour SKOOTAGAMES
+2024-08-05 16:48:11,571 - INFO - Traitement de FinalOutpost...
+2024-08-05 16:48:11,810 - WARNING - Tentative 1 échouée pour FinalOutpost: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/finaloutpost
+2024-08-05 16:48:47,860 - WARNING - Tentative 1 échouée pour HenahurraHGaming: name 'parse_date' is not defined
+2024-08-05 16:48:52,262 - INFO - Données scrapées pour FinalOutpost: {'followers': 186, 'following': 2, 'tweets': 280, 'created_date': 1544223600}
+2024-08-05 16:48:52,266 - INFO - Données enregistrées pour FinalOutpost
+2024-08-05 16:48:57,272 - INFO - Traitement de Sportvida__...
+2024-08-05 16:48:57,677 - INFO - Données scrapées pour Sportvida__: {'followers': 103, 'following': 59, 'tweets': 17, 'created_date': 1719871200}
+2024-08-05 16:48:57,678 - INFO - Données enregistrées pour Sportvida__
+2024-08-05 16:49:02,683 - INFO - Traitement de HenahurraHGame...
+2024-08-05 16:49:03,078 - INFO - Données scrapées pour HenahurraHGame: {'followers': 454, 'following': 945, 'tweets': 81, 'created_date': 1323471600}
+2024-08-05 16:49:03,080 - INFO - Données enregistrées pour HenahurraHGame
+2024-08-05 16:49:08,084 - INFO - Traitement de HolyMollyGames...
+2024-08-05 16:49:08,396 - WARNING - Tentative 1 échouée pour HolyMollyGames: 429 Client Error: Too Many Requests for url: https://socialblade.com/twitter/user/holymollygames
+2024-08-05 16:49:48,961 - INFO - Données scrapées pour HolyMollyGames: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:49:48,963 - INFO - Données enregistrées pour HolyMollyGames
+2024-08-05 16:49:53,963 - INFO - Traitement de MapSimulator...
+2024-08-05 16:49:54,643 - INFO - Données scrapées pour MapSimulator: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 16:49:54,645 - INFO - Données enregistrées pour MapSimulator
+2024-08-05 16:49:59,650 - INFO - Connexion à la base de données fermée.
+2024-08-05 16:58:56,959 - WARNING - Tentative 1 échouée pour HenahurraHGaming: name 'parse_date' is not defined
+2024-08-05 16:59:37,657 - WARNING - Tentative 2 échouée pour HenahurraHGaming: name 'parse_date' is not defined
+2024-08-05 17:00:26,962 - WARNING - Tentative 1 échouée pour HenahurraHGaming: name 'data' is not defined
+2024-08-05 17:00:49,957 - INFO - Données scrapées pour HenahurraHGaming
+2024-08-05 17:03:29,751 - INFO - Données scrapées pour HenahurraHGaming
+2024-08-05 17:15:00,077 - INFO - Données scrapées pour HenahurraHGaming
+2024-08-05 17:16:36,909 - INFO - Données scrapées pour HenahurraHGaming
+2024-08-05 17:17:13,116 - INFO - Données scrapées pour HenahurraHGaming
+2024-08-05 17:19:12,414 - INFO - Données scrapées pour HenahurraHGaming
+2024-08-05 17:20:18,181 - INFO - Données scrapées pour HenahurraHGaming
+2024-08-05 17:21:22,886 - INFO - Données scrapées pour HenahurraHGaming
+2024-08-05 17:21:40,449 - INFO - Données scrapées pour HenahurraHGaming
+2024-08-05 17:22:55,539 - INFO - Données scrapées pour HenahurraHGaming
+2024-08-05 17:23:09,353 - INFO - Données scrapées pour HenahurraHGaming
+2024-08-05 17:42:28,232 - INFO - Connecté à la base de données
+2024-08-05 17:42:28,232 - INFO - Trouvé 0 handles Twitter à traiter
+2024-08-05 17:42:28,232 - INFO - Connexion à la base de données fermée.
+2024-08-05 17:46:24,597 - INFO - Données scrapées pour HenahurraHGaming: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-05 17:46:26,321 - INFO - Données YouTube scrapées pour HenahurraHGaming: {'yt_views': 56, 'yt_creation_date': 1331334000, 'yt_uploads': 7, 'yt_subscribers': 6}
+2024-08-05 17:46:35,431 - INFO - Données scrapées pour HenahurraHGaming: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}

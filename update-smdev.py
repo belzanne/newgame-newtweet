@@ -10,21 +10,7 @@ from datetime import datetime
 logging.basicConfig(filename='smdev_update_log.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-def get_proxy():
-    """
-    Obtient une liste de proxies depuis un service en ligne.
-    Retourne: Un dictionnaire contenant un proxy à utiliser.
-    """
-    proxy_url = "https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
-    try:
-        response = requests.get(proxy_url)
-        proxies = response.text.strip().split('\r\n')
-        return {'http': f'http://{proxies[0]}', 'https': f'https://{proxies[0]}'}
-    except Exception as e:
-        logging.error(f"Erreur lors de l'obtention du proxy : {str(e)}")
-        return None
-
-def scrape_social_blade(handle):
+def scrape_x(handle):
     """
     Scrape les données de SocialBlade pour un handle Twitter donné.
     
@@ -42,8 +28,7 @@ def scrape_social_blade(handle):
     max_retries = 3
     for attempt in range(max_retries):
         try:
-            proxy = get_proxy()
-            response = requests.get(url, headers=headers, proxies=proxy, timeout=30)
+            response = requests.get(url, headers=headers, timeout=30)
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'html.parser')
             
@@ -70,11 +55,49 @@ def scrape_social_blade(handle):
             if attempt == max_retries - 1:
                 logging.error(f"Toutes les tentatives ont échoué pour {handle}")
                 return None
-            time.sleep(5)  # Attendre avant de réessayer
+            time.sleep(40)  # Attendre avant de réessayer
+
+def scrape_youtube(handle):
+    url = f"https://socialblade.com/youtube/channel/{handle}"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+    
+    try:
+        response = requests.get(url, headers=headers, timeout=30)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.content, 'html.parser')
+        
+        data = {}
+        
+        # Extraire le nombre de vues
+        yt_views = soup.select_one('div.YouTubeUserTopInfo:contains("Video Views") span[style="font-weight: bold;"]')
+        data['yt_views'] = int(yt_views.text.strip().replace(',', '')) if yt_views else None
+
+        # Extraire la date de création
+        yt_creation_date = soup.select_one('div.YouTubeUserTopInfo:contains("User Created") span[style="font-weight: bold;"]')
+        if yt_creation_date:
+            data['yt_creation_date'] = parse_date(yt_creation_date.text.strip())
+        else:
+            data['yt_creation_date'] = None
+        
+        # Extraire le nombre d'uploads
+        uploads_element = soup.find('span', id='youtube-stats-header-uploads')
+        data['yt_uploads'] = int(uploads_element.text.strip()) if uploads_element else None
+
+        # Extraire le nombre d'abonnés
+        subscribers_element = soup.find('span', id='youtube-stats-header-subs')
+        data['yt_subscribers'] = int(subscribers_element.text.strip()) if subscribers_element else None
+
+        logging.info(f"Données YouTube scrapées pour {handle}: {data}")
+        return data
+    except Exception as e:
+        logging.warning(f"Échec du scraping YouTube pour {handle}: {str(e)}")
+        return None
 
 def parse_date(date_string):
     """
-    Parse une date au format "Mois Jour, Année" en format "YYYY-MM-DD".
+    Parse une date au format "Mois Jour, Année" en timestamp Unix.
     """
     months = {
         'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
@@ -83,8 +106,10 @@ def parse_date(date_string):
     match = re.match(r'(\w{3})\s(\d{1,2})(?:st|nd|rd|th)?,\s(\d{4})', date_string)
     if match:
         month, day, year = match.groups()
-        return f"{year}-{months[month]}-{day.zfill(2)}"
+        date_obj = datetime.strptime(f"{year}-{months[month]}-{day.zfill(2)}", "%Y-%m-%d")
+        return int(date_obj.timestamp())
     return None
+
 
 def update_database():
     """
@@ -102,12 +127,16 @@ def update_database():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             add_date INTEGER,
             game_id INTEGER,
-            twitter_handle TEXT,
+            x_handle TEXT,
             scrap_date INTEGER,
-            followers_count INTEGER,
-            following_count INTEGER,
+            x_followers INTEGER,
+            x_following INTEGER,
             tweets_count INTEGER,
-            creation_date TEXT
+            x_creation_date INTEGER,
+            yt_views INTEGER,
+            yt_creation_date INTEGER,
+            yt_uploads INTEGER,
+            yt_subscribers INTEGER
         )
         ''')
 
@@ -116,13 +145,13 @@ def update_database():
 
         # Récupérer les handles à scraper
         cursor.execute('''
-        SELECT id, game_id, twitter_handle, add_date, scrap_date
+        SELECT id, game_id, x_handle, add_date, scrap_date
         FROM socialmedia_dev
         WHERE scrap_date IS NULL
            OR (scrap_date < ? AND id IN (
                SELECT MAX(id)
                FROM socialmedia_dev
-               GROUP BY game_id, twitter_handle
+               GROUP BY game_id, x_handle
            ))
         ''', (three_months_ago,))
 
@@ -136,41 +165,54 @@ def update_database():
                 handle = handle[1:]  # Enlever le @ si présent
             
             logging.info(f"Traitement de {handle}...")
-            data = scrape_social_blade(handle)
+            twitter_data = scrape_social_blade(handle)
             
-            if data:
+            # Tentative de scraping YouTube
+            youtube_data = scrape_youtube_social_blade(handle)
+            
+            if twitter_data or youtube_data:
                 scrap_timestamp = current_timestamp
                 
                 if last_scrap_date is None:
                     # Premier scraping : mettre à jour la ligne existante
                     cursor.execute('''
                     UPDATE socialmedia_dev 
-                    SET scrap_date = ?, followers_count = ?, following_count = ?, tweets_count = ?, creation_date = ?
+                    SET scrap_date = ?, x_followers = ?, x_following = ?, tweets_count = ?, x_creation_date = ?,
+                        yt_views = ?, yt_creation_date = ?, yt_uploads = ?, yt_subscribers = ?
                     WHERE id = ?
-                    ''', (scrap_timestamp, data.get('followers'), data.get('following'), 
-                          data.get('tweets'), data.get('created_date'), id))
+                    ''', (scrap_timestamp, 
+                          twitter_data.get('followers') if twitter_data else None, 
+                          twitter_data.get('following') if twitter_data else None, 
+                          twitter_data.get('tweets') if twitter_data else None, 
+                          twitter_data.get('created_date') if twitter_data else None,
+                          youtube_data.get('yt_views') if youtube_data else None,
+                          youtube_data.get('yt_creation_date') if youtube_data else None,
+                          youtube_data.get('yt_uploads') if youtube_data else None,
+                          youtube_data.get('yt_subscribers') if youtube_data else None,
+                          id))
                 else:
                     # Scraping ultérieur : insérer une nouvelle ligne
                     cursor.execute('''
                     INSERT INTO socialmedia_dev 
-                    (game_id, twitter_handle, add_date, scrap_date, followers_count, following_count, tweets_count, creation_date)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-                    ''', (game_id, '@' + handle, add_date, scrap_timestamp, data.get('followers'), 
-                          data.get('following'), data.get('tweets'), data.get('created_date')))
+                    (game_id, x_handle, add_date, scrap_date, x_followers, x_following, tweets_count, x_creation_date,
+                     yt_views, yt_creation_date, yt_uploads, yt_subscribers)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    ''', (game_id, '@' + handle, add_date, scrap_timestamp, 
+                          twitter_data.get('followers') if twitter_data else None, 
+                          twitter_data.get('following') if twitter_data else None, 
+                          twitter_data.get('tweets') if twitter_data else None, 
+                          twitter_data.get('created_date') if twitter_data else None,
+                          youtube_data.get('yt_views') if youtube_data else None,
+                          youtube_data.get('yt_creation_date') if youtube_data else None,
+                          youtube_data.get('yt_uploads') if youtube_data else None,
+                          youtube_data.get('yt_subscribers') if youtube_data else None))
 
                 conn.commit()
                 logging.info(f"Données enregistrées pour {handle}")
             else:
                 logging.warning(f"Aucune donnée scrapée pour {handle}, mise à jour ignorée")
 
-            time.sleep(5)  # Pause de 5 secondes entre chaque requête
-
-        # Vérifier les données après mise à jour
-        cursor.execute("SELECT * FROM socialmedia_dev ORDER BY scrap_date DESC LIMIT 5")
-        rows = cursor.fetchall()
-        logging.info("Après la mise à jour, affichage des 5 entrées les plus récentes:")
-        for row in rows:
-            logging.info(row)
+            time.sleep(40)  # Pause de 5 secondes entre chaque requête
 
     except sqlite3.Error as e:
         logging.error(f"Erreur SQLite: {str(e)}")
