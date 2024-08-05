@@ -44,8 +44,8 @@ jobs:
         with:
           commit_message: Update data
 
-      - name: execute update-smdev-db.py script # run update-smdev-db.py
-        run: python update-smdev-db.py
+      - name: execute update-smdev.py script # run update-smdev-db.py
+        run: python update-smdev.py
 
       - name: commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
