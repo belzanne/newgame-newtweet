@@ -71,11 +71,11 @@ def scrape_youtube(handle):
         data = {}
         
         # Extraire le nombre de vues
-        yt_views = soup.select_one('div.YouTubeUserTopInfo:contains("Video Views") span[style="font-weight: bold;"]')
+        yt_views = soup.select_one('div.YouTubeUserTopInfo:-soup-contains("Video Views") span[style="font-weight: bold;"]')
         data['yt_views'] = int(yt_views.text.strip().replace(',', '')) if yt_views else None
 
         # Extraire la date de création
-        yt_creation_date = soup.select_one('div.YouTubeUserTopInfo:contains("User Created") span[style="font-weight: bold;"]')
+        yt_creation_date = soup.select_one('div.YouTubeUserTopInfo:-soup-contains("User Created") span[style="font-weight: bold;"]')
         if yt_creation_date:
             data['yt_creation_date'] = parse_date(yt_creation_date.text.strip())
         else:
@@ -165,10 +165,10 @@ def update_database():
                 handle = handle[1:]  # Enlever le @ si présent
             
             logging.info(f"Traitement de {handle}...")
-            twitter_data = scrape_social_blade(handle)
+            twitter_data = scrape_x(handle)
             
             # Tentative de scraping YouTube
-            youtube_data = scrape_youtube_social_blade(handle)
+            youtube_data = scrape_youtube(handle)
             
             if twitter_data or youtube_data:
                 scrap_timestamp = current_timestamp
