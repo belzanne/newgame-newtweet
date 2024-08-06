@@ -1,4 +1,10 @@
-import csv
+#version qui cherche les comptes twitter avec Brave Search API
+#avantage : trouve plus facilement les comptes twitter
+#inconvénient : ne ramène pas le body -> pas possible de vérifier lien avec jeux vidéo -> possibilité de faux positifs
+#normalement limité grace à : récupération sur page steam si dispo + sinon similarité exigée de 90%
+#stocke les infos dans aug_syeam_games.db
+
+
 import sqlite3
 import requests
 from bs4 import BeautifulSoup
@@ -30,8 +36,8 @@ def log_execution(total_games, published_games):
     logging.info(log_message)
     logging.info(f"PAT_GITHUB_USERNAME: {os.getenv('PAT_GITHUB_USERNAME')}")
     logging.info(f"GITHUB_REPO: {GITHUB_REPO}")
-    logging.info(f"CSV_FILE_PATH: {CSV_FILE_PATH}")
-    logging.info(f"URL complète : {csv_url}")
+    logging.info(f"DB_FILE_PATH: {DB_FILE_PATH}")
+    logging.info(f"URL complète : {db_url}")
     logging.info("Utilisation de l'API Brave Search")
     logging.info(f"Nombre de jeux avec contenu mature (id=3): {MATURE_CONTENT_GAMES}")
     logging.info(f"Nombre de jeux avec contenu généré par IA: {AI_GENERATED_GAMES}")
@@ -42,7 +48,7 @@ load_dotenv()
 
 # Configuration
 GITHUB_REPO = 'steampage-creation-date'
-CSV_FILE_PATH = 'steam_games.csv'
+DB_FILE_PATH = 'steam_games.db'
 TIMESTAMP_FILE = 'timestamp_last_tweet.txt'
 PARIS_TZ = pytz.timezone('Europe/Paris')
 MAX_TWEETS_PER_DAY = 50
@@ -87,22 +93,28 @@ def write_last_timestamp(timestamp):
     with open(TIMESTAMP_FILE, 'w') as f:
         f.write(str(timestamp))
 
-def download_csv(url, local_path):
-    response = requests.get(url)
+def download_db(url, local_path):
+    response = requests.get(url, stream=True)
     if response.status_code == 200:
         with open(local_path, 'wb') as f:
-            f.write(response.content)
+            for chunk in response.iter_content(chunk_size=8192):
+                f.write(chunk)
         return True
-    print(f"Échec du téléchargement du fichier CSV. Code de statut: {response.status_code}")
+    print(f"Échec du téléchargement de la base de données. Code de statut: {response.status_code}")
     return False
 
-def read_csv(csv_path):
-    with open(csv_path, 'r', newline='') as f:
-        return list(csv.reader(f))
+def connect_to_db(db_path):
+    return sqlite3.connect(db_path)
 
-def check_new_entries(csv_data, last_timestamp):
-    return [(int(row[1]), int(row[2])) for row in csv_data[1:] if int(row[2]) > last_timestamp]
-
+def check_new_entries(conn, last_timestamp):
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT steam_game_id, first_seen
+        FROM games 
+        WHERE first_seen > ?
+        ORDER BY first_seen ASC
+    """, (last_timestamp,))
+    return cursor.fetchall()
 
 def get_game_details(steam_game_id):
     url = f"https://store.steampowered.com/api/appdetails?appids={steam_game_id}"
@@ -479,8 +491,8 @@ def insert_aug_steam_game(conn, game_data, steam_page_info):
 def main():
     logging.info("Début de l'exécution de main()")
     try:
-        csv_url = f"https://raw.githubusercontent.com/{os.getenv('PAT_GITHUB_USERNAME')}/{GITHUB_REPO}/main/{CSV_FILE_PATH}"
-        logging.info(f"URL de la base de données : {csv_url}")
+        db_url = f"https://raw.githubusercontent.com/{os.getenv('PAT_GITHUB_USERNAME')}/{GITHUB_REPO}/main/{DB_FILE_PATH}"
+        logging.info(f"URL de la base de données : {db_url}")
         
         last_timestamp = read_last_timestamp()
         logging.info(f"Dernier timestamp lu : {last_timestamp}")
@@ -497,13 +509,12 @@ def main():
             logging.error("Erreur : La clé API Brave n'est pas définie dans les variables d'environnement.")
             return None
 
-        with tempfile.NamedTemporaryFile(delete=False, suffix='.csv') as temp_csv:
-            if download_csv(csv_url, temp_csv.name):
-                logging.info(f"Base de données téléchargée avec succès : {temp_csv.name}")
-                csv_data = read_csv(temp_csv.name)
-                new_entries = check_new_entries(csv_data, last_timestamp)
+        with tempfile.NamedTemporaryFile(delete=False, suffix='.db') as temp_db:
+            if download_db(db_url, temp_db.name):
+                logging.info(f"Base de données téléchargée avec succès : {temp_db.name}")
+                conn = connect_to_db(temp_db.name)
+                new_entries = check_new_entries(conn, last_timestamp)
                 logging.info(f"Nombre de nouvelles entrées trouvées : {len(new_entries)}")
-                
                 
                 for steam_game_id, first_seen in new_entries:
                     total_games += 1
@@ -551,12 +562,12 @@ def main():
                             logging.info(f"Le jeu avec Steam ID {steam_game_id} ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.")
                     else:
                         logging.info(f"Impossible de récupérer les détails pour le jeu avec Steam ID {steam_game_id}")
-                
+                conn.close()
             else:
-                logging.error("Échec du téléchargement du fichier steam_games.csv")
+                logging.error("Échec du téléchargement de la base de données")
                 return None
         
-        os.unlink(temp_csv.name)
+        os.unlink(temp_db.name)
         logging.info("Fichier temporaire de la base de données supprimé")
 
         # Publier les tweets prioritaires
@@ -592,7 +603,7 @@ def main():
         logging.info(f"Tweets non prioritaires : {len(non_priority_tweets)}")
         
         aug_db_conn.close()
-        return total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, csv_url
+        return total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, db_url
     
     except Exception as e:
         logging.exception(f"Une erreur inattendue s'est produite dans main(): {str(e)}")
@@ -603,7 +614,7 @@ if __name__ == "__main__":
     try:
         result = main()
         if result is not None:
-            total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, csv_url = result
+            total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, db_url = result
 
             print(f"\nRésumé : {published_games} jeux publiés sur {total_games} jeux traités au total.")
             print(f"Tweets prioritaires : {len(priority_tweets)}")

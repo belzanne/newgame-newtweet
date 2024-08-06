@@ -7399,3 +7399,30 @@ b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove(
 2024-08-06 18:48:27,243 - INFO - Données scrapées pour ikinagames: {'followers': 1196, 'following': 352, 'tweets': 1066, 'created_date': 1304373600}
 2024-08-06 18:48:29,373 - INFO - Données YouTube scrapées pour ikinagames: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
 2024-08-06 18:48:29,374 - INFO - Données enregistrées pour ikinagames
+2024-08-06 18:50:37,594 - INFO - Connecté à la base de données
+2024-08-06 18:50:37,595 - INFO - Trouvé 6 handles Twitter à traiter
+2024-08-06 18:50:37,595 - INFO - Traitement de micalaty65...
+2024-08-06 18:50:38,087 - INFO - Données scrapées pour micalaty65: {'followers': 25, 'following': 7, 'tweets': 268, 'created_date': 1643151600}
+2024-08-06 18:50:41,852 - INFO - Données YouTube scrapées pour micalaty65: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-06 18:50:41,853 - INFO - Données enregistrées pour micalaty65
+2024-08-06 18:51:21,858 - INFO - Traitement de madquokka_dev...
+2024-08-06 18:51:22,440 - INFO - Données scrapées pour madquokka_dev: {'followers': 9, 'following': 4, 'tweets': 2, 'created_date': 1715292000}
+2024-08-06 18:51:25,293 - INFO - Données YouTube scrapées pour madquokka_dev: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-06 18:51:25,294 - INFO - Données enregistrées pour madquokka_dev
+2024-08-06 18:52:05,302 - INFO - Traitement de ragesquid...
+2024-08-06 18:52:07,895 - INFO - Données scrapées pour ragesquid: {'followers': 6054, 'following': 1335, 'tweets': 3535, 'created_date': 1312322400}
+2024-08-06 18:52:09,120 - WARNING - Échec du scraping YouTube pour ragesquid: invalid literal for int() with base 10: '2.16K'
+2024-08-06 18:52:09,121 - INFO - Données enregistrées pour ragesquid
+2024-08-06 18:52:49,122 - INFO - Traitement de ShadowOwlStudio...
+2024-08-06 18:52:49,813 - INFO - Données scrapées pour ShadowOwlStudio: {'followers': 53, 'following': 8, 'tweets': 62, 'created_date': 1662760800}
+2024-08-06 18:52:54,340 - INFO - Données YouTube scrapées pour ShadowOwlStudio: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-06 18:52:54,342 - INFO - Données enregistrées pour ShadowOwlStudio
+2024-08-06 18:53:34,347 - INFO - Traitement de berrylemonadev...
+2024-08-06 18:53:34,912 - INFO - Données scrapées pour berrylemonadev: {'followers': 179, 'following': 122, 'tweets': 258, 'created_date': 1680213600}
+2024-08-06 18:53:37,239 - INFO - Données YouTube scrapées pour berrylemonadev: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-06 18:53:37,240 - INFO - Données enregistrées pour berrylemonadev
+2024-08-06 18:54:17,246 - INFO - Traitement de RedDeer_Games...
+2024-08-06 18:54:19,884 - INFO - Données scrapées pour RedDeer_Games: {'followers': 22682, 'following': 4850, 'tweets': 16282, 'created_date': 1539813600}
+2024-08-06 18:54:24,490 - WARNING - Échec du scraping YouTube pour RedDeer_Games: invalid literal for int() with base 10: '2.74K'
+2024-08-06 18:54:24,491 - INFO - Données enregistrées pour RedDeer_Games
+2024-08-06 18:55:04,497 - INFO - Connexion à la base de données fermée.
