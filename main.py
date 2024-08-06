@@ -190,16 +190,16 @@ def get_steam_page_info(app_id):
         
         # Récupérer le lien Twitter s'il existe
         twitter_link = soup.find('a', class_="ttip", attrs={'data-tooltip-text': lambda x: x and 'x.com/' in x})
-        twitter_handle = None
+        x_handle = None
         if twitter_link:
             twitter_url = twitter_link['data-tooltip-text']
-            twitter_handle = '@' + twitter_url.split('/')[-1]
+            x_handle = '@' + twitter_url.split('/')[-1]
         
         return {
             'ai_generated': bool(ai_disclosure),
             'ai_content': ai_content,
             'tags': tags,
-            'twitter_handle': twitter_handle
+            'x_handle': x_handle
         }
     except Exception as e:
         logging.error(f"Erreur lors du scraping pour le jeu {app_id}: {e}")
@@ -343,16 +343,16 @@ def extract_twitter_names(title):
     
     return title, None
 
-def format_tweet_message(game_data, tags, first_seen, twitter_handle=None):
+def format_tweet_message(game_data, tags, first_seen, x_handle=None):
     try:
         name = clean_text(game_data['name'])
         developers = game_data.get('developers', [])
         developer_handles = []
         
         for dev in developers:
-            if twitter_handle:
+            if x_handle:
                 # Si on a un handle de la page Steam ou de Brave, on s'assure qu'il a un @
-                developer_handles.append('@' + twitter_handle.lstrip('@'))
+                developer_handles.append('@' + x_handle.lstrip('@'))
             else:
                 # Sinon, on cherche avec get_game_studio_twitter
                 handle = get_game_studio_twitter(dev)
@@ -399,8 +399,8 @@ def send_tweet(message):
         return None
 
 # Ajoutez cette fonction pour insérer les données dans la nouvelle base de données
-def insert_developer_social_media(game_id, twitter_handle):
-    if twitter_handle and twitter_handle.strip():  # Vérifier si le handle n'est pas vide
+def insert_developer_social_media(game_id, x_handle):
+    if x_handle and x_handle.strip():  # Vérifier si le handle n'est pas vide
         try:
             conn = sqlite3.connect('socialmedia-developer.db')
             cursor = conn.cursor()
@@ -424,11 +424,11 @@ def insert_developer_social_media(game_id, twitter_handle):
                 )
             ''')
             
-            # Vérifier si une entrée existe déjà pour ce game_id et twitter_handle
+            # Vérifier si une entrée existe déjà pour ce game_id et x_handle
             cursor.execute('''
                 SELECT id FROM socialmedia_dev
-                WHERE game_id = ? AND twitter_handle = ?
-            ''', (game_id, twitter_handle))
+                WHERE game_id = ? AND x_handle = ?
+            ''', (game_id, x_handle))
             
             existing_entry = cursor.fetchone()
             
@@ -437,13 +437,13 @@ def insert_developer_social_media(game_id, twitter_handle):
                 current_timestamp = int(time.time())
                 cursor.execute('''
                     INSERT INTO socialmedia_dev 
-                    (add_date, game_id, twitter_handle)
+                    (add_date, game_id, x_handle)
                     VALUES (?, ?, ?)
-                ''', (current_timestamp, game_id, twitter_handle))
+                ''', (current_timestamp, game_id, x_handle))
                 
-                logging.info(f"Nouvelle entrée insérée pour game_id: {game_id}, twitter_handle: {twitter_handle}, add_date: {current_timestamp}")
+                logging.info(f"Nouvelle entrée insérée pour game_id: {game_id}, x_handle: {x_handle}, add_date: {current_timestamp}")
             else:
-                logging.info(f"Entrée existante trouvée pour game_id: {game_id}, twitter_handle: {twitter_handle}. Aucune insertion effectuée.")
+                logging.info(f"Entrée existante trouvée pour game_id: {game_id}, x_handle: {x_handle}. Aucune insertion effectuée.")
             
             conn.commit()
         except sqlite3.Error as e:
@@ -486,7 +486,7 @@ def insert_aug_steam_game(conn, game_data, steam_page_info):
           content_descriptors_str, supported_languages, free, dlc))
     
     conn.commit()
-    logging.info(f"Inserted/updated game {game_id} with content descriptors: {content_descriptors_str}")
+    logging.info(f"Inserted/updated game {game_id} into aug_steam_agames.db")
             
 def main():
     logging.info("Début de l'exécution de main()")
@@ -532,21 +532,21 @@ def main():
                         if filter_game(game_data):
                             if steam_page_info and not steam_page_info['ai_generated']:
                                 tags = steam_page_info['tags']
-                                twitter_handle = steam_page_info['twitter_handle']
-                                logging.info(f"Handle trouvé sur la page steam : {twitter_handle}")
+                                x_handle = steam_page_info['x_handle']
+                                logging.info(f"Handle trouvé sur la page steam : {x_handle}")
 
                                 # Si aucun handle n'est trouvé sur la page Steam, on utilise get_game_studio_twitter
-                                if not twitter_handle:
+                                if not x_handle:
                                     developer = game_data.get('developers', [''])[0]  # Prend le premier développeur
-                                    twitter_handle = get_game_studio_twitter(developer)
-                                    logging.info(f"Handle trouvé via Brave : {twitter_handle}")
+                                    x_handle = get_game_studio_twitter(developer)
+                                    logging.info(f"Handle trouvé via Brave : {x_handle}")
 
                                 # Stockage du handle dans la base de données si un handle valide a été trouvé
-                                if twitter_handle and twitter_handle.startswith('@'):
-                                    insert_developer_social_media(steam_game_id, twitter_handle)
+                                if x_handle and x_handle.startswith('@'):
+                                    insert_developer_social_media(steam_game_id, x_handle)
 
-                                logging.info(f"X_handle: {twitter_handle}")
-                                message = format_tweet_message(game_data, tags, first_seen, twitter_handle)
+                                logging.info(f"X_handle: {x_handle}")
+                                message = format_tweet_message(game_data, tags, first_seen, x_handle)
                                 if message:
                                     if is_priority_game(game_data):
                                         priority_tweets.append((message, game_data, first_seen))

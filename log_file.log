@@ -14660,3 +14660,21 @@ Résumé : 39 jeux publiés sur 84 jeux traités au total.
 2024-08-06 06:43:46 - Utilisation de l'API Brave Search
 2024-08-06 06:43:46 - Nombre de jeux avec contenu mature (id=3): 3
 2024-08-06 06:43:46 - Nombre de jeux avec contenu généré par IA: 7
+2024-08-06 13:22:24 - Début de l'exécution de main()
+2024-08-06 13:22:24 - URL de la base de données : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-08-06 13:22:24 - Dernier timestamp lu : 1722902391
+2024-08-06 13:22:25 - Base de données téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmp9vo7e8ef.db
+2024-08-06 13:22:25 - Nombre de nouvelles entrées trouvées : 0
+2024-08-06 13:22:25 - Fichier temporaire de la base de données supprimé
+2024-08-06 13:22:25 - 
+Résumé : 0 jeux publiés sur 0 jeux traités au total.
+2024-08-06 13:22:25 - Tweets prioritaires : 0
+2024-08-06 13:22:25 - Tweets non prioritaires : 0
+2024-08-06 13:22:25 - Exécution du 2024-08-06 13:22:25: 0 tweets envoyés sur 0 jeux traités.
+2024-08-06 13:22:25 - PAT_GITHUB_USERNAME: belzanne
+2024-08-06 13:22:25 - GITHUB_REPO: steampage-creation-date
+2024-08-06 13:22:25 - DB_FILE_PATH: steam_games.db
+2024-08-06 13:22:25 - URL complète : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.db
+2024-08-06 13:22:25 - Utilisation de l'API Brave Search
+2024-08-06 13:22:25 - Nombre de jeux avec contenu mature (id=3): 0
+2024-08-06 13:22:25 - Nombre de jeux avec contenu généré par IA: 0

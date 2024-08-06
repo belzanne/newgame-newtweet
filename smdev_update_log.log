@@ -7382,3 +7382,6 @@ b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove(
 2024-08-06 06:43:48,799 - INFO - Connecté à la base de données
 2024-08-06 06:43:48,799 - INFO - Trouvé 0 handles Twitter à traiter
 2024-08-06 06:43:48,799 - INFO - Connexion à la base de données fermée.
+2024-08-06 13:15:34,233 - INFO - Connecté à la base de données
+2024-08-06 13:15:34,234 - INFO - Trouvé 0 handles Twitter à traiter
+2024-08-06 13:15:34,234 - INFO - Connexion à la base de données fermée.
