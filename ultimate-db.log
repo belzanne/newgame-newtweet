@@ -36,3 +36,11 @@
 2024-08-07 18:33:14,931 - INFO - Traitement du lot 1, jeux 1 à 100
 2024-08-07 18:33:58,448 - INFO - Total des jeux à traiter : 207904
 2024-08-07 18:33:58,448 - INFO - Traitement du lot 1, jeux 1 à 100
+2024-08-07 19:50:53,211 - INFO - Total des jeux à traiter : 207904
+2024-08-07 19:50:53,211 - INFO - Traitement du lot 1, jeux 1 à 100
+2024-08-07 20:03:39,133 - INFO - 100 / 207904 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 20:03:39,367 - ERROR - Unexpected error: name 'review_data' is not defined
+2024-08-07 20:04:27,913 - INFO - 100 / 207904 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 20:04:28,154 - ERROR - Unexpected error: unhashable type: 'dict'
