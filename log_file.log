@@ -14794,3 +14794,119 @@ Résumé : 2 jeux publiés sur 19 jeux traités au total.
 2024-08-07 06:45:11 - Utilisation de l'API Brave Search
 2024-08-07 06:45:11 - Nombre de jeux avec contenu mature (id=3): 0
 2024-08-07 06:45:11 - Nombre de jeux avec contenu généré par IA: 0
+2024-08-07 10:11:49 - Début de l'exécution de main()
+2024-08-07 10:11:49 - URL de la base de données : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.csv
+2024-08-07 10:11:49 - Dernier timestamp lu : 1722960426
+2024-08-07 10:11:49 - Base de données téléchargée avec succès : /var/folders/b5/ckj362xj7ng_xqbjrqp077qh0000gn/T/tmp6rdz98hz.csv
+2024-08-07 10:11:49 - Nombre de nouvelles entrées trouvées : 19
+2024-08-07 10:11:49 - Traitement du jeu : Steam ID: 1840250, First Seen: 1722988787
+2024-08-07 10:11:50 - Inserted/updated game 1840250 into aug_steam_agames.db
+2024-08-07 10:11:50 - Handle trouvé sur la page steam : @SpectraFoundry
+2024-08-07 10:11:50 - Entrée existante trouvée pour game_id: 1840250, x_handle: @SpectraFoundry. Aucune insertion effectuée.
+2024-08-07 10:11:50 - X_handle: @SpectraFoundry
+2024-08-07 10:11:50 - Traitement du jeu : Steam ID: 1796720, First Seen: 1722988787
+2024-08-07 10:11:50 - Inserted/updated game 1796720 into aug_steam_agames.db
+2024-08-07 10:11:50 - Handle trouvé sur la page steam : @IndAnnihilation?_xm=194726.302782412142673934
+2024-08-07 10:11:50 - Entrée existante trouvée pour game_id: 1796720, x_handle: @IndAnnihilation?_xm=194726.302782412142673934. Aucune insertion effectuée.
+2024-08-07 10:11:50 - X_handle: @IndAnnihilation?_xm=194726.302782412142673934
+2024-08-07 10:11:50 - Traitement du jeu : Steam ID: 2174690, First Seen: 1722988787
+2024-08-07 10:11:51 - Inserted/updated game 2174690 into aug_steam_agames.db
+2024-08-07 10:11:51 - Handle trouvé sur la page steam : None
+2024-08-07 10:11:52 - Comparaison pour Ray Beckham: displayed 'Twitter' (score: 0.1111111111111111), handle '@@davidbeckham' (score: 0.6956521739130435)
+2024-08-07 10:11:52 - Comparaison pour Ray Beckham: displayed 'LOVE Beckham Family' (score: 0.5333333333333333), handle '@BeckhamBroo' (score: 0.6666666666666666)
+2024-08-07 10:11:52 - Comparaison pour Ray Beckham: displayed 'robert beckham' (score: 0.72), handle '@beckham' (score: 0.8235294117647058)
+2024-08-07 10:11:52 - Comparaison pour Ray Beckham: displayed 'Ben Beckham' (score: 0.7272727272727273), handle '@BeckhamBd' (score: 0.7368421052631579)
+2024-08-07 10:11:52 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Ray Beckham
+2024-08-07 10:11:52 - Handle trouvé via Brave : None
+2024-08-07 10:11:52 - X_handle: None
+2024-08-07 10:11:53 - Comparaison pour Ray Beckham: displayed 'Twitter' (score: 0.1111111111111111), handle '@@davidbeckham' (score: 0.6956521739130435)
+2024-08-07 10:11:53 - Comparaison pour Ray Beckham: displayed 'LOVE Beckham Family' (score: 0.5333333333333333), handle '@BeckhamBroo' (score: 0.6666666666666666)
+2024-08-07 10:11:53 - Comparaison pour Ray Beckham: displayed 'robert beckham' (score: 0.72), handle '@beckham' (score: 0.8235294117647058)
+2024-08-07 10:11:53 - Comparaison pour Ray Beckham: displayed 'Ben Beckham' (score: 0.7272727272727273), handle '@BeckhamBd' (score: 0.7368421052631579)
+2024-08-07 10:11:53 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Ray Beckham
+2024-08-07 10:11:53 - Traitement du jeu : Steam ID: 1796720, First Seen: 1722988787
+2024-08-07 10:11:53 - Inserted/updated game 1796720 into aug_steam_agames.db
+2024-08-07 10:11:53 - Handle trouvé sur la page steam : @IndAnnihilation?_xm=194726.302782412142673934
+2024-08-07 10:11:53 - Entrée existante trouvée pour game_id: 1796720, x_handle: @IndAnnihilation?_xm=194726.302782412142673934. Aucune insertion effectuée.
+2024-08-07 10:11:53 - X_handle: @IndAnnihilation?_xm=194726.302782412142673934
+2024-08-07 10:11:53 - Traitement du jeu : Steam ID: 1840250, First Seen: 1722988787
+2024-08-07 10:11:54 - Inserted/updated game 1840250 into aug_steam_agames.db
+2024-08-07 10:11:54 - Handle trouvé sur la page steam : @SpectraFoundry
+2024-08-07 10:11:54 - Entrée existante trouvée pour game_id: 1840250, x_handle: @SpectraFoundry. Aucune insertion effectuée.
+2024-08-07 10:11:54 - X_handle: @SpectraFoundry
+2024-08-07 10:11:54 - Traitement du jeu : Steam ID: 3064700, First Seen: 1722988787
+2024-08-07 10:11:54 - Impossible de récupérer les détails pour le jeu avec Steam ID 3064700
+2024-08-07 10:11:54 - Traitement du jeu : Steam ID: 3148590, First Seen: 1722988787
+2024-08-07 10:11:55 - Inserted/updated game 3148590 into aug_steam_agames.db
+2024-08-07 10:11:55 - Handle trouvé sur la page steam : None
+2024-08-07 10:11:56 - Comparaison pour Archor Wright: displayed 'Archor Wright' (score: 1.0), handle '@archor_wright' (score: 0.96)
+2024-08-07 10:11:56 - Handle trouvé via Brave : archor_wright
+2024-08-07 10:11:56 - X_handle: archor_wright
+2024-08-07 10:11:56 - Traitement du jeu : Steam ID: 3147580, First Seen: 1722988787
+2024-08-07 10:11:57 - Inserted/updated game 3147580 into aug_steam_agames.db
+2024-08-07 10:11:57 - Le jeu avec Steam ID 3147580 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-07 10:11:57 - Traitement du jeu : Steam ID: 3147230, First Seen: 1722988787
+2024-08-07 10:11:58 - Inserted/updated game 3147230 into aug_steam_agames.db
+2024-08-07 10:11:58 - Handle trouvé sur la page steam : None
+2024-08-07 10:11:59 - Comparaison pour Lusk: displayed 'Lusk' (score: 1.0), handle '@Lusk_BZH' (score: 0.6666666666666666)
+2024-08-07 10:11:59 - Handle trouvé via Brave : Lusk_BZH
+2024-08-07 10:11:59 - X_handle: Lusk_BZH
+2024-08-07 10:11:59 - Traitement du jeu : Steam ID: 3147260, First Seen: 1722988787
+2024-08-07 10:12:00 - Inserted/updated game 3147260 into aug_steam_agames.db
+2024-08-07 10:12:00 - Le jeu avec Steam ID 3147260 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-07 10:12:00 - Traitement du jeu : Steam ID: 3146130, First Seen: 1722988787
+2024-08-07 10:12:01 - Inserted/updated game 3146130 into aug_steam_agames.db
+2024-08-07 10:12:01 - Le jeu avec Steam ID 3146130 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-07 10:12:01 - Traitement du jeu : Steam ID: 3146250, First Seen: 1722988787
+2024-08-07 10:12:01 - Inserted/updated game 3146250 into aug_steam_agames.db
+2024-08-07 10:12:01 - Handle trouvé sur la page steam : None
+2024-08-07 10:12:03 - Comparaison pour Zombie Developer: displayed 'Twitter' (score: 0.2608695652173913), handle '@@zombierushnews' (score: 0.4666666666666667)
+2024-08-07 10:12:03 - Comparaison pour Zombie Developer: displayed 'Zombie Developer' (score: 1.0), handle '@ZombieVirusInfo' (score: 0.5333333333333333)
+2024-08-07 10:12:03 - Handle trouvé via Brave : ZombieVirusInfo
+2024-08-07 10:12:03 - X_handle: ZombieVirusInfo
+2024-08-07 10:12:03 - Traitement du jeu : Steam ID: 3144780, First Seen: 1722988787
+2024-08-07 10:12:03 - Inserted/updated game 3144780 into aug_steam_agames.db
+2024-08-07 10:12:03 - Le jeu avec Steam ID 3144780 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-07 10:12:03 - Traitement du jeu : Steam ID: 3141470, First Seen: 1722988787
+2024-08-07 10:12:04 - Inserted/updated game 3141470 into aug_steam_agames.db
+2024-08-07 10:12:04 - Le jeu avec Steam ID 3141470 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-07 10:12:04 - Traitement du jeu : Steam ID: 3141010, First Seen: 1722988787
+2024-08-07 10:12:05 - Inserted/updated game 3141010 into aug_steam_agames.db
+2024-08-07 10:12:05 - Le jeu avec Steam ID 3141010 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-07 10:12:05 - Traitement du jeu : Steam ID: 3141260, First Seen: 1722988787
+2024-08-07 10:12:05 - Inserted/updated game 3141260 into aug_steam_agames.db
+2024-08-07 10:12:05 - Le jeu avec Steam ID 3141260 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-07 10:12:05 - Traitement du jeu : Steam ID: 3120120, First Seen: 1722988787
+2024-08-07 10:12:07 - Inserted/updated game 3120120 into aug_steam_agames.db
+2024-08-07 10:12:07 - Le jeu avec Steam ID 3120120 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-07 10:12:07 - Traitement du jeu : Steam ID: 3022540, First Seen: 1722988787
+2024-08-07 10:12:08 - Inserted/updated game 3022540 into aug_steam_agames.db
+2024-08-07 10:12:08 - Handle trouvé sur la page steam : None
+2024-08-07 10:12:09 - Comparaison pour Continuum Studios: displayed 'Continuum Studio' (score: 0.9696969696969697), handle '@ContinuumStudio' (score: 0.967741935483871)
+2024-08-07 10:12:09 - Handle trouvé via Brave : ContinuumStudio
+2024-08-07 10:12:09 - X_handle: ContinuumStudio
+2024-08-07 10:12:09 - Traitement du jeu : Steam ID: 3064700, First Seen: 1722988787
+2024-08-07 10:12:09 - Impossible de récupérer les détails pour le jeu avec Steam ID 3064700
+2024-08-07 10:12:09 - Fichier temporaire de la base de données supprimé
+2024-08-07 10:12:09 - Tweet prioritaire publié pour Poppy Sanctum (ID: 1821096982997307661)
+2024-08-07 10:12:10 - Tweet prioritaire publié pour Industrial Annihilation (ID: 1821096984389800166)
+2024-08-07 10:12:10 - Tweet prioritaire publié pour Sanguine 3 (ID: 1821096985681650166)
+2024-08-07 10:12:10 - Échec de la publication du tweet prioritaire pour Industrial Annihilation
+2024-08-07 10:12:10 - Échec de la publication du tweet prioritaire pour Poppy Sanctum
+2024-08-07 10:12:11 - Tweet prioritaire publié pour Forest Of Perdition 2 - The School Trip (ID: 1821096988818944494)
+2024-08-07 10:12:11 - Tweet prioritaire publié pour Escape The Maze (ID: 1821096990568067482)
+2024-08-07 10:12:12 - Tweet prioritaire publié pour Menticide (ID: 1821096991947903330)
+2024-08-07 10:12:12 - Tweet non prioritaire publié pour Multiplayer Shooters (ID: 1821096993558589813)
+2024-08-07 10:12:12 - Timestamp mis à jour : 1722988787
+2024-08-07 10:12:12 - 
+Résumé : 7 jeux publiés sur 19 jeux traités au total.
+2024-08-07 10:12:12 - Tweets prioritaires : 8
+2024-08-07 10:12:12 - Tweets non prioritaires : 1
+2024-08-07 10:12:12 - Exécution du 2024-08-07 10:12:12: 7 tweets envoyés sur 19 jeux traités.
+2024-08-07 10:12:12 - PAT_GITHUB_USERNAME: belzanne
+2024-08-07 10:12:12 - GITHUB_REPO: steampage-creation-date
+2024-08-07 10:12:12 - CSV_FILE_PATH: steam_games.csv
+2024-08-07 10:12:12 - URL complète : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.csv
+2024-08-07 10:12:12 - Utilisation de l'API Brave Search
+2024-08-07 10:12:12 - Nombre de jeux avec contenu mature (id=3): 0
+2024-08-07 10:12:12 - Nombre de jeux avec contenu généré par IA: 0
