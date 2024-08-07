@@ -44,3 +44,391 @@
 2024-08-07 20:04:27,913 - INFO - 100 / 207904 games to process.
     ⓘ Increase BATCH_SIZE to process more games
 2024-08-07 20:04:28,154 - ERROR - Unexpected error: unhashable type: 'dict'
+2024-08-07 21:51:05,840 - INFO - 100 / 207904 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 21:51:06,176 - ERROR - Unexpected error: 'game_id'
+2024-08-07 21:53:55,141 - INFO - 100 / 207904 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 21:53:55,349 - ERROR - Unexpected error: 'NoneType' object is not subscriptable
+2024-08-07 21:54:02,340 - INFO - 100 / 207904 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 21:54:02,603 - ERROR - Unexpected error: 'game_id'
+2024-08-07 21:55:25,289 - INFO - 100 / 207904 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 21:55:25,550 - ERROR - Unexpected error: 'game_id'
+2024-08-07 21:55:36,617 - INFO - 100 / 207904 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 21:55:36,839 - INFO - game_id: 2408630
+2024-08-07 21:55:36,840 - ERROR - Unexpected error: 'game_id'
+2024-08-07 22:01:19,305 - INFO - 100 / 207904 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:01:19,719 - INFO - game_id: 977020
+2024-08-07 22:01:19,720 - ERROR - Unexpected error: 'game_id'
+2024-08-07 22:02:56,424 - INFO - 100 / 207904 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:02:56,642 - INFO - game_id: 1324060
+2024-08-07 22:02:56,642 - ERROR - Game cannot be inserted: 'int' object is not subscriptable
+2024-08-07 22:02:56,642 - INFO - 0 jeux traités. Dernier game_id: 1324060. Total reviews insérées: 1
+2024-08-07 22:02:56,879 - INFO - game_id: 717430
+2024-08-07 22:02:56,880 - ERROR - Game cannot be inserted: 'int' object is not subscriptable
+2024-08-07 22:02:57,289 - ERROR - Unexpected error: 'NoneType' object is not subscriptable
+2024-08-07 22:08:54,618 - INFO - 100 / 208642 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:08:55,004 - INFO - game_id: 2186080
+2024-08-07 22:08:55,004 - ERROR - Game cannot be inserted: 'int' object is not subscriptable
+2024-08-07 22:08:55,004 - INFO - 0 jeux traités. Dernier game_id: 2186080. Total reviews insérées: 1
+2024-08-07 22:08:55,304 - INFO - game_id: 2878570
+2024-08-07 22:08:55,305 - ERROR - Game cannot be inserted: 'int' object is not subscriptable
+2024-08-07 22:08:55,612 - INFO - game_id: 2651470
+2024-08-07 22:08:55,612 - ERROR - Game cannot be inserted: 'int' object is not subscriptable
+2024-08-07 22:08:55,833 - INFO - game_id: 572311
+2024-08-07 22:08:55,833 - ERROR - Game cannot be inserted: 'int' object is not subscriptable
+2024-08-07 22:08:56,066 - ERROR - Unexpected error: 'NoneType' object is not subscriptable
+2024-08-07 22:09:34,892 - INFO - 100 / 208642 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:09:35,222 - INFO - game_id: 1942370
+2024-08-07 22:09:35,223 - INFO - 0 jeux traités. Dernier game_id: 1942370. Total reviews insérées: 1
+2024-08-07 22:09:35,513 - INFO - game_id: 2982850
+2024-08-07 22:09:35,776 - INFO - game_id: 2591410
+2024-08-07 22:09:36,019 - INFO - game_id: 2870610
+2024-08-07 22:09:36,305 - INFO - game_id: 1443930
+2024-08-07 22:09:36,565 - INFO - game_id: 3005370
+2024-08-07 22:09:36,795 - INFO - game_id: 2719600
+2024-08-07 22:09:37,120 - INFO - game_id: 2718580
+2024-08-07 22:09:37,432 - INFO - game_id: 432980
+2024-08-07 22:09:37,696 - INFO - game_id: 2204910
+2024-08-07 22:09:38,012 - INFO - game_id: 1473560
+2024-08-07 22:09:38,282 - ERROR - Unexpected error: 'NoneType' object is not subscriptable
+2024-08-07 22:13:42,338 - INFO - 100 / 208641 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:13:42,701 - ERROR - Unexpected error: 'NoneType' object is not subscriptable
+2024-08-07 22:15:53,290 - INFO - 100 / 208641 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:15:53,603 - INFO - game_id: 203343
+2024-08-07 22:15:53,605 - INFO - 0 jeux traités. Dernier game_id: 203343. Total reviews insérées: 1
+2024-08-07 22:15:53,894 - INFO - game_id: 2818470
+2024-08-07 22:15:54,171 - INFO - game_id: 808941
+2024-08-07 22:15:54,743 - INFO - game_id: 2647100
+2024-08-07 22:15:55,027 - INFO - game_id: 1271671
+2024-08-07 22:15:55,280 - INFO - game_id: 1625230
+2024-08-07 22:15:55,528 - INFO - game_id: 1661520
+2024-08-07 22:15:55,761 - INFO - game_id: 1404490
+2024-08-07 22:15:56,025 - INFO - game_id: 2359520
+2024-08-07 22:15:56,258 - INFO - game_id: 2947810
+2024-08-07 22:15:56,548 - INFO - game_id: 1947983
+2024-08-07 22:15:56,789 - INFO - game_id: 1590520
+2024-08-07 22:15:57,057 - INFO - game_id: 1075870
+2024-08-07 22:15:57,321 - INFO - game_id: 1139480
+2024-08-07 22:15:57,588 - INFO - game_id: 2452270
+2024-08-07 22:15:57,847 - INFO - game_id: 1192880
+2024-08-07 22:15:58,042 - ERROR - Unexpected error: argument of type 'NoneType' is not iterable
+2024-08-07 22:20:03,258 - INFO - 100 / 208640 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:20:03,511 - ERROR - Unexpected error: argument of type 'NoneType' is not iterable
+2024-08-07 22:20:03,512 - INFO - Database connection closed.
+2024-08-07 22:21:04,710 - INFO - 100 / 208640 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:21:04,980 - INFO - app_id: 2525880, parsable ? True
+2024-08-07 22:21:04,980 - INFO - game_id: 2525880
+2024-08-07 22:21:04,981 - INFO - 0 jeux traités. Dernier game_id: 2525880. Total reviews insérées: 1
+2024-08-07 22:21:05,286 - INFO - app_id: 1472340, parsable ? True
+2024-08-07 22:21:05,286 - INFO - game_id: 1472340
+2024-08-07 22:21:05,527 - INFO - app_id: 924280, parsable ? True
+2024-08-07 22:21:05,527 - INFO - game_id: 924280
+2024-08-07 22:21:05,762 - INFO - app_id: 1851890, parsable ? False
+2024-08-07 22:21:05,962 - ERROR - Unexpected error: argument of type 'NoneType' is not iterable
+2024-08-07 22:21:05,963 - INFO - Database connection closed.
+2024-08-07 22:28:23,237 - INFO - 100 / 208639 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:28:23,462 - ERROR - Unexpected error: argument of type 'NoneType' is not iterable
+2024-08-07 22:28:23,463 - INFO - Database connection closed.
+2024-08-07 22:30:12,609 - INFO - 100 / 208639 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:30:13,107 - INFO - {'type': 'demo', 'name': 'Zero Gravity Pool Demo', 'steam_appid': 791220, 'required_age': 0, 'is_free': True, 'controller_support': 'full', 'detailed_description': "Defy gravity! Don't be constrained to two dimensions ever again!<br />\r\n<br />\r\nZero Gravity Pool™ is a new sci-fi spin on an old classic. Featuring a gravity-neutralizing pool table, the game of billiards is finally promoted to the third dimension! Find new and challenging trick shots in geometries never before imagined.<br />\r\n<br />\r\nThis demo version allows you to watch the computer play itself. To play against the computer or another human, please purchase the full version.", 'about_the_game': "Defy gravity! Don't be constrained to two dimensions ever again!<br />\r\n<br />\r\nZero Gravity Pool™ is a new sci-fi spin on an old classic. Featuring a gravity-neutralizing pool table, the game of billiards is finally promoted to the third dimension! Find new and challenging trick shots in geometries never before imagined.<br />\r\n<br />\r\nThis demo version allows you to watch the computer play itself. To play against the computer or another human, please purchase the full version.", 'short_description': "Defy gravity! Don't be constrained to two dimensions ever again! Zero Gravity Pool™ is a new sci-fi spin on an old classic. Featuring a gravity-neutralizing pool table, the game of billiards is finally promoted to the third dimension! Find new and challenging trick shots in geometries never before imagined.", 'fullgame': {'appid': '778600', 'name': 'Zero Gravity Pool'}, 'supported_languages': 'English<strong>*</strong><br><strong>*</strong>languages with full audio support', 'header_image': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/header.jpg?t=1519571880', 'capsule_image': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/capsule_231x87.jpg?t=1519571880', 'capsule_imagev5': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/capsule_184x69.jpg?t=1519571880', 'website': 'http://physicalnumerics.com/store/product_info.php/products_id/30', 'pc_requirements': {'minimum': '<strong>Minimum:</strong><br><ul class="bb_ul"><li><strong>OS *:</strong> Windows 7 or later<br></li><li><strong>Processor:</strong> Intel i-series / AMD FX-series or better<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GTX series / AMD Radeon series<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Sound Card:</strong> Optional</li></ul>', 'recommended': '<strong>Recommended:</strong><br><ul class="bb_ul"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel i7 / AMD FX 8350<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Nvidia GTX 980 series / AMD Radeon R9 Fury X<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 500 MB available space<br></li><li><strong>Sound Card:</strong> Windows compatible</li></ul>'}, 'mac_requirements': [], 'linux_requirements': [], 'legal_notice': '(c) 2015-2018 Physical Numerics, LLC. All rights reserved.', 'developers': ['Physical Numerics'], 'publishers': ['Physical Numerics'], 'package_groups': [], 'platforms': {'windows': True, 'mac': False, 'linux': False}, 'categories': [{'id': 2, 'description': 'Single-player'}, {'id': 1, 'description': 'Multi-player'}, {'id': 24, 'description': 'Shared/Split Screen'}, {'id': 10, 'description': 'Game demo'}, {'id': 28, 'description': 'Full controller support'}, {'id': 53, 'description': 'VR Supported'}], 'genres': [{'id': '4', 'description': 'Casual'}, {'id': '18', 'description': 'Sports'}], 'screenshots': [{'id': 0, 'path_thumbnail': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_c2f568b7d97264e0b525629789a80437cbfadf50.600x338.jpg?t=1519571880', 'path_full': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_c2f568b7d97264e0b525629789a80437cbfadf50.1920x1080.jpg?t=1519571880'}, {'id': 1, 'path_thumbnail': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_ae16b97911d8f978dcdf297dbbc10040a5a11733.600x338.jpg?t=1519571880', 'path_full': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_ae16b97911d8f978dcdf297dbbc10040a5a11733.1920x1080.jpg?t=1519571880'}, {'id': 2, 'path_thumbnail': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_a6ea09a9d5505f92688cca4adc78cd18cf7ddcdc.600x338.jpg?t=1519571880', 'path_full': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_a6ea09a9d5505f92688cca4adc78cd18cf7ddcdc.1920x1080.jpg?t=1519571880'}, {'id': 3, 'path_thumbnail': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_b89724bc174243d658fb6927d66d5f773b9aa696.600x338.jpg?t=1519571880', 'path_full': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_b89724bc174243d658fb6927d66d5f773b9aa696.1920x1080.jpg?t=1519571880'}, {'id': 4, 'path_thumbnail': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_df00d16323408e830bd5fa7f4ecfc55a636855ac.600x338.jpg?t=1519571880', 'path_full': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_df00d16323408e830bd5fa7f4ecfc55a636855ac.1920x1080.jpg?t=1519571880'}, {'id': 5, 'path_thumbnail': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_c453ac5c16fbcc4f98a43f304312fddafd980f77.600x338.jpg?t=1519571880', 'path_full': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_c453ac5c16fbcc4f98a43f304312fddafd980f77.1920x1080.jpg?t=1519571880'}, {'id': 6, 'path_thumbnail': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_7892bea3a22e6b87b48e60e3efb3295e87472357.600x338.jpg?t=1519571880', 'path_full': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_7892bea3a22e6b87b48e60e3efb3295e87472357.1920x1080.jpg?t=1519571880'}, {'id': 7, 'path_thumbnail': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_3697995dfd9a2c768df6e497cdcf98c189350dfc.600x338.jpg?t=1519571880', 'path_full': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/ss_3697995dfd9a2c768df6e497cdcf98c189350dfc.1920x1080.jpg?t=1519571880'}], 'release_date': {'coming_soon': False, 'date': '26 Jan, 2018'}, 'support_info': {'url': 'https://physicalnumerics.com/store/contact_us.php', 'email': 'contact@physicalnumerics.com'}, 'background': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/page_bg_generated_v6b.jpg?t=1519571880', 'background_raw': 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/791220/page_bg_generated.jpg?t=1519571880', 'content_descriptors': {'ids': [], 'notes': None}, 'ratings': {'esrb': {'rating': 'e', 'display_online_notice': 'true'}, 'pegi': {'rating': '3'}, 'usk': {'rating': '0'}, 'dejus': {'rating': 'l'}, 'csrr': {'rating': 'G'}, 'crl': {'rating': '0'}}}
+2024-08-07 22:30:13,107 - INFO - app_id: 791220, parsable ? True
+2024-08-07 22:30:13,107 - INFO - game_id: 791220
+2024-08-07 22:30:13,108 - INFO - 0 jeux traités. Dernier game_id: 791220. Total reviews insérées: 1
+2024-08-07 22:30:13,327 - INFO - None
+2024-08-07 22:30:13,327 - ERROR - Unexpected error: argument of type 'NoneType' is not iterable
+2024-08-07 22:30:13,328 - INFO - Database connection closed.
+2024-08-07 22:31:17,512 - INFO - 100 / 208638 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:31:17,837 - INFO - Output:
+2024-08-07 22:31:17,837 - INFO - app_id: 3132590, parsable ? True
+2024-08-07 22:31:17,837 - INFO - game_id: 3132590
+2024-08-07 22:31:17,838 - INFO - 0 jeux traités. Dernier game_id: 3132590. Total reviews insérées: 1
+2024-08-07 22:31:18,205 - INFO - Output:
+2024-08-07 22:31:18,205 - INFO - app_id: 2506930, parsable ? True
+2024-08-07 22:31:18,205 - INFO - game_id: 2506930
+2024-08-07 22:31:18,427 - INFO - Output:
+2024-08-07 22:31:18,427 - INFO - app_id: 590214, parsable ? True
+2024-08-07 22:31:18,427 - INFO - game_id: 590214
+2024-08-07 22:31:18,694 - INFO - Output:
+2024-08-07 22:31:18,694 - INFO - app_id: 1222000, parsable ? True
+2024-08-07 22:31:18,694 - INFO - game_id: 1222000
+2024-08-07 22:31:18,933 - INFO - Output:
+2024-08-07 22:31:18,933 - INFO - app_id: 1938920, parsable ? True
+2024-08-07 22:31:18,933 - INFO - game_id: 1938920
+2024-08-07 22:31:19,164 - INFO - Output:
+2024-08-07 22:31:19,164 - INFO - app_id: 885920, parsable ? True
+2024-08-07 22:31:19,164 - INFO - game_id: 885920
+2024-08-07 22:31:19,417 - INFO - Output:
+2024-08-07 22:31:19,417 - INFO - app_id: 2603120, parsable ? True
+2024-08-07 22:31:19,417 - INFO - game_id: 2603120
+2024-08-07 22:31:19,648 - INFO - Output:
+2024-08-07 22:31:19,648 - INFO - app_id: 1238891, parsable ? True
+2024-08-07 22:31:19,648 - INFO - game_id: 1238891
+2024-08-07 22:31:19,930 - INFO - Output:
+2024-08-07 22:31:19,930 - INFO - app_id: 1834160, parsable ? True
+2024-08-07 22:31:19,930 - INFO - game_id: 1834160
+2024-08-07 22:31:20,284 - INFO - Output:
+2024-08-07 22:31:20,284 - INFO - app_id: 2098360, parsable ? True
+2024-08-07 22:31:20,285 - INFO - game_id: 2098360
+2024-08-07 22:31:20,533 - ERROR - Unexpected error: argument of type 'NoneType' is not iterable
+2024-08-07 22:31:20,533 - INFO - Database connection closed.
+2024-08-07 22:31:53,049 - INFO - 100 / 208637 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:31:53,387 - INFO - Output:
+2024-08-07 22:31:53,387 - INFO - app_id: 1621910, parsable ? True
+2024-08-07 22:31:53,387 - INFO - game_id: 1621910
+2024-08-07 22:31:53,389 - INFO - 0 jeux traités. Dernier game_id: 1621910. Total reviews insérées: 1
+2024-08-07 22:31:53,597 - ERROR - Unexpected error: argument of type 'NoneType' is not iterable
+2024-08-07 22:31:53,599 - INFO - Database connection closed.
+2024-08-07 22:33:21,957 - INFO - 100 / 208636 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:33:22,234 - INFO - game_id: 3123290
+2024-08-07 22:33:22,238 - INFO - 0 jeux traités. Dernier game_id: 3123290. Total reviews insérées: 1
+2024-08-07 22:33:22,475 - INFO - game_id: 1994270
+2024-08-07 22:33:22,718 - INFO - game_id: 3048420
+2024-08-07 22:33:23,059 - INFO - game_id: 1108560
+2024-08-07 22:33:23,266 - ERROR - Unexpected error: argument of type 'NoneType' is not iterable
+2024-08-07 22:33:23,268 - INFO - Database connection closed.
+2024-08-07 22:34:06,463 - INFO - 100 / 208635 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:34:06,797 - INFO - game_id: 1918680
+2024-08-07 22:34:06,800 - INFO - 0 jeux traités. Dernier game_id: 1918680. Total reviews insérées: 1
+2024-08-07 22:34:07,072 - INFO - game_id: 1611050
+2024-08-07 22:34:07,277 - INFO - game_id: 1529690
+2024-08-07 22:34:07,553 - INFO - game_id: 680420
+2024-08-07 22:34:07,815 - INFO - game_id: 1663650
+2024-08-07 22:34:08,047 - INFO - game_id: 702410
+2024-08-07 22:34:08,266 - INFO - game_id: 578340
+2024-08-07 22:34:08,509 - INFO - game_id: 1713730
+2024-08-07 22:34:08,753 - INFO - game_id: 2493700
+2024-08-07 22:34:09,031 - INFO - game_id: 2917630
+2024-08-07 22:34:09,285 - INFO - game_id: 768910
+2024-08-07 22:34:09,499 - ERROR - Unexpected error: argument of type 'NoneType' is not iterable
+2024-08-07 22:34:09,503 - INFO - Database connection closed.
+2024-08-07 22:34:36,164 - INFO - 100 / 208634 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:34:36,432 - INFO - game_id: 438000
+2024-08-07 22:34:36,433 - INFO - 0 jeux traités. Dernier game_id: 438000. Total reviews insérées: 1
+2024-08-07 22:34:36,675 - INFO - game_id: 899845
+2024-08-07 22:34:36,907 - INFO - game_id: 2685600
+2024-08-07 22:34:37,133 - INFO - game_id: 2619040
+2024-08-07 22:34:37,367 - INFO - game_id: 1006350
+2024-08-07 22:34:37,600 - INFO - game_id: 73098
+2024-08-07 22:34:37,921 - ERROR - Unexpected error: argument of type 'NoneType' is not iterable
+2024-08-07 22:34:37,925 - INFO - Database connection closed.
+2024-08-07 22:35:18,291 - INFO - 100 / 208633 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:35:18,541 - ERROR - Unexpected error: argument of type 'NoneType' is not iterable
+2024-08-07 22:35:18,542 - INFO - Database connection closed.
+2024-08-07 22:35:52,329 - INFO - 100 / 208633 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:35:52,600 - INFO - game_id: 645690
+2024-08-07 22:35:52,603 - INFO - 0 jeux traités. Dernier game_id: 645690. Total reviews insérées: 1
+2024-08-07 22:35:52,853 - INFO - game_id: 441680
+2024-08-07 22:35:53,077 - INFO - game_id: 2448750
+2024-08-07 22:35:53,355 - INFO - game_id: 2114537
+2024-08-07 22:35:53,576 - INFO - game_id: 2000640
+2024-08-07 22:35:53,795 - INFO - game_id: 1179632
+2024-08-07 22:35:54,041 - INFO - game_id: 2467840
+2024-08-07 22:35:54,268 - ERROR - Unexpected error: argument of type 'NoneType' is not iterable
+2024-08-07 22:35:54,270 - INFO - Database connection closed.
+2024-08-07 22:39:40,383 - INFO - 100 / 208632 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:39:40,623 - INFO - game_id: 2170670
+2024-08-07 22:39:40,625 - INFO - 0 jeux traités. Dernier game_id: 2170670. Total reviews insérées: 1
+2024-08-07 22:39:41,030 - INFO - game_id: 552770
+2024-08-07 22:39:41,540 - INFO - game_id: 2729710
+2024-08-07 22:39:41,810 - INFO - game_id: 1879620
+2024-08-07 22:39:42,047 - INFO - game_id: 763730
+2024-08-07 22:39:42,286 - INFO - game_id: 1405211
+2024-08-07 22:39:42,578 - INFO - game_id: 1689340
+2024-08-07 22:39:43,645 - INFO - game_id: 1556713
+2024-08-07 22:39:44,112 - INFO - game_id: 3020010
+2024-08-07 22:39:44,351 - INFO - game_id: 2788980
+2024-08-07 22:39:44,635 - INFO - game_id: 2760150
+2024-08-07 22:39:44,880 - INFO - game_id: 3069930
+2024-08-07 22:39:45,108 - INFO - game_id: 2519190
+2024-08-07 22:39:45,494 - INFO - game_id: 349770
+2024-08-07 22:39:45,823 - INFO - game_id: 3034550
+2024-08-07 22:39:46,096 - INFO - game_id: 1112100
+2024-08-07 22:39:46,321 - INFO - game_id: 1110880
+2024-08-07 22:39:46,584 - INFO - game_id: 768010
+2024-08-07 22:39:47,154 - INFO - game_id: 1614030
+2024-08-07 22:39:47,389 - INFO - game_id: 2622880
+2024-08-07 22:39:47,707 - INFO - game_id: 2691580
+2024-08-07 22:39:48,074 - INFO - game_id: 628970
+2024-08-07 22:39:48,545 - INFO - game_id: 996710
+2024-08-07 22:39:48,776 - INFO - game_id: 1641350
+2024-08-07 22:39:49,060 - INFO - game_id: 403090
+2024-08-07 22:39:49,320 - INFO - game_id: 2462361
+2024-08-07 22:39:49,673 - INFO - game_id: 2243040
+2024-08-07 22:39:50,041 - INFO - game_id: 2328260
+2024-08-07 22:39:50,338 - INFO - game_id: 2541820
+2024-08-07 22:39:50,806 - INFO - game_id: 1133610
+2024-08-07 22:39:51,055 - INFO - game_id: 2766580
+2024-08-07 22:39:51,312 - INFO - game_id: 1500600
+2024-08-07 22:39:51,612 - INFO - game_id: 2988170
+2024-08-07 22:39:51,804 - INFO - game_id: 1621470
+2024-08-07 22:39:52,047 - INFO - game_id: 957534
+2024-08-07 22:39:52,281 - INFO - game_id: 2484741
+2024-08-07 22:39:53,347 - INFO - game_id: 2631700
+2024-08-07 22:39:53,859 - INFO - game_id: 2093410
+2024-08-07 22:39:54,109 - INFO - game_id: 945040
+2024-08-07 22:39:54,379 - INFO - game_id: 2441930
+2024-08-07 22:39:54,959 - INFO - game_id: 306020
+2024-08-07 22:39:55,208 - INFO - game_id: 1387400
+2024-08-07 22:39:55,814 - INFO - game_id: 1764310
+2024-08-07 22:39:56,043 - INFO - game_id: 3114330
+2024-08-07 22:39:56,313 - INFO - game_id: 2253370
+2024-08-07 22:39:56,577 - INFO - game_id: 1213220
+2024-08-07 22:39:56,855 - INFO - game_id: 2553270
+2024-08-07 22:39:57,451 - INFO - game_id: 534980
+2024-08-07 22:39:57,661 - INFO - game_id: 755580
+2024-08-07 22:39:57,920 - INFO - game_id: 1122629
+2024-08-07 22:39:58,184 - INFO - game_id: 1047020
+2024-08-07 22:39:58,427 - INFO - game_id: 1773200
+2024-08-07 22:39:58,678 - INFO - game_id: 1370850
+2024-08-07 22:39:58,910 - INFO - game_id: 1313900
+2024-08-07 22:39:59,283 - INFO - game_id: 231430
+2024-08-07 22:39:59,542 - INFO - game_id: 2381550
+2024-08-07 22:39:59,777 - INFO - game_id: 2545780
+2024-08-07 22:40:00,024 - INFO - game_id: 1408510
+2024-08-07 22:40:00,361 - INFO - game_id: 2387450
+2024-08-07 22:40:00,601 - INFO - game_id: 2008210
+2024-08-07 22:40:00,879 - INFO - game_id: 299170
+2024-08-07 22:40:01,166 - INFO - game_id: 2108760
+2024-08-07 22:40:01,469 - INFO - game_id: 514650
+2024-08-07 22:40:01,745 - INFO - game_id: 3080110
+2024-08-07 22:40:02,032 - INFO - game_id: 760160
+2024-08-07 22:40:02,321 - INFO - game_id: 792870
+2024-08-07 22:40:02,586 - INFO - game_id: 706240
+2024-08-07 22:40:02,991 - INFO - game_id: 1342820
+2024-08-07 22:40:03,232 - INFO - game_id: 2834400
+2024-08-07 22:40:03,464 - INFO - game_id: 2155660
+2024-08-07 22:40:03,707 - INFO - game_id: 1307170
+2024-08-07 22:40:03,954 - INFO - game_id: 506710
+2024-08-07 22:40:04,209 - INFO - game_id: 1708110
+2024-08-07 22:40:04,633 - INFO - game_id: 2810790
+2024-08-07 22:40:05,028 - INFO - game_id: 320750
+2024-08-07 22:40:05,293 - INFO - game_id: 500150
+2024-08-07 22:40:05,567 - INFO - game_id: 2376640
+2024-08-07 22:40:06,026 - INFO - game_id: 1312520
+2024-08-07 22:40:06,256 - INFO - game_id: 506100
+2024-08-07 22:40:06,733 - INFO - game_id: 666810
+2024-08-07 22:40:06,997 - INFO - game_id: 1282510
+2024-08-07 22:40:07,207 - INFO - game_id: 524270
+2024-08-07 22:40:07,411 - INFO - Database connection closed.
+2024-08-07 22:42:38,184 - INFO - 100 / 208631 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:42:38,499 - INFO - game_id: 1206821
+2024-08-07 22:42:38,500 - INFO - 0 jeux traités. Dernier game_id: 1206821. Total reviews insérées: 1
+2024-08-07 22:42:39,070 - INFO - game_id: 1273963
+2024-08-07 22:42:39,912 - INFO - game_id: 346010
+2024-08-07 22:42:40,851 - INFO - game_id: 2176850
+2024-08-07 22:42:41,711 - INFO - game_id: 2237230
+2024-08-07 22:42:43,680 - INFO - game_id: 1674780
+2024-08-07 22:42:44,895 - INFO - game_id: 2520250
+2024-08-07 22:42:47,235 - INFO - game_id: 494020
+2024-08-07 22:42:48,323 - INFO - game_id: 1391380
+2024-08-07 22:42:49,306 - INFO - Database connection closed.
+2024-08-07 22:43:11,571 - INFO - 100 / 208630 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-07 22:43:11,847 - INFO - game_id: 765380
+2024-08-07 22:43:11,850 - INFO - 0 jeux traités. Dernier game_id: 765380. Total reviews insérées: 1
+2024-08-07 22:43:13,156 - INFO - game_id: 2440680
+2024-08-07 22:43:14,068 - INFO - game_id: 390381
+2024-08-07 22:43:15,312 - INFO - game_id: 1372180
+2024-08-07 22:43:17,278 - INFO - game_id: 2763580
+2024-08-07 22:43:18,268 - INFO - game_id: 1609080
+2024-08-07 22:43:18,984 - INFO - game_id: 438230
+2024-08-07 22:43:19,957 - INFO - game_id: 2487740
+2024-08-07 22:43:20,523 - INFO - game_id: 2518450
+2024-08-07 22:43:21,174 - INFO - game_id: 1165470
+2024-08-07 22:43:21,970 - INFO - game_id: 348430
+2024-08-07 22:43:23,141 - INFO - game_id: 2743410
+2024-08-07 22:43:23,910 - INFO - game_id: 2407765
+2024-08-07 22:43:24,570 - INFO - game_id: 258741
+2024-08-07 22:43:25,997 - INFO - game_id: 2701030
+2024-08-07 22:43:27,005 - INFO - game_id: 2566490
+2024-08-07 22:43:27,945 - INFO - game_id: 956708
+2024-08-07 22:43:28,925 - INFO - game_id: 2457600
+2024-08-07 22:43:30,900 - INFO - game_id: 3020060
+2024-08-07 22:43:32,009 - INFO - game_id: 2989400
+2024-08-07 22:43:32,919 - INFO - game_id: 1370550
+2024-08-07 22:43:35,550 - INFO - game_id: 904130
+2024-08-07 22:43:36,133 - INFO - game_id: 1385940
+2024-08-07 22:43:37,092 - INFO - game_id: 3072380
+2024-08-07 22:43:37,660 - INFO - game_id: 2235210
+2024-08-07 22:43:39,042 - INFO - game_id: 1580800
+2024-08-07 22:43:39,885 - INFO - game_id: 2305840
+2024-08-07 22:43:40,593 - INFO - game_id: 789900
+2024-08-07 22:43:42,044 - INFO - game_id: 366440
+2024-08-07 22:43:42,834 - INFO - game_id: 1256520
+2024-08-07 22:43:43,466 - INFO - game_id: 1296711
+2024-08-07 22:43:44,510 - INFO - game_id: 558440
+2024-08-07 22:43:45,831 - INFO - game_id: 2204760
+2024-08-07 22:43:48,228 - INFO - game_id: 1770110
+2024-08-07 22:43:50,067 - INFO - game_id: 2822390
+2024-08-07 22:43:50,647 - INFO - game_id: 2625650
+2024-08-07 22:43:51,745 - INFO - game_id: 2314580
+2024-08-07 22:43:55,454 - INFO - game_id: 2574050
+2024-08-07 22:43:56,025 - INFO - game_id: 423000
+2024-08-07 22:43:56,644 - INFO - game_id: 258652
+2024-08-07 22:43:58,002 - INFO - game_id: 1998964
+2024-08-07 22:43:59,207 - INFO - game_id: 1158980
+2024-08-07 22:44:01,221 - INFO - game_id: 2088472
+2024-08-07 22:44:02,169 - INFO - game_id: 423770
+2024-08-07 22:44:03,490 - INFO - game_id: 581340
+2024-08-07 22:44:04,977 - INFO - game_id: 1308540
+2024-08-07 22:44:06,215 - INFO - game_id: 2874430
+2024-08-07 22:44:06,923 - INFO - game_id: 1431840
+2024-08-07 22:44:07,651 - INFO - game_id: 1945080
+2024-08-07 22:44:09,024 - INFO - game_id: 1803270
+2024-08-07 22:44:10,485 - INFO - game_id: 669910
+2024-08-07 22:44:12,136 - INFO - game_id: 2153410
+2024-08-07 22:44:14,230 - INFO - game_id: 689690
+2024-08-07 22:44:14,797 - INFO - game_id: 2941340
+2024-08-07 22:44:17,342 - INFO - game_id: 1106790
+2024-08-07 22:44:20,011 - INFO - game_id: 1970300
+2024-08-07 22:44:21,208 - INFO - game_id: 3079410
+2024-08-07 22:44:22,045 - INFO - game_id: 1418820
+2024-08-07 22:44:23,922 - INFO - game_id: 2163570
+2024-08-07 22:44:24,697 - INFO - game_id: 2109620
+2024-08-07 22:44:26,023 - INFO - game_id: 2139780
+2024-08-07 22:44:27,139 - INFO - game_id: 2211260
+2024-08-07 22:44:29,232 - INFO - game_id: 2386980
+2024-08-07 22:44:30,684 - INFO - game_id: 1350640
+2024-08-07 22:44:32,055 - INFO - game_id: 1817090
+2024-08-07 22:44:33,208 - INFO - game_id: 1071460
+2024-08-07 22:44:33,945 - INFO - game_id: 2176200
+2024-08-07 22:44:34,634 - INFO - game_id: 507130
+2024-08-07 22:44:35,737 - INFO - game_id: 2025477
+2024-08-07 22:44:36,777 - INFO - game_id: 2888030
+2024-08-07 22:44:37,953 - INFO - game_id: 222574
+2024-08-07 22:44:39,024 - INFO - game_id: 1827740
+2024-08-07 22:44:40,056 - INFO - game_id: 1484890
+2024-08-07 22:44:40,928 - INFO - game_id: 1650990
+2024-08-07 22:44:41,826 - INFO - game_id: 2730240
+2024-08-07 22:44:42,773 - INFO - game_id: 1074320
+2024-08-07 22:44:44,039 - INFO - game_id: 2952940
+2024-08-07 22:44:45,640 - INFO - game_id: 105310
+2024-08-07 22:44:46,222 - INFO - game_id: 2073710
+2024-08-07 22:44:46,821 - INFO - game_id: 2027080
+2024-08-07 22:44:47,879 - INFO - game_id: 2141400
+2024-08-07 22:44:48,612 - INFO - game_id: 776010
+2024-08-07 22:44:49,633 - INFO - game_id: 1080140
+2024-08-07 22:44:50,377 - INFO - Database connection closed.
