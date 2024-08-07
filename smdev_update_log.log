@@ -7426,3 +7426,20 @@ b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove(
 2024-08-06 18:54:24,490 - WARNING - Échec du scraping YouTube pour RedDeer_Games: invalid literal for int() with base 10: '2.74K'
 2024-08-06 18:54:24,491 - INFO - Données enregistrées pour RedDeer_Games
 2024-08-06 18:55:04,497 - INFO - Connexion à la base de données fermée.
+2024-08-07 06:45:14,012 - INFO - Connecté à la base de données
+2024-08-07 06:45:14,013 - INFO - Trouvé 2 handles Twitter à traiter
+2024-08-07 06:45:14,013 - INFO - Traitement de SpectraFoundry...
+2024-08-07 06:45:14,102 - WARNING - Tentative 1 échouée pour SpectraFoundry: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpectraFoundry
+2024-08-07 06:45:54,186 - WARNING - Tentative 2 échouée pour SpectraFoundry: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpectraFoundry
+2024-08-07 06:46:34,283 - WARNING - Tentative 3 échouée pour SpectraFoundry: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpectraFoundry
+2024-08-07 06:46:34,283 - ERROR - Toutes les tentatives ont échoué pour SpectraFoundry
+2024-08-07 06:46:34,324 - WARNING - Échec du scraping YouTube pour SpectraFoundry: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/SpectraFoundry
+2024-08-07 06:46:34,324 - WARNING - Aucune donnée scrapée pour SpectraFoundry, mise à jour ignorée
+2024-08-07 06:47:14,364 - INFO - Traitement de IndAnnihilation?_xm=194726.302782412142673934...
+2024-08-07 06:47:14,429 - WARNING - Tentative 1 échouée pour IndAnnihilation?_xm=194726.302782412142673934: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/IndAnnihilation?_xm=194726.302782412142673934
+2024-08-07 06:47:54,519 - WARNING - Tentative 2 échouée pour IndAnnihilation?_xm=194726.302782412142673934: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/IndAnnihilation?_xm=194726.302782412142673934
+2024-08-07 06:48:34,596 - WARNING - Tentative 3 échouée pour IndAnnihilation?_xm=194726.302782412142673934: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/IndAnnihilation?_xm=194726.302782412142673934
+2024-08-07 06:48:34,597 - ERROR - Toutes les tentatives ont échoué pour IndAnnihilation?_xm=194726.302782412142673934
+2024-08-07 06:48:34,641 - WARNING - Échec du scraping YouTube pour IndAnnihilation?_xm=194726.302782412142673934: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/IndAnnihilation?_xm=194726.302782412142673934
+2024-08-07 06:48:34,641 - WARNING - Aucune donnée scrapée pour IndAnnihilation?_xm=194726.302782412142673934, mise à jour ignorée
+2024-08-07 06:49:14,681 - INFO - Connexion à la base de données fermée.
