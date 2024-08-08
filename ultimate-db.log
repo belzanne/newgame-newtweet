@@ -432,3 +432,181 @@
 2024-08-07 22:44:48,612 - INFO - game_id: 776010
 2024-08-07 22:44:49,633 - INFO - game_id: 1080140
 2024-08-07 22:44:50,377 - INFO - Database connection closed.
+2024-08-08 11:13:36,892 - INFO - 100 / 208783 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-08 11:13:37,192 - INFO - game_id: 3015440
+2024-08-08 11:13:37,194 - INFO - 0 jeux traités. Dernier game_id: 3015440. Total reviews insérées: 1
+2024-08-08 11:13:39,737 - INFO - game_id: 1423245
+2024-08-08 11:13:41,104 - INFO - game_id: 1366980
+2024-08-08 11:13:41,776 - INFO - game_id: 2254310
+2024-08-08 11:13:43,128 - INFO - game_id: 1318520
+2024-08-08 11:13:44,403 - INFO - game_id: 39200
+2024-08-08 11:13:45,584 - INFO - game_id: 1248870
+2024-08-08 11:13:46,692 - INFO - game_id: 771810
+2024-08-08 11:13:48,108 - INFO - game_id: 2425920
+2024-08-08 11:13:49,475 - INFO - game_id: 1114250
+2024-08-08 11:13:50,256 - INFO - game_id: 1364450
+2024-08-08 11:13:51,825 - INFO - game_id: 2491610
+2024-08-08 11:13:53,633 - INFO - game_id: 2542860
+2024-08-08 11:13:54,433 - INFO - game_id: 378590
+2024-08-08 11:13:55,419 - INFO - game_id: 1140940
+2024-08-08 11:13:56,259 - INFO - game_id: 2603220
+2024-08-08 11:13:56,991 - INFO - game_id: 755730
+2024-08-08 11:13:57,647 - INFO - game_id: 524630
+2024-08-08 11:13:58,960 - INFO - game_id: 236130
+2024-08-08 11:13:59,771 - INFO - game_id: 525870
+2024-08-08 11:14:00,575 - INFO - game_id: 1129480
+2024-08-08 11:14:01,335 - INFO - game_id: 823860
+2024-08-08 11:14:03,647 - INFO - game_id: 2435710
+2024-08-08 11:14:04,943 - INFO - game_id: 1991770
+2024-08-08 11:14:07,036 - INFO - game_id: 738510
+2024-08-08 11:14:07,867 - INFO - game_id: 3017280
+2024-08-08 11:14:09,201 - INFO - game_id: 1292700
+2024-08-08 11:14:11,513 - INFO - game_id: 2090140
+2024-08-08 11:14:14,005 - INFO - game_id: 1288340
+2024-08-08 11:14:15,056 - INFO - game_id: 990733
+2024-08-08 11:14:15,583 - INFO - game_id: 1851990
+2024-08-08 11:14:16,674 - INFO - game_id: 2684020
+2024-08-08 11:14:18,128 - INFO - game_id: 2446030
+2024-08-08 11:14:18,955 - INFO - game_id: 2243490
+2024-08-08 11:14:20,115 - INFO - game_id: 2135630
+2024-08-08 11:14:21,122 - INFO - game_id: 1130750
+2024-08-08 11:14:22,162 - INFO - game_id: 1440680
+2024-08-08 11:14:22,833 - INFO - game_id: 1852232
+2024-08-08 11:14:23,837 - INFO - game_id: 554700
+2024-08-08 11:14:25,017 - INFO - game_id: 687720
+2024-08-08 11:14:26,368 - INFO - game_id: 1018670
+2024-08-08 11:14:28,330 - INFO - game_id: 209876
+2024-08-08 11:14:29,668 - INFO - game_id: 768562
+2024-08-08 11:14:30,548 - INFO - game_id: 1210350
+2024-08-08 11:14:31,972 - INFO - game_id: 248650
+2024-08-08 11:14:33,019 - INFO - game_id: 856200
+2024-08-08 11:14:34,409 - INFO - game_id: 2006580
+2024-08-08 11:14:35,607 - INFO - game_id: 2150560
+2024-08-08 11:14:37,524 - INFO - game_id: 1834420
+2024-08-08 11:14:38,830 - INFO - game_id: 1710390
+2024-08-08 11:14:40,500 - INFO - game_id: 1472200
+2024-08-08 11:14:42,489 - INFO - game_id: 1153310
+2024-08-08 11:14:43,046 - INFO - game_id: 2648870
+2024-08-08 11:14:45,722 - INFO - game_id: 2571410
+2024-08-08 11:14:46,534 - INFO - game_id: 1573190
+2024-08-08 11:14:47,793 - INFO - game_id: 1167232
+2024-08-08 11:14:48,691 - INFO - game_id: 2210740
+2024-08-08 11:14:49,403 - INFO - game_id: 2754080
+2024-08-08 11:14:50,811 - INFO - game_id: 1944500
+2024-08-08 11:14:51,945 - INFO - game_id: 3140810
+2024-08-08 11:14:53,539 - INFO - game_id: 1886830
+2024-08-08 11:14:54,753 - INFO - game_id: 2133148
+2024-08-08 11:14:56,000 - INFO - game_id: 590900
+2024-08-08 11:14:57,348 - INFO - game_id: 208814
+2024-08-08 11:14:58,405 - INFO - game_id: 678960
+2024-08-08 11:14:59,297 - INFO - game_id: 1331600
+2024-08-08 11:15:00,089 - INFO - game_id: 883230
+2024-08-08 11:15:01,212 - INFO - game_id: 3052760
+2024-08-08 11:15:02,316 - INFO - game_id: 582390
+2024-08-08 11:15:03,559 - INFO - game_id: 848030
+2024-08-08 11:15:05,731 - INFO - game_id: 1524870
+2024-08-08 11:15:06,344 - INFO - game_id: 2597410
+2024-08-08 11:15:07,071 - INFO - game_id: 2681630
+2024-08-08 11:15:08,260 - INFO - game_id: 2141100
+2024-08-08 11:15:09,759 - INFO - game_id: 2955730
+2024-08-08 11:15:10,792 - INFO - game_id: 1364130
+2024-08-08 11:15:12,219 - INFO - game_id: 2607470
+2024-08-08 11:15:12,772 - INFO - game_id: 2204450
+2024-08-08 11:15:14,797 - INFO - game_id: 2379290
+2024-08-08 11:15:16,951 - INFO - game_id: 2186220
+2024-08-08 11:15:17,805 - INFO - game_id: 375620
+2024-08-08 11:15:18,627 - INFO - game_id: 1989580
+2024-08-08 11:15:20,776 - INFO - Database connection closed.
+2024-08-08 11:26:24,950 - INFO - 50 / 208782 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-08 11:26:25,197 - INFO - game_id après étape "is_parsable": 1188670
+2024-08-08 11:26:25,197 - INFO - game_id après insert_game_data : 1188670
+2024-08-08 11:26:25,197 - INFO - 0 jeux traités. Dernier game_id: 1188670. Total reviews insérées: 1
+2024-08-08 11:26:26,423 - INFO - game_id après étape "is_parsable": 1465200
+2024-08-08 11:26:26,423 - INFO - game_id après insert_game_data : 1465200
+2024-08-08 11:26:27,385 - INFO - game_id après étape "is_parsable": 499120
+2024-08-08 11:26:27,385 - INFO - game_id après insert_game_data : 499120
+2024-08-08 11:26:29,423 - INFO - game_id après étape "is_parsable": 1952651
+2024-08-08 11:26:29,423 - INFO - game_id après insert_game_data : 1952651
+2024-08-08 11:26:30,653 - INFO - game_id après étape "is_parsable": 2050400
+2024-08-08 11:26:30,654 - INFO - game_id après insert_game_data : 2050400
+2024-08-08 11:26:31,884 - INFO - game_id après étape "is_parsable": 582830
+2024-08-08 11:26:31,884 - INFO - game_id après insert_game_data : 582830
+2024-08-08 11:26:32,893 - INFO - game_id après étape "is_parsable": 2861370
+2024-08-08 11:26:32,893 - INFO - game_id après insert_game_data : 2861370
+2024-08-08 11:26:34,229 - INFO - game_id après étape "is_parsable": 2676480
+2024-08-08 11:26:34,229 - INFO - game_id après insert_game_data : 2676480
+2024-08-08 11:26:35,380 - INFO - game_id après étape "is_parsable": 1560980
+2024-08-08 11:26:35,381 - INFO - game_id après insert_game_data : 1560980
+2024-08-08 11:26:36,675 - INFO - game_id après étape "is_parsable": 2833430
+2024-08-08 11:26:36,676 - INFO - game_id après insert_game_data : 2833430
+2024-08-08 11:26:37,522 - INFO - game_id après étape "is_parsable": 2971970
+2024-08-08 11:26:37,522 - INFO - game_id après insert_game_data : 2971970
+2024-08-08 11:26:38,439 - INFO - game_id après étape "is_parsable": 331357
+2024-08-08 11:26:38,442 - INFO - game_id après insert_game_data : 331357
+2024-08-08 11:26:39,891 - INFO - game_id après étape "is_parsable": 620970
+2024-08-08 11:26:39,892 - INFO - game_id après insert_game_data : 620970
+2024-08-08 11:26:41,467 - INFO - game_id après étape "is_parsable": 2395400
+2024-08-08 11:26:41,467 - INFO - game_id après insert_game_data : 2395400
+2024-08-08 11:26:42,818 - INFO - game_id après étape "is_parsable": 517831
+2024-08-08 11:26:42,819 - INFO - game_id après insert_game_data : 517831
+2024-08-08 11:26:43,750 - INFO - game_id après étape "is_parsable": 1760340
+2024-08-08 11:26:43,750 - INFO - game_id après insert_game_data : 1760340
+2024-08-08 11:26:44,595 - INFO - game_id après étape "is_parsable": 354270
+2024-08-08 11:26:44,596 - INFO - game_id après insert_game_data : 354270
+2024-08-08 11:26:45,179 - INFO - game_id après étape "is_parsable": 1821300
+2024-08-08 11:26:45,179 - INFO - game_id après insert_game_data : 1821300
+2024-08-08 11:26:46,693 - INFO - game_id après étape "is_parsable": 776020
+2024-08-08 11:26:46,693 - INFO - game_id après insert_game_data : 776020
+2024-08-08 11:26:47,455 - INFO - game_id après étape "is_parsable": 1426740
+2024-08-08 11:26:47,455 - INFO - game_id après insert_game_data : 1426740
+2024-08-08 11:26:48,082 - INFO - game_id après étape "is_parsable": 701490
+2024-08-08 11:26:48,083 - INFO - game_id après insert_game_data : 701490
+2024-08-08 11:26:49,253 - INFO - game_id après étape "is_parsable": 2908270
+2024-08-08 11:26:49,253 - INFO - game_id après insert_game_data : 2908270
+2024-08-08 11:26:50,469 - INFO - game_id après étape "is_parsable": 896765
+2024-08-08 11:26:50,469 - INFO - game_id après insert_game_data : 896765
+2024-08-08 11:26:51,831 - INFO - game_id après étape "is_parsable": 2190570
+2024-08-08 11:26:51,831 - INFO - game_id après insert_game_data : 2190570
+2024-08-08 11:26:53,126 - INFO - game_id après étape "is_parsable": 211209
+2024-08-08 11:26:53,126 - INFO - game_id après insert_game_data : 211209
+2024-08-08 11:26:54,491 - INFO - game_id après étape "is_parsable": 1847310
+2024-08-08 11:26:54,492 - INFO - game_id après insert_game_data : 1847310
+2024-08-08 11:26:56,687 - INFO - game_id après étape "is_parsable": 2216450
+2024-08-08 11:26:56,687 - INFO - game_id après insert_game_data : 2216450
+2024-08-08 11:26:57,398 - INFO - game_id après étape "is_parsable": 1560160
+2024-08-08 11:26:57,398 - INFO - game_id après insert_game_data : 1560160
+2024-08-08 11:26:59,053 - INFO - game_id après étape "is_parsable": 1849370
+2024-08-08 11:26:59,053 - INFO - game_id après insert_game_data : 1849370
+2024-08-08 11:27:00,392 - INFO - game_id après étape "is_parsable": 3054540
+2024-08-08 11:27:00,392 - INFO - game_id après insert_game_data : 3054540
+2024-08-08 11:27:01,790 - INFO - game_id après étape "is_parsable": 2459150
+2024-08-08 11:27:01,790 - INFO - game_id après insert_game_data : 2459150
+2024-08-08 11:27:02,889 - INFO - game_id après étape "is_parsable": 2698300
+2024-08-08 11:27:02,889 - INFO - game_id après insert_game_data : 2698300
+2024-08-08 11:27:04,301 - INFO - game_id après étape "is_parsable": 1298290
+2024-08-08 11:27:04,302 - INFO - game_id après insert_game_data : 1298290
+2024-08-08 11:27:05,430 - INFO - game_id après étape "is_parsable": 1746500
+2024-08-08 11:27:05,431 - INFO - game_id après insert_game_data : 1746500
+2024-08-08 11:27:06,858 - INFO - game_id après étape "is_parsable": 1373620
+2024-08-08 11:27:06,859 - INFO - game_id après insert_game_data : 1373620
+2024-08-08 11:27:08,131 - INFO - game_id après étape "is_parsable": 1563790
+2024-08-08 11:27:08,132 - INFO - game_id après insert_game_data : 1563790
+2024-08-08 11:27:08,989 - INFO - game_id après étape "is_parsable": 633080
+2024-08-08 11:27:08,989 - INFO - game_id après insert_game_data : 633080
+2024-08-08 11:27:09,727 - INFO - game_id après étape "is_parsable": 2743170
+2024-08-08 11:27:09,727 - INFO - game_id après insert_game_data : 2743170
+2024-08-08 11:27:11,080 - INFO - game_id après étape "is_parsable": 1705007
+2024-08-08 11:27:11,080 - INFO - game_id après insert_game_data : 1705007
+2024-08-08 11:27:12,554 - INFO - game_id après étape "is_parsable": 1393430
+2024-08-08 11:27:12,555 - INFO - game_id après insert_game_data : 1393430
+2024-08-08 11:27:13,713 - INFO - game_id après étape "is_parsable": 355350
+2024-08-08 11:27:13,714 - INFO - game_id après insert_game_data : 355350
+2024-08-08 11:27:14,472 - INFO - game_id après étape "is_parsable": 640020
+2024-08-08 11:27:14,472 - INFO - game_id après insert_game_data : 640020
+2024-08-08 11:27:16,329 - INFO - game_id après étape "is_parsable": 461350
+2024-08-08 11:27:16,330 - INFO - game_id après insert_game_data : 461350
+2024-08-08 11:27:17,594 - INFO - game_id après étape "is_parsable": 2357740
+2024-08-08 11:27:17,595 - INFO - game_id après insert_game_data : 2357740
+2024-08-08 11:27:18,143 - INFO - Database connection closed.
