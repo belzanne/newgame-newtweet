@@ -18393,3 +18393,325 @@ Résumé : 22 jeux publiés sur 41 jeux traités au total.
 2024-08-12 06:45:02 - Utilisation de l'API Brave Search
 2024-08-12 06:45:02 - Nombre de jeux avec contenu mature (id=3): 1
 2024-08-12 06:45:02 - Nombre de jeux avec contenu généré par IA: 4
+2024-08-13 06:44:06 - Début de l'exécution de main()
+2024-08-13 06:44:06 - URL de la base de données : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.csv
+2024-08-13 06:44:06 - Dernier timestamp lu : 1723420773
+2024-08-13 06:44:07 - Base de données téléchargée avec succès : /tmp/tmpwmb8qy8m.csv
+2024-08-13 06:44:07 - Nombre de nouvelles entrées trouvées : 66
+2024-08-13 06:44:07 - Traitement du jeu : Steam ID: 2662730, First Seen: 1723507180
+2024-08-13 06:44:08 - Inserted/updated game 2662730 into aug_steam_agames.db
+2024-08-13 06:44:08 - Handle trouvé sur la page steam : @WaterMuseum_
+2024-08-13 06:44:08 - Nouvelle entrée insérée pour game_id: 2662730, x_handle: @WaterMuseum_, add_date: 1723531448
+2024-08-13 06:44:08 - X_handle: @WaterMuseum_
+2024-08-13 06:44:08 - Traitement du jeu : Steam ID: 2978370, First Seen: 1723507180
+2024-08-13 06:44:09 - Inserted/updated game 2978370 into aug_steam_agames.db
+2024-08-13 06:44:09 - Le jeu avec Steam ID 2978370 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:09 - Traitement du jeu : Steam ID: 3006980, First Seen: 1723507180
+2024-08-13 06:44:10 - Inserted/updated game 3006980 into aug_steam_agames.db
+2024-08-13 06:44:10 - Handle trouvé sur la page steam : None
+2024-08-13 06:44:11 - Comparaison pour Roulettes: displayed 'Twitter' (score: 0.375), handle '@@roulettesplay' (score: 0.782608695652174)
+2024-08-13 06:44:11 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Roulettes
+2024-08-13 06:44:11 - Handle trouvé via Brave : None
+2024-08-13 06:44:11 - X_handle: None
+2024-08-13 06:44:11 - Comparaison pour Roulettes: displayed 'Twitter' (score: 0.375), handle '@@roulettesplay' (score: 0.782608695652174)
+2024-08-13 06:44:11 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Roulettes
+2024-08-13 06:44:11 - Traitement du jeu : Steam ID: 2948850, First Seen: 1723507180
+2024-08-13 06:44:12 - Inserted/updated game 2948850 into aug_steam_agames.db
+2024-08-13 06:44:12 - Le jeu avec Steam ID 2948850 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:12 - Traitement du jeu : Steam ID: 3146640, First Seen: 1723507180
+2024-08-13 06:44:12 - Inserted/updated game 3146640 into aug_steam_agames.db
+2024-08-13 06:44:12 - Le jeu avec Steam ID 3146640 utilise du contenu généré par IA ou n'a pas pu être scrapé.
+2024-08-13 06:44:12 - Traitement du jeu : Steam ID: 3095570, First Seen: 1723507180
+2024-08-13 06:44:13 - Inserted/updated game 3095570 into aug_steam_agames.db
+2024-08-13 06:44:13 - Le jeu avec Steam ID 3095570 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:13 - Traitement du jeu : Steam ID: 3150610, First Seen: 1723507180
+2024-08-13 06:44:13 - Inserted/updated game 3150610 into aug_steam_agames.db
+2024-08-13 06:44:13 - Le jeu avec Steam ID 3150610 utilise du contenu généré par IA ou n'a pas pu être scrapé.
+2024-08-13 06:44:13 - Traitement du jeu : Steam ID: 3054850, First Seen: 1723507180
+2024-08-13 06:44:14 - Inserted/updated game 3054850 into aug_steam_agames.db
+2024-08-13 06:44:14 - Le jeu avec Steam ID 3054850 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:14 - Traitement du jeu : Steam ID: 3054880, First Seen: 1723507180
+2024-08-13 06:44:15 - Inserted/updated game 3054880 into aug_steam_agames.db
+2024-08-13 06:44:15 - Le jeu avec Steam ID 3054880 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:15 - Traitement du jeu : Steam ID: 3054860, First Seen: 1723507180
+2024-08-13 06:44:16 - Inserted/updated game 3054860 into aug_steam_agames.db
+2024-08-13 06:44:16 - Le jeu avec Steam ID 3054860 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:16 - Traitement du jeu : Steam ID: 3054870, First Seen: 1723507180
+2024-08-13 06:44:16 - Inserted/updated game 3054870 into aug_steam_agames.db
+2024-08-13 06:44:16 - Le jeu avec Steam ID 3054870 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:16 - Traitement du jeu : Steam ID: 3150680, First Seen: 1723507180
+2024-08-13 06:44:16 - Inserted/updated game 3150680 into aug_steam_agames.db
+2024-08-13 06:44:16 - Le jeu avec Steam ID 3150680 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:16 - Traitement du jeu : Steam ID: 3140560, First Seen: 1723507180
+2024-08-13 06:44:17 - Inserted/updated game 3140560 into aug_steam_agames.db
+2024-08-13 06:44:17 - Le jeu avec Steam ID 3140560 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:17 - Traitement du jeu : Steam ID: 3114930, First Seen: 1723507180
+2024-08-13 06:44:18 - Inserted/updated game 3114930 into aug_steam_agames.db
+2024-08-13 06:44:18 - Le jeu avec Steam ID 3114930 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:18 - Traitement du jeu : Steam ID: 3155890, First Seen: 1723507180
+2024-08-13 06:44:19 - Inserted/updated game 3155890 into aug_steam_agames.db
+2024-08-13 06:44:19 - Le jeu avec Steam ID 3155890 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:19 - Traitement du jeu : Steam ID: 2960870, First Seen: 1723507180
+2024-08-13 06:44:20 - Inserted/updated game 2960870 into aug_steam_agames.db
+2024-08-13 06:44:20 - Le jeu avec Steam ID 2960870 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:20 - Traitement du jeu : Steam ID: 2913730, First Seen: 1723507180
+2024-08-13 06:44:20 - Inserted/updated game 2913730 into aug_steam_agames.db
+2024-08-13 06:44:20 - Le jeu avec Steam ID 2913730 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:20 - Traitement du jeu : Steam ID: 2132260, First Seen: 1723507180
+2024-08-13 06:44:21 - Inserted/updated game 2132260 into aug_steam_agames.db
+2024-08-13 06:44:21 - Handle trouvé sur la page steam : None
+2024-08-13 06:44:22 - Comparaison pour Extend Mode LLP: displayed 'Twitter' (score: 0.18181818181818182), handle '@@reedsmithllp' (score: 0.38461538461538464)
+2024-08-13 06:44:22 - Comparaison pour Extend Mode LLP: displayed 'Extend Mode' (score: 0.8461538461538461), handle '@ExtendMode' (score: 0.8695652173913043)
+2024-08-13 06:44:22 - Comparaison pour Extend Mode LLP: displayed 'Ballard Spahr LLP' (score: 0.375), handle '@BallardSpahrLLP' (score: 0.2857142857142857)
+2024-08-13 06:44:22 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Extend Mode LLP
+2024-08-13 06:44:22 - Handle trouvé via Brave : None
+2024-08-13 06:44:22 - X_handle: None
+2024-08-13 06:44:22 - Comparaison pour Extend Mode LLP: displayed 'Twitter' (score: 0.18181818181818182), handle '@@reedsmithllp' (score: 0.38461538461538464)
+2024-08-13 06:44:22 - Comparaison pour Extend Mode LLP: displayed 'Extend Mode' (score: 0.8461538461538461), handle '@ExtendMode' (score: 0.8695652173913043)
+2024-08-13 06:44:22 - Comparaison pour Extend Mode LLP: displayed 'Ballard Spahr LLP' (score: 0.375), handle '@BallardSpahrLLP' (score: 0.2857142857142857)
+2024-08-13 06:44:22 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Extend Mode LLP
+2024-08-13 06:44:22 - Traitement du jeu : Steam ID: 3088820, First Seen: 1723507180
+2024-08-13 06:44:23 - Inserted/updated game 3088820 into aug_steam_agames.db
+2024-08-13 06:44:23 - Le jeu avec Steam ID 3088820 utilise du contenu généré par IA ou n'a pas pu être scrapé.
+2024-08-13 06:44:23 - Traitement du jeu : Steam ID: 3137820, First Seen: 1723507180
+2024-08-13 06:44:24 - Inserted/updated game 3137820 into aug_steam_agames.db
+2024-08-13 06:44:24 - Handle trouvé sur la page steam : None
+2024-08-13 06:44:25 - Comparaison pour Do Games Limited: displayed 'Limited Run Games' (score: 0.42424242424242425), handle '@LimitedRunGames' (score: 0.4827586206896552)
+2024-08-13 06:44:25 - Comparaison pour Do Games Limited: displayed 'Twitter' (score: 0.2608695652173913), handle '@@LimitedGameNews' (score: 0.4666666666666667)
+2024-08-13 06:44:25 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Do Games Limited
+2024-08-13 06:44:25 - Handle trouvé via Brave : None
+2024-08-13 06:44:25 - X_handle: None
+2024-08-13 06:44:25 - Comparaison pour Do Games Limited: displayed 'Limited Run Games' (score: 0.42424242424242425), handle '@LimitedRunGames' (score: 0.4827586206896552)
+2024-08-13 06:44:25 - Comparaison pour Do Games Limited: displayed 'Twitter' (score: 0.2608695652173913), handle '@@LimitedGameNews' (score: 0.4666666666666667)
+2024-08-13 06:44:25 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Do Games Limited
+2024-08-13 06:44:25 - Traitement du jeu : Steam ID: 3073080, First Seen: 1723507180
+2024-08-13 06:44:26 - Inserted/updated game 3073080 into aug_steam_agames.db
+2024-08-13 06:44:26 - Le jeu avec Steam ID 3073080 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:26 - Traitement du jeu : Steam ID: 2994270, First Seen: 1723507180
+2024-08-13 06:44:27 - Inserted/updated game 2994270 into aug_steam_agames.db
+2024-08-13 06:44:27 - Le jeu avec Steam ID 2994270 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:27 - Traitement du jeu : Steam ID: 2994440, First Seen: 1723507180
+2024-08-13 06:44:27 - Inserted/updated game 2994440 into aug_steam_agames.db
+2024-08-13 06:44:27 - Le jeu avec Steam ID 2994440 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:27 - Traitement du jeu : Steam ID: 3128280, First Seen: 1723507180
+2024-08-13 06:44:28 - Inserted/updated game 3128280 into aug_steam_agames.db
+2024-08-13 06:44:28 - Handle trouvé sur la page steam : @yongjustyong
+2024-08-13 06:44:28 - Nouvelle entrée insérée pour game_id: 3128280, x_handle: @yongjustyong, add_date: 1723531468
+2024-08-13 06:44:28 - X_handle: @yongjustyong
+2024-08-13 06:44:28 - Traitement du jeu : Steam ID: 2994450, First Seen: 1723507180
+2024-08-13 06:44:29 - Inserted/updated game 2994450 into aug_steam_agames.db
+2024-08-13 06:44:29 - Le jeu avec Steam ID 2994450 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:29 - Traitement du jeu : Steam ID: 2703690, First Seen: 1723507180
+2024-08-13 06:44:29 - Inserted/updated game 2703690 into aug_steam_agames.db
+2024-08-13 06:44:29 - Handle trouvé sur la page steam : None
+2024-08-13 06:44:30 - Comparaison pour r0kee: displayed 'Twitter' (score: 0.16666666666666666), handle '@@mcilroyrory' (score: 0.11764705882352941)
+2024-08-13 06:44:30 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour r0kee
+2024-08-13 06:44:30 - Handle trouvé via Brave : None
+2024-08-13 06:44:30 - X_handle: None
+2024-08-13 06:44:31 - Comparaison pour r0kee: displayed 'Twitter' (score: 0.16666666666666666), handle '@@mcilroyrory' (score: 0.11764705882352941)
+2024-08-13 06:44:31 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour r0kee
+2024-08-13 06:44:31 - Traitement du jeu : Steam ID: 3142530, First Seen: 1723507180
+2024-08-13 06:44:31 - Inserted/updated game 3142530 into aug_steam_agames.db
+2024-08-13 06:44:31 - Le jeu avec Steam ID 3142530 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:31 - Traitement du jeu : Steam ID: 2994400, First Seen: 1723507180
+2024-08-13 06:44:32 - Inserted/updated game 2994400 into aug_steam_agames.db
+2024-08-13 06:44:32 - Le jeu avec Steam ID 2994400 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:32 - Traitement du jeu : Steam ID: 2994390, First Seen: 1723507180
+2024-08-13 06:44:33 - Inserted/updated game 2994390 into aug_steam_agames.db
+2024-08-13 06:44:33 - Le jeu avec Steam ID 2994390 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:33 - Traitement du jeu : Steam ID: 2994370, First Seen: 1723507180
+2024-08-13 06:44:33 - Inserted/updated game 2994370 into aug_steam_agames.db
+2024-08-13 06:44:33 - Le jeu avec Steam ID 2994370 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:33 - Traitement du jeu : Steam ID: 2994380, First Seen: 1723507180
+2024-08-13 06:44:34 - Inserted/updated game 2994380 into aug_steam_agames.db
+2024-08-13 06:44:34 - Le jeu avec Steam ID 2994380 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:34 - Traitement du jeu : Steam ID: 2994360, First Seen: 1723507180
+2024-08-13 06:44:34 - Inserted/updated game 2994360 into aug_steam_agames.db
+2024-08-13 06:44:34 - Le jeu avec Steam ID 2994360 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:34 - Traitement du jeu : Steam ID: 2994350, First Seen: 1723507180
+2024-08-13 06:44:35 - Inserted/updated game 2994350 into aug_steam_agames.db
+2024-08-13 06:44:35 - Le jeu avec Steam ID 2994350 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:35 - Traitement du jeu : Steam ID: 2994300, First Seen: 1723507180
+2024-08-13 06:44:36 - Inserted/updated game 2994300 into aug_steam_agames.db
+2024-08-13 06:44:36 - Le jeu avec Steam ID 2994300 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:36 - Traitement du jeu : Steam ID: 2994310, First Seen: 1723507180
+2024-08-13 06:44:36 - Inserted/updated game 2994310 into aug_steam_agames.db
+2024-08-13 06:44:36 - Le jeu avec Steam ID 2994310 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:36 - Traitement du jeu : Steam ID: 2994290, First Seen: 1723507180
+2024-08-13 06:44:37 - Inserted/updated game 2994290 into aug_steam_agames.db
+2024-08-13 06:44:37 - Le jeu avec Steam ID 2994290 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:37 - Traitement du jeu : Steam ID: 2440360, First Seen: 1723507180
+2024-08-13 06:44:38 - Inserted/updated game 2440360 into aug_steam_agames.db
+2024-08-13 06:44:38 - Handle trouvé sur la page steam : None
+2024-08-13 06:44:39 - Comparaison pour Mindhack Interactive: displayed 'Twitter' (score: 0.2962962962962963), handle '@@mindhack' (score: 0.5714285714285714)
+2024-08-13 06:44:39 - Comparaison pour Mindhack Interactive: displayed 'MindHack Tech' (score: 0.7272727272727273), handle '@MindHackTech' (score: 0.7096774193548387)
+2024-08-13 06:44:39 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Mindhack Interactive
+2024-08-13 06:44:39 - Handle trouvé via Brave : None
+2024-08-13 06:44:39 - X_handle: None
+2024-08-13 06:44:40 - Comparaison pour Mindhack Interactive: displayed 'Twitter' (score: 0.2962962962962963), handle '@@mindhack' (score: 0.5714285714285714)
+2024-08-13 06:44:40 - Comparaison pour Mindhack Interactive: displayed 'MindHack Tech' (score: 0.7272727272727273), handle '@MindHackTech' (score: 0.7096774193548387)
+2024-08-13 06:44:40 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Mindhack Interactive
+2024-08-13 06:44:40 - Traitement du jeu : Steam ID: 2704730, First Seen: 1723507180
+2024-08-13 06:44:41 - Inserted/updated game 2704730 into aug_steam_agames.db
+2024-08-13 06:44:41 - Le jeu avec Steam ID 2704730 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:41 - Traitement du jeu : Steam ID: 2994410, First Seen: 1723507180
+2024-08-13 06:44:41 - Inserted/updated game 2994410 into aug_steam_agames.db
+2024-08-13 06:44:41 - Le jeu avec Steam ID 2994410 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:41 - Traitement du jeu : Steam ID: 3145640, First Seen: 1723507180
+2024-08-13 06:44:42 - Inserted/updated game 3145640 into aug_steam_agames.db
+2024-08-13 06:44:42 - Le jeu avec Steam ID 3145640 utilise du contenu généré par IA ou n'a pas pu être scrapé.
+2024-08-13 06:44:42 - Traitement du jeu : Steam ID: 3148120, First Seen: 1723507180
+2024-08-13 06:44:42 - Inserted/updated game 3148120 into aug_steam_agames.db
+2024-08-13 06:44:42 - Le jeu avec Steam ID 3148120 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:42 - Traitement du jeu : Steam ID: 2194920, First Seen: 1723507180
+2024-08-13 06:44:43 - Inserted/updated game 2194920 into aug_steam_agames.db
+2024-08-13 06:44:43 - Le jeu avec Steam ID 2194920 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:43 - Traitement du jeu : Steam ID: 3113320, First Seen: 1723507180
+2024-08-13 06:44:43 - Inserted/updated game 3113320 into aug_steam_agames.db
+2024-08-13 06:44:43 - Le jeu avec Steam ID 3113320 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:43 - Traitement du jeu : Steam ID: 3116170, First Seen: 1723507180
+2024-08-13 06:44:44 - Inserted/updated game 3116170 into aug_steam_agames.db
+2024-08-13 06:44:44 - Le jeu avec Steam ID 3116170 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:44 - Traitement du jeu : Steam ID: 3094930, First Seen: 1723507180
+2024-08-13 06:44:45 - Inserted/updated game 3094930 into aug_steam_agames.db
+2024-08-13 06:44:45 - Le jeu avec Steam ID 3094930 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:45 - Traitement du jeu : Steam ID: 3095400, First Seen: 1723507180
+2024-08-13 06:44:45 - Inserted/updated game 3095400 into aug_steam_agames.db
+2024-08-13 06:44:45 - Le jeu avec Steam ID 3095400 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:45 - Traitement du jeu : Steam ID: 3152560, First Seen: 1723507180
+2024-08-13 06:44:46 - Inserted/updated game 3152560 into aug_steam_agames.db
+2024-08-13 06:44:46 - Le jeu avec Steam ID 3152560 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:46 - Traitement du jeu : Steam ID: 2844850, First Seen: 1723507180
+2024-08-13 06:44:46 - Inserted/updated game 2844850 into aug_steam_agames.db
+2024-08-13 06:44:46 - Handle trouvé sur la page steam : None
+2024-08-13 06:44:48 - Comparaison pour Mistwalker Corporation: displayed 'Twitter' (score: 0.27586206896551724), handle '@@mistwalker' (score: 0.625)
+2024-08-13 06:44:48 - Comparaison pour Mistwalker Corporation: displayed 'Mistwalker Corp._FR' (score: 0.7804878048780488), handle '@mistwalker_fr' (score: 0.6470588235294118)
+2024-08-13 06:44:48 - Comparaison pour Mistwalker Corporation: displayed 'Mistwalker Corp._DE' (score: 0.7317073170731707), handle '@mistwalker_de' (score: 0.5882352941176471)
+2024-08-13 06:44:48 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Mistwalker Corporation
+2024-08-13 06:44:48 - Handle trouvé via Brave : None
+2024-08-13 06:44:48 - X_handle: None
+2024-08-13 06:44:48 - Comparaison pour Mistwalker Corporation: displayed 'Twitter' (score: 0.27586206896551724), handle '@@mistwalker' (score: 0.625)
+2024-08-13 06:44:48 - Comparaison pour Mistwalker Corporation: displayed 'Mistwalker Corp._FR' (score: 0.7804878048780488), handle '@mistwalker_fr' (score: 0.6470588235294118)
+2024-08-13 06:44:48 - Comparaison pour Mistwalker Corporation: displayed 'Mistwalker Corp._DE' (score: 0.7317073170731707), handle '@mistwalker_de' (score: 0.5882352941176471)
+2024-08-13 06:44:48 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Mistwalker Corporation
+2024-08-13 06:44:48 - Traitement du jeu : Steam ID: 3144340, First Seen: 1723507180
+2024-08-13 06:44:49 - Inserted/updated game 3144340 into aug_steam_agames.db
+2024-08-13 06:44:49 - Handle trouvé sur la page steam : None
+2024-08-13 06:44:51 - Comparaison pour KennyMakesGames: displayed 'Twitter' (score: 0.09090909090909091), handle '@@KenneyNL' (score: 0.4166666666666667)
+2024-08-13 06:44:51 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour KennyMakesGames
+2024-08-13 06:44:51 - Handle trouvé via Brave : None
+2024-08-13 06:44:51 - X_handle: None
+2024-08-13 06:44:52 - Comparaison pour KennyMakesGames: displayed 'Twitter' (score: 0.09090909090909091), handle '@@KenneyNL' (score: 0.4166666666666667)
+2024-08-13 06:44:52 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour KennyMakesGames
+2024-08-13 06:44:52 - Traitement du jeu : Steam ID: 3149950, First Seen: 1723507180
+2024-08-13 06:44:53 - Inserted/updated game 3149950 into aug_steam_agames.db
+2024-08-13 06:44:53 - Handle trouvé sur la page steam : None
+2024-08-13 06:44:54 - Comparaison pour Ashley Rockmacher: displayed 'Twitter' (score: 0.16666666666666666), handle '@@AshleyJ' (score: 0.5)
+2024-08-13 06:44:54 - Comparaison pour Ashley Rockmacher: displayed 'Ashley Spivey' (score: 0.5333333333333333), handle '@AshleySpivey' (score: 0.5)
+2024-08-13 06:44:54 - Comparaison pour Ashley Rockmacher: displayed 'Ashley Eskeleton' (score: 0.48484848484848486), handle '@AshleyEsqueda' (score: 0.4827586206896552)
+2024-08-13 06:44:54 - Comparaison pour Ashley Rockmacher: displayed 'Ashley Hauck' (score: 0.6206896551724138), handle '@AshleyHauck' (score: 0.5925925925925926)
+2024-08-13 06:44:54 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Ashley Rockmacher
+2024-08-13 06:44:54 - Handle trouvé via Brave : None
+2024-08-13 06:44:54 - X_handle: None
+2024-08-13 06:44:55 - Comparaison pour Ashley Rockmacher: displayed 'Twitter' (score: 0.16666666666666666), handle '@@AshleyJ' (score: 0.5)
+2024-08-13 06:44:55 - Comparaison pour Ashley Rockmacher: displayed 'Ashley Spivey' (score: 0.5333333333333333), handle '@AshleySpivey' (score: 0.5)
+2024-08-13 06:44:55 - Comparaison pour Ashley Rockmacher: displayed 'Ashley Eskeleton' (score: 0.48484848484848486), handle '@AshleyEsqueda' (score: 0.4827586206896552)
+2024-08-13 06:44:55 - Comparaison pour Ashley Rockmacher: displayed 'Ashley Hauck' (score: 0.6206896551724138), handle '@AshleyHauck' (score: 0.5925925925925926)
+2024-08-13 06:44:55 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Ashley Rockmacher
+2024-08-13 06:44:55 - Traitement du jeu : Steam ID: 3156710, First Seen: 1723507180
+2024-08-13 06:44:56 - Inserted/updated game 3156710 into aug_steam_agames.db
+2024-08-13 06:44:56 - Le jeu avec Steam ID 3156710 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:44:56 - Traitement du jeu : Steam ID: 2075100, First Seen: 1723507180
+2024-08-13 06:44:57 - Inserted/updated game 2075100 into aug_steam_agames.db
+2024-08-13 06:44:57 - Handle trouvé sur la page steam : @ChernobylGame
+2024-08-13 06:44:57 - Nouvelle entrée insérée pour game_id: 2075100, x_handle: @ChernobylGame, add_date: 1723531497
+2024-08-13 06:44:57 - X_handle: @ChernobylGame
+2024-08-13 06:44:57 - Traitement du jeu : Steam ID: 3113870, First Seen: 1723507180
+2024-08-13 06:44:58 - Inserted/updated game 3113870 into aug_steam_agames.db
+2024-08-13 06:44:58 - Handle trouvé sur la page steam : None
+2024-08-13 06:44:58 - Comparaison pour Hockey Legacy Manager: displayed 'Hockey Legacy Manager' (score: 1.0), handle '@hockeylegacyapp' (score: 0.7647058823529411)
+2024-08-13 06:44:58 - Handle trouvé via Brave : hockeylegacyapp
+2024-08-13 06:44:58 - X_handle: hockeylegacyapp
+2024-08-13 06:44:58 - Traitement du jeu : Steam ID: 3136050, First Seen: 1723507180
+2024-08-13 06:45:00 - Inserted/updated game 3136050 into aug_steam_agames.db
+2024-08-13 06:45:00 - Le jeu avec Steam ID 3136050 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:45:00 - Traitement du jeu : Steam ID: 2898480, First Seen: 1723507180
+2024-08-13 06:45:00 - Impossible de récupérer les détails pour le jeu avec Steam ID 2898480
+2024-08-13 06:45:00 - Traitement du jeu : Steam ID: 3144950, First Seen: 1723507180
+2024-08-13 06:45:01 - Inserted/updated game 3144950 into aug_steam_agames.db
+2024-08-13 06:45:01 - Handle trouvé sur la page steam : None
+2024-08-13 06:45:02 - Comparaison pour Tbjbu2: displayed 'Twitter' (score: 0.15384615384615385), handle '@@Tbjbu2' (score: 0.9230769230769231)
+2024-08-13 06:45:02 - Comparaison pour Tbjbu2: displayed 'Tbjbu2 - Twitter' (score: 0.5454545454545454), handle '@@tbjbu2' (score: 0.9230769230769231)
+2024-08-13 06:45:02 - Handle trouvé via Brave : @tbjbu2
+2024-08-13 06:45:02 - Nouvelle entrée insérée pour game_id: 3144950, x_handle: @tbjbu2, add_date: 1723531502
+2024-08-13 06:45:02 - X_handle: @tbjbu2
+2024-08-13 06:45:02 - Traitement du jeu : Steam ID: 2888300, First Seen: 1723507180
+2024-08-13 06:45:02 - Inserted/updated game 2888300 into aug_steam_agames.db
+2024-08-13 06:45:02 - Handle trouvé sur la page steam : None
+2024-08-13 06:45:03 - Comparaison pour Raptus Games: displayed 'Twitter' (score: 0.10526315789473684), handle '@@raptusgames' (score: 0.9565217391304348)
+2024-08-13 06:45:03 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Raptus Games
+2024-08-13 06:45:03 - Handle trouvé via Brave : None
+2024-08-13 06:45:03 - X_handle: None
+2024-08-13 06:45:05 - Comparaison pour Raptus Games: displayed 'Twitter' (score: 0.10526315789473684), handle '@@raptusgames' (score: 0.9565217391304348)
+2024-08-13 06:45:05 - Aucun handle Twitter trouvé avec un score de similarité suffisant pour Raptus Games
+2024-08-13 06:45:05 - Traitement du jeu : Steam ID: 2890190, First Seen: 1723507180
+2024-08-13 06:45:05 - Inserted/updated game 2890190 into aug_steam_agames.db
+2024-08-13 06:45:05 - Le jeu avec Steam ID 2890190 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:45:05 - Traitement du jeu : Steam ID: 3029230, First Seen: 1723507180
+2024-08-13 06:45:06 - Inserted/updated game 3029230 into aug_steam_agames.db
+2024-08-13 06:45:06 - Le jeu avec Steam ID 3029230 utilise du contenu généré par IA ou n'a pas pu être scrapé.
+2024-08-13 06:45:06 - Traitement du jeu : Steam ID: 3134550, First Seen: 1723507180
+2024-08-13 06:45:06 - Inserted/updated game 3134550 into aug_steam_agames.db
+2024-08-13 06:45:06 - Le jeu avec Steam ID 3134550 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:45:06 - Traitement du jeu : Steam ID: 1915520, First Seen: 1723507180
+2024-08-13 06:45:07 - Inserted/updated game 1915520 into aug_steam_agames.db
+2024-08-13 06:45:07 - Handle trouvé sur la page steam : @Pipkin_RPG
+2024-08-13 06:45:07 - Nouvelle entrée insérée pour game_id: 1915520, x_handle: @Pipkin_RPG, add_date: 1723531507
+2024-08-13 06:45:07 - X_handle: @Pipkin_RPG
+2024-08-13 06:45:07 - Traitement du jeu : Steam ID: 3147730, First Seen: 1723507180
+2024-08-13 06:45:07 - Inserted/updated game 3147730 into aug_steam_agames.db
+2024-08-13 06:45:07 - Le jeu avec Steam ID 3147730 utilise du contenu généré par IA ou n'a pas pu être scrapé.
+2024-08-13 06:45:07 - Traitement du jeu : Steam ID: 3156450, First Seen: 1723507180
+2024-08-13 06:45:08 - Inserted/updated game 3156450 into aug_steam_agames.db
+2024-08-13 06:45:08 - Handle trouvé sur la page steam : @_koffeecup
+2024-08-13 06:45:08 - Nouvelle entrée insérée pour game_id: 3156450, x_handle: @_koffeecup, add_date: 1723531508
+2024-08-13 06:45:08 - X_handle: @_koffeecup
+2024-08-13 06:45:08 - Traitement du jeu : Steam ID: 3140310, First Seen: 1723507180
+2024-08-13 06:45:08 - Inserted/updated game 3140310 into aug_steam_agames.db
+2024-08-13 06:45:08 - Le jeu avec Steam ID 3140310 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:45:08 - Traitement du jeu : Steam ID: 3140300, First Seen: 1723507180
+2024-08-13 06:45:09 - Inserted/updated game 3140300 into aug_steam_agames.db
+2024-08-13 06:45:09 - Le jeu avec Steam ID 3140300 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:45:09 - Traitement du jeu : Steam ID: 3140320, First Seen: 1723507180
+2024-08-13 06:45:09 - Inserted/updated game 3140320 into aug_steam_agames.db
+2024-08-13 06:45:09 - Le jeu avec Steam ID 3140320 ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.
+2024-08-13 06:45:09 - Fichier temporaire de la base de données supprimé
+2024-08-13 06:45:10 - Tweet prioritaire publié pour Eating Nature (ID: 1823249416674807984)
+2024-08-13 06:45:10 - Tweet prioritaire publié pour Roulette Club (ID: 1823249417777930640)
+2024-08-13 06:45:10 - Tweet prioritaire publié pour Mystical Riddles: Haunted Portraits Collector's Edition (ID: 1823249418839105800)
+2024-08-13 06:45:10 - Tweet prioritaire publié pour Cats & Dice (ID: 1823249419870916639)
+2024-08-13 06:45:11 - Tweet prioritaire publié pour Temporadox (ID: 1823249420978131307)
+2024-08-13 06:45:11 - Tweet prioritaire publié pour PiN (ID: 1823249422089597043)
+2024-08-13 06:45:11 - Tweet prioritaire publié pour Idle Aim (ID: 1823249423150817501)
+2024-08-13 06:45:11 - Tweet prioritaire publié pour Chernobylite 2: Exclusion Zone (ID: 1823249424287506541)
+2024-08-13 06:45:12 - Tweet prioritaire publié pour Hockey Legacy Manager 25 (ID: 1823249425294078296)
+2024-08-13 06:45:12 - Tweet prioritaire publié pour Pet Lands (ID: 1823249426460086651)
+2024-08-13 06:45:12 - Tweet prioritaire publié pour NBB.EXE Playtest (ID: 1823249427584131228)
+2024-08-13 06:45:12 - Tweet prioritaire publié pour Pipkin (ID: 1823249428708262315)
+2024-08-13 06:45:13 - Tweet prioritaire publié pour Hoomanz! (ID: 1823249429874221159)
+2024-08-13 06:45:13 - Tweet non prioritaire publié pour Eight Dragons 2 (ID: 1823249431153570212)
+2024-08-13 06:45:13 - Tweet non prioritaire publié pour Not Enough Space (ID: 1823249432197972123)
+2024-08-13 06:45:14 - Tweet non prioritaire publié pour FANTASIAN Neo Dimension (ID: 1823249433460457478)
+2024-08-13 06:45:14 - Timestamp mis à jour : 1723507180
+2024-08-13 06:45:14 - 
+Résumé : 16 jeux publiés sur 66 jeux traités au total.
+2024-08-13 06:45:14 - Tweets prioritaires : 13
+2024-08-13 06:45:14 - Tweets non prioritaires : 3
+2024-08-13 06:45:14 - Exécution du 2024-08-13 06:45:14: 16 tweets envoyés sur 66 jeux traités.
+2024-08-13 06:45:14 - PAT_GITHUB_USERNAME: belzanne
+2024-08-13 06:45:14 - GITHUB_REPO: steampage-creation-date
+2024-08-13 06:45:14 - CSV_FILE_PATH: steam_games.csv
+2024-08-13 06:45:14 - URL complète : https://raw.githubusercontent.com/belzanne/steampage-creation-date/main/steam_games.csv
+2024-08-13 06:45:14 - Utilisation de l'API Brave Search
+2024-08-13 06:45:14 - Nombre de jeux avec contenu mature (id=3): 1
+2024-08-13 06:45:14 - Nombre de jeux avec contenu généré par IA: 6
