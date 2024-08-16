@@ -9885,3 +9885,825 @@ b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove(
 2024-08-15 09:44:16,045 - WARNING - Échec du scraping YouTube pour Klukdigital: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/Klukdigital
 2024-08-15 09:44:16,045 - WARNING - Aucune donnée scrapée pour Klukdigital, mise à jour ignorée
 2024-08-15 09:44:56,085 - INFO - Connexion à la base de données fermée.
+2024-08-16 06:46:59,274 - INFO - Connecté à la base de données
+2024-08-16 06:46:59,274 - INFO - Trouvé 117 handles Twitter à traiter
+2024-08-16 06:46:59,274 - INFO - Traitement de TraversAdam...
+2024-08-16 06:46:59,386 - WARNING - Tentative 1 échouée pour TraversAdam: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TraversAdam
+2024-08-16 06:47:39,427 - WARNING - Tentative 2 échouée pour TraversAdam: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TraversAdam
+2024-08-16 06:48:19,495 - WARNING - Tentative 3 échouée pour TraversAdam: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TraversAdam
+2024-08-16 06:48:19,496 - ERROR - Toutes les tentatives ont échoué pour TraversAdam
+2024-08-16 06:48:19,526 - WARNING - Échec du scraping YouTube pour TraversAdam: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/TraversAdam
+2024-08-16 06:48:19,526 - WARNING - Aucune donnée scrapée pour TraversAdam, mise à jour ignorée
+2024-08-16 06:48:59,566 - INFO - Traitement de ____Manic____...
+2024-08-16 06:48:59,604 - WARNING - Tentative 1 échouée pour ____Manic____: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/____Manic____
+2024-08-16 06:49:39,684 - WARNING - Tentative 2 échouée pour ____Manic____: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/____Manic____
+2024-08-16 06:50:19,756 - WARNING - Tentative 3 échouée pour ____Manic____: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/____Manic____
+2024-08-16 06:50:19,756 - ERROR - Toutes les tentatives ont échoué pour ____Manic____
+2024-08-16 06:50:19,794 - WARNING - Échec du scraping YouTube pour ____Manic____: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/____Manic____
+2024-08-16 06:50:19,794 - WARNING - Aucune donnée scrapée pour ____Manic____, mise à jour ignorée
+2024-08-16 06:50:59,797 - INFO - Traitement de EnjoyStudioSA...
+2024-08-16 06:50:59,830 - WARNING - Tentative 1 échouée pour EnjoyStudioSA: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/EnjoyStudioSA
+2024-08-16 06:51:39,907 - WARNING - Tentative 2 échouée pour EnjoyStudioSA: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/EnjoyStudioSA
+2024-08-16 06:52:20,010 - WARNING - Tentative 3 échouée pour EnjoyStudioSA: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/EnjoyStudioSA
+2024-08-16 06:52:20,010 - ERROR - Toutes les tentatives ont échoué pour EnjoyStudioSA
+2024-08-16 06:52:20,046 - WARNING - Échec du scraping YouTube pour EnjoyStudioSA: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/EnjoyStudioSA
+2024-08-16 06:52:20,046 - WARNING - Aucune donnée scrapée pour EnjoyStudioSA, mise à jour ignorée
+2024-08-16 06:53:00,086 - INFO - Traitement de pixelmon...
+2024-08-16 06:53:00,120 - WARNING - Tentative 1 échouée pour pixelmon: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/pixelmon
+2024-08-16 06:53:40,178 - WARNING - Tentative 2 échouée pour pixelmon: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/pixelmon
+2024-08-16 06:54:20,252 - WARNING - Tentative 3 échouée pour pixelmon: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/pixelmon
+2024-08-16 06:54:20,252 - ERROR - Toutes les tentatives ont échoué pour pixelmon
+2024-08-16 06:54:20,285 - WARNING - Échec du scraping YouTube pour pixelmon: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/pixelmon
+2024-08-16 06:54:20,285 - WARNING - Aucune donnée scrapée pour pixelmon, mise à jour ignorée
+2024-08-16 06:55:00,294 - INFO - Traitement de Self_MADev...
+2024-08-16 06:55:00,346 - WARNING - Tentative 1 échouée pour Self_MADev: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Self_MADev
+2024-08-16 06:55:40,417 - WARNING - Tentative 2 échouée pour Self_MADev: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Self_MADev
+2024-08-16 06:56:20,490 - WARNING - Tentative 3 échouée pour Self_MADev: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Self_MADev
+2024-08-16 06:56:20,491 - ERROR - Toutes les tentatives ont échoué pour Self_MADev
+2024-08-16 06:56:20,520 - WARNING - Échec du scraping YouTube pour Self_MADev: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/Self_MADev
+2024-08-16 06:56:20,521 - WARNING - Aucune donnée scrapée pour Self_MADev, mise à jour ignorée
+2024-08-16 06:57:00,561 - INFO - Traitement de RadicalFishGame...
+2024-08-16 06:57:00,594 - WARNING - Tentative 1 échouée pour RadicalFishGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/RadicalFishGame
+2024-08-16 06:57:40,676 - WARNING - Tentative 2 échouée pour RadicalFishGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/RadicalFishGame
+2024-08-16 06:58:20,751 - WARNING - Tentative 3 échouée pour RadicalFishGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/RadicalFishGame
+2024-08-16 06:58:20,751 - ERROR - Toutes les tentatives ont échoué pour RadicalFishGame
+2024-08-16 06:58:20,781 - WARNING - Échec du scraping YouTube pour RadicalFishGame: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/RadicalFishGame
+2024-08-16 06:58:20,781 - WARNING - Aucune donnée scrapée pour RadicalFishGame, mise à jour ignorée
+2024-08-16 06:59:00,822 - INFO - Traitement de TorbieGames...
+2024-08-16 06:59:00,867 - WARNING - Tentative 1 échouée pour TorbieGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TorbieGames
+2024-08-16 06:59:40,915 - WARNING - Tentative 2 échouée pour TorbieGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TorbieGames
+2024-08-16 07:00:20,948 - WARNING - Tentative 3 échouée pour TorbieGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TorbieGames
+2024-08-16 07:00:20,948 - ERROR - Toutes les tentatives ont échoué pour TorbieGames
+2024-08-16 07:00:20,982 - WARNING - Échec du scraping YouTube pour TorbieGames: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/TorbieGames
+2024-08-16 07:00:20,982 - WARNING - Aucune donnée scrapée pour TorbieGames, mise à jour ignorée
+2024-08-16 07:01:01,022 - INFO - Traitement de MindscapeGames...
+2024-08-16 07:01:01,054 - WARNING - Tentative 1 échouée pour MindscapeGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/MindscapeGames
+2024-08-16 07:01:41,132 - WARNING - Tentative 2 échouée pour MindscapeGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/MindscapeGames
+2024-08-16 07:02:21,168 - WARNING - Tentative 3 échouée pour MindscapeGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/MindscapeGames
+2024-08-16 07:02:21,168 - ERROR - Toutes les tentatives ont échoué pour MindscapeGames
+2024-08-16 07:02:21,200 - WARNING - Échec du scraping YouTube pour MindscapeGames: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/MindscapeGames
+2024-08-16 07:02:21,201 - WARNING - Aucune donnée scrapée pour MindscapeGames, mise à jour ignorée
+2024-08-16 07:03:01,233 - INFO - Traitement de GUMGamesGG...
+2024-08-16 07:03:01,299 - WARNING - Tentative 1 échouée pour GUMGamesGG: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GUMGamesGG
+2024-08-16 07:03:41,381 - WARNING - Tentative 2 échouée pour GUMGamesGG: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GUMGamesGG
+2024-08-16 07:04:21,449 - WARNING - Tentative 3 échouée pour GUMGamesGG: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GUMGamesGG
+2024-08-16 07:04:21,449 - ERROR - Toutes les tentatives ont échoué pour GUMGamesGG
+2024-08-16 07:04:21,483 - WARNING - Échec du scraping YouTube pour GUMGamesGG: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/GUMGamesGG
+2024-08-16 07:04:21,483 - WARNING - Aucune donnée scrapée pour GUMGamesGG, mise à jour ignorée
+2024-08-16 07:05:01,524 - INFO - Traitement de fpsunknown...
+2024-08-16 07:05:01,559 - WARNING - Tentative 1 échouée pour fpsunknown: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/fpsunknown
+2024-08-16 07:05:41,622 - WARNING - Tentative 2 échouée pour fpsunknown: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/fpsunknown
+2024-08-16 07:06:21,696 - WARNING - Tentative 3 échouée pour fpsunknown: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/fpsunknown
+2024-08-16 07:06:21,696 - ERROR - Toutes les tentatives ont échoué pour fpsunknown
+2024-08-16 07:06:21,731 - WARNING - Échec du scraping YouTube pour fpsunknown: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/fpsunknown
+2024-08-16 07:06:21,731 - WARNING - Aucune donnée scrapée pour fpsunknown, mise à jour ignorée
+2024-08-16 07:07:01,771 - INFO - Traitement de snail_simulator...
+2024-08-16 07:07:01,812 - WARNING - Tentative 1 échouée pour snail_simulator: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/snail_simulator
+2024-08-16 07:07:41,885 - WARNING - Tentative 2 échouée pour snail_simulator: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/snail_simulator
+2024-08-16 07:08:22,038 - WARNING - Tentative 3 échouée pour snail_simulator: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/snail_simulator
+2024-08-16 07:08:22,038 - ERROR - Toutes les tentatives ont échoué pour snail_simulator
+2024-08-16 07:08:22,071 - WARNING - Échec du scraping YouTube pour snail_simulator: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/snail_simulator
+2024-08-16 07:08:22,071 - WARNING - Aucune donnée scrapée pour snail_simulator, mise à jour ignorée
+2024-08-16 07:09:02,109 - INFO - Traitement de AAD_Games...
+2024-08-16 07:09:02,146 - WARNING - Tentative 1 échouée pour AAD_Games: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/AAD_Games
+2024-08-16 07:09:42,221 - WARNING - Tentative 2 échouée pour AAD_Games: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/AAD_Games
+2024-08-16 07:10:22,296 - WARNING - Tentative 3 échouée pour AAD_Games: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/AAD_Games
+2024-08-16 07:10:22,296 - ERROR - Toutes les tentatives ont échoué pour AAD_Games
+2024-08-16 07:10:22,328 - WARNING - Échec du scraping YouTube pour AAD_Games: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/AAD_Games
+2024-08-16 07:10:22,328 - WARNING - Aucune donnée scrapée pour AAD_Games, mise à jour ignorée
+2024-08-16 07:11:02,368 - INFO - Traitement de hellbreak_game...
+2024-08-16 07:11:02,404 - WARNING - Tentative 1 échouée pour hellbreak_game: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/hellbreak_game
+2024-08-16 07:11:42,483 - WARNING - Tentative 2 échouée pour hellbreak_game: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/hellbreak_game
+2024-08-16 07:12:22,524 - WARNING - Tentative 3 échouée pour hellbreak_game: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/hellbreak_game
+2024-08-16 07:12:22,524 - ERROR - Toutes les tentatives ont échoué pour hellbreak_game
+2024-08-16 07:12:22,557 - WARNING - Échec du scraping YouTube pour hellbreak_game: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/hellbreak_game
+2024-08-16 07:12:22,557 - WARNING - Aucune donnée scrapée pour hellbreak_game, mise à jour ignorée
+2024-08-16 07:13:02,583 - INFO - Traitement de SpawnofTyphon...
+2024-08-16 07:13:02,616 - WARNING - Tentative 1 échouée pour SpawnofTyphon: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpawnofTyphon
+2024-08-16 07:13:42,700 - WARNING - Tentative 2 échouée pour SpawnofTyphon: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpawnofTyphon
+2024-08-16 07:14:22,771 - WARNING - Tentative 3 échouée pour SpawnofTyphon: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpawnofTyphon
+2024-08-16 07:14:22,771 - ERROR - Toutes les tentatives ont échoué pour SpawnofTyphon
+2024-08-16 07:14:22,803 - WARNING - Échec du scraping YouTube pour SpawnofTyphon: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/SpawnofTyphon
+2024-08-16 07:14:22,803 - WARNING - Aucune donnée scrapée pour SpawnofTyphon, mise à jour ignorée
+2024-08-16 07:15:02,829 - INFO - Traitement de Fastclosecombat...
+2024-08-16 07:15:02,861 - WARNING - Tentative 1 échouée pour Fastclosecombat: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Fastclosecombat
+2024-08-16 07:15:42,933 - WARNING - Tentative 2 échouée pour Fastclosecombat: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Fastclosecombat
+2024-08-16 07:16:22,990 - WARNING - Tentative 3 échouée pour Fastclosecombat: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Fastclosecombat
+2024-08-16 07:16:22,991 - ERROR - Toutes les tentatives ont échoué pour Fastclosecombat
+2024-08-16 07:16:23,030 - WARNING - Échec du scraping YouTube pour Fastclosecombat: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/Fastclosecombat
+2024-08-16 07:16:23,031 - WARNING - Aucune donnée scrapée pour Fastclosecombat, mise à jour ignorée
+2024-08-16 07:17:03,071 - INFO - Traitement de bangbangbarrage...
+2024-08-16 07:17:03,107 - WARNING - Tentative 1 échouée pour bangbangbarrage: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/bangbangbarrage
+2024-08-16 07:17:43,179 - WARNING - Tentative 2 échouée pour bangbangbarrage: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/bangbangbarrage
+2024-08-16 07:18:23,252 - WARNING - Tentative 3 échouée pour bangbangbarrage: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/bangbangbarrage
+2024-08-16 07:18:23,252 - ERROR - Toutes les tentatives ont échoué pour bangbangbarrage
+2024-08-16 07:18:23,298 - WARNING - Échec du scraping YouTube pour bangbangbarrage: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/bangbangbarrage
+2024-08-16 07:18:23,298 - WARNING - Aucune donnée scrapée pour bangbangbarrage, mise à jour ignorée
+2024-08-16 07:19:03,338 - INFO - Traitement de MasterPlanStds...
+2024-08-16 07:19:03,453 - WARNING - Tentative 1 échouée pour MasterPlanStds: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/MasterPlanStds
+2024-08-16 07:19:43,506 - WARNING - Tentative 2 échouée pour MasterPlanStds: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/MasterPlanStds
+2024-08-16 07:20:23,566 - WARNING - Tentative 3 échouée pour MasterPlanStds: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/MasterPlanStds
+2024-08-16 07:20:23,566 - ERROR - Toutes les tentatives ont échoué pour MasterPlanStds
+2024-08-16 07:20:23,596 - WARNING - Échec du scraping YouTube pour MasterPlanStds: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/MasterPlanStds
+2024-08-16 07:20:23,596 - WARNING - Aucune donnée scrapée pour MasterPlanStds, mise à jour ignorée
+2024-08-16 07:21:03,629 - INFO - Traitement de D_O_PR...
+2024-08-16 07:21:03,666 - WARNING - Tentative 1 échouée pour D_O_PR: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/D_O_PR
+2024-08-16 07:21:43,725 - WARNING - Tentative 2 échouée pour D_O_PR: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/D_O_PR
+2024-08-16 07:22:23,798 - WARNING - Tentative 3 échouée pour D_O_PR: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/D_O_PR
+2024-08-16 07:22:23,798 - ERROR - Toutes les tentatives ont échoué pour D_O_PR
+2024-08-16 07:22:23,834 - WARNING - Échec du scraping YouTube pour D_O_PR: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/D_O_PR
+2024-08-16 07:22:23,834 - WARNING - Aucune donnée scrapée pour D_O_PR, mise à jour ignorée
+2024-08-16 07:23:03,853 - INFO - Traitement de YahahaHorror...
+2024-08-16 07:23:03,893 - WARNING - Tentative 1 échouée pour YahahaHorror: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/YahahaHorror
+2024-08-16 07:23:43,968 - WARNING - Tentative 2 échouée pour YahahaHorror: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/YahahaHorror
+2024-08-16 07:24:24,116 - WARNING - Tentative 3 échouée pour YahahaHorror: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/YahahaHorror
+2024-08-16 07:24:24,116 - ERROR - Toutes les tentatives ont échoué pour YahahaHorror
+2024-08-16 07:24:24,148 - WARNING - Échec du scraping YouTube pour YahahaHorror: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/YahahaHorror
+2024-08-16 07:24:24,148 - WARNING - Aucune donnée scrapée pour YahahaHorror, mise à jour ignorée
+2024-08-16 07:25:04,155 - INFO - Traitement de YahahaHorror...
+2024-08-16 07:25:04,188 - WARNING - Tentative 1 échouée pour YahahaHorror: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/YahahaHorror
+2024-08-16 07:25:44,223 - WARNING - Tentative 2 échouée pour YahahaHorror: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/YahahaHorror
+2024-08-16 07:26:24,295 - WARNING - Tentative 3 échouée pour YahahaHorror: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/YahahaHorror
+2024-08-16 07:26:24,295 - ERROR - Toutes les tentatives ont échoué pour YahahaHorror
+2024-08-16 07:26:24,325 - WARNING - Échec du scraping YouTube pour YahahaHorror: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/YahahaHorror
+2024-08-16 07:26:24,325 - WARNING - Aucune donnée scrapée pour YahahaHorror, mise à jour ignorée
+2024-08-16 07:27:04,326 - INFO - Traitement de YzahkinGames...
+2024-08-16 07:27:04,361 - WARNING - Tentative 1 échouée pour YzahkinGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/YzahkinGames
+2024-08-16 07:27:44,433 - WARNING - Tentative 2 échouée pour YzahkinGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/YzahkinGames
+2024-08-16 07:28:24,510 - WARNING - Tentative 3 échouée pour YzahkinGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/YzahkinGames
+2024-08-16 07:28:24,510 - ERROR - Toutes les tentatives ont échoué pour YzahkinGames
+2024-08-16 07:28:24,545 - WARNING - Échec du scraping YouTube pour YzahkinGames: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/YzahkinGames
+2024-08-16 07:28:24,546 - WARNING - Aucune donnée scrapée pour YzahkinGames, mise à jour ignorée
+2024-08-16 07:29:04,569 - INFO - Traitement de SpicybyteGames...
+2024-08-16 07:29:04,608 - WARNING - Tentative 1 échouée pour SpicybyteGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpicybyteGames
+2024-08-16 07:29:44,692 - WARNING - Tentative 2 échouée pour SpicybyteGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpicybyteGames
+2024-08-16 07:30:24,749 - WARNING - Tentative 3 échouée pour SpicybyteGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpicybyteGames
+2024-08-16 07:30:24,750 - ERROR - Toutes les tentatives ont échoué pour SpicybyteGames
+2024-08-16 07:30:24,787 - WARNING - Échec du scraping YouTube pour SpicybyteGames: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/SpicybyteGames
+2024-08-16 07:30:24,788 - WARNING - Aucune donnée scrapée pour SpicybyteGames, mise à jour ignorée
+2024-08-16 07:31:04,808 - INFO - Traitement de brumestudiogame...
+2024-08-16 07:31:04,841 - WARNING - Tentative 1 échouée pour brumestudiogame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/brumestudiogame
+2024-08-16 07:31:44,888 - WARNING - Tentative 2 échouée pour brumestudiogame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/brumestudiogame
+2024-08-16 07:32:24,961 - WARNING - Tentative 3 échouée pour brumestudiogame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/brumestudiogame
+2024-08-16 07:32:24,961 - ERROR - Toutes les tentatives ont échoué pour brumestudiogame
+2024-08-16 07:32:24,990 - WARNING - Échec du scraping YouTube pour brumestudiogame: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/brumestudiogame
+2024-08-16 07:32:24,990 - WARNING - Aucune donnée scrapée pour brumestudiogame, mise à jour ignorée
+2024-08-16 07:33:05,030 - INFO - Traitement de TaivalGame...
+2024-08-16 07:33:05,067 - WARNING - Tentative 1 échouée pour TaivalGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TaivalGame
+2024-08-16 07:33:45,139 - WARNING - Tentative 2 échouée pour TaivalGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TaivalGame
+2024-08-16 07:34:25,217 - WARNING - Tentative 3 échouée pour TaivalGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TaivalGame
+2024-08-16 07:34:25,217 - ERROR - Toutes les tentatives ont échoué pour TaivalGame
+2024-08-16 07:34:25,249 - WARNING - Échec du scraping YouTube pour TaivalGame: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/TaivalGame
+2024-08-16 07:34:25,249 - WARNING - Aucune donnée scrapée pour TaivalGame, mise à jour ignorée
+2024-08-16 07:35:05,289 - INFO - Traitement de MMMUTOX...
+2024-08-16 07:35:05,411 - WARNING - Tentative 1 échouée pour MMMUTOX: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/MMMUTOX
+2024-08-16 07:35:45,484 - WARNING - Tentative 2 échouée pour MMMUTOX: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/MMMUTOX
+2024-08-16 07:36:25,557 - WARNING - Tentative 3 échouée pour MMMUTOX: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/MMMUTOX
+2024-08-16 07:36:25,557 - ERROR - Toutes les tentatives ont échoué pour MMMUTOX
+2024-08-16 07:36:25,587 - WARNING - Échec du scraping YouTube pour MMMUTOX: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/MMMUTOX
+2024-08-16 07:36:25,587 - WARNING - Aucune donnée scrapée pour MMMUTOX, mise à jour ignorée
+2024-08-16 07:37:05,627 - INFO - Traitement de hotaru_bii...
+2024-08-16 07:37:05,662 - WARNING - Tentative 1 échouée pour hotaru_bii: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/hotaru_bii
+2024-08-16 07:37:45,746 - WARNING - Tentative 2 échouée pour hotaru_bii: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/hotaru_bii
+2024-08-16 07:38:25,819 - WARNING - Tentative 3 échouée pour hotaru_bii: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/hotaru_bii
+2024-08-16 07:38:25,819 - ERROR - Toutes les tentatives ont échoué pour hotaru_bii
+2024-08-16 07:38:25,853 - WARNING - Échec du scraping YouTube pour hotaru_bii: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/hotaru_bii
+2024-08-16 07:38:25,854 - WARNING - Aucune donnée scrapée pour hotaru_bii, mise à jour ignorée
+2024-08-16 07:39:05,894 - INFO - Traitement de WurmFud...
+2024-08-16 07:39:05,930 - WARNING - Tentative 1 échouée pour WurmFud: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/WurmFud
+2024-08-16 07:39:45,996 - WARNING - Tentative 2 échouée pour WurmFud: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/WurmFud
+2024-08-16 07:40:26,087 - WARNING - Tentative 3 échouée pour WurmFud: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/WurmFud
+2024-08-16 07:40:26,087 - ERROR - Toutes les tentatives ont échoué pour WurmFud
+2024-08-16 07:40:26,122 - WARNING - Échec du scraping YouTube pour WurmFud: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/WurmFud
+2024-08-16 07:40:26,122 - WARNING - Aucune donnée scrapée pour WurmFud, mise à jour ignorée
+2024-08-16 07:41:06,162 - INFO - Traitement de FetysenkoGames...
+2024-08-16 07:41:06,200 - WARNING - Tentative 1 échouée pour FetysenkoGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/FetysenkoGames
+2024-08-16 07:41:46,268 - WARNING - Tentative 2 échouée pour FetysenkoGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/FetysenkoGames
+2024-08-16 07:42:26,321 - WARNING - Tentative 3 échouée pour FetysenkoGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/FetysenkoGames
+2024-08-16 07:42:26,321 - ERROR - Toutes les tentatives ont échoué pour FetysenkoGames
+2024-08-16 07:42:26,352 - WARNING - Échec du scraping YouTube pour FetysenkoGames: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/FetysenkoGames
+2024-08-16 07:42:26,352 - WARNING - Aucune donnée scrapée pour FetysenkoGames, mise à jour ignorée
+2024-08-16 07:43:06,392 - INFO - Traitement de computer_gil...
+2024-08-16 07:43:06,423 - WARNING - Tentative 1 échouée pour computer_gil: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/computer_gil
+2024-08-16 07:43:46,467 - WARNING - Tentative 2 échouée pour computer_gil: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/computer_gil
+2024-08-16 07:44:26,539 - WARNING - Tentative 3 échouée pour computer_gil: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/computer_gil
+2024-08-16 07:44:26,539 - ERROR - Toutes les tentatives ont échoué pour computer_gil
+2024-08-16 07:44:26,570 - WARNING - Échec du scraping YouTube pour computer_gil: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/computer_gil
+2024-08-16 07:44:26,570 - WARNING - Aucune donnée scrapée pour computer_gil, mise à jour ignorée
+2024-08-16 07:45:06,611 - INFO - Traitement de igeolwen...
+2024-08-16 07:45:06,648 - WARNING - Tentative 1 échouée pour igeolwen: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/igeolwen
+2024-08-16 07:45:46,799 - WARNING - Tentative 2 échouée pour igeolwen: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/igeolwen
+2024-08-16 07:46:26,872 - WARNING - Tentative 3 échouée pour igeolwen: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/igeolwen
+2024-08-16 07:46:26,872 - ERROR - Toutes les tentatives ont échoué pour igeolwen
+2024-08-16 07:46:26,899 - WARNING - Échec du scraping YouTube pour igeolwen: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/igeolwen
+2024-08-16 07:46:26,899 - WARNING - Aucune donnée scrapée pour igeolwen, mise à jour ignorée
+2024-08-16 07:47:06,925 - INFO - Traitement de devusnullus...
+2024-08-16 07:47:06,958 - WARNING - Tentative 1 échouée pour devusnullus: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/devusnullus
+2024-08-16 07:47:47,031 - WARNING - Tentative 2 échouée pour devusnullus: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/devusnullus
+2024-08-16 07:48:27,107 - WARNING - Tentative 3 échouée pour devusnullus: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/devusnullus
+2024-08-16 07:48:27,107 - ERROR - Toutes les tentatives ont échoué pour devusnullus
+2024-08-16 07:48:27,140 - WARNING - Échec du scraping YouTube pour devusnullus: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/devusnullus
+2024-08-16 07:48:27,140 - WARNING - Aucune donnée scrapée pour devusnullus, mise à jour ignorée
+2024-08-16 07:49:07,180 - INFO - Traitement de eyes_trash...
+2024-08-16 07:49:07,217 - WARNING - Tentative 1 échouée pour eyes_trash: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/eyes_trash
+2024-08-16 07:49:47,291 - WARNING - Tentative 2 échouée pour eyes_trash: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/eyes_trash
+2024-08-16 07:50:27,363 - WARNING - Tentative 3 échouée pour eyes_trash: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/eyes_trash
+2024-08-16 07:50:27,363 - ERROR - Toutes les tentatives ont échoué pour eyes_trash
+2024-08-16 07:50:27,397 - WARNING - Échec du scraping YouTube pour eyes_trash: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/eyes_trash
+2024-08-16 07:50:27,397 - WARNING - Aucune donnée scrapée pour eyes_trash, mise à jour ignorée
+2024-08-16 07:51:07,437 - INFO - Traitement de PlayFATEGame...
+2024-08-16 07:51:07,514 - WARNING - Tentative 1 échouée pour PlayFATEGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/PlayFATEGame
+2024-08-16 07:51:47,590 - WARNING - Tentative 2 échouée pour PlayFATEGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/PlayFATEGame
+2024-08-16 07:52:27,625 - WARNING - Tentative 3 échouée pour PlayFATEGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/PlayFATEGame
+2024-08-16 07:52:27,625 - ERROR - Toutes les tentatives ont échoué pour PlayFATEGame
+2024-08-16 07:52:27,657 - WARNING - Échec du scraping YouTube pour PlayFATEGame: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/PlayFATEGame
+2024-08-16 07:52:27,658 - WARNING - Aucune donnée scrapée pour PlayFATEGame, mise à jour ignorée
+2024-08-16 07:53:07,698 - INFO - Traitement de Pikointeractive...
+2024-08-16 07:53:07,736 - WARNING - Tentative 1 échouée pour Pikointeractive: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Pikointeractive
+2024-08-16 07:53:47,769 - WARNING - Tentative 2 échouée pour Pikointeractive: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Pikointeractive
+2024-08-16 07:54:27,842 - WARNING - Tentative 3 échouée pour Pikointeractive: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Pikointeractive
+2024-08-16 07:54:27,842 - ERROR - Toutes les tentatives ont échoué pour Pikointeractive
+2024-08-16 07:54:27,882 - WARNING - Échec du scraping YouTube pour Pikointeractive: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/Pikointeractive
+2024-08-16 07:54:27,882 - WARNING - Aucune donnée scrapée pour Pikointeractive, mise à jour ignorée
+2024-08-16 07:55:07,921 - INFO - Traitement de IEclipseStudio...
+2024-08-16 07:55:07,954 - WARNING - Tentative 1 échouée pour IEclipseStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/IEclipseStudio
+2024-08-16 07:55:48,033 - WARNING - Tentative 2 échouée pour IEclipseStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/IEclipseStudio
+2024-08-16 07:56:28,188 - WARNING - Tentative 3 échouée pour IEclipseStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/IEclipseStudio
+2024-08-16 07:56:28,188 - ERROR - Toutes les tentatives ont échoué pour IEclipseStudio
+2024-08-16 07:56:28,220 - WARNING - Échec du scraping YouTube pour IEclipseStudio: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/IEclipseStudio
+2024-08-16 07:56:28,221 - WARNING - Aucune donnée scrapée pour IEclipseStudio, mise à jour ignorée
+2024-08-16 07:57:08,233 - INFO - Traitement de OddSagaStudio...
+2024-08-16 07:57:08,274 - WARNING - Tentative 1 échouée pour OddSagaStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/OddSagaStudio
+2024-08-16 07:57:48,322 - WARNING - Tentative 2 échouée pour OddSagaStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/OddSagaStudio
+2024-08-16 07:58:28,404 - WARNING - Tentative 3 échouée pour OddSagaStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/OddSagaStudio
+2024-08-16 07:58:28,404 - ERROR - Toutes les tentatives ont échoué pour OddSagaStudio
+2024-08-16 07:58:28,435 - WARNING - Échec du scraping YouTube pour OddSagaStudio: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/OddSagaStudio
+2024-08-16 07:58:28,435 - WARNING - Aucune donnée scrapée pour OddSagaStudio, mise à jour ignorée
+2024-08-16 07:59:08,475 - INFO - Traitement de nerdypenguin019...
+2024-08-16 07:59:08,508 - WARNING - Tentative 1 échouée pour nerdypenguin019: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/nerdypenguin019
+2024-08-16 07:59:48,581 - WARNING - Tentative 2 échouée pour nerdypenguin019: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/nerdypenguin019
+2024-08-16 08:00:28,680 - WARNING - Tentative 3 échouée pour nerdypenguin019: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/nerdypenguin019
+2024-08-16 08:00:28,681 - ERROR - Toutes les tentatives ont échoué pour nerdypenguin019
+2024-08-16 08:00:28,716 - WARNING - Échec du scraping YouTube pour nerdypenguin019: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/nerdypenguin019
+2024-08-16 08:00:28,716 - WARNING - Aucune donnée scrapée pour nerdypenguin019, mise à jour ignorée
+2024-08-16 08:01:08,754 - INFO - Traitement de thepennyghost...
+2024-08-16 08:01:08,789 - WARNING - Tentative 1 échouée pour thepennyghost: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/thepennyghost
+2024-08-16 08:01:48,946 - WARNING - Tentative 2 échouée pour thepennyghost: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/thepennyghost
+2024-08-16 08:02:29,019 - WARNING - Tentative 3 échouée pour thepennyghost: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/thepennyghost
+2024-08-16 08:02:29,019 - ERROR - Toutes les tentatives ont échoué pour thepennyghost
+2024-08-16 08:02:29,060 - WARNING - Échec du scraping YouTube pour thepennyghost: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/thepennyghost
+2024-08-16 08:02:29,061 - WARNING - Aucune donnée scrapée pour thepennyghost, mise à jour ignorée
+2024-08-16 08:03:09,101 - INFO - Traitement de OgmaGames...
+2024-08-16 08:03:09,134 - WARNING - Tentative 1 échouée pour OgmaGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/OgmaGames
+2024-08-16 08:03:49,202 - WARNING - Tentative 2 échouée pour OgmaGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/OgmaGames
+2024-08-16 08:04:29,250 - WARNING - Tentative 3 échouée pour OgmaGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/OgmaGames
+2024-08-16 08:04:29,250 - ERROR - Toutes les tentatives ont échoué pour OgmaGames
+2024-08-16 08:04:29,287 - WARNING - Échec du scraping YouTube pour OgmaGames: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/OgmaGames
+2024-08-16 08:04:29,287 - WARNING - Aucune donnée scrapée pour OgmaGames, mise à jour ignorée
+2024-08-16 08:05:09,298 - INFO - Traitement de GamesIncubator...
+2024-08-16 08:05:09,340 - WARNING - Tentative 1 échouée pour GamesIncubator: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GamesIncubator
+2024-08-16 08:05:49,383 - WARNING - Tentative 2 échouée pour GamesIncubator: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GamesIncubator
+2024-08-16 08:06:29,435 - WARNING - Tentative 3 échouée pour GamesIncubator: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GamesIncubator
+2024-08-16 08:06:29,435 - ERROR - Toutes les tentatives ont échoué pour GamesIncubator
+2024-08-16 08:06:29,472 - WARNING - Échec du scraping YouTube pour GamesIncubator: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/GamesIncubator
+2024-08-16 08:06:29,473 - WARNING - Aucune donnée scrapée pour GamesIncubator, mise à jour ignorée
+2024-08-16 08:07:09,503 - INFO - Traitement de GreenTaleStudio...
+2024-08-16 08:07:09,573 - WARNING - Tentative 1 échouée pour GreenTaleStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GreenTaleStudio
+2024-08-16 08:07:49,645 - WARNING - Tentative 2 échouée pour GreenTaleStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GreenTaleStudio
+2024-08-16 08:08:29,722 - WARNING - Tentative 3 échouée pour GreenTaleStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GreenTaleStudio
+2024-08-16 08:08:29,722 - ERROR - Toutes les tentatives ont échoué pour GreenTaleStudio
+2024-08-16 08:08:29,760 - WARNING - Échec du scraping YouTube pour GreenTaleStudio: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/GreenTaleStudio
+2024-08-16 08:08:29,760 - WARNING - Aucune donnée scrapée pour GreenTaleStudio, mise à jour ignorée
+2024-08-16 08:09:09,773 - INFO - Traitement de synodicArc...
+2024-08-16 08:09:09,806 - WARNING - Tentative 1 échouée pour synodicArc: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/synodicArc
+2024-08-16 08:09:49,879 - WARNING - Tentative 2 échouée pour synodicArc: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/synodicArc
+2024-08-16 08:10:29,965 - WARNING - Tentative 3 échouée pour synodicArc: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/synodicArc
+2024-08-16 08:10:29,965 - ERROR - Toutes les tentatives ont échoué pour synodicArc
+2024-08-16 08:10:29,997 - WARNING - Échec du scraping YouTube pour synodicArc: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/synodicArc
+2024-08-16 08:10:29,997 - WARNING - Aucune donnée scrapée pour synodicArc, mise à jour ignorée
+2024-08-16 08:11:10,029 - INFO - Traitement de TombStoneStudio...
+2024-08-16 08:11:10,066 - WARNING - Tentative 1 échouée pour TombStoneStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TombStoneStudio
+2024-08-16 08:11:50,139 - WARNING - Tentative 2 échouée pour TombStoneStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TombStoneStudio
+2024-08-16 08:12:30,227 - WARNING - Tentative 3 échouée pour TombStoneStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TombStoneStudio
+2024-08-16 08:12:30,227 - ERROR - Toutes les tentatives ont échoué pour TombStoneStudio
+2024-08-16 08:12:30,258 - WARNING - Échec du scraping YouTube pour TombStoneStudio: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/TombStoneStudio
+2024-08-16 08:12:30,258 - WARNING - Aucune donnée scrapée pour TombStoneStudio, mise à jour ignorée
+2024-08-16 08:13:10,298 - INFO - Traitement de Sons_of_welder...
+2024-08-16 08:13:10,341 - WARNING - Tentative 1 échouée pour Sons_of_welder: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Sons_of_welder
+2024-08-16 08:13:50,410 - WARNING - Tentative 2 échouée pour Sons_of_welder: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Sons_of_welder
+2024-08-16 08:14:30,485 - WARNING - Tentative 3 échouée pour Sons_of_welder: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Sons_of_welder
+2024-08-16 08:14:30,485 - ERROR - Toutes les tentatives ont échoué pour Sons_of_welder
+2024-08-16 08:14:30,516 - WARNING - Échec du scraping YouTube pour Sons_of_welder: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/Sons_of_welder
+2024-08-16 08:14:30,517 - WARNING - Aucune donnée scrapée pour Sons_of_welder, mise à jour ignorée
+2024-08-16 08:15:10,557 - INFO - Traitement de GVS_OFF...
+2024-08-16 08:15:10,593 - WARNING - Tentative 1 échouée pour GVS_OFF: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GVS_OFF
+2024-08-16 08:15:50,667 - WARNING - Tentative 2 échouée pour GVS_OFF: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GVS_OFF
+2024-08-16 08:16:30,723 - WARNING - Tentative 3 échouée pour GVS_OFF: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GVS_OFF
+2024-08-16 08:16:30,723 - ERROR - Toutes les tentatives ont échoué pour GVS_OFF
+2024-08-16 08:16:30,757 - WARNING - Échec du scraping YouTube pour GVS_OFF: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/GVS_OFF
+2024-08-16 08:16:30,758 - WARNING - Aucune donnée scrapée pour GVS_OFF, mise à jour ignorée
+2024-08-16 08:17:10,798 - INFO - Traitement de WaterMuseum_...
+2024-08-16 08:17:10,833 - WARNING - Tentative 1 échouée pour WaterMuseum_: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/WaterMuseum_
+2024-08-16 08:17:50,916 - WARNING - Tentative 2 échouée pour WaterMuseum_: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/WaterMuseum_
+2024-08-16 08:18:30,947 - WARNING - Tentative 3 échouée pour WaterMuseum_: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/WaterMuseum_
+2024-08-16 08:18:30,947 - ERROR - Toutes les tentatives ont échoué pour WaterMuseum_
+2024-08-16 08:18:30,984 - WARNING - Échec du scraping YouTube pour WaterMuseum_: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/WaterMuseum_
+2024-08-16 08:18:30,984 - WARNING - Aucune donnée scrapée pour WaterMuseum_, mise à jour ignorée
+2024-08-16 08:19:11,007 - INFO - Traitement de yongjustyong...
+2024-08-16 08:19:11,039 - WARNING - Tentative 1 échouée pour yongjustyong: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/yongjustyong
+2024-08-16 08:19:51,107 - WARNING - Tentative 2 échouée pour yongjustyong: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/yongjustyong
+2024-08-16 08:20:31,164 - WARNING - Tentative 3 échouée pour yongjustyong: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/yongjustyong
+2024-08-16 08:20:31,164 - ERROR - Toutes les tentatives ont échoué pour yongjustyong
+2024-08-16 08:20:31,196 - WARNING - Échec du scraping YouTube pour yongjustyong: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/yongjustyong
+2024-08-16 08:20:31,196 - WARNING - Aucune donnée scrapée pour yongjustyong, mise à jour ignorée
+2024-08-16 08:21:11,213 - INFO - Traitement de ChernobylGame...
+2024-08-16 08:21:11,247 - WARNING - Tentative 1 échouée pour ChernobylGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ChernobylGame
+2024-08-16 08:21:51,319 - WARNING - Tentative 2 échouée pour ChernobylGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ChernobylGame
+2024-08-16 08:22:31,378 - WARNING - Tentative 3 échouée pour ChernobylGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ChernobylGame
+2024-08-16 08:22:31,378 - ERROR - Toutes les tentatives ont échoué pour ChernobylGame
+2024-08-16 08:22:31,416 - WARNING - Échec du scraping YouTube pour ChernobylGame: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/ChernobylGame
+2024-08-16 08:22:31,416 - WARNING - Aucune donnée scrapée pour ChernobylGame, mise à jour ignorée
+2024-08-16 08:23:11,439 - INFO - Traitement de tbjbu2...
+2024-08-16 08:23:11,492 - WARNING - Tentative 1 échouée pour tbjbu2: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/tbjbu2
+2024-08-16 08:23:51,566 - WARNING - Tentative 2 échouée pour tbjbu2: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/tbjbu2
+2024-08-16 08:24:31,639 - WARNING - Tentative 3 échouée pour tbjbu2: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/tbjbu2
+2024-08-16 08:24:31,639 - ERROR - Toutes les tentatives ont échoué pour tbjbu2
+2024-08-16 08:24:31,677 - WARNING - Échec du scraping YouTube pour tbjbu2: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/tbjbu2
+2024-08-16 08:24:31,677 - WARNING - Aucune donnée scrapée pour tbjbu2, mise à jour ignorée
+2024-08-16 08:25:11,717 - INFO - Traitement de Pipkin_RPG...
+2024-08-16 08:25:11,750 - WARNING - Tentative 1 échouée pour Pipkin_RPG: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Pipkin_RPG
+2024-08-16 08:25:51,827 - WARNING - Tentative 2 échouée pour Pipkin_RPG: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Pipkin_RPG
+2024-08-16 08:26:31,902 - WARNING - Tentative 3 échouée pour Pipkin_RPG: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Pipkin_RPG
+2024-08-16 08:26:31,902 - ERROR - Toutes les tentatives ont échoué pour Pipkin_RPG
+2024-08-16 08:26:31,940 - WARNING - Échec du scraping YouTube pour Pipkin_RPG: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/Pipkin_RPG
+2024-08-16 08:26:31,940 - WARNING - Aucune donnée scrapée pour Pipkin_RPG, mise à jour ignorée
+2024-08-16 08:27:11,949 - INFO - Traitement de _koffeecup...
+2024-08-16 08:27:11,989 - WARNING - Tentative 1 échouée pour _koffeecup: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/_koffeecup
+2024-08-16 08:27:52,075 - WARNING - Tentative 2 échouée pour _koffeecup: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/_koffeecup
+2024-08-16 08:28:32,229 - WARNING - Tentative 3 échouée pour _koffeecup: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/_koffeecup
+2024-08-16 08:28:32,229 - ERROR - Toutes les tentatives ont échoué pour _koffeecup
+2024-08-16 08:28:32,267 - WARNING - Échec du scraping YouTube pour _koffeecup: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/_koffeecup
+2024-08-16 08:28:32,267 - WARNING - Aucune donnée scrapée pour _koffeecup, mise à jour ignorée
+2024-08-16 08:29:12,293 - INFO - Traitement de maschimensch...
+2024-08-16 08:29:12,326 - WARNING - Tentative 1 échouée pour maschimensch: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/maschimensch
+2024-08-16 08:29:52,399 - WARNING - Tentative 2 échouée pour maschimensch: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/maschimensch
+2024-08-16 08:30:32,473 - WARNING - Tentative 3 échouée pour maschimensch: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/maschimensch
+2024-08-16 08:30:32,473 - ERROR - Toutes les tentatives ont échoué pour maschimensch
+2024-08-16 08:30:32,511 - WARNING - Échec du scraping YouTube pour maschimensch: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/maschimensch
+2024-08-16 08:30:32,511 - WARNING - Aucune donnée scrapée pour maschimensch, mise à jour ignorée
+2024-08-16 08:31:12,551 - INFO - Traitement de FatbotGames...
+2024-08-16 08:31:12,584 - WARNING - Tentative 1 échouée pour FatbotGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/FatbotGames
+2024-08-16 08:31:52,654 - WARNING - Tentative 2 échouée pour FatbotGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/FatbotGames
+2024-08-16 08:32:32,706 - WARNING - Tentative 3 échouée pour FatbotGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/FatbotGames
+2024-08-16 08:32:32,707 - ERROR - Toutes les tentatives ont échoué pour FatbotGames
+2024-08-16 08:32:32,738 - WARNING - Échec du scraping YouTube pour FatbotGames: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/FatbotGames
+2024-08-16 08:32:32,738 - WARNING - Aucune donnée scrapée pour FatbotGames, mise à jour ignorée
+2024-08-16 08:33:12,775 - INFO - Traitement de BitemeGames...
+2024-08-16 08:33:12,807 - WARNING - Tentative 1 échouée pour BitemeGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/BitemeGames
+2024-08-16 08:33:52,931 - WARNING - Tentative 2 échouée pour BitemeGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/BitemeGames
+2024-08-16 08:34:33,014 - WARNING - Tentative 3 échouée pour BitemeGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/BitemeGames
+2024-08-16 08:34:33,014 - ERROR - Toutes les tentatives ont échoué pour BitemeGames
+2024-08-16 08:34:33,047 - WARNING - Échec du scraping YouTube pour BitemeGames: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/BitemeGames
+2024-08-16 08:34:33,047 - WARNING - Aucune donnée scrapée pour BitemeGames, mise à jour ignorée
+2024-08-16 08:35:13,087 - INFO - Traitement de clearrivergames...
+2024-08-16 08:35:13,128 - WARNING - Tentative 1 échouée pour clearrivergames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/clearrivergames
+2024-08-16 08:35:53,156 - WARNING - Tentative 2 échouée pour clearrivergames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/clearrivergames
+2024-08-16 08:36:33,223 - WARNING - Tentative 3 échouée pour clearrivergames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/clearrivergames
+2024-08-16 08:36:33,223 - ERROR - Toutes les tentatives ont échoué pour clearrivergames
+2024-08-16 08:36:33,253 - WARNING - Échec du scraping YouTube pour clearrivergames: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/clearrivergames
+2024-08-16 08:36:33,253 - WARNING - Aucune donnée scrapée pour clearrivergames, mise à jour ignorée
+2024-08-16 08:37:13,294 - INFO - Traitement de Aumbic...
+2024-08-16 08:37:13,325 - WARNING - Tentative 1 échouée pour Aumbic: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Aumbic
+2024-08-16 08:37:53,372 - WARNING - Tentative 2 échouée pour Aumbic: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Aumbic
+2024-08-16 08:38:33,452 - WARNING - Tentative 3 échouée pour Aumbic: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Aumbic
+2024-08-16 08:38:33,452 - ERROR - Toutes les tentatives ont échoué pour Aumbic
+2024-08-16 08:38:33,488 - WARNING - Échec du scraping YouTube pour Aumbic: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/Aumbic
+2024-08-16 08:38:33,488 - WARNING - Aucune donnée scrapée pour Aumbic, mise à jour ignorée
+2024-08-16 08:39:13,528 - INFO - Traitement de guipadgondev...
+2024-08-16 08:39:13,648 - WARNING - Tentative 1 échouée pour guipadgondev: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/guipadgondev
+2024-08-16 08:39:53,732 - WARNING - Tentative 2 échouée pour guipadgondev: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/guipadgondev
+2024-08-16 08:40:33,815 - WARNING - Tentative 3 échouée pour guipadgondev: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/guipadgondev
+2024-08-16 08:40:33,815 - ERROR - Toutes les tentatives ont échoué pour guipadgondev
+2024-08-16 08:40:33,850 - WARNING - Échec du scraping YouTube pour guipadgondev: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/guipadgondev
+2024-08-16 08:40:33,850 - WARNING - Aucune donnée scrapée pour guipadgondev, mise à jour ignorée
+2024-08-16 08:41:13,885 - INFO - Traitement de CatastropheGam3?t=n414Dn6r2NxhsPV1m_8mRw&amp;s=09...
+2024-08-16 08:41:13,918 - WARNING - Tentative 1 échouée pour CatastropheGam3?t=n414Dn6r2NxhsPV1m_8mRw&amp;s=09: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/CatastropheGam3?t=n414Dn6r2NxhsPV1m_8mRw&amp;s=09
+2024-08-16 08:41:53,981 - WARNING - Tentative 2 échouée pour CatastropheGam3?t=n414Dn6r2NxhsPV1m_8mRw&amp;s=09: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/CatastropheGam3?t=n414Dn6r2NxhsPV1m_8mRw&amp;s=09
+2024-08-16 08:42:34,054 - WARNING - Tentative 3 échouée pour CatastropheGam3?t=n414Dn6r2NxhsPV1m_8mRw&amp;s=09: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/CatastropheGam3?t=n414Dn6r2NxhsPV1m_8mRw&amp;s=09
+2024-08-16 08:42:34,054 - ERROR - Toutes les tentatives ont échoué pour CatastropheGam3?t=n414Dn6r2NxhsPV1m_8mRw&amp;s=09
+2024-08-16 08:42:34,086 - WARNING - Échec du scraping YouTube pour CatastropheGam3?t=n414Dn6r2NxhsPV1m_8mRw&amp;s=09: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/CatastropheGam3?t=n414Dn6r2NxhsPV1m_8mRw&amp;s=09
+2024-08-16 08:42:34,086 - WARNING - Aucune donnée scrapée pour CatastropheGam3?t=n414Dn6r2NxhsPV1m_8mRw&amp;s=09, mise à jour ignorée
+2024-08-16 08:43:14,102 - INFO - Traitement de JustTomcuk...
+2024-08-16 08:43:14,149 - WARNING - Tentative 1 échouée pour JustTomcuk: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/JustTomcuk
+2024-08-16 08:43:54,222 - WARNING - Tentative 2 échouée pour JustTomcuk: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/JustTomcuk
+2024-08-16 08:44:34,326 - WARNING - Tentative 3 échouée pour JustTomcuk: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/JustTomcuk
+2024-08-16 08:44:34,326 - ERROR - Toutes les tentatives ont échoué pour JustTomcuk
+2024-08-16 08:44:34,357 - WARNING - Échec du scraping YouTube pour JustTomcuk: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/JustTomcuk
+2024-08-16 08:44:34,358 - WARNING - Aucune donnée scrapée pour JustTomcuk, mise à jour ignorée
+2024-08-16 08:45:14,389 - INFO - Traitement de zlitzgames...
+2024-08-16 08:45:14,430 - WARNING - Tentative 1 échouée pour zlitzgames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/zlitzgames
+2024-08-16 08:45:54,503 - WARNING - Tentative 2 échouée pour zlitzgames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/zlitzgames
+2024-08-16 08:46:34,557 - WARNING - Tentative 3 échouée pour zlitzgames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/zlitzgames
+2024-08-16 08:46:34,557 - ERROR - Toutes les tentatives ont échoué pour zlitzgames
+2024-08-16 08:46:34,595 - WARNING - Échec du scraping YouTube pour zlitzgames: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/zlitzgames
+2024-08-16 08:46:34,595 - WARNING - Aucune donnée scrapée pour zlitzgames, mise à jour ignorée
+2024-08-16 08:47:14,635 - INFO - Traitement de kngnjp...
+2024-08-16 08:47:14,671 - WARNING - Tentative 1 échouée pour kngnjp: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/kngnjp
+2024-08-16 08:47:54,746 - WARNING - Tentative 2 échouée pour kngnjp: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/kngnjp
+2024-08-16 08:48:34,815 - WARNING - Tentative 3 échouée pour kngnjp: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/kngnjp
+2024-08-16 08:48:34,816 - ERROR - Toutes les tentatives ont échoué pour kngnjp
+2024-08-16 08:48:34,844 - WARNING - Échec du scraping YouTube pour kngnjp: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/kngnjp
+2024-08-16 08:48:34,844 - WARNING - Aucune donnée scrapée pour kngnjp, mise à jour ignorée
+2024-08-16 08:49:14,885 - INFO - Traitement de ExpeditionGameX...
+2024-08-16 08:49:14,918 - WARNING - Tentative 1 échouée pour ExpeditionGameX: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ExpeditionGameX
+2024-08-16 08:49:55,009 - WARNING - Tentative 2 échouée pour ExpeditionGameX: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ExpeditionGameX
+2024-08-16 08:50:35,085 - WARNING - Tentative 3 échouée pour ExpeditionGameX: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ExpeditionGameX
+2024-08-16 08:50:35,085 - ERROR - Toutes les tentatives ont échoué pour ExpeditionGameX
+2024-08-16 08:50:35,122 - WARNING - Échec du scraping YouTube pour ExpeditionGameX: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/ExpeditionGameX
+2024-08-16 08:50:35,122 - WARNING - Aucune donnée scrapée pour ExpeditionGameX, mise à jour ignorée
+2024-08-16 08:51:15,144 - INFO - Traitement de SpringloadedDev...
+2024-08-16 08:51:15,183 - WARNING - Tentative 1 échouée pour SpringloadedDev: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpringloadedDev
+2024-08-16 08:51:55,252 - WARNING - Tentative 2 échouée pour SpringloadedDev: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpringloadedDev
+2024-08-16 08:52:35,325 - WARNING - Tentative 3 échouée pour SpringloadedDev: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpringloadedDev
+2024-08-16 08:52:35,325 - ERROR - Toutes les tentatives ont échoué pour SpringloadedDev
+2024-08-16 08:52:35,356 - WARNING - Échec du scraping YouTube pour SpringloadedDev: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/SpringloadedDev
+2024-08-16 08:52:35,356 - WARNING - Aucune donnée scrapée pour SpringloadedDev, mise à jour ignorée
+2024-08-16 08:53:15,396 - INFO - Traitement de FPShouter...
+2024-08-16 08:53:15,433 - WARNING - Tentative 1 échouée pour FPShouter: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/FPShouter
+2024-08-16 08:53:55,504 - WARNING - Tentative 2 échouée pour FPShouter: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/FPShouter
+2024-08-16 08:54:35,581 - WARNING - Tentative 3 échouée pour FPShouter: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/FPShouter
+2024-08-16 08:54:35,581 - ERROR - Toutes les tentatives ont échoué pour FPShouter
+2024-08-16 08:54:35,622 - WARNING - Échec du scraping YouTube pour FPShouter: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/FPShouter
+2024-08-16 08:54:35,623 - WARNING - Aucune donnée scrapée pour FPShouter, mise à jour ignorée
+2024-08-16 08:55:15,663 - INFO - Traitement de WayMadness...
+2024-08-16 08:55:15,729 - WARNING - Tentative 1 échouée pour WayMadness: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/WayMadness
+2024-08-16 08:55:55,777 - WARNING - Tentative 2 échouée pour WayMadness: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/WayMadness
+2024-08-16 08:56:35,814 - WARNING - Tentative 3 échouée pour WayMadness: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/WayMadness
+2024-08-16 08:56:35,814 - ERROR - Toutes les tentatives ont échoué pour WayMadness
+2024-08-16 08:56:35,847 - WARNING - Échec du scraping YouTube pour WayMadness: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/WayMadness
+2024-08-16 08:56:35,847 - WARNING - Aucune donnée scrapée pour WayMadness, mise à jour ignorée
+2024-08-16 08:57:15,887 - INFO - Traitement de TheTrenchfoot...
+2024-08-16 08:57:15,919 - WARNING - Tentative 1 échouée pour TheTrenchfoot: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TheTrenchfoot
+2024-08-16 08:57:55,952 - WARNING - Tentative 2 échouée pour TheTrenchfoot: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TheTrenchfoot
+2024-08-16 08:58:36,025 - WARNING - Tentative 3 échouée pour TheTrenchfoot: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TheTrenchfoot
+2024-08-16 08:58:36,025 - ERROR - Toutes les tentatives ont échoué pour TheTrenchfoot
+2024-08-16 08:58:36,057 - WARNING - Échec du scraping YouTube pour TheTrenchfoot: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/TheTrenchfoot
+2024-08-16 08:58:36,057 - WARNING - Aucune donnée scrapée pour TheTrenchfoot, mise à jour ignorée
+2024-08-16 08:59:16,097 - INFO - Traitement de playismJP...
+2024-08-16 08:59:16,132 - WARNING - Tentative 1 échouée pour playismJP: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/playismJP
+2024-08-16 08:59:56,208 - WARNING - Tentative 2 échouée pour playismJP: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/playismJP
+2024-08-16 09:00:36,373 - WARNING - Tentative 3 échouée pour playismJP: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/playismJP
+2024-08-16 09:00:36,373 - ERROR - Toutes les tentatives ont échoué pour playismJP
+2024-08-16 09:00:36,406 - WARNING - Échec du scraping YouTube pour playismJP: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/playismJP
+2024-08-16 09:00:36,406 - WARNING - Aucune donnée scrapée pour playismJP, mise à jour ignorée
+2024-08-16 09:01:16,432 - INFO - Traitement de birdysisland...
+2024-08-16 09:01:16,465 - WARNING - Tentative 1 échouée pour birdysisland: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/birdysisland
+2024-08-16 09:01:56,517 - WARNING - Tentative 2 échouée pour birdysisland: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/birdysisland
+2024-08-16 09:02:36,568 - WARNING - Tentative 3 échouée pour birdysisland: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/birdysisland
+2024-08-16 09:02:36,568 - ERROR - Toutes les tentatives ont échoué pour birdysisland
+2024-08-16 09:02:36,602 - WARNING - Échec du scraping YouTube pour birdysisland: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/birdysisland
+2024-08-16 09:02:36,603 - WARNING - Aucune donnée scrapée pour birdysisland, mise à jour ignorée
+2024-08-16 09:03:16,643 - INFO - Traitement de GalvanicFreaks...
+2024-08-16 09:03:16,692 - WARNING - Tentative 1 échouée pour GalvanicFreaks: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GalvanicFreaks
+2024-08-16 09:03:56,766 - WARNING - Tentative 2 échouée pour GalvanicFreaks: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GalvanicFreaks
+2024-08-16 09:04:36,839 - WARNING - Tentative 3 échouée pour GalvanicFreaks: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/GalvanicFreaks
+2024-08-16 09:04:36,839 - ERROR - Toutes les tentatives ont échoué pour GalvanicFreaks
+2024-08-16 09:04:36,870 - WARNING - Échec du scraping YouTube pour GalvanicFreaks: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/GalvanicFreaks
+2024-08-16 09:04:36,870 - WARNING - Aucune donnée scrapée pour GalvanicFreaks, mise à jour ignorée
+2024-08-16 09:05:16,908 - INFO - Traitement de digital_miners...
+2024-08-16 09:05:16,942 - WARNING - Tentative 1 échouée pour digital_miners: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/digital_miners
+2024-08-16 09:05:57,109 - WARNING - Tentative 2 échouée pour digital_miners: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/digital_miners
+2024-08-16 09:06:37,148 - WARNING - Tentative 3 échouée pour digital_miners: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/digital_miners
+2024-08-16 09:06:37,148 - ERROR - Toutes les tentatives ont échoué pour digital_miners
+2024-08-16 09:06:37,186 - WARNING - Échec du scraping YouTube pour digital_miners: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/digital_miners
+2024-08-16 09:06:37,186 - WARNING - Aucune donnée scrapée pour digital_miners, mise à jour ignorée
+2024-08-16 09:07:17,226 - INFO - Traitement de SUZAKU_Games...
+2024-08-16 09:07:17,263 - WARNING - Tentative 1 échouée pour SUZAKU_Games: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SUZAKU_Games
+2024-08-16 09:07:57,343 - WARNING - Tentative 2 échouée pour SUZAKU_Games: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SUZAKU_Games
+2024-08-16 09:08:37,402 - WARNING - Tentative 3 échouée pour SUZAKU_Games: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SUZAKU_Games
+2024-08-16 09:08:37,402 - ERROR - Toutes les tentatives ont échoué pour SUZAKU_Games
+2024-08-16 09:08:37,433 - WARNING - Échec du scraping YouTube pour SUZAKU_Games: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/SUZAKU_Games
+2024-08-16 09:08:37,433 - WARNING - Aucune donnée scrapée pour SUZAKU_Games, mise à jour ignorée
+2024-08-16 09:09:17,473 - INFO - Traitement de dinkogame...
+2024-08-16 09:09:17,513 - WARNING - Tentative 1 échouée pour dinkogame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/dinkogame
+2024-08-16 09:09:57,555 - WARNING - Tentative 2 échouée pour dinkogame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/dinkogame
+2024-08-16 09:10:37,629 - WARNING - Tentative 3 échouée pour dinkogame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/dinkogame
+2024-08-16 09:10:37,629 - ERROR - Toutes les tentatives ont échoué pour dinkogame
+2024-08-16 09:10:37,661 - WARNING - Échec du scraping YouTube pour dinkogame: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/dinkogame
+2024-08-16 09:10:37,661 - WARNING - Aucune donnée scrapée pour dinkogame, mise à jour ignorée
+2024-08-16 09:11:17,701 - INFO - Traitement de sourmiiiilk...
+2024-08-16 09:11:17,822 - WARNING - Tentative 1 échouée pour sourmiiiilk: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/sourmiiiilk
+2024-08-16 09:11:57,899 - WARNING - Tentative 2 échouée pour sourmiiiilk: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/sourmiiiilk
+2024-08-16 09:12:37,968 - WARNING - Tentative 3 échouée pour sourmiiiilk: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/sourmiiiilk
+2024-08-16 09:12:37,968 - ERROR - Toutes les tentatives ont échoué pour sourmiiiilk
+2024-08-16 09:12:38,012 - WARNING - Échec du scraping YouTube pour sourmiiiilk: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/sourmiiiilk
+2024-08-16 09:12:38,012 - WARNING - Aucune donnée scrapée pour sourmiiiilk, mise à jour ignorée
+2024-08-16 09:13:18,025 - INFO - Traitement de iodine_x64...
+2024-08-16 09:13:18,062 - WARNING - Tentative 1 échouée pour iodine_x64: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/iodine_x64
+2024-08-16 09:13:58,157 - WARNING - Tentative 2 échouée pour iodine_x64: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/iodine_x64
+2024-08-16 09:14:38,229 - WARNING - Tentative 3 échouée pour iodine_x64: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/iodine_x64
+2024-08-16 09:14:38,230 - ERROR - Toutes les tentatives ont échoué pour iodine_x64
+2024-08-16 09:14:38,261 - WARNING - Échec du scraping YouTube pour iodine_x64: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/iodine_x64
+2024-08-16 09:14:38,262 - WARNING - Aucune donnée scrapée pour iodine_x64, mise à jour ignorée
+2024-08-16 09:15:18,284 - INFO - Traitement de StrawberryOctii...
+2024-08-16 09:15:18,327 - WARNING - Tentative 1 échouée pour StrawberryOctii: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/StrawberryOctii
+2024-08-16 09:15:58,405 - WARNING - Tentative 2 échouée pour StrawberryOctii: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/StrawberryOctii
+2024-08-16 09:16:38,571 - WARNING - Tentative 3 échouée pour StrawberryOctii: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/StrawberryOctii
+2024-08-16 09:16:38,571 - ERROR - Toutes les tentatives ont échoué pour StrawberryOctii
+2024-08-16 09:16:38,614 - WARNING - Échec du scraping YouTube pour StrawberryOctii: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/StrawberryOctii
+2024-08-16 09:16:38,614 - WARNING - Aucune donnée scrapée pour StrawberryOctii, mise à jour ignorée
+2024-08-16 09:17:18,654 - INFO - Traitement de 2Pcom...
+2024-08-16 09:17:18,690 - WARNING - Tentative 1 échouée pour 2Pcom: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/2Pcom
+2024-08-16 09:17:58,761 - WARNING - Tentative 2 échouée pour 2Pcom: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/2Pcom
+2024-08-16 09:18:38,809 - WARNING - Tentative 3 échouée pour 2Pcom: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/2Pcom
+2024-08-16 09:18:38,810 - ERROR - Toutes les tentatives ont échoué pour 2Pcom
+2024-08-16 09:18:38,848 - WARNING - Échec du scraping YouTube pour 2Pcom: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/2Pcom
+2024-08-16 09:18:38,848 - WARNING - Aucune donnée scrapée pour 2Pcom, mise à jour ignorée
+2024-08-16 09:19:18,854 - INFO - Traitement de purin_Unity...
+2024-08-16 09:19:18,887 - WARNING - Tentative 1 échouée pour purin_Unity: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/purin_Unity
+2024-08-16 09:19:58,961 - WARNING - Tentative 2 échouée pour purin_Unity: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/purin_Unity
+2024-08-16 09:20:39,035 - WARNING - Tentative 3 échouée pour purin_Unity: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/purin_Unity
+2024-08-16 09:20:39,035 - ERROR - Toutes les tentatives ont échoué pour purin_Unity
+2024-08-16 09:20:39,071 - WARNING - Échec du scraping YouTube pour purin_Unity: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/purin_Unity
+2024-08-16 09:20:39,071 - WARNING - Aucune donnée scrapée pour purin_Unity, mise à jour ignorée
+2024-08-16 09:21:19,111 - INFO - Traitement de solarflare...
+2024-08-16 09:21:19,144 - WARNING - Tentative 1 échouée pour solarflare: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/solarflare
+2024-08-16 09:21:59,230 - WARNING - Tentative 2 échouée pour solarflare: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/solarflare
+2024-08-16 09:22:39,302 - WARNING - Tentative 3 échouée pour solarflare: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/solarflare
+2024-08-16 09:22:39,302 - ERROR - Toutes les tentatives ont échoué pour solarflare
+2024-08-16 09:22:39,337 - WARNING - Échec du scraping YouTube pour solarflare: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/solarflare
+2024-08-16 09:22:39,337 - WARNING - Aucune donnée scrapée pour solarflare, mise à jour ignorée
+2024-08-16 09:23:19,373 - INFO - Traitement de BlueRamenStd...
+2024-08-16 09:23:19,405 - WARNING - Tentative 1 échouée pour BlueRamenStd: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/BlueRamenStd
+2024-08-16 09:23:59,484 - WARNING - Tentative 2 échouée pour BlueRamenStd: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/BlueRamenStd
+2024-08-16 09:24:39,560 - WARNING - Tentative 3 échouée pour BlueRamenStd: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/BlueRamenStd
+2024-08-16 09:24:39,560 - ERROR - Toutes les tentatives ont échoué pour BlueRamenStd
+2024-08-16 09:24:39,596 - WARNING - Échec du scraping YouTube pour BlueRamenStd: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/BlueRamenStd
+2024-08-16 09:24:39,596 - WARNING - Aucune donnée scrapée pour BlueRamenStd, mise à jour ignorée
+2024-08-16 09:25:19,636 - INFO - Traitement de TheAstroCrew...
+2024-08-16 09:25:19,675 - WARNING - Tentative 1 échouée pour TheAstroCrew: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TheAstroCrew
+2024-08-16 09:25:59,750 - WARNING - Tentative 2 échouée pour TheAstroCrew: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TheAstroCrew
+2024-08-16 09:26:39,824 - WARNING - Tentative 3 échouée pour TheAstroCrew: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TheAstroCrew
+2024-08-16 09:26:39,824 - ERROR - Toutes les tentatives ont échoué pour TheAstroCrew
+2024-08-16 09:26:39,854 - WARNING - Échec du scraping YouTube pour TheAstroCrew: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/TheAstroCrew
+2024-08-16 09:26:39,854 - WARNING - Aucune donnée scrapée pour TheAstroCrew, mise à jour ignorée
+2024-08-16 09:27:19,894 - INFO - Traitement de Maiku_Dev...
+2024-08-16 09:27:19,935 - WARNING - Tentative 1 échouée pour Maiku_Dev: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Maiku_Dev
+2024-08-16 09:28:00,008 - WARNING - Tentative 2 échouée pour Maiku_Dev: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Maiku_Dev
+2024-08-16 09:28:40,083 - WARNING - Tentative 3 échouée pour Maiku_Dev: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Maiku_Dev
+2024-08-16 09:28:40,083 - ERROR - Toutes les tentatives ont échoué pour Maiku_Dev
+2024-08-16 09:28:40,114 - WARNING - Échec du scraping YouTube pour Maiku_Dev: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/Maiku_Dev
+2024-08-16 09:28:40,114 - WARNING - Aucune donnée scrapée pour Maiku_Dev, mise à jour ignorée
+2024-08-16 09:29:20,151 - INFO - Traitement de jerfasstudio...
+2024-08-16 09:29:20,191 - WARNING - Tentative 1 échouée pour jerfasstudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/jerfasstudio
+2024-08-16 09:30:00,244 - WARNING - Tentative 2 échouée pour jerfasstudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/jerfasstudio
+2024-08-16 09:30:40,284 - WARNING - Tentative 3 échouée pour jerfasstudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/jerfasstudio
+2024-08-16 09:30:40,284 - ERROR - Toutes les tentatives ont échoué pour jerfasstudio
+2024-08-16 09:30:40,324 - WARNING - Échec du scraping YouTube pour jerfasstudio: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/jerfasstudio
+2024-08-16 09:30:40,324 - WARNING - Aucune donnée scrapée pour jerfasstudio, mise à jour ignorée
+2024-08-16 09:31:20,338 - INFO - Traitement de SquirreledGame...
+2024-08-16 09:31:20,377 - WARNING - Tentative 1 échouée pour SquirreledGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SquirreledGame
+2024-08-16 09:32:00,460 - WARNING - Tentative 2 échouée pour SquirreledGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SquirreledGame
+2024-08-16 09:32:40,604 - WARNING - Tentative 3 échouée pour SquirreledGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SquirreledGame
+2024-08-16 09:32:40,604 - ERROR - Toutes les tentatives ont échoué pour SquirreledGame
+2024-08-16 09:32:40,640 - WARNING - Échec du scraping YouTube pour SquirreledGame: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/SquirreledGame
+2024-08-16 09:32:40,640 - WARNING - Aucune donnée scrapée pour SquirreledGame, mise à jour ignorée
+2024-08-16 09:33:20,649 - INFO - Traitement de barkourdoggame...
+2024-08-16 09:33:20,684 - WARNING - Tentative 1 échouée pour barkourdoggame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/barkourdoggame
+2024-08-16 09:34:00,755 - WARNING - Tentative 2 échouée pour barkourdoggame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/barkourdoggame
+2024-08-16 09:34:40,791 - WARNING - Tentative 3 échouée pour barkourdoggame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/barkourdoggame
+2024-08-16 09:34:40,791 - ERROR - Toutes les tentatives ont échoué pour barkourdoggame
+2024-08-16 09:34:40,823 - WARNING - Échec du scraping YouTube pour barkourdoggame: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/barkourdoggame
+2024-08-16 09:34:40,823 - WARNING - Aucune donnée scrapée pour barkourdoggame, mise à jour ignorée
+2024-08-16 09:35:20,863 - INFO - Traitement de betheknightling...
+2024-08-16 09:35:20,900 - WARNING - Tentative 1 échouée pour betheknightling: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/betheknightling
+2024-08-16 09:36:00,983 - WARNING - Tentative 2 échouée pour betheknightling: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/betheknightling
+2024-08-16 09:36:41,067 - WARNING - Tentative 3 échouée pour betheknightling: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/betheknightling
+2024-08-16 09:36:41,068 - ERROR - Toutes les tentatives ont échoué pour betheknightling
+2024-08-16 09:36:41,106 - WARNING - Échec du scraping YouTube pour betheknightling: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/betheknightling
+2024-08-16 09:36:41,107 - WARNING - Aucune donnée scrapée pour betheknightling, mise à jour ignorée
+2024-08-16 09:37:21,145 - INFO - Traitement de IhatenStudio...
+2024-08-16 09:37:21,194 - WARNING - Tentative 1 échouée pour IhatenStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/IhatenStudio
+2024-08-16 09:38:01,359 - WARNING - Tentative 2 échouée pour IhatenStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/IhatenStudio
+2024-08-16 09:38:41,443 - WARNING - Tentative 3 échouée pour IhatenStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/IhatenStudio
+2024-08-16 09:38:41,443 - ERROR - Toutes les tentatives ont échoué pour IhatenStudio
+2024-08-16 09:38:41,478 - WARNING - Échec du scraping YouTube pour IhatenStudio: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/IhatenStudio
+2024-08-16 09:38:41,478 - WARNING - Aucune donnée scrapée pour IhatenStudio, mise à jour ignorée
+2024-08-16 09:39:21,517 - INFO - Traitement de ToranekoGames...
+2024-08-16 09:39:21,560 - WARNING - Tentative 1 échouée pour ToranekoGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ToranekoGames
+2024-08-16 09:40:01,650 - WARNING - Tentative 2 échouée pour ToranekoGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ToranekoGames
+2024-08-16 09:40:41,724 - WARNING - Tentative 3 échouée pour ToranekoGames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ToranekoGames
+2024-08-16 09:40:41,724 - ERROR - Toutes les tentatives ont échoué pour ToranekoGames
+2024-08-16 09:40:41,756 - WARNING - Échec du scraping YouTube pour ToranekoGames: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/ToranekoGames
+2024-08-16 09:40:41,756 - WARNING - Aucune donnée scrapée pour ToranekoGames, mise à jour ignorée
+2024-08-16 09:41:21,773 - INFO - Traitement de Klukdigital...
+2024-08-16 09:41:21,813 - WARNING - Tentative 1 échouée pour Klukdigital: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Klukdigital
+2024-08-16 09:42:01,896 - WARNING - Tentative 2 échouée pour Klukdigital: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Klukdigital
+2024-08-16 09:42:41,964 - WARNING - Tentative 3 échouée pour Klukdigital: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Klukdigital
+2024-08-16 09:42:41,964 - ERROR - Toutes les tentatives ont échoué pour Klukdigital
+2024-08-16 09:42:41,997 - WARNING - Échec du scraping YouTube pour Klukdigital: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/Klukdigital
+2024-08-16 09:42:41,997 - WARNING - Aucune donnée scrapée pour Klukdigital, mise à jour ignorée
+2024-08-16 09:43:22,029 - INFO - Traitement de fallen_seeds...
+2024-08-16 09:43:22,152 - WARNING - Tentative 1 échouée pour fallen_seeds: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/fallen_seeds
+2024-08-16 09:44:02,226 - WARNING - Tentative 2 échouée pour fallen_seeds: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/fallen_seeds
+2024-08-16 09:44:42,308 - WARNING - Tentative 3 échouée pour fallen_seeds: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/fallen_seeds
+2024-08-16 09:44:42,308 - ERROR - Toutes les tentatives ont échoué pour fallen_seeds
+2024-08-16 09:44:42,340 - WARNING - Échec du scraping YouTube pour fallen_seeds: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/fallen_seeds
+2024-08-16 09:44:42,340 - WARNING - Aucune donnée scrapée pour fallen_seeds, mise à jour ignorée
+2024-08-16 09:45:22,380 - INFO - Traitement de PavuGame...
+2024-08-16 09:45:22,422 - WARNING - Tentative 1 échouée pour PavuGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/PavuGame
+2024-08-16 09:46:02,498 - WARNING - Tentative 2 échouée pour PavuGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/PavuGame
+2024-08-16 09:46:42,572 - WARNING - Tentative 3 échouée pour PavuGame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/PavuGame
+2024-08-16 09:46:42,572 - ERROR - Toutes les tentatives ont échoué pour PavuGame
+2024-08-16 09:46:42,606 - WARNING - Échec du scraping YouTube pour PavuGame: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/PavuGame
+2024-08-16 09:46:42,606 - WARNING - Aucune donnée scrapée pour PavuGame, mise à jour ignorée
+2024-08-16 09:47:22,647 - INFO - Traitement de Wolfcrafter321...
+2024-08-16 09:47:22,680 - WARNING - Tentative 1 échouée pour Wolfcrafter321: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Wolfcrafter321
+2024-08-16 09:48:02,752 - WARNING - Tentative 2 échouée pour Wolfcrafter321: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Wolfcrafter321
+2024-08-16 09:48:42,911 - WARNING - Tentative 3 échouée pour Wolfcrafter321: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Wolfcrafter321
+2024-08-16 09:48:42,911 - ERROR - Toutes les tentatives ont échoué pour Wolfcrafter321
+2024-08-16 09:48:42,940 - WARNING - Échec du scraping YouTube pour Wolfcrafter321: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/Wolfcrafter321
+2024-08-16 09:48:42,940 - WARNING - Aucune donnée scrapée pour Wolfcrafter321, mise à jour ignorée
+2024-08-16 09:49:22,973 - INFO - Traitement de NitroGenStudios...
+2024-08-16 09:49:23,010 - WARNING - Tentative 1 échouée pour NitroGenStudios: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/NitroGenStudios
+2024-08-16 09:50:03,061 - WARNING - Tentative 2 échouée pour NitroGenStudios: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/NitroGenStudios
+2024-08-16 09:50:43,114 - WARNING - Tentative 3 échouée pour NitroGenStudios: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/NitroGenStudios
+2024-08-16 09:50:43,114 - ERROR - Toutes les tentatives ont échoué pour NitroGenStudios
+2024-08-16 09:50:43,146 - WARNING - Échec du scraping YouTube pour NitroGenStudios: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/NitroGenStudios
+2024-08-16 09:50:43,146 - WARNING - Aucune donnée scrapée pour NitroGenStudios, mise à jour ignorée
+2024-08-16 09:51:23,186 - INFO - Traitement de MascotBroStudio...
+2024-08-16 09:51:23,231 - WARNING - Tentative 1 échouée pour MascotBroStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/MascotBroStudio
+2024-08-16 09:52:03,293 - WARNING - Tentative 2 échouée pour MascotBroStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/MascotBroStudio
+2024-08-16 09:52:43,365 - WARNING - Tentative 3 échouée pour MascotBroStudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/MascotBroStudio
+2024-08-16 09:52:43,365 - ERROR - Toutes les tentatives ont échoué pour MascotBroStudio
+2024-08-16 09:52:43,397 - WARNING - Échec du scraping YouTube pour MascotBroStudio: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/MascotBroStudio
+2024-08-16 09:52:43,398 - WARNING - Aucune donnée scrapée pour MascotBroStudio, mise à jour ignorée
+2024-08-16 09:53:23,437 - INFO - Traitement de tiannya_...
+2024-08-16 09:53:23,472 - WARNING - Tentative 1 échouée pour tiannya_: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/tiannya_
+2024-08-16 09:54:03,620 - WARNING - Tentative 2 échouée pour tiannya_: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/tiannya_
+2024-08-16 09:54:43,694 - WARNING - Tentative 3 échouée pour tiannya_: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/tiannya_
+2024-08-16 09:54:43,694 - ERROR - Toutes les tentatives ont échoué pour tiannya_
+2024-08-16 09:54:43,721 - WARNING - Échec du scraping YouTube pour tiannya_: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/tiannya_
+2024-08-16 09:54:43,721 - WARNING - Aucune donnée scrapée pour tiannya_, mise à jour ignorée
+2024-08-16 09:55:23,762 - INFO - Traitement de lodis...
+2024-08-16 09:55:23,805 - WARNING - Tentative 1 échouée pour lodis: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/lodis
+2024-08-16 09:56:03,865 - WARNING - Tentative 2 échouée pour lodis: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/lodis
+2024-08-16 09:56:43,937 - WARNING - Tentative 3 échouée pour lodis: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/lodis
+2024-08-16 09:56:43,937 - ERROR - Toutes les tentatives ont échoué pour lodis
+2024-08-16 09:56:43,970 - WARNING - Échec du scraping YouTube pour lodis: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/lodis
+2024-08-16 09:56:43,970 - WARNING - Aucune donnée scrapée pour lodis, mise à jour ignorée
+2024-08-16 09:57:24,010 - INFO - Traitement de ovsko...
+2024-08-16 09:57:24,056 - WARNING - Tentative 1 échouée pour ovsko: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ovsko
+2024-08-16 09:58:04,128 - WARNING - Tentative 2 échouée pour ovsko: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ovsko
+2024-08-16 09:58:44,203 - WARNING - Tentative 3 échouée pour ovsko: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ovsko
+2024-08-16 09:58:44,204 - ERROR - Toutes les tentatives ont échoué pour ovsko
+2024-08-16 09:58:44,236 - WARNING - Échec du scraping YouTube pour ovsko: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/ovsko
+2024-08-16 09:58:44,236 - WARNING - Aucune donnée scrapée pour ovsko, mise à jour ignorée
+2024-08-16 09:59:24,276 - INFO - Traitement de only4gamers_xyz...
+2024-08-16 09:59:24,391 - WARNING - Tentative 1 échouée pour only4gamers_xyz: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/only4gamers_xyz
+2024-08-16 10:00:04,466 - WARNING - Tentative 2 échouée pour only4gamers_xyz: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/only4gamers_xyz
+2024-08-16 10:00:44,535 - WARNING - Tentative 3 échouée pour only4gamers_xyz: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/only4gamers_xyz
+2024-08-16 10:00:44,535 - ERROR - Toutes les tentatives ont échoué pour only4gamers_xyz
+2024-08-16 10:00:44,576 - WARNING - Échec du scraping YouTube pour only4gamers_xyz: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/only4gamers_xyz
+2024-08-16 10:00:44,576 - WARNING - Aucune donnée scrapée pour only4gamers_xyz, mise à jour ignorée
+2024-08-16 10:01:24,616 - INFO - Traitement de highreach_game...
+2024-08-16 10:01:24,668 - WARNING - Tentative 1 échouée pour highreach_game: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/highreach_game
+2024-08-16 10:02:04,743 - WARNING - Tentative 2 échouée pour highreach_game: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/highreach_game
+2024-08-16 10:02:44,817 - WARNING - Tentative 3 échouée pour highreach_game: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/highreach_game
+2024-08-16 10:02:44,817 - ERROR - Toutes les tentatives ont échoué pour highreach_game
+2024-08-16 10:02:44,850 - WARNING - Échec du scraping YouTube pour highreach_game: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/highreach_game
+2024-08-16 10:02:44,850 - WARNING - Aucune donnée scrapée pour highreach_game, mise à jour ignorée
+2024-08-16 10:03:24,890 - INFO - Traitement de TimcoApp...
+2024-08-16 10:03:24,924 - WARNING - Tentative 1 échouée pour TimcoApp: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TimcoApp
+2024-08-16 10:04:04,998 - WARNING - Tentative 2 échouée pour TimcoApp: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TimcoApp
+2024-08-16 10:04:45,149 - WARNING - Tentative 3 échouée pour TimcoApp: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/TimcoApp
+2024-08-16 10:04:45,149 - ERROR - Toutes les tentatives ont échoué pour TimcoApp
+2024-08-16 10:04:45,184 - WARNING - Échec du scraping YouTube pour TimcoApp: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/TimcoApp
+2024-08-16 10:04:45,184 - WARNING - Aucune donnée scrapée pour TimcoApp, mise à jour ignorée
+2024-08-16 10:05:25,213 - INFO - Traitement de _pank0...
+2024-08-16 10:05:25,266 - WARNING - Tentative 1 échouée pour _pank0: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/_pank0
+2024-08-16 10:06:05,338 - WARNING - Tentative 2 échouée pour _pank0: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/_pank0
+2024-08-16 10:06:45,411 - WARNING - Tentative 3 échouée pour _pank0: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/_pank0
+2024-08-16 10:06:45,411 - ERROR - Toutes les tentatives ont échoué pour _pank0
+2024-08-16 10:06:45,443 - WARNING - Échec du scraping YouTube pour _pank0: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/_pank0
+2024-08-16 10:06:45,443 - WARNING - Aucune donnée scrapée pour _pank0, mise à jour ignorée
+2024-08-16 10:07:25,454 - INFO - Traitement de _assoupi...
+2024-08-16 10:07:25,491 - WARNING - Tentative 1 échouée pour _assoupi: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/_assoupi
+2024-08-16 10:08:05,529 - WARNING - Tentative 2 échouée pour _assoupi: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/_assoupi
+2024-08-16 10:08:45,602 - WARNING - Tentative 3 échouée pour _assoupi: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/_assoupi
+2024-08-16 10:08:45,602 - ERROR - Toutes les tentatives ont échoué pour _assoupi
+2024-08-16 10:08:45,638 - WARNING - Échec du scraping YouTube pour _assoupi: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/_assoupi
+2024-08-16 10:08:45,638 - WARNING - Aucune donnée scrapée pour _assoupi, mise à jour ignorée
+2024-08-16 10:09:25,665 - INFO - Traitement de SpellgardenDevs...
+2024-08-16 10:09:25,705 - WARNING - Tentative 1 échouée pour SpellgardenDevs: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpellgardenDevs
+2024-08-16 10:10:05,873 - WARNING - Tentative 2 échouée pour SpellgardenDevs: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpellgardenDevs
+2024-08-16 10:10:45,944 - WARNING - Tentative 3 échouée pour SpellgardenDevs: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/SpellgardenDevs
+2024-08-16 10:10:45,945 - ERROR - Toutes les tentatives ont échoué pour SpellgardenDevs
+2024-08-16 10:10:45,981 - WARNING - Échec du scraping YouTube pour SpellgardenDevs: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/SpellgardenDevs
+2024-08-16 10:10:45,982 - WARNING - Aucune donnée scrapée pour SpellgardenDevs, mise à jour ignorée
+2024-08-16 10:11:25,997 - INFO - Traitement de LonelyMnts...
+2024-08-16 10:11:26,039 - WARNING - Tentative 1 échouée pour LonelyMnts: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/LonelyMnts
+2024-08-16 10:12:06,115 - WARNING - Tentative 2 échouée pour LonelyMnts: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/LonelyMnts
+2024-08-16 10:12:46,206 - WARNING - Tentative 3 échouée pour LonelyMnts: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/LonelyMnts
+2024-08-16 10:12:46,206 - ERROR - Toutes les tentatives ont échoué pour LonelyMnts
+2024-08-16 10:12:46,238 - WARNING - Échec du scraping YouTube pour LonelyMnts: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/LonelyMnts
+2024-08-16 10:12:46,238 - WARNING - Aucune donnée scrapée pour LonelyMnts, mise à jour ignorée
+2024-08-16 10:13:26,278 - INFO - Traitement de arizonasunshine...
+2024-08-16 10:13:26,314 - WARNING - Tentative 1 échouée pour arizonasunshine: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/arizonasunshine
+2024-08-16 10:14:06,387 - WARNING - Tentative 2 échouée pour arizonasunshine: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/arizonasunshine
+2024-08-16 10:14:46,463 - WARNING - Tentative 3 échouée pour arizonasunshine: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/arizonasunshine
+2024-08-16 10:14:46,463 - ERROR - Toutes les tentatives ont échoué pour arizonasunshine
+2024-08-16 10:14:46,494 - WARNING - Échec du scraping YouTube pour arizonasunshine: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/arizonasunshine
+2024-08-16 10:14:46,494 - WARNING - Aucune donnée scrapée pour arizonasunshine, mise à jour ignorée
+2024-08-16 10:15:26,535 - INFO - Traitement de RuneLegacyIdle...
+2024-08-16 10:15:26,604 - WARNING - Tentative 1 échouée pour RuneLegacyIdle: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/RuneLegacyIdle
+2024-08-16 10:16:06,674 - WARNING - Tentative 2 échouée pour RuneLegacyIdle: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/RuneLegacyIdle
+2024-08-16 10:16:46,724 - WARNING - Tentative 3 échouée pour RuneLegacyIdle: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/RuneLegacyIdle
+2024-08-16 10:16:46,724 - ERROR - Toutes les tentatives ont échoué pour RuneLegacyIdle
+2024-08-16 10:16:46,755 - WARNING - Échec du scraping YouTube pour RuneLegacyIdle: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/RuneLegacyIdle
+2024-08-16 10:16:46,755 - WARNING - Aucune donnée scrapée pour RuneLegacyIdle, mise à jour ignorée
+2024-08-16 10:17:26,796 - INFO - Traitement de bychk0vskyi...
+2024-08-16 10:17:26,830 - WARNING - Tentative 1 échouée pour bychk0vskyi: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/bychk0vskyi
+2024-08-16 10:18:06,886 - WARNING - Tentative 2 échouée pour bychk0vskyi: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/bychk0vskyi
+2024-08-16 10:18:46,942 - WARNING - Tentative 3 échouée pour bychk0vskyi: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/bychk0vskyi
+2024-08-16 10:18:46,942 - ERROR - Toutes les tentatives ont échoué pour bychk0vskyi
+2024-08-16 10:18:46,977 - WARNING - Échec du scraping YouTube pour bychk0vskyi: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/bychk0vskyi
+2024-08-16 10:18:46,978 - WARNING - Aucune donnée scrapée pour bychk0vskyi, mise à jour ignorée
+2024-08-16 10:19:26,983 - INFO - Traitement de endflamestudio...
+2024-08-16 10:19:27,018 - WARNING - Tentative 1 échouée pour endflamestudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/endflamestudio
+2024-08-16 10:20:07,058 - WARNING - Tentative 2 échouée pour endflamestudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/endflamestudio
+2024-08-16 10:20:47,157 - WARNING - Tentative 3 échouée pour endflamestudio: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/endflamestudio
+2024-08-16 10:20:47,157 - ERROR - Toutes les tentatives ont échoué pour endflamestudio
+2024-08-16 10:20:47,187 - WARNING - Échec du scraping YouTube pour endflamestudio: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/endflamestudio
+2024-08-16 10:20:47,188 - WARNING - Aucune donnée scrapée pour endflamestudio, mise à jour ignorée
+2024-08-16 10:21:27,196 - INFO - Traitement de roostgames...
+2024-08-16 10:21:27,236 - WARNING - Tentative 1 échouée pour roostgames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/roostgames
+2024-08-16 10:22:07,309 - WARNING - Tentative 2 échouée pour roostgames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/roostgames
+2024-08-16 10:22:47,381 - WARNING - Tentative 3 échouée pour roostgames: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/roostgames
+2024-08-16 10:22:47,382 - ERROR - Toutes les tentatives ont échoué pour roostgames
+2024-08-16 10:22:47,495 - WARNING - Échec du scraping YouTube pour roostgames: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/roostgames
+2024-08-16 10:22:47,495 - WARNING - Aucune donnée scrapée pour roostgames, mise à jour ignorée
+2024-08-16 10:23:27,535 - INFO - Traitement de HatCatGames1...
+2024-08-16 10:23:27,581 - WARNING - Tentative 1 échouée pour HatCatGames1: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/HatCatGames1
+2024-08-16 10:24:07,666 - WARNING - Tentative 2 échouée pour HatCatGames1: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/HatCatGames1
+2024-08-16 10:24:47,715 - WARNING - Tentative 3 échouée pour HatCatGames1: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/HatCatGames1
+2024-08-16 10:24:47,715 - ERROR - Toutes les tentatives ont échoué pour HatCatGames1
+2024-08-16 10:24:47,745 - WARNING - Échec du scraping YouTube pour HatCatGames1: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/HatCatGames1
+2024-08-16 10:24:47,746 - WARNING - Aucune donnée scrapée pour HatCatGames1, mise à jour ignorée
+2024-08-16 10:25:27,766 - INFO - Traitement de isononly...
+2024-08-16 10:25:27,811 - WARNING - Tentative 1 échouée pour isononly: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/isononly
+2024-08-16 10:26:07,969 - WARNING - Tentative 2 échouée pour isononly: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/isononly
+2024-08-16 10:26:48,174 - WARNING - Tentative 3 échouée pour isononly: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/isononly
+2024-08-16 10:26:48,175 - ERROR - Toutes les tentatives ont échoué pour isononly
+2024-08-16 10:26:48,207 - WARNING - Échec du scraping YouTube pour isononly: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/isononly
+2024-08-16 10:26:48,207 - WARNING - Aucune donnée scrapée pour isononly, mise à jour ignorée
+2024-08-16 10:27:28,228 - INFO - Traitement de Holitassduefh...
+2024-08-16 10:27:28,265 - WARNING - Tentative 1 échouée pour Holitassduefh: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Holitassduefh
+2024-08-16 10:28:08,299 - WARNING - Tentative 2 échouée pour Holitassduefh: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Holitassduefh
+2024-08-16 10:28:48,381 - WARNING - Tentative 3 échouée pour Holitassduefh: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/Holitassduefh
+2024-08-16 10:28:48,381 - ERROR - Toutes les tentatives ont échoué pour Holitassduefh
+2024-08-16 10:28:48,413 - WARNING - Échec du scraping YouTube pour Holitassduefh: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/Holitassduefh
+2024-08-16 10:28:48,413 - WARNING - Aucune donnée scrapée pour Holitassduefh, mise à jour ignorée
+2024-08-16 10:29:28,449 - INFO - Traitement de motherhubgame...
+2024-08-16 10:29:28,485 - WARNING - Tentative 1 échouée pour motherhubgame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/motherhubgame
+2024-08-16 10:30:08,558 - WARNING - Tentative 2 échouée pour motherhubgame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/motherhubgame
+2024-08-16 10:30:48,640 - WARNING - Tentative 3 échouée pour motherhubgame: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/motherhubgame
+2024-08-16 10:30:48,640 - ERROR - Toutes les tentatives ont échoué pour motherhubgame
+2024-08-16 10:30:48,686 - WARNING - Échec du scraping YouTube pour motherhubgame: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/motherhubgame
+2024-08-16 10:30:48,686 - WARNING - Aucune donnée scrapée pour motherhubgame, mise à jour ignorée
+2024-08-16 10:31:28,717 - INFO - Traitement de ferulox...
+2024-08-16 10:31:28,794 - WARNING - Tentative 1 échouée pour ferulox: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ferulox
+2024-08-16 10:32:08,871 - WARNING - Tentative 2 échouée pour ferulox: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ferulox
+2024-08-16 10:32:48,944 - WARNING - Tentative 3 échouée pour ferulox: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/ferulox
+2024-08-16 10:32:48,944 - ERROR - Toutes les tentatives ont échoué pour ferulox
+2024-08-16 10:32:48,976 - WARNING - Échec du scraping YouTube pour ferulox: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/ferulox
+2024-08-16 10:32:48,976 - WARNING - Aucune donnée scrapée pour ferulox, mise à jour ignorée
+2024-08-16 10:33:28,978 - INFO - Traitement de proton_vr...
+2024-08-16 10:33:29,012 - WARNING - Tentative 1 échouée pour proton_vr: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/proton_vr
+2024-08-16 10:34:09,065 - WARNING - Tentative 2 échouée pour proton_vr: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/proton_vr
+2024-08-16 10:34:49,137 - WARNING - Tentative 3 échouée pour proton_vr: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/proton_vr
+2024-08-16 10:34:49,138 - ERROR - Toutes les tentatives ont échoué pour proton_vr
+2024-08-16 10:34:49,170 - WARNING - Échec du scraping YouTube pour proton_vr: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/proton_vr
+2024-08-16 10:34:49,170 - WARNING - Aucune donnée scrapée pour proton_vr, mise à jour ignorée
+2024-08-16 10:35:29,191 - INFO - Traitement de DefaultCubeGms...
+2024-08-16 10:35:29,224 - WARNING - Tentative 1 échouée pour DefaultCubeGms: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/DefaultCubeGms
+2024-08-16 10:36:09,300 - WARNING - Tentative 2 échouée pour DefaultCubeGms: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/DefaultCubeGms
+2024-08-16 10:36:49,373 - WARNING - Tentative 3 échouée pour DefaultCubeGms: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/DefaultCubeGms
+2024-08-16 10:36:49,373 - ERROR - Toutes les tentatives ont échoué pour DefaultCubeGms
+2024-08-16 10:36:49,419 - WARNING - Échec du scraping YouTube pour DefaultCubeGms: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/DefaultCubeGms
+2024-08-16 10:36:49,419 - WARNING - Aucune donnée scrapée pour DefaultCubeGms, mise à jour ignorée
+2024-08-16 10:37:29,459 - INFO - Traitement de QuarkedOmnibus...
+2024-08-16 10:37:29,502 - WARNING - Tentative 1 échouée pour QuarkedOmnibus: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/QuarkedOmnibus
+2024-08-16 10:38:09,578 - WARNING - Tentative 2 échouée pour QuarkedOmnibus: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/QuarkedOmnibus
+2024-08-16 10:38:49,652 - WARNING - Tentative 3 échouée pour QuarkedOmnibus: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/QuarkedOmnibus
+2024-08-16 10:38:49,652 - ERROR - Toutes les tentatives ont échoué pour QuarkedOmnibus
+2024-08-16 10:38:49,685 - WARNING - Échec du scraping YouTube pour QuarkedOmnibus: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/QuarkedOmnibus
+2024-08-16 10:38:49,685 - WARNING - Aucune donnée scrapée pour QuarkedOmnibus, mise à jour ignorée
+2024-08-16 10:39:29,709 - INFO - Traitement de skyblueaster...
+2024-08-16 10:39:29,750 - WARNING - Tentative 1 échouée pour skyblueaster: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/skyblueaster
+2024-08-16 10:40:09,829 - WARNING - Tentative 2 échouée pour skyblueaster: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/skyblueaster
+2024-08-16 10:40:49,903 - WARNING - Tentative 3 échouée pour skyblueaster: 403 Client Error: Forbidden for url: https://socialblade.com/twitter/user/skyblueaster
+2024-08-16 10:40:49,904 - ERROR - Toutes les tentatives ont échoué pour skyblueaster
+2024-08-16 10:40:49,939 - WARNING - Échec du scraping YouTube pour skyblueaster: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/skyblueaster
+2024-08-16 10:40:49,939 - WARNING - Aucune donnée scrapée pour skyblueaster, mise à jour ignorée
+2024-08-16 10:41:29,980 - INFO - Connexion à la base de données fermée.
