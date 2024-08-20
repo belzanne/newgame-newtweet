@@ -48,5 +48,9 @@ venv.bak/
 # OS 
 .DS_Store
 
-*.db 
+# database
+excluded_games.db 
+all-steampages-data.db
+
+
 *.log
