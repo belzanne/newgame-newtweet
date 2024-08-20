@@ -2980,3 +2980,11 @@
 2024-08-20 05:15:51,965 - INFO - 14000 jeux traités. Dernier game_id: 3136850. Total reviews insérées: 12855
 2024-08-20 05:19:48,751 - INFO - 13000 jeux insérés et commités
 2024-08-20 05:34:52,556 - INFO - Database connection closed.
+2024-08-20 16:13:00,160 - INFO - 100 / 156 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-20 16:13:00,505 - INFO - 0 jeux traités. Dernier game_id: 1595890. Total reviews insérées: 1
+2024-08-20 16:15:37,513 - INFO - Database connection closed.
+2024-08-20 16:15:42,846 - INFO - 62 / 62 games to process.
+    ⓘ Increase BATCH_SIZE to process more games
+2024-08-20 16:15:43,216 - INFO - 0 jeux traités. Dernier game_id: 3153280. Total reviews insérées: 1
+2024-08-20 16:17:20,135 - INFO - Database connection closed.
