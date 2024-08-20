@@ -212,7 +212,7 @@ def update_database():
             else:
                 logging.warning(f"Aucune donnée scrapée pour {handle}, mise à jour ignorée")
 
-            time.sleep(40)  # Pause de 5 secondes entre chaque requête
+            time.sleep(40)  # Pause de 40 secondes entre chaque requête
 
     except sqlite3.Error as e:
         logging.error(f"Erreur SQLite: {str(e)}")

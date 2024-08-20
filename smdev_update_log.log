@@ -8829,3 +8829,216 @@ b.send(JSON.stringify(a));c.classList.add("feedback-hidden");d.classList.remove(
 2024-08-13 08:26:49,692 - WARNING - Échec du scraping YouTube pour _koffeecup: 403 Client Error: Forbidden for url: https://socialblade.com/youtube/channel/_koffeecup
 2024-08-13 08:26:49,692 - WARNING - Aucune donnée scrapée pour _koffeecup, mise à jour ignorée
 2024-08-13 08:27:29,733 - INFO - Connexion à la base de données fermée.
+2024-08-13 11:17:47,640 - INFO - Connecté à la base de données
+2024-08-13 11:17:47,640 - INFO - Trouvé 51 handles Twitter à traiter
+2024-08-13 11:17:47,640 - INFO - Traitement de TraversAdam...
+2024-08-13 11:17:48,332 - INFO - Données scrapées pour TraversAdam: {'followers': 1147, 'following': 302, 'tweets': 656, 'created_date': 1402351200}
+2024-08-13 11:17:49,394 - INFO - Données YouTube scrapées pour TraversAdam: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:17:49,395 - INFO - Données enregistrées pour TraversAdam
+2024-08-13 11:18:29,400 - INFO - Traitement de ____Manic____...
+2024-08-13 11:18:29,985 - INFO - Données scrapées pour ____Manic____: {'followers': 92, 'following': 57, 'tweets': 219, 'created_date': 1692396000}
+2024-08-13 11:18:31,782 - INFO - Données YouTube scrapées pour ____Manic____: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:18:31,783 - INFO - Données enregistrées pour ____Manic____
+2024-08-13 11:19:11,788 - INFO - Traitement de EnjoyStudioSA...
+2024-08-13 11:19:12,852 - INFO - Données scrapées pour EnjoyStudioSA: {'followers': 720, 'following': 54, 'tweets': 309, 'created_date': 1603753200}
+2024-08-13 11:19:13,704 - WARNING - Échec du scraping YouTube pour EnjoyStudioSA: invalid literal for int() with base 10: '89.3K'
+2024-08-13 11:19:13,705 - INFO - Données enregistrées pour EnjoyStudioSA
+2024-08-13 11:19:53,710 - INFO - Traitement de pixelmon...
+2024-08-13 11:19:54,759 - INFO - Données scrapées pour pixelmon: {'followers': 973841, 'following': 54, 'tweets': 1322, 'created_date': 1475013600}
+2024-08-13 11:19:55,632 - WARNING - Échec du scraping YouTube pour pixelmon: invalid literal for int() with base 10: '103K'
+2024-08-13 11:19:55,633 - INFO - Données enregistrées pour pixelmon
+2024-08-13 11:20:35,638 - INFO - Traitement de Self_MADev...
+2024-08-13 11:20:36,188 - INFO - Données scrapées pour Self_MADev: {'followers': 63, 'following': 43, 'tweets': 37, 'created_date': 1632866400}
+2024-08-13 11:20:37,155 - INFO - Données YouTube scrapées pour Self_MADev: {'yt_views': 18999, 'yt_creation_date': 1632780000, 'yt_uploads': 29, 'yt_subscribers': 65}
+2024-08-13 11:20:37,156 - INFO - Données enregistrées pour Self_MADev
+2024-08-13 11:21:17,161 - INFO - Traitement de RadicalFishGame...
+2024-08-13 11:21:19,671 - INFO - Données scrapées pour RadicalFishGame: {'followers': 24198, 'following': 170, 'tweets': 5659, 'created_date': 1355958000}
+2024-08-13 11:21:21,631 - INFO - Données YouTube scrapées pour RadicalFishGame: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:21:21,632 - INFO - Données enregistrées pour RadicalFishGame
+2024-08-13 11:22:01,637 - INFO - Traitement de TorbieGames...
+2024-08-13 11:22:02,271 - INFO - Données scrapées pour TorbieGames: {'followers': 370, 'following': 11, 'tweets': 9, 'created_date': 1683151200}
+2024-08-13 11:22:04,371 - INFO - Données YouTube scrapées pour TorbieGames: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:22:04,373 - INFO - Données enregistrées pour TorbieGames
+2024-08-13 11:22:44,377 - INFO - Traitement de MindscapeGames...
+2024-08-13 11:22:45,076 - INFO - Données scrapées pour MindscapeGames: {'followers': 382, 'following': 197, 'tweets': 546, 'created_date': 1639090800}
+2024-08-13 11:22:46,018 - INFO - Données YouTube scrapées pour MindscapeGames: {'yt_views': 2764155, 'yt_creation_date': 1191189600, 'yt_uploads': 75, 'yt_subscribers': 391}
+2024-08-13 11:22:46,019 - INFO - Données enregistrées pour MindscapeGames
+2024-08-13 11:23:26,024 - INFO - Traitement de GUMGamesGG...
+2024-08-13 11:23:26,648 - INFO - Données scrapées pour GUMGamesGG: {'followers': 195, 'following': 571, 'tweets': 716, 'created_date': 1664748000}
+2024-08-13 11:23:27,463 - WARNING - Échec du scraping YouTube pour GUMGamesGG: invalid literal for int() with base 10: '1.94K'
+2024-08-13 11:23:27,464 - INFO - Données enregistrées pour GUMGamesGG
+2024-08-13 11:24:07,469 - INFO - Traitement de fpsunknown...
+2024-08-13 11:24:07,890 - INFO - Données scrapées pour fpsunknown: {'followers': 165, 'following': 0, 'tweets': 203, 'created_date': 1393455600}
+2024-08-13 11:24:09,248 - INFO - Données YouTube scrapées pour fpsunknown: {'yt_views': 410017, 'yt_creation_date': 1190412000, 'yt_uploads': 105, 'yt_subscribers': 67}
+2024-08-13 11:24:09,249 - INFO - Données enregistrées pour fpsunknown
+2024-08-13 11:24:49,254 - INFO - Traitement de snail_simulator...
+2024-08-13 11:24:49,558 - INFO - Données scrapées pour snail_simulator: {'followers': 182, 'following': 60, 'tweets': 60, 'created_date': 1697666400}
+2024-08-13 11:24:51,603 - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2024-08-13 11:24:51,628 - INFO - Données YouTube scrapées pour snail_simulator: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:24:51,629 - INFO - Données enregistrées pour snail_simulator
+2024-08-13 11:25:31,634 - INFO - Traitement de AAD_Games...
+2024-08-13 11:25:32,167 - INFO - Données scrapées pour AAD_Games: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-13 11:25:33,976 - INFO - Données YouTube scrapées pour AAD_Games: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:25:33,977 - INFO - Données enregistrées pour AAD_Games
+2024-08-13 11:26:13,982 - INFO - Traitement de hellbreak_game...
+2024-08-13 11:26:14,337 - INFO - Données scrapées pour hellbreak_game: {'followers': 10, 'following': 9, 'tweets': 5, 'created_date': 1722895200}
+2024-08-13 11:26:16,105 - INFO - Données YouTube scrapées pour hellbreak_game: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:26:16,106 - INFO - Données enregistrées pour hellbreak_game
+2024-08-13 11:26:56,111 - INFO - Traitement de SpawnofTyphon...
+2024-08-13 11:26:56,664 - INFO - Données scrapées pour SpawnofTyphon: {'followers': 214, 'following': 245, 'tweets': 2087, 'created_date': 1364684400}
+2024-08-13 11:26:57,472 - INFO - Données YouTube scrapées pour SpawnofTyphon: {'yt_views': 2079, 'yt_creation_date': 1302645600, 'yt_uploads': 3, 'yt_subscribers': 116}
+2024-08-13 11:26:57,473 - INFO - Données enregistrées pour SpawnofTyphon
+2024-08-13 11:27:37,478 - INFO - Traitement de Fastclosecombat...
+2024-08-13 11:27:38,033 - INFO - Données scrapées pour Fastclosecombat: {'followers': 392, 'following': 1, 'tweets': 3, 'created_date': 1611183600}
+2024-08-13 11:27:39,734 - INFO - Données YouTube scrapées pour Fastclosecombat: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:27:39,735 - INFO - Données enregistrées pour Fastclosecombat
+2024-08-13 11:28:19,741 - INFO - Traitement de bangbangbarrage...
+2024-08-13 11:28:20,291 - INFO - Données scrapées pour bangbangbarrage: {'followers': 10, 'following': 38, 'tweets': 29, 'created_date': 1720476000}
+2024-08-13 11:28:22,022 - INFO - Données YouTube scrapées pour bangbangbarrage: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:28:22,024 - INFO - Données enregistrées pour bangbangbarrage
+2024-08-13 11:29:02,026 - INFO - Traitement de MasterPlanStds...
+2024-08-13 11:29:02,662 - INFO - Données scrapées pour MasterPlanStds: {'followers': None, 'following': None, 'tweets': None, 'created_date': None}
+2024-08-13 11:29:04,640 - INFO - Données YouTube scrapées pour MasterPlanStds: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:29:04,641 - INFO - Données enregistrées pour MasterPlanStds
+2024-08-13 11:29:44,646 - INFO - Traitement de D_O_PR...
+2024-08-13 11:29:45,150 - INFO - Données scrapées pour D_O_PR: {'followers': 9377, 'following': 9697, 'tweets': 16371, 'created_date': 1386630000}
+2024-08-13 11:29:47,264 - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2024-08-13 11:29:47,277 - INFO - Données YouTube scrapées pour D_O_PR: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:29:47,277 - INFO - Données enregistrées pour D_O_PR
+2024-08-13 11:30:27,282 - INFO - Traitement de YahahaHorror...
+2024-08-13 11:30:27,854 - INFO - Données scrapées pour YahahaHorror: {'followers': 86, 'following': 14, 'tweets': 36, 'created_date': 1720562400}
+2024-08-13 11:30:29,308 - INFO - Données YouTube scrapées pour YahahaHorror: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:30:29,309 - INFO - Données enregistrées pour YahahaHorror
+2024-08-13 11:31:09,314 - INFO - Traitement de YahahaHorror...
+2024-08-13 11:31:09,692 - INFO - Données scrapées pour YahahaHorror: {'followers': 86, 'following': 14, 'tweets': 36, 'created_date': 1720562400}
+2024-08-13 11:31:11,356 - INFO - Données YouTube scrapées pour YahahaHorror: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:31:11,357 - INFO - Données enregistrées pour YahahaHorror
+2024-08-13 11:31:51,362 - INFO - Traitement de YzahkinGames...
+2024-08-13 11:31:51,886 - INFO - Données scrapées pour YzahkinGames: {'followers': 42, 'following': 154, 'tweets': 834, 'created_date': 1709593200}
+2024-08-13 11:31:53,853 - INFO - Données YouTube scrapées pour YzahkinGames: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:31:53,855 - INFO - Données enregistrées pour YzahkinGames
+2024-08-13 11:32:33,860 - INFO - Traitement de SpicybyteGames...
+2024-08-13 11:32:34,306 - INFO - Données scrapées pour SpicybyteGames: {'followers': 98, 'following': 68, 'tweets': 45, 'created_date': 1698012000}
+2024-08-13 11:32:36,742 - INFO - Données YouTube scrapées pour SpicybyteGames: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:32:36,743 - INFO - Données enregistrées pour SpicybyteGames
+2024-08-13 11:33:16,748 - INFO - Traitement de brumestudiogame...
+2024-08-13 11:33:17,173 - INFO - Données scrapées pour brumestudiogame: {'followers': 29, 'following': 7, 'tweets': 1, 'created_date': 1707865200}
+2024-08-13 11:33:18,687 - INFO - Données YouTube scrapées pour brumestudiogame: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:33:18,688 - INFO - Données enregistrées pour brumestudiogame
+2024-08-13 11:33:58,693 - INFO - Traitement de TaivalGame...
+2024-08-13 11:33:59,233 - INFO - Données scrapées pour TaivalGame: {'followers': 21, 'following': 1, 'tweets': 2, 'created_date': 1714082400}
+2024-08-13 11:34:00,790 - INFO - Données YouTube scrapées pour TaivalGame: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:34:00,792 - INFO - Données enregistrées pour TaivalGame
+2024-08-13 11:34:40,797 - INFO - Traitement de MMMUTOX...
+2024-08-13 11:34:41,371 - INFO - Données scrapées pour MMMUTOX: {'followers': 166, 'following': 161, 'tweets': 15, 'created_date': 1666994400}
+2024-08-13 11:34:42,783 - INFO - Données YouTube scrapées pour MMMUTOX: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:34:42,784 - INFO - Données enregistrées pour MMMUTOX
+2024-08-13 11:35:22,788 - INFO - Traitement de hotaru_bii...
+2024-08-13 11:35:23,116 - INFO - Données scrapées pour hotaru_bii: {'followers': 20, 'following': 10, 'tweets': 59, 'created_date': 1338069600}
+2024-08-13 11:35:25,510 - INFO - Données YouTube scrapées pour hotaru_bii: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:35:25,511 - INFO - Données enregistrées pour hotaru_bii
+2024-08-13 11:36:05,516 - INFO - Traitement de WurmFud...
+2024-08-13 11:36:05,967 - INFO - Données scrapées pour WurmFud: {'followers': 131, 'following': 49, 'tweets': 9, 'created_date': 1707519600}
+2024-08-13 11:36:07,603 - INFO - Données YouTube scrapées pour WurmFud: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:36:07,605 - INFO - Données enregistrées pour WurmFud
+2024-08-13 11:36:47,610 - INFO - Traitement de FetysenkoGames...
+2024-08-13 11:36:48,115 - INFO - Données scrapées pour FetysenkoGames: {'followers': 33, 'following': 29, 'tweets': 66, 'created_date': 1570399200}
+2024-08-13 11:36:48,960 - INFO - Données YouTube scrapées pour FetysenkoGames: {'yt_views': 176411, 'yt_creation_date': 1570572000, 'yt_uploads': 56, 'yt_subscribers': 835}
+2024-08-13 11:36:48,962 - INFO - Données enregistrées pour FetysenkoGames
+2024-08-13 11:37:28,967 - INFO - Traitement de computer_gil...
+2024-08-13 11:37:29,459 - INFO - Données scrapées pour computer_gil: {'followers': 5474, 'following': 828, 'tweets': 722, 'created_date': 1349647200}
+2024-08-13 11:37:31,441 - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2024-08-13 11:37:31,453 - INFO - Données YouTube scrapées pour computer_gil: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:37:31,454 - INFO - Données enregistrées pour computer_gil
+2024-08-13 11:38:11,459 - INFO - Traitement de igeolwen...
+2024-08-13 11:38:11,908 - INFO - Données scrapées pour igeolwen: {'followers': 3027, 'following': 986, 'tweets': 1126, 'created_date': 1587506400}
+2024-08-13 11:38:13,025 - INFO - Données YouTube scrapées pour igeolwen: {'yt_views': 67701, 'yt_creation_date': 1678230000, 'yt_uploads': 85, 'yt_subscribers': 428}
+2024-08-13 11:38:13,026 - INFO - Données enregistrées pour igeolwen
+2024-08-13 11:38:53,031 - INFO - Traitement de devusnullus...
+2024-08-13 11:38:53,335 - INFO - Données scrapées pour devusnullus: {'followers': 1483, 'following': 614, 'tweets': 2883, 'created_date': 1547334000}
+2024-08-13 11:38:54,855 - INFO - Données YouTube scrapées pour devusnullus: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:38:54,856 - INFO - Données enregistrées pour devusnullus
+2024-08-13 11:39:34,862 - INFO - Traitement de eyes_trash...
+2024-08-13 11:39:35,279 - INFO - Données scrapées pour eyes_trash: {'followers': 96, 'following': 496, 'tweets': 58, 'created_date': 1630620000}
+2024-08-13 11:39:36,998 - INFO - Données YouTube scrapées pour eyes_trash: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:39:36,999 - INFO - Données enregistrées pour eyes_trash
+2024-08-13 11:40:17,002 - INFO - Traitement de PlayFATEGame...
+2024-08-13 11:40:17,583 - INFO - Données scrapées pour PlayFATEGame: {'followers': 93, 'following': 1, 'tweets': 2, 'created_date': 1722981600}
+2024-08-13 11:40:19,334 - INFO - Données YouTube scrapées pour PlayFATEGame: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:40:19,336 - INFO - Données enregistrées pour PlayFATEGame
+2024-08-13 11:40:59,341 - INFO - Traitement de Pikointeractive...
+2024-08-13 11:41:01,673 - INFO - Données scrapées pour Pikointeractive: {'followers': 4880, 'following': 104, 'tweets': 2362, 'created_date': 1364338800}
+2024-08-13 11:41:02,516 - WARNING - Échec du scraping YouTube pour Pikointeractive: invalid literal for int() with base 10: '1.48K'
+2024-08-13 11:41:02,517 - INFO - Données enregistrées pour Pikointeractive
+2024-08-13 11:41:42,522 - INFO - Traitement de IEclipseStudio...
+2024-08-13 11:41:43,035 - INFO - Données scrapées pour IEclipseStudio: {'followers': 1694, 'following': 43, 'tweets': 226, 'created_date': 1713304800}
+2024-08-13 11:41:44,785 - INFO - Données YouTube scrapées pour IEclipseStudio: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:41:44,786 - INFO - Données enregistrées pour IEclipseStudio
+2024-08-13 11:42:24,791 - INFO - Traitement de OddSagaStudio...
+2024-08-13 11:42:25,303 - INFO - Données scrapées pour OddSagaStudio: {'followers': 11, 'following': 3, 'tweets': 6, 'created_date': 1706482800}
+2024-08-13 11:42:28,153 - INFO - Données YouTube scrapées pour OddSagaStudio: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:42:28,154 - INFO - Données enregistrées pour OddSagaStudio
+2024-08-13 11:43:08,159 - INFO - Traitement de nerdypenguin019...
+2024-08-13 11:43:08,495 - INFO - Données scrapées pour nerdypenguin019: {'followers': 126, 'following': 90, 'tweets': 49, 'created_date': 1483916400}
+2024-08-13 11:43:10,072 - INFO - Données YouTube scrapées pour nerdypenguin019: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:43:10,073 - INFO - Données enregistrées pour nerdypenguin019
+2024-08-13 11:43:50,078 - INFO - Traitement de thepennyghost...
+2024-08-13 11:43:50,409 - INFO - Données scrapées pour thepennyghost: {'followers': 23, 'following': 48, 'tweets': 258, 'created_date': 1635721200}
+2024-08-13 11:43:52,833 - INFO - Données YouTube scrapées pour thepennyghost: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:43:52,835 - INFO - Données enregistrées pour thepennyghost
+2024-08-13 11:44:32,837 - INFO - Traitement de OgmaGames...
+2024-08-13 11:44:33,436 - INFO - Données scrapées pour OgmaGames: {'followers': 74, 'following': 32, 'tweets': 3, 'created_date': 1716415200}
+2024-08-13 11:44:36,087 - INFO - Données YouTube scrapées pour OgmaGames: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:44:36,088 - INFO - Données enregistrées pour OgmaGames
+2024-08-13 11:45:16,093 - INFO - Traitement de GamesIncubator...
+2024-08-13 11:45:16,553 - INFO - Données scrapées pour GamesIncubator: {'followers': 1151, 'following': 31, 'tweets': 1311, 'created_date': 1578610800}
+2024-08-13 11:45:17,394 - WARNING - Échec du scraping YouTube pour GamesIncubator: invalid literal for int() with base 10: '2.71K'
+2024-08-13 11:45:17,395 - INFO - Données enregistrées pour GamesIncubator
+2024-08-13 11:45:57,400 - INFO - Traitement de GreenTaleStudio...
+2024-08-13 11:45:57,885 - INFO - Données scrapées pour GreenTaleStudio: {'followers': 5, 'following': 0, 'tweets': 0, 'created_date': 1709420400}
+2024-08-13 11:45:59,891 - INFO - Données YouTube scrapées pour GreenTaleStudio: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:45:59,892 - INFO - Données enregistrées pour GreenTaleStudio
+2024-08-13 11:46:39,897 - INFO - Traitement de synodicArc...
+2024-08-13 11:46:40,926 - INFO - Données scrapées pour synodicArc: {'followers': 414, 'following': 91, 'tweets': 90, 'created_date': 1459116000}
+2024-08-13 11:46:42,069 - INFO - Données YouTube scrapées pour synodicArc: {'yt_views': 22004, 'yt_creation_date': 1469916000, 'yt_uploads': 7, 'yt_subscribers': 88}
+2024-08-13 11:46:42,070 - INFO - Données enregistrées pour synodicArc
+2024-08-13 11:47:22,075 - INFO - Traitement de TombStoneStudio...
+2024-08-13 11:47:22,664 - INFO - Données scrapées pour TombStoneStudio: {'followers': 62, 'following': 27, 'tweets': 35, 'created_date': 1697752800}
+2024-08-13 11:47:25,833 - INFO - Données YouTube scrapées pour TombStoneStudio: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:47:25,834 - INFO - Données enregistrées pour TombStoneStudio
+2024-08-13 11:48:05,839 - INFO - Traitement de Sons_of_welder...
+2024-08-13 11:48:06,325 - INFO - Données scrapées pour Sons_of_welder: {'followers': 578, 'following': 878, 'tweets': 2406, 'created_date': 1447801200}
+2024-08-13 11:48:08,062 - INFO - Données YouTube scrapées pour Sons_of_welder: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:48:08,064 - INFO - Données enregistrées pour Sons_of_welder
+2024-08-13 11:48:48,069 - INFO - Traitement de GVS_OFF...
+2024-08-13 11:48:48,561 - INFO - Données scrapées pour GVS_OFF: {'followers': 7, 'following': 21, 'tweets': 19, 'created_date': 1645830000}
+2024-08-13 11:48:50,331 - INFO - Données YouTube scrapées pour GVS_OFF: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:48:50,332 - INFO - Données enregistrées pour GVS_OFF
+2024-08-13 11:49:30,337 - INFO - Traitement de WaterMuseum_...
+2024-08-13 11:49:30,770 - INFO - Données scrapées pour WaterMuseum_: {'followers': 20936, 'following': 389, 'tweets': 3110, 'created_date': 1664316000}
+2024-08-13 11:49:32,483 - INFO - Données YouTube scrapées pour WaterMuseum_: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:49:32,484 - INFO - Données enregistrées pour WaterMuseum_
+2024-08-13 11:50:12,489 - INFO - Traitement de yongjustyong...
+2024-08-13 11:50:14,623 - INFO - Données scrapées pour yongjustyong: {'followers': 1886, 'following': 433, 'tweets': 1373, 'created_date': 1458860400}
+2024-08-13 11:50:15,491 - INFO - Données YouTube scrapées pour yongjustyong: {'yt_views': 4227, 'yt_creation_date': 1520290800, 'yt_uploads': 2, 'yt_subscribers': 76}
+2024-08-13 11:50:15,492 - INFO - Données enregistrées pour yongjustyong
+2024-08-13 11:50:55,497 - INFO - Traitement de ChernobylGame...
+2024-08-13 11:50:57,939 - INFO - Données scrapées pour ChernobylGame: {'followers': 8623, 'following': 60, 'tweets': 5181, 'created_date': 1546815600}
+2024-08-13 11:50:59,560 - INFO - Données YouTube scrapées pour ChernobylGame: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:50:59,562 - INFO - Données enregistrées pour ChernobylGame
+2024-08-13 11:51:39,567 - INFO - Traitement de tbjbu2...
+2024-08-13 11:51:41,367 - INFO - Données scrapées pour tbjbu2: {'followers': 1038, 'following': 922, 'tweets': 10430, 'created_date': 1421881200}
+2024-08-13 11:51:42,166 - INFO - Données YouTube scrapées pour tbjbu2: {'yt_views': 107324, 'yt_creation_date': 1456614000, 'yt_uploads': 24, 'yt_subscribers': 443}
+2024-08-13 11:51:42,168 - INFO - Données enregistrées pour tbjbu2
+2024-08-13 11:52:22,173 - INFO - Traitement de Pipkin_RPG...
+2024-08-13 11:52:22,705 - INFO - Données scrapées pour Pipkin_RPG: {'followers': 58, 'following': 42, 'tweets': 11, 'created_date': 1600812000}
+2024-08-13 11:52:24,968 - INFO - Données YouTube scrapées pour Pipkin_RPG: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:52:24,970 - INFO - Données enregistrées pour Pipkin_RPG
+2024-08-13 11:53:04,975 - INFO - Traitement de _koffeecup...
+2024-08-13 11:53:05,821 - INFO - Données scrapées pour _koffeecup: {'followers': 441, 'following': 307, 'tweets': 769, 'created_date': 1250805600}
+2024-08-13 11:53:09,025 - INFO - Données YouTube scrapées pour _koffeecup: {'yt_views': None, 'yt_creation_date': None, 'yt_uploads': None, 'yt_subscribers': None}
+2024-08-13 11:53:09,027 - INFO - Données enregistrées pour _koffeecup
+2024-08-13 11:53:49,032 - INFO - Connexion à la base de données fermée.
+2024-08-19 15:19:35,149 - INFO - Connecté à la base de données
+2024-08-19 15:19:35,149 - INFO - Trouvé 0 handles Twitter à traiter
+2024-08-19 15:19:35,149 - INFO - Connexion à la base de données fermée.
