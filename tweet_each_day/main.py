@@ -399,18 +399,13 @@ def format_tweet_message(game_data, tags, first_seen, x_handle=None):
         
         else:
             for dev in developers:
-                if x_handle:
-                    # Si on a un handle de la page Steam, on s'assure qu'il a un @
-                    #developer_handles.append('@' + x_handle.lstrip('@'))
-                    
+                # Sinon, on cherche avec get_game_studio_twitter
+                handle = get_game_studio_twitter(dev)
+                if handle:
+                    developer_handles.append('@' + handle.lstrip('@'))
                 else:
-                    # Sinon, on cherche avec get_game_studio_twitter
-                    handle = get_game_studio_twitter(dev)
-                    if handle:
-                        developer_handles.append('@' + handle.lstrip('@'))
-                    else:
-                        # Si pas de handle trouvé, on utilise le nom du dev sans @
-                        developer_handles.append(dev)
+                    # Si pas de handle trouvé, on utilise le nom du dev sans @
+                    developer_handles.append(dev)
         
         developers_str = ", ".join(developer_handles) if isinstance(developer_handles, list) else developer_handles
         
