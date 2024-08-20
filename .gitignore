@@ -54,3 +54,4 @@ all-steampages-data.db
 
 
 *.log
+**/*.log

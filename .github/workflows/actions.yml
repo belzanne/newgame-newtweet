@@ -37,15 +37,7 @@ jobs:
             PAT_GITHUB_TOKEN: ${{ secrets.PAT_GITHUB_TOKEN }}
             PAT_GITHUB_USERNAME: ${{ secrets.PAT_GITHUB_USERNAME }}
             BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
-        run: python main.py
-
-      - name: commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Update data
-
-      - name: execute update-smdev.py script # run update-smdev-db.py
-        run: python update-smdev.py
+        run: python tweet_each_day/main.py
 
       - name: commit changes
         uses: stefanzweifel/git-auto-commit-action@v5

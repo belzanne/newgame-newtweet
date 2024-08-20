@@ -18,6 +18,7 @@ import re
 import logging
 import time
 from requests.exceptions import RequestException
+import random
 
 
 # Configuration du logging
@@ -27,12 +28,11 @@ logging.basicConfig(filename='log_file.log', level=logging.INFO,
 def log_execution(total_games, published_games):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     log_message = f"Exécution du {timestamp}: {published_games} tweets envoyés sur {total_games} jeux traités."
-    logging.info(log_message)
-    logging.info(f"PAT_GITHUB_USERNAME: {os.getenv('PAT_GITHUB_USERNAME')}")
-    logging.info(f"GITHUB_REPO: {GITHUB_REPO}")
-    logging.info(f"CSV_FILE_PATH: {CSV_FILE_PATH}")
-    logging.info(f"URL complète : {csv_url}")
-    logging.info("Utilisation de l'API Brave Search")
+    #logging.info(log_message)
+    #logging.info(f"PAT_GITHUB_USERNAME: {os.getenv('PAT_GITHUB_USERNAME')}")
+    #logging.info(f"GITHUB_REPO: {GITHUB_REPO}")
+    #logging.info(f"CSV_FILE_PATH: {CSV_FILE_PATH}")
+    #logging.info(f"URL complète : {csv_url}")
     logging.info(f"Nombre de jeux avec contenu mature (id=3): {MATURE_CONTENT_GAMES}")
     logging.info(f"Nombre de jeux avec contenu généré par IA: {AI_GENERATED_GAMES}")
     print(log_message)
@@ -43,35 +43,13 @@ load_dotenv()
 # Configuration
 GITHUB_REPO = 'steampage-creation-date'
 CSV_FILE_PATH = 'steam_games.csv'
-TIMESTAMP_FILE = 'timestamp_last_tweet.txt'
+TIMESTAMP_FILE = 'tweet_each_day/timestamp_last_tweet.txt'
 PARIS_TZ = pytz.timezone('Europe/Paris')
 MAX_TWEETS_PER_DAY = 50
 AI_GENERATED_GAMES = 0
 MATURE_CONTENT_GAMES = 0
+AUTHORIZED_TYPES = ["game", "dlc", 'demo', 'beta', '']
 
-def initialize_aug_steam_games_db():
-    conn = sqlite3.connect('aug_steam_games.db')
-    cursor = conn.cursor()
-    cursor.execute('''
-    CREATE TABLE IF NOT EXISTS aug_steam_games (
-        game_id INTEGER PRIMARY KEY,
-        add_date INTEGER,
-        type TEXT,
-        dev TEXT,
-        publisher TEXT,
-        tags TEXT,
-        release_date TEXT,
-        description TEXT,
-        ai_generated TEXT,
-        ai_content TEXT,
-        content_descriptors TEXT,
-        supported_languages TEXT,
-        free TEXT,
-        dlc TEXT
-    )
-    ''')
-    conn.commit()
-    return conn
 
 # Initialiser le traducteur
 translator = GoogleTranslator(source='auto', target='en')
@@ -148,7 +126,8 @@ def get_twitter_client():
     )
     return client
 
-def get_steam_page_info(app_id):
+#scrapping
+def scrap_steam_page_info(app_id):
     url = f"https://store.steampowered.com/app/{app_id}/"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -276,6 +255,84 @@ def name_similarity(name1, name2):
 #def name_similarity(name1, name2):
     #return ratio(name1.lower(), name2.lower()) #je reste la fonction juste au dessus
 
+def create_ultimate_database():
+    conn = sqlite3.connect('all-steampages-data.db')
+    cursor = conn.cursor()
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS steam_games (
+        game_id INTEGER PRIMARY KEY,
+        add_date INTEGER,
+        type TEXT,
+        dev TEXT,
+        publisher TEXT,
+        release_date INTEGER,
+        description TEXT,
+        nb_reviews INTEGER,
+        free INTEGER,
+        dlc INTEGER,
+        dlc_list TEXT,
+        price TEXT,
+        metacritic INTEGER,
+        genres TEXT,
+        singleplayer INTEGER,
+        multiplayer INTEGER,
+        coop INTEGER,
+        online_coop INTEGER,
+        lan_coop INTEGER,
+        shared_split_screen_coop INTEGER,
+        shared_split_screen INTEGER,
+        pvp INTEGER,
+        lan_pvp INTEGER,
+        shared_split_screen_pvp INTEGER,
+        achievements INTEGER,
+        full_controller_support INTEGER,
+        trading_cards INTEGER,
+        steam_cloud INTEGER,
+        remote_play_phone INTEGER,
+        remote_play_tablet INTEGER,
+        remote_play_together INTEGER,
+        remote_play_tv INTEGER,
+        family_sharing INTEGER,
+        captions_available INTEGER,
+        inapp_purchases INTEGER,
+        early_access INTEGER,
+        vr_only INTEGER,
+        vr_supported INTEGER,
+        online_pvp INTEGER,
+        required_age INTEGER,
+        controller_support TEXT,
+        categories TEXT,
+        website TEXT,
+        support_mail TEXT,
+        support_url TEXT,
+        cd_some_nudity_or_sexual_content INTEGER,
+        cd_frequent_violence_gore INTEGER,
+        cd_adult_only_sexual_content INTEGER,
+        cd_frequent_nudity_or_sexual_content INTEGER,
+        cd_general_mature_content INTEGER,
+        lg_en INTEGER,
+        lg_ger INTEGER,
+        lg_spa INTEGER,
+        lg_jap INTEGER,
+        lg_portuguese INTEGER,
+        lg_russian INTEGER,
+        lg_simp_chin INTEGER,
+        lg_trad_chin INTEGER,
+        lg_fr INTEGER,
+        lg_it INTEGER,
+        lg_hung INTEGER,
+        lg_kor INTEGER,
+        lg_turk INTEGER,
+        lg_arabic INTEGER,
+        lg_polish INTEGER,
+        lg_thai INTEGER,
+        lg_viet INTEGER
+    )
+    ''')
+
+    conn.commit()
+    return conn
+
 def get_game_studio_twitter(studio_name):
     search_query = f"{studio_name} twitter"
     results_df = search_brave(search_query)
@@ -336,21 +393,26 @@ def format_tweet_message(game_data, tags, first_seen, x_handle=None):
         name = clean_text(game_data['name'])
         developers = game_data.get('developers', [])
         developer_handles = []
+        if x_handle:
+            # Si on a un handle de la page Steam, on s'assure qu'il a un @
+            developer_handles = '@' + x_handle.lstrip('@')
         
-        for dev in developers:
-            if x_handle:
-                # Si on a un handle de la page Steam ou de Brave, on s'assure qu'il a un @
-                developer_handles.append('@' + x_handle.lstrip('@'))
-            else:
-                # Sinon, on cherche avec get_game_studio_twitter
-                handle = get_game_studio_twitter(dev)
-                if handle:
-                    developer_handles.append('@' + handle.lstrip('@'))
+        else:
+            for dev in developers:
+                if x_handle:
+                    # Si on a un handle de la page Steam, on s'assure qu'il a un @
+                    #developer_handles.append('@' + x_handle.lstrip('@'))
+                    
                 else:
-                    # Si pas de handle trouvé, on utilise le nom du dev sans @
-                    developer_handles.append(dev)
+                    # Sinon, on cherche avec get_game_studio_twitter
+                    handle = get_game_studio_twitter(dev)
+                    if handle:
+                        developer_handles.append('@' + handle.lstrip('@'))
+                    else:
+                        # Si pas de handle trouvé, on utilise le nom du dev sans @
+                        developer_handles.append(dev)
         
-        developers_str = ", ".join(developer_handles)
+        developers_str = ", ".join(developer_handles) if isinstance(developer_handles, list) else developer_handles
         
         description = clean_text(translate_to_english(game_data.get('short_description', '')))
         app_id = game_data['steam_appid']
@@ -390,7 +452,7 @@ def send_tweet(message):
 def insert_developer_social_media(game_id, x_handle):
     if x_handle and x_handle.strip():  # Vérifier si le handle n'est pas vide
         try:
-            conn = sqlite3.connect('socialmedia-developer.db')
+            conn = sqlite3.connect('socialmedia_dev/socialmedia-developer.db')
             cursor = conn.cursor()
             
             # Vérifier si la table existe et la créer si nécessaire
@@ -443,39 +505,24 @@ def insert_developer_social_media(game_id, x_handle):
         logging.info(f"Pas d'insertion pour game_id: {game_id} car le handle Twitter est vide ou None")
 
 
-def insert_aug_steam_game(conn, game_data, steam_page_info):
-    cursor = conn.cursor()
-    
-    game_id = game_data['steam_appid']
-    add_date = int(time.time())
-    game_type = game_data.get('type', 'Unknown')
-    dev = ', '.join(game_data.get('developers', []))
-    publisher = ', '.join(game_data.get('publishers', []))
-    tags = ', '.join(steam_page_info['tags']) if steam_page_info else ''
-    release_date = game_data.get('release_date', {}).get('date', '')
-    description = game_data.get('short_description', '')
-    ai_generated = 'Yes' if steam_page_info and steam_page_info['ai_generated'] else 'No'
-    ai_content = steam_page_info['ai_content'] if steam_page_info and steam_page_info['ai_generated'] else None
-    #content_descriptors = ', '.join(map(str, game_data.get('content_descriptors', {}).get('ids', [])))
-    # Modification ici pour s'assurer que content_descriptors est correctement extrait
-    content_descriptors = game_data.get('content_descriptors', {})
-    content_descriptors_ids = content_descriptors.get('ids', [])
-    content_descriptors_str = ', '.join(map(str, content_descriptors_ids))
-    supported_languages = game_data.get('supported_languages', '')
-    free = 'Yes' if game_data.get('is_free', False) else 'No'
-    dlc = 'Yes' if game_data.get('type', '') == 'dlc' else 'No'
 
-    cursor.execute('''
-    INSERT OR REPLACE INTO aug_steam_games
-    (game_id, add_date, type, dev, publisher, tags, release_date, description, ai_generated, ai_content, 
-    content_descriptors, supported_languages, free, dlc)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    ''', (game_id, add_date, game_type, dev, publisher, tags, release_date, description, ai_generated, ai_content,
-          content_descriptors_str, supported_languages, free, dlc))
-    
-    conn.commit()
-    logging.info(f"Inserted/updated game {game_id} into aug_steam_agames.db")
-            
+def parse_release_date(date_str):
+    if date_str in ["Coming soon", "To be announced"]:
+        return None
+    try:
+        if "Q" in date_str:
+            year = int(date_str.split()[-1])
+            quarter = int(date_str[1])
+            month = (quarter - 1) * 3 + 1
+            return int(datetime(year, month, 1).timestamp())
+        elif len(date_str.split()) == 2:
+            return int(datetime.strptime(f"1 {date_str}", "%d %B %Y").timestamp())
+        else:
+            return int(datetime.strptime(date_str, "%d %b, %Y").timestamp())
+    except:
+        return None
+
+
 def main():
     logging.info("Début de l'exécution de main()")
     try:
@@ -490,7 +537,7 @@ def main():
         published_games = 0
         priority_tweets = []
         non_priority_tweets = []
-        aug_db_conn = initialize_aug_steam_games_db()
+        ultimate_db_conn = create_ultimate_database()
 
         BRAVE_API_KEY = os.environ.get("BRAVE_API_KEY")
         if not BRAVE_API_KEY:
@@ -509,25 +556,26 @@ def main():
                     total_games += 1
                     logging.info(f"Traitement du jeu : Steam ID: {steam_game_id}, First Seen: {first_seen}")
                     
-                    # Mettre à jour new_last_timestamp ici, pour chaque jeu traité
+                    # Met à jour new_last_timestamp ici, pour chaque jeu traité
                     new_last_timestamp = max(new_last_timestamp, first_seen)
 
-                    game_data = get_game_details(steam_game_id)
-                    if game_data:
-                        steam_page_info = get_steam_page_info(steam_game_id)
-                        
-                        insert_aug_steam_game(aug_db_conn, game_data, steam_page_info)
+                    id_data = get_game_details(steam_game_id)
 
-                        if filter_game(game_data):
-                            if steam_page_info and not steam_page_info['ai_generated']:
-                                tags = steam_page_info['tags']
-                                x_handle = steam_page_info['x_handle']
+
+                    if id_data:
+                    
+                        scrap_steam_data = scrap_steam_page_info(steam_game_id)
+
+                        if filter_game(id_data):
+                            if scrap_steam_data and not scrap_steam_data['ai_generated']:
+                                tags = scrap_steam_data['tags']
+                                x_handle = scrap_steam_data['x_handle']
                                 logging.info(f"Handle trouvé sur la page steam : {x_handle}")
 
                                 # Si aucun handle n'est trouvé sur la page Steam, on utilise get_game_studio_twitter
                                 if not x_handle:
-                                    developer = game_data.get('developers', [''])[0]  # Prend le premier développeur
-                                    x_handle = get_game_studio_twitter(developer)
+                                    developer = id_data.get('developers', [''])[0]  # Prend le premier développeur
+                                    x_handle get_game_studio_twitter(developer)
                                     logging.info(f"Handle trouvé via Brave : {x_handle}")
 
                                 # Stockage du handle dans la base de données si un handle valide a été trouvé
@@ -535,14 +583,14 @@ def main():
                                     insert_developer_social_media(steam_game_id, x_handle)
 
                                 logging.info(f"X_handle: {x_handle}")
-                                message = format_tweet_message(game_data, tags, first_seen, x_handle)
+                                message = format_tweet_message(id_data, tags, first_seen, x_handle)
                                 if message:
-                                    if is_priority_game(game_data):
-                                        priority_tweets.append((message, game_data, first_seen))
+                                    if is_priority_game(id_data):
+                                        priority_tweets.append((message, id_data, first_seen))
                                     else:
-                                        non_priority_tweets.append((message, game_data, first_seen))
+                                        non_priority_tweets.append((message, id_data, first_seen))
                                 else:
-                                    logging.warning(f"Échec du formatage du tweet pour {game_data['name']}")
+                                    logging.warning(f"Échec du formatage du tweet pour {id_data['name']}")
                             else:
                                 global AI_GENERATED_GAMES
                                 AI_GENERATED_GAMES += 1
@@ -550,8 +598,10 @@ def main():
                         else:
                             logging.info(f"Le jeu avec Steam ID {steam_game_id} ne répond pas aux critères de tweet ou les détails n'ont pas pu être récupérés.")
                     else:
-                        logging.info(f"Impossible de récupérer les détails pour le jeu avec Steam ID {steam_game_id}")
-                
+                        logging.info(f"No id_data for {steam_game_id}.Impossible de récupérer les détails pour le jeu avec Steam ID {steam_game_id}")
+                    
+                    # Ajouter un délai aléatoire entre les requêtes
+                    time.sleep(random.uniform(1.1, 1.4))
             else:
                 logging.error("Échec du téléchargement du fichier steam_games.csv")
                 return None
@@ -560,28 +610,28 @@ def main():
         logging.info("Fichier temporaire de la base de données supprimé")
 
         # Publier les tweets prioritaires
-        for message, game_data, first_seen in priority_tweets:
+        for message, id_data, first_seen in priority_tweets:
             if published_games >= MAX_TWEETS_PER_DAY:
                 break
             tweet_id = send_tweet(message)
             if tweet_id:
-                logging.info(f"Tweet prioritaire publié pour {game_data['name']} (ID: {tweet_id})")
+                logging.info(f"Tweet prioritaire publié pour {id_data['name']} (ID: {tweet_id})")
                 new_last_timestamp = max(new_last_timestamp, first_seen)
                 published_games += 1
             else:
-                logging.warning(f"Échec de la publication du tweet prioritaire pour {game_data['name']}")
+                logging.warning(f"Échec de la publication du tweet prioritaire pour {id_data['name']}")
 
         # Publier les tweets non prioritaires si la limite n'est pas atteinte
-        for message, game_data, first_seen in non_priority_tweets:
+        for message, id_data, first_seen in non_priority_tweets:
             if published_games >= MAX_TWEETS_PER_DAY:
                 break
             tweet_id = send_tweet(message)
             if tweet_id:
-                logging.info(f"Tweet non prioritaire publié pour {game_data['name']} (ID: {tweet_id})")
+                logging.info(f"Tweet non prioritaire publié pour {id_data['name']} (ID: {tweet_id})")
                 new_last_timestamp = max(new_last_timestamp, first_seen)
                 published_games += 1
             else:
-                logging.warning(f"Échec de la publication du tweet non prioritaire pour {game_data['name']}")
+                logging.warning(f"Échec de la publication du tweet non prioritaire pour {id_data['name']}")
 
         if new_last_timestamp > last_timestamp:
             write_last_timestamp(new_last_timestamp)
@@ -591,7 +641,7 @@ def main():
         logging.info(f"Tweets prioritaires : {len(priority_tweets)}")
         logging.info(f"Tweets non prioritaires : {len(non_priority_tweets)}")
         
-        aug_db_conn.close()
+        ultimate_db_conn.close()
         return total_games, published_games, new_last_timestamp, last_timestamp, priority_tweets, non_priority_tweets, csv_url
     
     except Exception as e:
