@@ -570,7 +570,7 @@ def main():
                                 # Si aucun handle n'est trouvé sur la page Steam, on utilise get_game_studio_twitter
                                 if not x_handle:
                                     developer = id_data.get('developers', [''])[0]  # Prend le premier développeur
-                                    x_handle get_game_studio_twitter(developer)
+                                    x_handle = get_game_studio_twitter(developer) #peut etre erreur ici
                                     logging.info(f"Handle trouvé via Brave : {x_handle}")
 
                                 # Stockage du handle dans la base de données si un handle valide a été trouvé
