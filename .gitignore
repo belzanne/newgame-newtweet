@@ -55,3 +55,6 @@ all-steampages-data.db
 
 *.log
 **/*.log
+ultimate_db/tags-tobeadded.db
+ultimate_db/excluded_game_ids.txt
+ultimate_db/all-steampages-data.db-journal

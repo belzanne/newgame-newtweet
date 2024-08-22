@@ -29,9 +29,6 @@ GITHUB_REPO = 'steampage-creation-date'
 CSV_FILE_PATH = 'steam_games.csv'
 TIMESTAMP_FILE = 'tweet_each_day/timestamp_last_tweet.txt'
 PARIS_TZ = pytz.timezone('Europe/Paris')
-MAX_TWEETS_PER_DAY = 50
-AI_GENERATED_GAMES = 0
-MATURE_CONTENT_GAMES = 0
 AUTHORIZED_TYPES = ["game", "dlc", 'demo', 'beta', '']
 
 
@@ -331,6 +328,7 @@ def read_csv(csv_path):
     with open(csv_path, 'r', newline='') as f:
         return list(csv.reader(f))
 
+
 def get_game_details(steam_game_id):
     url = f"https://store.steampowered.com/api/appdetails?appids={steam_game_id}"
     response = requests.get(url)
@@ -339,6 +337,7 @@ def get_game_details(steam_game_id):
         if data[str(steam_game_id)]['success']:
             return data[str(steam_game_id)]['data']
     return None
+
 
 def scrap_steam_page_info(app_id):
     url = f"https://store.steampowered.com/app/{app_id}/"
@@ -384,76 +383,6 @@ def scrap_steam_page_info(app_id):
     except Exception as e:
         logging.error(f"Erreur lors du scraping pour le jeu {app_id}: {e}")
         return None
-
-
-
-def download_csv(url, local_path):
-    response = requests.get(url)
-    if response.status_code == 200:
-        with open(local_path, 'wb') as f:
-            f.write(response.content)
-        return True
-    print(f"Échec du téléchargement du fichier CSV. Code de statut: {response.status_code}")
-    return False
-
-def read_csv(csv_path):
-    with open(csv_path, 'r', newline='') as f:
-        return list(csv.reader(f))
-
-def get_game_details(steam_game_id):
-    url = f"https://store.steampowered.com/api/appdetails?appids={steam_game_id}"
-    response = requests.get(url)
-    if response.status_code == 200:
-        data = response.json()
-        if data[str(steam_game_id)]['success']:
-            return data[str(steam_game_id)]['data']
-    return None
-
-def scrap_steam_page_info(app_id):
-    url = f"https://store.steampowered.com/app/{app_id}/"
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
-    
-    try:
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Vérifier la présence de contenu généré par IA
-        ai_disclosure = soup.find(string=re.compile("AI GENERATED CONTENT DISCLOSURE", re.IGNORECASE))
-        
-        # Recherche de la section "AI Generated Content Disclosure"
-        ai_section = soup.find('h2', string='AI Generated Content Disclosure')
-        ai_generated = bool(ai_section)
-        ai_content = None
-        if ai_generated:
-            ai_paragraph = ai_section.find_next('i')
-            if ai_paragraph:
-                ai_content = ai_paragraph.text.strip()
-
-
-        # Récupérer les tags
-        tag_elements = soup.find_all('a', class_='app_tag')
-        tags = [tag.text.strip() for tag in tag_elements]
-        
-        # Récupérer le lien Twitter s'il existe
-        twitter_link = soup.find('a', class_="ttip", attrs={'data-tooltip-text': lambda x: x and 'x.com/' in x})
-        x_handle = None
-        if twitter_link:
-            twitter_url = twitter_link['data-tooltip-text']
-            x_handle = '@' + twitter_url.split('/')[-1]
-        
-        return {
-            'ai_generated': bool(ai_disclosure),
-            'ai_content': ai_content,
-            'tags': tags,
-            'x_handle': x_handle
-        }
-    except Exception as e:
-        logging.error(f"Erreur lors du scraping pour le jeu {app_id}: {e}")
-        return None
-
 
 
 def main():
@@ -483,7 +412,7 @@ def main():
         processed_games = 0
 
         for steam_game_id in games_to_process:
-            logging.info(f"Traitement du jeu : Steam ID: {steam_game_id}")
+            #logging.info(f"Traitement du jeu : Steam ID: {steam_game_id}")
             
             id_data = get_game_details(steam_game_id)
 
