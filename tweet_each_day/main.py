@@ -19,6 +19,7 @@ import logging
 import time
 from requests.exceptions import RequestException
 import random
+from time import sleep
 
 
 # Configuration du logging
@@ -117,12 +118,22 @@ def filter_game(game_data):
     
     return True
 
+# def get_twitter_client():
+#     client = tweepy.Client(
+#         consumer_key=os.getenv('TWITTER_CONSUMER_KEY'),
+#         consumer_secret=os.getenv('TWITTER_CONSUMER_SECRET'),
+#         access_token=os.getenv('TWITTER_ACCESS_TOKEN'),
+#         access_token_secret=os.getenv('TWITTER_ACCESS_TOKEN_SECRET')
+#     )
+#     return client
+
 def get_twitter_client():
     client = tweepy.Client(
         consumer_key=os.getenv('TWITTER_CONSUMER_KEY'),
         consumer_secret=os.getenv('TWITTER_CONSUMER_SECRET'),
         access_token=os.getenv('TWITTER_ACCESS_TOKEN'),
-        access_token_secret=os.getenv('TWITTER_ACCESS_TOKEN_SECRET')
+        access_token_secret=os.getenv('TWITTER_ACCESS_TOKEN_SECRET'),
+        wait_on_rate_limit=True
     )
     return client
 
@@ -434,14 +445,34 @@ def format_tweet_message(game_data, tags, first_seen, x_handle=None):
         print(f"Erreur inattendue lors du formatage du tweet: {e}")
         return None
 
+# def send_tweet(message):
+#     client = get_twitter_client()
+#     try:
+#         response = client.create_tweet(text=message)
+#         return response.data['id']
+#     except Exception as e:
+#         print(f"Erreur lors de la création du tweet: {e}")
+#         return None
+    
 def send_tweet(message):
     client = get_twitter_client()
-    try:
-        response = client.create_tweet(text=message)
-        return response.data['id']
-    except Exception as e:
-        print(f"Erreur lors de la création du tweet: {e}")
-        return None
+    max_retries = 3
+    retry_delay = 60  # 60 seconds
+
+    for attempt in range(max_retries):
+        try:
+            response = client.create_tweet(text=message)
+            return response.data['id']
+        except tweepy.TweepError as e:
+            if e.response.status_code == 429:
+                print(f"Rate limit reached. Waiting for {retry_delay} seconds before retrying...")
+                sleep(retry_delay)
+            else:
+                print(f"Erreur lors de la création du tweet: {e}")
+                return None
+        
+    print(f"Échec de la création du tweet après {max_retries} tentatives.")
+    return None
 
 # Ajoutez cette fonction pour insérer les données dans la nouvelle base de données
 def insert_developer_social_media(game_id, x_handle):
