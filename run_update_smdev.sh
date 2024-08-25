@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env python3
 
-export PATH=$PATH: /Users/juliebelzanne/.local/bin/poetry
+export PATH=$PATH:/Users/juliebelzanne/.local/bin/poetry
 
 # Chemin vers le répertoire du projet
 PROJECT_DIR="/Users/juliebelzanne/Documents/Hush_Crasher/steam_data/newgame-newtweet"
