@@ -122,11 +122,12 @@ def git_pull():
         logging.error(f"Erreur lors du git pull: {str(e)}")
         raise
 
-def git_push():
+def git_push(repo_dir):
     try:
-        subprocess.run(["git", "add", "socialmedia-developer.db"], check=True)
-        subprocess.run(["git", "commit", "-m", "Mise à jour de la base de données"], check=True)
-        subprocess.run(["git", "push"], check=True)
+        db_relative_path = os.path.join("socialmedia_dev", "socialmedia-developer.db")
+        subprocess.run(["git", "-C", repo_dir, "add", db_relative_path], check=True)
+        subprocess.run(["git", "-C", repo_dir, "commit", "-m", "Mise à jour de la base de données"], check=True)
+        subprocess.run(["git", "-C", repo_dir, "push", "origin", "main"], check=True)
         logging.info("Git push réussi")
     except subprocess.CalledProcessError as e:
         logging.error(f"Erreur lors du git push: {str(e)}")
@@ -139,7 +140,6 @@ def update_database():
 
     # Assurez-vous d'être dans le bon répertoire
     repo_dir = "/Users/juliebelzanne/Documents/Hush_Crasher/steam_data/newgame-newtweet"
-    os.chdir(repo_dir)
    
    # Pull les dernières modifications
     try:
@@ -258,7 +258,7 @@ def update_database():
 
         # Push les modifications
         try:
-            git_push()
+            git_push(repo_dir)
             logging.info("Git pushed")
         except Exception as e:
             logging.error(f"Erreur lors du git push: {str(e)}")
