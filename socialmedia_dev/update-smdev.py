@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/local/bin/python3
 
 import sqlite3
 import requests
@@ -7,6 +7,8 @@ import re
 import time
 import logging
 from datetime import datetime
+import os
+import subprocess
 
 # Configuration du logging
 logging.basicConfig(filename='smdev_update_log.log', level=logging.INFO,
@@ -112,12 +114,42 @@ def parse_date(date_string):
         return int(date_obj.timestamp())
     return None
 
+def git_pull():
+    try:
+        subprocess.run(["git", "pull"], check=True)
+        logging.info("Git pull réussi")
+    except subprocess.CalledProcessError as e:
+        logging.error(f"Erreur lors du git pull: {str(e)}")
+        raise
+
+def git_push():
+    try:
+        subprocess.run(["git", "add", "socialmedia-developer.db"], check=True)
+        subprocess.run(["git", "commit", "-m", "Mise à jour de la base de données"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        logging.info("Git push réussi")
+    except subprocess.CalledProcessError as e:
+        logging.error(f"Erreur lors du git push: {str(e)}")
+        raise
 
 def update_database():
     """
     Fonction principale pour mettre à jour la base de données avec les données scrapées.
     """
-    conn = sqlite3.connect('socialmedia-developer.db')
+
+    # Assurez-vous d'être dans le bon répertoire
+    repo_dir = "/Users/juliebelzanne/Documents/Hush_Crasher/steam_data/newgame-newtweet"
+    os.chdir(repo_dir)
+   
+   # Pull les dernières modifications
+    try:
+        git_pull()
+        logging.info("Git pulled")
+    except Exception as e:
+        logging.error(f"Erreur lors du git pull: {str(e)}")
+        
+    db_path = os.path.join(repo_dir, "socialmedia_dev", "socialmedia-developer.db")
+    conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
     logging.info("Connecté à la base de données")
@@ -223,6 +255,13 @@ def update_database():
     finally:
         conn.close()
         logging.info("Connexion à la base de données fermée.")
+
+        # Push les modifications
+        try:
+            git_push()
+            logging.info("Git pushed")
+        except Exception as e:
+            logging.error(f"Erreur lors du git push: {str(e)}")
 
 if __name__ == "__main__":
     update_database()

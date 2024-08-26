@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
+#!/bin/bash
 
-export PATH=$PATH:/Users/juliebelzanne/.local/bin/poetry
+export PATH=$PATH:/Users/juliebelzanne/.local/bin
 
 # Chemin vers le répertoire du projet
 PROJECT_DIR="/Users/juliebelzanne/Documents/Hush_Crasher/steam_data/newgame-newtweet"
@@ -14,7 +14,7 @@ cd "$PROJECT_DIR"
 cd "$SCRIPT_DIR"
 
 # Exécution du script Python
-poetry run python update-smdev.py >> "$LOG_FILE" 2>&1
+poetry run python "$SCRIPT_DIR/update-smdev.py" >> "$LOG_FILE" 2>&1
 
 # Ajouter une ligne vide et un séparateur dans le fichier de log pour plus de lisibilité
 echo "" >> "$LOG_FILE"
