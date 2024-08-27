@@ -9,6 +9,8 @@ import logging
 from datetime import datetime
 import os
 import subprocess
+import git
+from git import Repo
 
 # Configuration du logging
 logging.basicConfig(filename='smdev_update_log.log', level=logging.INFO,
@@ -122,16 +124,30 @@ def git_pull():
         logging.error(f"Erreur lors du git pull: {str(e)}")
         raise
 
-def git_push(repo_dir):
+# Définir le chemin correct du répertoire
+repo_dir = "/Users/juliebelzanne/Documents/Hush_Crasher/steam_data/newgame-newtweet"
+db_path = os.path.join(repo_dir, "socialmedia_dev", "socialmedia-developer.db")
+
+def git_push():
+    repo = Repo(repo_dir)
+
+    # Assurez-vous que le chemin du fichier est correct
+    update_file = os.path.join(repo_dir, "socialmedia_dev", "socialmedia-developer.db")
+
     try:
-        db_relative_path = os.path.join("socialmedia_dev", "socialmedia-developer.db")
-        subprocess.run(["git", "-C", repo_dir, "add", db_relative_path], check=True)
-        subprocess.run(["git", "-C", repo_dir, "commit", "-m", "Mise à jour de la base de données"], check=True)
-        subprocess.run(["git", "-C", repo_dir, "push", "origin", "main"], check=True)
-        logging.info("Git push réussi")
-    except subprocess.CalledProcessError as e:
-        logging.error(f"Erreur lors du git push: {str(e)}")
-        raise
+        # Ajouter le fichier mis à jour à Git
+        repo.index.add([update_file])
+        
+        # Commit des changements
+        repo.index.commit("Update smdev database")
+        
+        # Push des changements
+        origin = repo.remote(name='origin')
+        origin.push()
+
+    except git.GitCommandError as e:
+        logging.error(f"Erreur lors du git push : {str(e)}")
+
 
 def update_database():
     """
@@ -258,7 +274,7 @@ def update_database():
 
         # Push les modifications
         try:
-            git_push(repo_dir)
+            git_push()
             logging.info("Git pushed")
         except Exception as e:
             logging.error(f"Erreur lors du git push: {str(e)}")
