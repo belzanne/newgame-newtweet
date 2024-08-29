@@ -124,29 +124,34 @@ def git_pull():
         logging.error(f"Erreur lors du git pull: {str(e)}")
         raise
 
-# Définir le chemin correct du répertoire
+# Définit le chemin correct du répertoire
 repo_dir = "/Users/juliebelzanne/Documents/Hush_Crasher/steam_data/newgame-newtweet"
 db_path = os.path.join(repo_dir, "socialmedia_dev", "socialmedia-developer.db")
 
 def git_push():
-    repo = Repo(repo_dir)
-
-    # Assurez-vous que le chemin du fichier est correct
-    update_file = os.path.join(repo_dir, "socialmedia_dev", "socialmedia-developer.db")
-
     try:
-        # Ajouter le fichier mis à jour à Git
-        repo.index.add([update_file])
+        # Vérifier s'il y a des modifications
+        status = subprocess.run(["git", "status", "--porcelain"], check=True, capture_output=True, text=True)
+        if not status.stdout.strip():
+            logging.info("Aucune modification à pousser.")
+            return
+
+        # Ajouter les modifications
+        subprocess.run(["git", "add", db_path], check=True)
         
         # Commit des changements
-        repo.index.commit("Update smdev database")
+        subprocess.run(["git", "commit", "-m", "Update smdev database"], check=True)
         
         # Push des changements
-        origin = repo.remote(name='origin')
-        origin.push()
+        result = subprocess.run(["git", "push"], check=True, capture_output=True, text=True)
+        logging.info(f"Git push réussi: {result.stdout.strip()}")
 
-    except git.GitCommandError as e:
-        logging.error(f"Erreur lors du git push : {str(e)}")
+    except subprocess.CalledProcessError as e:
+        logging.error(f"Erreur lors du git push: {e.stderr.strip()}")
+        
+    except Exception as e:
+        logging.error(f"Erreur inattendue lors du push: {str(e)}")
+
 
 
 def update_database():
